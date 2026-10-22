@@ -1,0 +1,6 @@
+# backups made while editing the game
+src/gojun-src.before-*.html
+src/gojun-src.fold.html
+
+# this computer's preview settings
+.claude/

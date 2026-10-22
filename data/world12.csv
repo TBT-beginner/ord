@@ -1,0 +1,58 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+12,1,L0,どっちが大きい？,INTRO,,エマと遊園地へ！乗り物をくらべてみよう。「〜より」は than 〜 で文のうしろに来るよ。,,,,
+12,1,L0,どっちが大きい？,GOAL,,「〜より…」を 比較級（-er / more）＋ than で言えるようになろう,,S:この観覧車は=This Ferris wheel / V:です=is / C:高い=taller / M:あの塔より=than that tower,,2つのものをくらべて言える
+12,1,,,RULE,,「〜より…」は 比較級（-er / more）＋ than 〜,,S:この観覧車は=This Ferris wheel / V:です=is / C:高い=taller / M:あの塔より=than that tower,,
+12,1,L0,どっちが大きい？,TALK,Emma,どれに乗ろうか？,Which ride should we try?,,,
+12,1,L0,どっちが大きい？,Q,me,この観覧車はあの塔より高いです。,,S:この観覧車は=This Ferris wheel / V:です=is / C:高い=taller||higher / M:あの塔より=than that tower,,日本語は「〜より」が先、英語は than 〜 がうしろ
+12,1,L0,どっちが大きい？,Q,me,ケンはトムより速く走ります。,,S:ケンは=Ken / V:走ります=runs / M:速く=faster / M:トムより=than Tom,,
+12,1,L0,どっちが大きい？,Q,me,このジェットコースターはあれよりこわいです。,,S:このジェットコースターは=This roller coaster / V:です=is / C:こわい=scarier / M:あれより=than that one,,scary → scarier（y を i にかえて er）
+12,1,L0,どっちが大きい？,Q,me,今日は昨日より暑いです。,,S:=It / V:です=is / C:暑い=hotter / M~:今日は=today / M:昨日より=than yesterday,,hot → hotter（t を重ねる）
+12,1,L0,どっちが大きい？,Q,me,この本はあの本よりおもしろいです。,,S:この本は=This book / V:です=is / C:おもしろい=more interesting / M:あの本より=than that book||than that one,,長い語は more ＋ 形容詞
+12,1,L0,どっちが大きい？,TALK,Emma,全部乗りたい！,I want to ride them all!,,,
+12,2,L1,いちばんはどれ？,INTRO,,遊園地の「いちばん」を探そう。比較級か最上級か、カードで形を選ぶよ。,,,,
+12,2,L1,いちばんはどれ？,GOAL,,「いちばん…」を the ＋ 最上級（-est / most）で言えるようになろう,,S:これは=This / V:です=is / C:いちばん大きい乗り物=the biggest ride / M:遊園地で=in the park,,いちばんのものを英語で紹介できる
+12,2,,,RULE,,「いちばん…」は the ＋ 最上級（-est / most）,,S:これは=This / V:です=is / C:いちばん大きい乗り物=the biggest ride / M:遊園地で=in the park,,
+12,2,L1,いちばんはどれ？,TALK,Emma,いちばん人気なのはどれ？,Which one is the most popular?,,,
+12,2,L1,いちばんはどれ？,Q,me,これは遊園地でいちばん大きい乗り物です。,,S:これは=This / V:です=is / C:いちばん大きい乗り物=the biggest ride{the bigger ride|the biggest ride|the most big ride} / M:遊園地で=in the park||in the amusement park,,big → biggest（g を重ねる）
+12,2,L1,いちばんはどれ？,Q,me,エマは私たちの中でいちばん背が高いです。,,S:エマは=Emma / V:です=is / C:いちばん背が高い=the tallest{taller|the tallest|the most tall} / M:私たちの中で=of us||of all of us,,「〜の中で」は of 〜（人数・数）や in 〜（場所・グループ）
+12,2,L1,いちばんはどれ？,Q,me,このアイスはあのアイスより安いです。,,S:このアイスは=This ice cream / V:です=is / C:安い=cheaper{cheap|cheaper|cheapest} / M:あのアイスより=than that one||than that ice cream,,
+12,2,L1,いちばんはどれ？,Q,me,夜のパレードがいちばん美しいです。,,S:夜のパレードが=The night parade / V:です=is / C:いちばん美しい=the most beautiful{the beautifulest|the most beautiful|more beautiful},,長い語の最上級は the most ＋ 形容詞
+12,2,L1,いちばんはどれ？,Q,me,このゲームはあのゲームより難しいです。,,S:このゲームは=This game / V:です=is / C:難しい=more difficult{difficulter|more difficult|most difficult}||harder / M:あのゲームより=than that one||than that game,,
+12,2,L1,いちばんはどれ？,TALK,Emma,夜のパレードまでいようね！,Let's stay for the night parade!,,,
+12,3,L2,同じくらい？,INTRO,,「〜と同じくらい」をくらべよう。主語と動詞を見つけたら、as … as の形にするよ。,,,,
+12,3,L2,同じくらい？,GOAL,,「〜と同じくらい…」を as ＋ 形容詞 ＋ as で言えるようになろう,,S:私は=I / V:です=am / C:背が高い=as tall / M:兄と同じくらい=as my brother,,同じくらいのものを英語でくらべられる
+12,3,,,RULE,,「〜と同じくらい…」は as ＋ 形容詞・副詞 ＋ as 〜,,S:私は=I / V:です=am / C:背が高い=as tall / M:兄と同じくらい=as my brother,,
+12,3,L2,同じくらい？,TALK,Emma,どっちも同じくらいだね！,They're about the same!,,,
+12,3,L2,同じくらい？,Q,me,私は兄と同じくらい背が高いです。,,S:私は=I / V:です=am / C:背が高い=as tall / M:兄と同じくらい=as my brother||as my big brother,taller | than,
+12,3,L2,同じくらい？,Q,me,このお化け屋敷はあれほどこわくありません。,,S:このお化け屋敷は=This haunted house / V:ありません=isn't||is not / C:こわく=as scary / M:あれほど=as that one,scarier | than,「〜ほど…ない」は not as … as
+12,3,L2,同じくらい？,Q,me,エマは私と同じくらい速く泳げます。,,S:エマは=Emma / V:泳げます=can swim / M:速く=as fast / M:私と同じくらい=as me||as I can,faster | than,
+12,3,L2,同じくらい？,Q,me,今年のお祭りは去年と同じくらい楽しいです。,,S:今年のお祭りは=This year's festival / V:です=is / C:楽しい=as fun / M:去年と同じくらい=as last year's||as last year,more fun | than,
+12,3,L2,同じくらい？,Q,me,このチケットはあのチケットと同じくらい高いです。,,S:このチケットは=This ticket / V:です=is / C:高い=as expensive / M:あのチケットと同じくらい=as that one||as that ticket,more expensive | than,
+12,3,L2,同じくらい？,TALK,Emma,くらべるのって楽しい！,Comparing things is fun!,,,
+12,4,L3,遊園地レポート,INTRO,,遊園地のレポートを英語で書こう。比較の形を自分で打ちこむよ。,,,,
+12,4,L3,遊園地レポート,GOAL,,比較級・最上級・as … as を書き分けられるようになろう,,S:これは=This / V:です=is / C:いちばん古い遊園地=the oldest amusement park / M:日本で=in Japan,,遊園地のよさをくらべて書ける
+12,4,,,RULE,,比較級・最上級・as … as を自分で書く,,S:これは=This / V:です=is / C:いちばん古い遊園地=the oldest amusement park / M:日本で=in Japan,,
+12,4,L3,遊園地レポート,TALK,Emma,レポート読みたい！,I want to read your report!,,,
+12,4,L3,遊園地レポート,Q,me,私はジェットコースターがいちばん好きです。,,S:私は=I / V:好きです=like / O:ジェットコースターが=roller coasters||the roller coaster / M:いちばん=the best||best,,「いちばん好き」は like … the best
+12,4,L3,遊園地レポート,Q,me,観覧車はジェットコースターより人気があります。,,S:観覧車は=The Ferris wheel / V:あります=is / C:人気が=more popular / M:ジェットコースターより=than the roller coaster||than roller coasters,,
+12,4,L3,遊園地レポート,Q,me,このアイスはあれより大きいです。,,S:このアイスは=This ice cream / V:です=is / C:大きい=bigger||larger / M:あれより=than that one,,
+12,4,L3,遊園地レポート,Q,me,エマは私よりじょうずに歌えます。,,S:エマは=Emma / V:歌えます=can sing / M:じょうずに=better / M:私より=than me||than I can,,well の比較級は better
+12,4,L3,遊園地レポート,Q,me,これは日本でいちばん大きい観覧車です。,,S:これは=This / V:です=is / C:いちばん大きい観覧車=the biggest Ferris wheel||the largest Ferris wheel / M:日本で=in Japan,,
+12,4,L3,遊園地レポート,TALK,Emma,すてきなレポートだね！,What a great report!,,,
+12,5,L4,日本と世界くらべ,INTRO,,エマの国の友だちに、日本のことをくらべて紹介しよう。箱なしで打ちこむよ。,,,,
+12,5,L4,日本と世界くらべ,GOAL,,箱がなくても、くらべる文を組み立てられるようになろう,,S:富士山は=Mt. Fuji / V:です=is / C:いちばん高い山=the highest mountain / M:日本で=in Japan,,日本のことをくらべて紹介できる
+12,5,,,RULE,,箱がなくても比較の文を組み立てる,,S:富士山は=Mt. Fuji / V:です=is / C:いちばん高い山=the highest mountain / M:日本で=in Japan,,
+12,5,L4,日本と世界くらべ,Q,me,東京は大阪より大きいです。,,S:東京は=Tokyo / V:です=is / C:大きい=bigger||larger / M:大阪より=than Osaka,,
+12,5,L4,日本と世界くらべ,Q,me,富士山は日本でいちばん高い山です。,,S:富士山は=Mt. Fuji||Mount Fuji / V:です=is / C:いちばん高い山=the highest mountain||the tallest mountain / M:日本で=in Japan,,
+12,5,L4,日本と世界くらべ,Q,me,私は野球よりサッカーが好きです。,,S:私は=I / V:好きです=like / O:サッカーが=soccer / M:野球より=better than baseball,,「〜より…が好き」は like … better than 〜
+12,5,L4,日本と世界くらべ,Q,me,この問題はあの問題ほど難しくありません。,,S:この問題は=This question||This problem / V:ありません=isn't||is not / C:難しく=as difficult||as hard / M:あの問題ほど=as that one,,
+12,5,L4,日本と世界くらべ,Q,me,英語は私のいちばん好きな教科です。,,S:英語は=English / V:です=is / C:私のいちばん好きな教科=my favorite subject,,「いちばん好きな」は favorite 1語で言える
+12,5,L4,日本と世界くらべ,TALK,Emma,友だちも喜ぶよ！,My friends will love it!,,,
+12,6,BOSS,遊園地ガイド,INTRO,,遊園地のガイドになって、乗り物をくらべて案内しよう！ヒントは文字数だけ。,,,,
+12,6,BOSS,遊園地ガイド,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:このジェットコースターは=This roller coaster / V:です=is / C:いちばん速い=the fastest / M:世界で=in the world,,くらべながら案内できる
+12,6,BOSS,遊園地ガイド,Q,me,私の弟は私より背が高いです。,,S:私の弟は=My brother||My little brother||My younger brother / V:です=is / C:背が高い=taller / M:私より=than me||than I am,,
+12,6,BOSS,遊園地ガイド,Q,me,このジェットコースターは日本でいちばん速いです。,,S:このジェットコースターは=This roller coaster / V:です=is / C:いちばん速い=the fastest / M:日本で=in Japan,,
+12,6,BOSS,遊園地ガイド,Q,me,このかばんはあのかばんと同じくらい軽いです。,,S:このかばんは=This bag / V:です=is / C:軽い=as light / M:あのかばんと同じくらい=as that one||as that bag,,
+12,6,BOSS,遊園地ガイド,Q,me,いちばん人気の乗り物は何ですか？,,W:何=What / V:ですか=is / S:いちばん人気の乗り物は=the most popular ride,,
+12,6,BOSS,遊園地ガイド,Q,me,今日はいちばん楽しい日でした。,,S:今日は=Today / V:でした=was / C:いちばん楽しい日=the best day||the most fun day,,
+12,6,BOSS,遊園地ガイド,TALK,Emma,最高の一日だった！,It was the best day ever!,,,

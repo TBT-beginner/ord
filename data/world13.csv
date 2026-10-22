@@ -1,0 +1,58 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+13,1,L0,とけい台のひみつ,INTRO,,丘の上の古いとけい台を調べよう。「〜された」は be動詞＋過去分詞の「受け身」だよ。,,,,
+13,1,L0,とけい台のひみつ,GOAL,,「〜される・された」を be動詞 ＋ 過去分詞で言えるようになろう,,S:この時計台は=This clock tower / V:建てられました=was built / M:100年前に=100 years ago,,物がいつ・だれに作られたかを言える
+13,1,,,RULE,,「〜される・〜された」は be動詞＋過去分詞で1つの V。「〜によって」は by 〜,,S:この時計台は=This clock tower / V:建てられました=was built / M:100年前に=100 years ago,,
+13,1,L0,とけい台のひみつ,TALK,Emma,このとけい台、古そう！,This clock tower looks old!,,,
+13,1,L0,とけい台のひみつ,Q,me,この時計台は100年前に建てられました。,,S:この時計台は=This clock tower / V:建てられました=was built / M:100年前に=100 years ago||a hundred years ago,,「建てられた」は was built（be動詞＋過去分詞）
+13,1,L0,とけい台のひみつ,Q,me,この歌は多くの人に歌われています。,,S:この歌は=This song / V:歌われています=is sung / M:多くの人に=by many people||by a lot of people,,「〜に（よって）」は by 〜
+13,1,L0,とけい台のひみつ,Q,me,英語は世界中で話されています。,,S:英語は=English / V:話されています=is spoken / M:世界中で=all over the world||around the world,,
+13,1,L0,とけい台のひみつ,Q,me,その窓はケンによって割られました。,,S:その窓は=The window / V:割られました=was broken / M:ケンによって=by Ken,,
+13,1,L0,とけい台のひみつ,Q,me,このケーキは母によって作られました。,,S:このケーキは=This cake / V:作られました=was made / M:母によって=by my mother||by my mom,,
+13,1,L0,とけい台のひみつ,TALK,Emma,ケン、窓を割ったの！？,"Ken, you broke the window!?",,,
+13,2,L1,町の歴史,INTRO,,町の歴史パネルを読もう。受け身の be動詞と過去分詞の形を、カードで選ぶよ。,,,,
+13,2,L1,町の歴史,GOAL,,受け身の be動詞を、主語と時に合わせられるようになろう,,S:これらの写真は=These pictures / V:とられました=were taken / M:父によって=by my father,,町の歴史を英語で説明できる
+13,2,,,RULE,,受け身の be動詞は主語と時に合わせる。動詞は過去分詞,,S:これらの写真は=These pictures / V:とられました=were taken / M:父によって=by my father,,
+13,2,L1,町の歴史,TALK,Emma,昔の写真がたくさんあるね！,There are lots of old photos!,,,
+13,2,L1,町の歴史,Q,me,この橋は1950年に作られました。,,S:この橋は=This bridge / V:作られました=was built{built|was built|was build}||was made / M:1950年に=in 1950,,
+13,2,L1,町の歴史,Q,me,これらの写真は父によってとられました。,,S:これらの写真は=These pictures||These photos / V:とられました=were taken{was taken|were taken|were took} / M:父によって=by my father||by my dad,,主語が複数で過去なので were。take の過去分詞は taken
+13,2,L1,町の歴史,Q,me,その手紙は英語で書かれています。,,S:その手紙は=The letter / V:書かれています=is written{is written|is wrote|writes} / M:英語で=in English,,write の過去分詞は written
+13,2,L1,町の歴史,Q,me,毎年多くの花がここに植えられます。,,S:多くの花が=Many flowers||A lot of flowers / V:植えられます=are planted{is planted|are planted|are plant} / M:ここに=here / M~:毎年=every year,,
+13,2,L1,町の歴史,Q,me,そのお祭りは毎年8月に開かれます。,,S:そのお祭りは=The festival / V:開かれます=is held{is held|is hold|held} / M:8月に=in August / M~:毎年=every year,,「開かれる」は be held。hold の過去分詞は held
+13,2,L1,町の歴史,TALK,Emma,8月のお祭り、行ってみたい！,I want to go to the festival in August!,,,
+13,3,L2,ずっと・〜したことがある,INTRO,,この町に長く住んでいる人に話を聞こう。「ずっと〜している」「〜したことがある」は現在完了だよ。,,,,
+13,3,L2,ずっと・〜したことがある,GOAL,,「ずっと〜している・〜したことがある」を have ＋ 過去分詞で言えるようになろう,,S:私は=I / V:住んでいます=have lived / M:この町に=in this town / M:10年間=for ten years,,続いていることや経験を言える
+13,3,,,RULE,,「ずっと〜している・〜したことがある」は have / has ＋過去分詞,,S:私は=I / V:住んでいます=have lived / M:この町に=in this town / M:10年間=for ten years,,
+13,3,L2,ずっと・〜したことがある,TALK,Emma,この町に長く住んでいるの？,Have you lived in this town for a long time?,,,
+13,3,L2,ずっと・〜したことがある,Q,me,私はこの町に10年間住んでいます。,,S:私は=I / V:住んでいます=have lived / M:この町に=in this town / M:10年間=for ten years||for 10 years,live | has lived,「10年間ずっと」なので have lived。期間は for 〜
+13,3,L2,ずっと・〜したことがある,Q,me,私は京都に2回行ったことがあります。,,S:私は=I / V:行ったことがあります=have been / M:京都に=to Kyoto / M:2回=twice||two times,have gone | went,「行ったことがある」は have been to 〜
+13,3,L2,ずっと・〜したことがある,Q,me,エマは3年間日本語を勉強しています。,,S:エマは=Emma / V:勉強しています=has studied||has been studying / O:日本語を=Japanese / M:3年間=for three years||for 3 years,have studied | studies,主語が3人称単数なので has
+13,3,L2,ずっと・〜したことがある,Q,me,私たちは子どものころから友だちです。,,S:私たちは=We / V:です=have been / C:友だち=friends / M:子どものころから=since we were children||since childhood,are | has been,「〜から（ずっと）」は since 〜
+13,3,L2,ずっと・〜したことがある,Q,me,私はもう宿題を終えました。,,S:私は=I / V:終えました=have finished / O:宿題を=my homework / M:もう=already,finish | has finished,
+13,3,L2,ずっと・〜したことがある,TALK,Emma,10年もこの町にいるんだね！,You've been in this town for ten years!,,,
+13,4,L3,丘の記録係,INTRO,,丘の記録係になって、受け身と現在完了の文を自分で書こう。,,,,
+13,4,L3,丘の記録係,GOAL,,受け身・現在完了の文を自分で書けるようになろう,,S:私は=I / V:読んだことがあります=have read / O:その本を=the book / M:3回=three times,,記録や経験を英語で書ける
+13,4,,,RULE,,受け身・現在完了を自分で書く,,S:私は=I / V:読んだことがあります=have read / O:その本を=the book / M:3回=three times,,
+13,4,L3,丘の記録係,TALK,Emma,記録係、がんばって！,Good luck with your records!,,,
+13,4,L3,丘の記録係,Q,me,その時計は200年前に作られました。,,S:その時計は=The clock / V:作られました=was made / M:200年前に=200 years ago||two hundred years ago,,
+13,4,L3,丘の記録係,Q,me,私はその本を3回読んだことがあります。,,S:私は=I / V:読んだことがあります=have read / O:その本を=the book||that book / M:3回=three times||3 times,,read の過去分詞は read（発音は red）
+13,4,L3,丘の記録係,Q,me,このお城は多くの観光客に訪れられています。,,S:このお城は=This castle / V:訪れられています=is visited / M:多くの観光客に=by many tourists||by a lot of tourists,,
+13,4,L3,丘の記録係,Q,me,私の祖父はこの丘に10年間住んでいます。,,S:私の祖父は=My grandfather||My grandpa / V:住んでいます=has lived / M:この丘に=on this hill / M:10年間=for ten years||for 10 years,,
+13,4,L3,丘の記録係,Q,me,私は一度も富士山に登ったことがありません。,,S:私は=I / V:登ったことがありません=have never climbed / O:富士山に=Mt. Fuji||Mount Fuji,,「一度も〜したことがない」は have never ＋過去分詞
+13,4,L3,丘の記録係,TALK,Emma,すごくくわしい記録だね！,Your records are so detailed!,,,
+13,5,L4,思い出アルバム,INTRO,,エマとの思い出をアルバムにまとめよう。箱なしで英文をまるごと打ちこむよ。,,,,
+13,5,L4,思い出アルバム,GOAL,,箱がなくても、受け身・現在完了の文を組み立てられるようになろう,,S:私は=I / V:見たことがあります=have watched / O:このアニメを=this anime / M:何度も=many times,,思い出を英語でふり返れる
+13,5,,,RULE,,箱がなくても受け身・現在完了の文を組み立てる,,S:私は=I / V:見たことがあります=have watched / O:このアニメを=this anime / M:何度も=many times,,
+13,5,L4,思い出アルバム,Q,me,この絵は有名な画家によってかかれました。,,S:この絵は=This picture||This painting / V:かかれました=was painted / M:有名な画家によって=by a famous artist||by a famous painter,,
+13,5,L4,思い出アルバム,Q,me,私はこのアニメを何度も見たことがあります。,,S:私は=I / V:見たことがあります=have watched||have seen / O:このアニメを=this anime / M:何度も=many times,,
+13,5,L4,思い出アルバム,Q,me,その鐘は毎日正午に鳴らされます。,,S:その鐘は=The bell / V:鳴らされます=is rung / M:正午に=at noon / M~:毎日=every day,,ring の過去分詞は rung
+13,5,L4,思い出アルバム,Q,me,私たちは5年間この町に住んでいます。,,S:私たちは=We / V:住んでいます=have lived / M:この町に=in this town / M:5年間=for five years||for 5 years,,
+13,5,L4,思い出アルバム,Q,me,その公園は多くの家族に愛されています。,,S:その公園は=The park / V:愛されています=is loved / M:多くの家族に=by many families||by a lot of families,,
+13,5,L4,思い出アルバム,TALK,Emma,いいアルバムになったね！,This album turned out great!,,,
+13,6,BOSS,最後のスピーチ,INTRO,,エマが国に帰る日。とけい台の前で、さよならのスピーチをしよう！ヒントは文字数だけ。,,,,
+13,6,BOSS,最後のスピーチ,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:私たちは=We / V:作りました=have made / O:たくさんの思い出を=a lot of memories,,これまでのことをふり返って英語で話せる
+13,6,BOSS,最後のスピーチ,Q,me,このとけい台は1920年に建てられました。,,S:このとけい台は=This clock tower / V:建てられました=was built / M:1920年に=in 1920,,
+13,6,BOSS,最後のスピーチ,Q,me,その鐘は町の人に愛されています。,,S:その鐘は=The bell / V:愛されています=is loved||has been loved / M:町の人に=by the people in the town||by the townspeople,,
+13,6,BOSS,最後のスピーチ,Q,me,私はこの丘に何度も来たことがあります。,,S:私は=I / V:来たことがあります=have been||have come / M:この丘に=to this hill / M:何度も=many times,,
+13,6,BOSS,最後のスピーチ,Q,me,エマは1年間日本に住んでいます。,,S:エマは=Emma / V:住んでいます=has lived / M:日本に=in Japan / M:1年間=for a year||for one year,,
+13,6,BOSS,最後のスピーチ,Q,me,私たちはたくさんの思い出を作りました。,,S:私たちは=We / V:作りました=have made||made / O:たくさんの思い出を=a lot of memories||many memories||lots of memories,,
+13,6,BOSS,最後のスピーチ,TALK,Emma,ケン、ほんとうにありがとう！また会おうね！,"Thank you so much, Ken! See you again!",,,

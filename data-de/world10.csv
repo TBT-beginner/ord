@@ -1,0 +1,62 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+10,1,,私は母に電話します。,RULE,,分離動詞は前つづりが最後,Ich rufe meine Mutter an.,S:私は=ich / V:起きます=stehe / M:7時に=um sieben Uhr / V:=auf,Ich anrufe meine Mutter.,aufstehen（起きる）→ Ich stehe um sieben Uhr auf. 動詞の本体は2番目、前つづりは文の最後で文をはさむ。
+10,1,,,TABLE,,よく使う分離動詞,,辞書の形|意味|文;aufstehen|起きる|Ich stehe … auf.;anrufen|電話する|Ich rufe … an.;einkaufen|買い物をする|Ich kaufe … ein.;fernsehen|テレビを見る|Ich sehe … fern.;abfahren|出発する|Der Zug fährt … ab.,,
+10,3,,,RULE,,疑問文でも前つづりは最後,,W:何時に=wann / V:起きますか=stehst / S:きみは=du / V:=auf,,Wann stehst du auf? 疑問文でも前つづりは最後。
+10,4,,私はレナに電話したいです。,RULE,,助動詞といっしょならくっついて最後,Ich möchte Lena anrufen.,S:私は=ich / V:なければなりません=muss / M:早く=früh / V:起き=aufstehen,Ich möchte Lena an rufen.,助動詞（muss・möchte）が2番目、前つづりと動詞はくっついて最後（aufstehen）。
+10,1,L0,朝の一日,INTRO,,港町でのレナの一日を聞いてみよう。,,,,
+10,1,L0,朝の一日,GOAL,,分離動詞の前つづりを、文の最後に置けるようになろう,,S:私は=ich / V:起きます=stehe / M:7時に=um sieben Uhr / V:=auf,,一日の流れを分離動詞で言える
+10,1,L0,朝の一日,TALK,Lena,私の一日を教えるね！,Ich erzähle dir von meinem Tag!,,,
+10,1,L0,朝の一日,Q,me,私は7時に起きます。,,S:私は=ich / V:起きます=stehe / M:7時に=um sieben Uhr / V:=auf,,aufstehen（起きる）は stehe … auf。前つづり auf は最後
+10,1,L0,朝の一日,Q,me,私は母に電話します。,,S:私は=ich / V:電話します=rufe / O:母に=meine Mutter / V:=an,,anrufen（電話する）は rufe … an。相手は4格（meine Mutter）
+10,1,L0,朝の一日,Q,me,私たちはスーパーで買い物をします。,,S:私たちは=wir / V:買い物をします=kaufen / M:スーパーで=im Supermarkt / V:=ein,,einkaufen（買い物をする）は kaufen … ein
+10,1,L0,朝の一日,Q,me,私は夜にテレビを見ます。,,S:私は=ich / V:テレビを見ます=sehe / M~:夜に=abends / V:=fern,,fernsehen は sehe … fern。Abends sehe ich fern. も正解
+10,1,L0,朝の一日,Q,me,電車は8時に出発します。,,S:電車は=der Zug / V:出発します=fährt / M:8時に=um acht Uhr / V:=ab,,abfahren（出発する）は fährt … ab
+10,1,L0,朝の一日,TALK,Lena,毎日いそがしいんだ。,Jeder Tag ist voll!,,,
+10,1,L0,朝の一日,DRILL,,,,"{""ja"":[""S"",""M"",""O"",""V""],""en"":[""S"",""V"",""O"",""M~"",""V2""],""note"":""前つづりは文の最後"",""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""彼女は"",""sie"",""3s""],[""私たちは"",""wir"",""1p""]],""V"":[{""ja"":""起きます"",""f"":{""1s"":""stehe"",""2s"":""stehst"",""3s"":""steht"",""1p"":""stehen"",""3p"":""stehen""},""o"":""auf""},{""ja"":""電話します"",""f"":{""1s"":""rufe"",""2s"":""rufst"",""3s"":""ruft"",""1p"":""rufen"",""3p"":""rufen""},""o"":""an""},{""ja"":""買い物をします"",""f"":{""1s"":""kaufe"",""2s"":""kaufst"",""3s"":""kauft"",""1p"":""kaufen"",""3p"":""kaufen""},""o"":""ein""},{""ja"":""テレビを見ます"",""f"":{""1s"":""sehe"",""2s"":""siehst"",""3s"":""sieht"",""1p"":""sehen"",""3p"":""sehen""},""o"":""fern""}],""V2"":{""auf"":[["""",""auf""]],""an"":[["""",""an""]],""ein"":[["""",""ein""]],""fern"":[["""",""fern""]]},""M"":{""auf"":[[""6時に"",""um sechs Uhr""],[""7時に"",""um sieben Uhr""],[""早く"",""früh""]],""ein"":[[""スーパーで"",""im Supermarkt""],[""市場で"",""auf dem Markt""]],""fern"":[[""夜に"",""abends""],[""週末に"",""am Wochenende""]]},""O"":{""an"":[[""先生に"",""den Lehrer""],[""レナに"",""Lena""],[""ケンに"",""Ken""],[""ホテルに"",""das Hotel""]]}}}",,
+10,2,L1,港の一日,INTRO,,船の時刻や予定を、レナと確認しよう。,,,,
+10,2,L1,港の一日,GOAL,,主語に合わせた動詞と、最後の前つづりで予定を言えるようになろう,,S:船は=das Schiff / V:出発します=fährt / M:9時に=um neun Uhr / V:=ab,,予定や時刻をドイツ語で言える
+10,2,L1,港の一日,TALK,Lena,船は何時に出るの？,Wann fährt das Schiff ab?,,,
+10,2,L1,港の一日,Q,me,船は9時に出発します。,,S:船は=das Schiff / V:出発します=fährt{fahre|fährt|fahren} / M:9時に=um neun Uhr / V:=ab,,fahren は es のとき fährt
+10,2,L1,港の一日,Q,me,レナは毎朝6時に起きます。,,S:レナは=Lena / V:起きます=steht{stehe|steht|stehen} / M:毎朝=jeden Morgen / M:6時に=um sechs Uhr / V:=auf,,Lena steht jeden Morgen um sechs Uhr auf.
+10,2,L1,港の一日,Q,me,私は友だちに電話します。,,S:私は=ich / V:電話します=rufe{rufe|ruft|rufen} / O:友だちに=meinen Freund||meine Freundin / V:=an,,anrufen の相手は4格
+10,2,L1,港の一日,Q,me,私たちは駅で降ります。,,S:私たちは=wir / V:降ります=steigen{steige|steigt|steigen} / M:駅で=am Bahnhof / V:=aus,,aussteigen（降りる）
+10,2,L1,港の一日,Q,me,彼はドアを閉めます。,,S:彼は=er / V:閉めます=macht{mache|macht|machen} / O:ドアを=die Tür / V:=zu,,zumachen（閉める）
+10,2,L1,港の一日,TALK,Lena,間に合いそうだね！,Das schaffen wir!,,,
+10,2,L1,港の一日,DRILL,,,,"{""use"":[""10-1""]}",,
+10,3,L2,質問しよう,INTRO,,港の案内所で、分離動詞を使って質問しよう。,,,,
+10,3,L2,質問しよう,GOAL,,分離動詞の疑問文を言えるようになろう,,W:何時に=wann / V:起きますか=stehst / S:きみは=du / V:=auf,,分離動詞の疑問文が言える
+10,3,L2,質問しよう,TALK,Lena,何でも聞いてね！,Frag mich ruhig!,,,
+10,3,L2,質問しよう,Q,me,きみは何時に起きますか？,,W:何時に=wann||um wie viel Uhr / V:起きますか=stehst / S:きみは=du / V:=auf,steht|aufstehen|ich,Wann stehst du auf?
+10,3,L2,質問しよう,Q,me,船は何時に出発しますか？,,W:何時に=wann||um wie viel Uhr / V:出発しますか=fährt / S:船は=das Schiff / V:=ab,abfährt|fahren|der Schiff,Wann fährt das Schiff ab?
+10,3,L2,質問しよう,Q,me,きみは今夜テレビを見ますか？,,V:テレビを見ますか=siehst / S:きみは=du / M:今夜=heute Abend / V:=fern,fernsehen|sieht|sehe,sehen は du のとき siehst
+10,3,L2,質問しよう,Q,me,きみは私に電話しますか？,,V:電話しますか=rufst / S:きみは=du / O:私に=mich / V:=an,mir|ruft|anrufen,anrufen の相手は4格（mich）
+10,3,L2,質問しよう,Q,me,きみはどこで買い物をしますか？,,W:どこで=wo / V:買い物をしますか=kaufst / S:きみは=du / V:=ein,einkaufen|kauft|wann,Wo kaufst du ein?
+10,3,L2,質問しよう,TALK,Lena,質問上手！,Gute Fragen!,,,
+10,3,L2,質問しよう,DRILL,,,,"{""ja"":[""S"",""M"",""O"",""V""],""en"":[""V"",""S"",""O"",""M"",""V2""],""q"":true,""note"":""疑問文でも前つづりは最後"",""slots"":{""S"":[[""きみは"",""du"",""2s""],[""レナは"",""Lena"",""3s""],[""彼は"",""er"",""3s""]],""V"":[{""ja"":""起きますか"",""f"":{""1s"":""stehe"",""2s"":""stehst"",""3s"":""steht"",""1p"":""stehen"",""3p"":""stehen""},""o"":""auf""},{""ja"":""電話しますか"",""f"":{""1s"":""rufe"",""2s"":""rufst"",""3s"":""ruft"",""1p"":""rufen"",""3p"":""rufen""},""o"":""an""},{""ja"":""買い物をしますか"",""f"":{""1s"":""kaufe"",""2s"":""kaufst"",""3s"":""kauft"",""1p"":""kaufen"",""3p"":""kaufen""},""o"":""ein""},{""ja"":""テレビを見ますか"",""f"":{""1s"":""sehe"",""2s"":""siehst"",""3s"":""sieht"",""1p"":""sehen"",""3p"":""sehen""},""o"":""fern""}],""V2"":{""auf"":[["""",""auf""]],""an"":[["""",""an""]],""ein"":[["""",""ein""]],""fern"":[["""",""fern""]]},""M"":{""auf"":[[""早く"",""früh""],[""7時に"",""um sieben Uhr""]],""ein"":[[""今日"",""heute""],[""スーパーで"",""im Supermarkt""]],""fern"":[[""今夜"",""heute Abend""]]},""O"":{""an"":[[""ケンに"",""Ken""],[""先生に"",""den Lehrer""]]}}}",,
+10,4,L3,助動詞といっしょ,INTRO,,しなければならないこと、したいことをレナに伝えよう。,,,,
+10,4,L3,助動詞といっしょ,GOAL,,助動詞といっしょの分離動詞（aufstehen）を最後に置けるようになろう,,S:私は=ich / V:なければなりません=muss / M:早く=früh / V:起き=aufstehen,,分離動詞を助動詞といっしょに使える
+10,4,L3,助動詞といっしょ,Q,me,私は早く起きなければなりません。,,S:私は=ich / V:なければなりません=muss / M:早く=früh / V:起き=aufstehen,,muss … aufstehen（くっついて最後）
+10,4,L3,助動詞といっしょ,Q,me,私はレナに電話したいです。,,S:私は=ich / V:たいです=möchte / O:レナに=Lena / V:電話し=anrufen,,möchte … anrufen
+10,4,L3,助動詞といっしょ,Q,me,私たちは今日買い物をしたいです。,,S:私たちは=wir / V:たいです=möchten / M:今日=heute / V:買い物をし=einkaufen,,möchten … einkaufen（くっついて最後）
+10,4,L3,助動詞といっしょ,Q,me,私は今夜テレビを見ます。,,S:私は=ich / V:テレビを見ます=sehe / M:今夜=heute Abend / V:=fern,,fernsehen は sehe … fern
+10,4,L3,助動詞といっしょ,Q,me,電車は何時に出発しますか？,,W:何時に=wann||um wie viel Uhr / V:出発しますか=fährt / S:電車は=der Zug / V:=ab,,abfahren は fährt … ab
+10,4,L3,助動詞といっしょ,TALK,Lena,明日も早いね！,Morgen wird es früh!,,,
+10,4,L3,助動詞といっしょ,DRILL,,,,"{""ja"":[""S"",""M"",""O"",""V2"",""V""],""en"":[""S"",""V"",""O"",""M"",""V2""],""note"":""助動詞といっしょなら、前つづりと動詞はくっついて最後"",""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""彼女は"",""sie"",""3s""],[""私たちは"",""wir"",""1p""]],""V"":[{""ja"":""なければなりません"",""f"":{""1s"":""muss"",""2s"":""musst"",""3s"":""muss"",""1p"":""müssen"",""3p"":""müssen""}},{""ja"":""たいです"",""f"":{""1s"":""möchte"",""2s"":""möchtest"",""3s"":""möchte"",""1p"":""möchten"",""3p"":""möchten""}}],""V2"":[{""ja"":""起き"",""en"":""aufstehen"",""o"":""auf""},{""ja"":""電話し"",""en"":""anrufen"",""o"":""an""},{""ja"":""買い物をし"",""en"":""einkaufen"",""o"":""ein""},{""ja"":""テレビを見"",""en"":""fernsehen"",""o"":""fern""}],""M"":{""auf"":[[""早く"",""früh""],[""6時に"",""um sechs Uhr""]],""ein"":[[""今日"",""heute""],[""スーパーで"",""im Supermarkt""]],""fern"":[[""今夜"",""heute Abend""]]},""O"":{""an"":[[""ケンに"",""Ken""],[""先生に"",""den Lehrer""],[""ホテルに"",""das Hotel""]]}}}",,
+10,5,L4,港の案内所で,INTRO,,案内所のお手伝い。観光客に予定を伝えよう。,,,,
+10,5,L4,港の案内所で,GOAL,,箱がなくても、分離動詞の文を組み立てられるようになろう,,S:船は=das Schiff / V:到着します=kommt / M:10時に=um zehn Uhr / V:=an,,予定や時刻を案内できる
+10,5,L4,港の案内所で,Q,me,私はここで降ります。,,S:私は=ich / V:降ります=steige / M:ここで=hier / V:=aus,,aussteigen（降りる）
+10,5,L4,港の案内所で,Q,me,船は10時に到着します。,,S:船は=das Schiff / V:到着します=kommt / M:10時に=um zehn Uhr / V:=an,,ankommen（到着する）
+10,5,L4,港の案内所で,Q,me,きみは何時に出発しますか？,,W:何時に=wann||um wie viel Uhr / V:出発しますか=fährst / S:きみは=du / V:=ab,,Wann fährst du ab?
+10,5,L4,港の案内所で,Q,me,私はホテルに電話しなければなりません。,,S:私は=ich / V:なければなりません=muss / O:ホテルに=das Hotel / V:電話し=anrufen,,anrufen の相手は4格
+10,5,L4,港の案内所で,Q,me,私たちはバスに乗ります。,,S:私たちは=wir / V:乗ります=steigen / M:バスに=in den Bus / V:=ein,,einsteigen（乗る）
+10,5,L4,港の案内所で,TALK,Lena,案内所の人みたい！,Wie ein echter Mitarbeiter!,,,
+10,5,L4,港の案内所で,DRILL,,,,"{""use"":[""10-1"",""10-3"",""10-4""]}",,
+10,6,BOSS,港の一日をふりかえる,INTRO,,一日の終わりに、分離動詞をすばやく使いこなそう！,,,,
+10,6,BOSS,港の一日をふりかえる,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:私は=ich / V:起きます=stehe / M:毎朝=jeden Morgen / M:6時に=um sechs Uhr / V:=auf,,一日の予定をドイツ語ですらすら言える
+10,6,BOSS,港の一日をふりかえる,Q,me,きみは私に電話できますか？,,V:できますか=kannst / S:きみは=du / O:私に=mich / V:電話=anrufen,,Kannst du mich anrufen?
+10,6,BOSS,港の一日をふりかえる,Q,me,私は毎朝6時に起きます。,,S:私は=ich / V:起きます=stehe / M:毎朝=jeden Morgen / M:6時に=um sechs Uhr / V:=auf,,stehe … auf
+10,6,BOSS,港の一日をふりかえる,Q,me,船は10時に出発します。,,S:船は=das Schiff / V:出発します=fährt / M:10時に=um zehn Uhr / V:=ab,,
+10,6,BOSS,港の一日をふりかえる,Q,me,私たちは市場で買い物をします。,,S:私たちは=wir / V:買い物をします=kaufen / M:市場で=auf dem Markt / V:=ein,,kaufen … ein
+10,6,BOSS,港の一日をふりかえる,Q,me,レナは夜にテレビを見ません。,,S:レナは=Lena / V:テレビを見=sieht / M:夜に=abends / M:ません=nicht / V:=fern,,Lena sieht abends nicht fern.
+10,6,BOSS,港の一日をふりかえる,TALK,Lena,港のことなら任せて！,Den Hafen kennst du jetzt!,,,
+10,6,BOSS,港の一日をふりかえる,DRILL,,,,"{""use"":[""10-1"",""10-3"",""10-4""]}",,

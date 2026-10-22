@@ -1,0 +1,58 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+2,1,L0,朝のルーティン,INTRO,,エマが「日本の中学生の朝ってどんな感じ？」と聞いてきた。今度は「〜を」にあたる O（目的語）が入る文だよ。,,,,
+2,1,L0,朝のルーティン,GOAL,,「〜を」を動詞のうしろに置く S → V → O の順を身に付けよう,,S:私は=I / V:食べます=eat / O:朝ごはんを=breakfast / M~:毎朝=every morning,,朝の過ごし方を英語で言える
+2,1,,,RULE,,「〜を」は O（目的語）。S → V → O の順,,S:私は=I / V:食べます=eat / O:朝ごはんを=breakfast / M~:毎朝=every morning,,
+2,1,L0,朝のルーティン,TALK,Emma,朝は何してるの？,What do you do in the morning?,,,
+2,1,L0,朝のルーティン,Q,me,私は毎朝朝ごはんを食べます。,,S:私は=I / V:食べます=eat||have / O:朝ごはんを=breakfast / M~:毎朝=every morning,,「〜を」は O（目的語）。動詞のすぐ後ろに置く
+2,1,L0,朝のルーティン,Q,me,私は牛乳を飲みます。,,S:私は=I / V:飲みます=drink / O:牛乳を=milk,,
+2,1,L0,朝のルーティン,Q,me,母はお弁当を作ります。,,S:母は=My mother||My mom / V:作ります=makes / O:お弁当を=a lunch box||lunch||a boxed lunch||a bento,,主語が「母」（I・you 以外の1人）なので動詞に s がついて makes
+2,1,L0,朝のルーティン,Q,me,私は7時半に家を出ます。,,S:私は=I / V:出ます=leave / O:家を=home||my house / M~:7時半に=at seven thirty||at 7:30||at half past seven,,「家を出る」の「家を」も O
+2,1,L0,朝のルーティン,Q,me,兄は毎朝新聞を読みます。,,S:兄は=My brother||My big brother||My older brother / V:読みます=reads / O:新聞を=the newspaper||a newspaper||the paper / M~:毎朝=every morning,,主語が「兄」なので reads
+2,1,L0,朝のルーティン,TALK,Emma,朝いそがしいね！,Your mornings are busy!,,,
+2,2,L1,好きなこと,INTRO,,好きなことを伝えよう。動詞のカードは形を選ぶよ。主語を見て s がいるか考えよう。,,,,
+2,2,L1,好きなこと,GOAL,,主語が1人・1つのとき、動詞に s をつけられるようになろう,,S:妹は=My sister / V:大好きです=loves / O:ネコが=cats,,家族の好きなものを英語で紹介できる
+2,2,,,RULE,,主語が I・you 以外の1人・1つなら、動詞に s がつく,,S:妹は=My sister / V:大好きです=loves / O:ネコが=cats,,
+2,2,L1,好きなこと,TALK,Emma,ケンの家族は何が好き？,What does your family like?,,,
+2,2,L1,好きなこと,Q,me,私は音楽が好きです。,,S:私は=I / V:好きです=like{like|likes} / O:音楽が=music,,「〜が好き」の「〜が」は英語では O（目的語）
+2,2,L1,好きなこと,Q,me,妹はネコが大好きです。,,S:妹は=My sister||My little sister||My younger sister / V:大好きです=loves{love|loves} / O:ネコが=cats,,主語が3人称・単数なので loves。「ネコ全般」は cats
+2,2,L1,好きなこと,Q,me,私たちは毎日英語を勉強します。,,S:私たちは=We / V:勉強します=study{study|studies} / O:英語を=English / M~:毎日=every day,,主語が We（複数）なので s はつけない
+2,2,L1,好きなこと,Q,me,父は毎晩テレビを見ます。,,S:父は=My father||My dad / V:見ます=watches{watch|watches} / O:テレビを=TV / M~:毎晩=every night,,watch の s の形は watches
+2,2,L1,好きなこと,Q,me,私はギターを少し弾きます。,,S:私は=I / V:弾きます=play{play|plays} / O:ギターを=the guitar / M:少し=a little,,楽器には the をつける
+2,2,L1,好きなこと,TALK,Emma,いっしょに音楽やろうよ！,Let's play music together!,,,
+2,3,L2,部活の時間,INTRO,,サッカー部のことをエマに話そう。日本語の文から主語と動詞を見つけてね。ひっかけカードに注意！,,,,
+2,3,L2,部活の時間,GOAL,,「〜が好き」「〜がほしい」の「〜が」も O だと見分けられるようになろう,,S:私たちは=We / V:あります=have / O:試合が=a game / M~:土曜日に=on Saturday,,部活のことを英語で説明できる
+2,3,,,RULE,,「〜が好き」「〜がある」の「〜が」も O になることがある,,S:私たちは=We / V:あります=have / O:試合が=a game / M~:土曜日に=on Saturday,,
+2,3,L2,部活の時間,TALK,Emma,サッカー部のこと教えて！,Tell me about your club!,,,
+2,3,L2,部活の時間,Q,me,私たちは毎日サッカーを練習します。,,S:私たちは=We / V:練習します=practice / O:サッカーを=soccer / M~:毎日=every day,practices | plays,
+2,3,L2,部活の時間,Q,me,コーチは私たちを助けてくれます。,,S:コーチは=Our coach / V:助けてくれます=helps / O:私たちを=us,help | we,「私たちを」は us（we ではない）
+2,3,L2,部活の時間,Q,me,私は新しいシューズがほしいです。,,S:私は=I / V:ほしいです=want / O:新しいシューズが=new shoes||new soccer shoes,wants | a new shoes,「ほしい」は want。「〜が」でも O
+2,3,L2,部活の時間,Q,me,友だちはゴールをたくさん決めます。,,S:友だちは=My friend / V:決めます=scores / O:ゴールをたくさん=a lot of goals||many goals,score | many goal,
+2,3,L2,部活の時間,Q,me,私たちは土曜日に試合があります。,,S:私たちは=We / V:あります=have / O:試合が=a game||a match / M~:土曜日に=on Saturday||on Saturdays,has | are,「〜がある」でも、人が主語なら have で表す。今度の土曜日の1回の試合なら on Saturday（毎週あるなら on Saturdays）
+2,3,L2,部活の時間,TALK,Emma,試合見に行きたい！,I want to watch your game!,,,
+2,4,L3,週末の過ごし方,INTRO,,週末の過ごし方を紹介しよう。英単語は自分で打ちこむよ。,,,,
+2,4,L3,週末の過ごし方,GOAL,,S → V → O → M の文を自分で書けるようになろう,,S:私たちは=We / V:します=do / O:宿題を=our homework / M~:夕食後に=after dinner,,週末の過ごし方を英語で書ける
+2,4,,,RULE,,S → V → O → M を自分で書く,,S:私たちは=We / V:します=do / O:宿題を=our homework / M~:夕食後に=after dinner,,
+2,4,L3,週末の過ごし方,TALK,Emma,週末は何してるの？,What do you do on weekends?,,,
+2,4,L3,週末の過ごし方,Q,me,私は日曜日に部屋を掃除します。,,S:私は=I / V:掃除します=clean / O:部屋を=my room / M~:日曜日に=on Sundays||every Sunday||on Sunday,,毎週のことなので on Sundays（every Sunday でもOK）。on Sunday は「ある日曜日（今度の日曜日など）」
+2,4,L3,週末の過ごし方,Q,me,父は庭で新聞を読みます。,,S:父は=My father||My dad / V:読みます=reads / O:新聞を=the newspaper||a newspaper||the paper / M:庭で=in the garden||in our garden,,
+2,4,L3,週末の過ごし方,Q,me,私は友だちとサッカーをします。,,S:私は=I / V:します=play / O:サッカーを=soccer / M:友だちと=with my friends||with friends,,
+2,4,L3,週末の過ごし方,Q,me,姉はたくさん本を読みます。,,S:姉は=My sister||My big sister||My older sister / V:読みます=reads / O:たくさん本を=a lot of books||many books,,
+2,4,L3,週末の過ごし方,Q,me,私たちは夕食後に宿題をします。,,S:私たちは=We / V:します=do / O:宿題を=our homework||homework / M~:夕食後に=after dinner,,
+2,4,L3,週末の過ごし方,TALK,Emma,楽しそうな週末だね！,Sounds like a fun weekend!,,,
+2,5,L4,エマへの手紙,INTRO,,エマに、日本での毎日を手紙で伝えよう。箱はもうないよ。英文をまるごと打ちこもう。,,,,
+2,5,L4,エマへの手紙,GOAL,,箱がなくても、S → V → O → M の文を組み立てられるようになろう,,S:私は=I / V:食べます=eat / O:パンを=bread / M:朝ごはんに=for breakfast,,毎日の生活を英語の手紙で伝えられる
+2,5,,,RULE,,箱がなくても S → V → O → M で組み立てる,,S:私は=I / V:食べます=eat / O:パンを=bread / M:朝ごはんに=for breakfast,,
+2,5,L4,エマへの手紙,Q,me,私は英語が好きです。,,S:私は=I / V:好きです=like / O:英語が=English,,「〜が好き」の「〜が」は O
+2,5,L4,エマへの手紙,Q,me,私は毎日早く起きます。,,S:私は=I / V:起きます=get up||wake up / M:早く=early / M~:毎日=every day,,
+2,5,L4,エマへの手紙,Q,me,私は朝ごはんにパンを食べます。,,S:私は=I / V:食べます=eat||have / O:パンを=bread||toast / M:朝ごはんに=for breakfast,,
+2,5,L4,エマへの手紙,Q,me,父は毎朝犬を散歩させます。,,S:父は=My father||My dad / V:散歩させます=walks / O:犬を=our dog||the dog||my dog / M~:毎朝=every morning,,walk には「散歩させる」の意味もある
+2,5,L4,エマへの手紙,Q,me,私は夜に宿題をします。,,S:私は=I / V:します=do / O:宿題を=my homework||homework / M~:夜に=at night,,
+2,5,L4,エマへの手紙,TALK,Emma,お手紙ありがとう！,Thank you for your letter!,,,
+2,6,BOSS,わたしの家族発表,INTRO,,ホームルームで「わたしの家族」を英語で発表！ヒントは文字数だけ。目標タイムをめざそう。,,,,
+2,6,BOSS,わたしの家族発表,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:私たちは=We / V:飼っています=have / O:犬を2匹=two dogs,,家族紹介の発表原稿を英語で作れる
+2,6,BOSS,わたしの家族発表,Q,me,私は毎晩ギターを練習します。,,S:私は=I / V:練習します=practice / O:ギターを=the guitar / M~:毎晩=every night,,楽器には the
+2,6,BOSS,わたしの家族発表,Q,me,姉は毎朝お弁当を作ります。,,S:姉は=My sister||My big sister||My older sister / V:作ります=makes / O:お弁当を=a lunch box||lunch||a boxed lunch||a bento / M~:毎朝=every morning,,
+2,6,BOSS,わたしの家族発表,Q,me,私たちは犬を飼っています。,,S:私たちは=We / V:飼っています=have / O:犬を=a dog||dogs,,「飼う」は have
+2,6,BOSS,わたしの家族発表,Q,me,兄はたくさん本を読みます。,,S:兄は=My brother||My big brother||My older brother / V:読みます=reads / O:たくさん本を=a lot of books||many books,,
+2,6,BOSS,わたしの家族発表,Q,me,私は家族が大好きです。,,S:私は=I / V:大好きです=love / O:家族が=my family,,
+2,6,BOSS,わたしの家族発表,TALK,Emma,すばらしい発表だったよ、ケン！,"Great presentation, Ken!",,,

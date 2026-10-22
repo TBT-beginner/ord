@@ -1,0 +1,64 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+9,1,,疲れているけれど、私は勉強します。,RULE,,obwohl（〜けれど）も動詞は最後,"Ich lerne, obwohl ich müde bin.",S:私は=ich / V:勉強します=lerne / M:疲れているけれど=[J:けれど=obwohl / S:=ich / C:疲れている=müde / V:=bin],"Ich lerne, obwohl ich bin müde.",weil・dass と同じく、かたまりの中は動詞が最後。かたまりを先頭にしたら 動詞 → 主語。
+9,2,,10歳だったとき、私は犬を飼っていました。,RULE,,過去の「〜したとき」は als,"Als ich zehn war, hatte ich einen Hund.",S:私は=ich / V:飼っていました=hatte / O:犬を=einen Hund / M:10歳だったとき=[J:とき=als / S:=ich / C:10歳=zehn / V:だった=war],"Als ich zehn war, ich hatte einen Hund.",als ich zehn war（10歳だったとき）。war・hatte は sein・haben の過去の形。
+9,2,,,TABLE,,過去形（話すときもよく使うもの）,,辞書の形|ich の過去|例;sein|[war]|Ich war müde.;haben|[hatte]|Ich hatte Zeit.;wohnen|[wohnte]|Ich wohnte in Berlin.;lesen|[las]|Ich las ein Buch.,,
+9,3,,私は彼女が来るかどうか知りません。,RULE,,「〜かどうか」は ob,"Ich weiß nicht, ob sie kommt.",S:私は=ich / V:知り=weiß / M:ません=nicht / O:彼女が来るかどうか=[J:かどうか=ob / S:彼女が=sie / V:来る=kommt],"Ich weiß nicht, ob kommt sie.","Ich weiß nicht, ob … 。ob のかたまりも動詞が最後。"
+9,4,,,RULE,,「〜する前に」は bevor,,S:私は=ich / V:読みます=lese / O:本を=ein Buch / M:寝る前に=[J:前に=bevor / S:=ich / V:寝る=schlafe],,bevor ich schlafe（寝る前に）。4つのつなぎ言葉は、どれもかたまりの中で動詞が最後。
+9,4,,,TABLE,,4つのつなぎ言葉（どれも動詞は最後）,,つなぎ言葉|意味;[obwohl]|〜けれど;[als]|（過去に）〜したとき;[ob]|〜かどうか;[bevor]|〜する前に,,
+9,1,L0,けれど,INTRO,,火山のふもとの町で、レナと討論会の準備。まずは「〜けれど」。,,,,
+9,1,L0,けれど,GOAL,,obwohl（〜けれど）を使って言えるようになろう,,S:私は=ich / V:勉強します=lerne / M:疲れているけれど=[J:けれど=obwohl / S:=ich / C:疲れている=müde / V:=bin],,「〜けれど」をドイツ語で言える
+9,1,L0,けれど,TALK,Lena,今日も勉強するの？,Lernst du heute auch?,,,
+9,1,L0,けれど,Q,me,疲れているけれど、私は勉強します。,,S:私は=ich / V:勉強します=lerne / M:疲れているけれど=[J:けれど=obwohl / S:=ich / C:疲れている=müde / V:=bin],,"Obwohl ich müde bin, lerne ich. も正解（そのときは lerne ich）"
+9,1,L0,けれど,Q,me,雨が降っているけれど、私たちはサッカーをします。,,S:私たちは=wir / V:します=spielen / O:サッカーを=Fußball / M:雨が降っているけれど=[J:けれど=obwohl / S:=es / V:雨が降っている=regnet],,obwohl es regnet
+9,1,L0,けれど,Q,me,寒いけれど、私は泳ぎます。,,S:私は=ich / V:泳ぎます=schwimme / M:寒いけれど=[J:けれど=obwohl / S:=es / C:寒い=kalt / V:=ist],,寒さの文は主語 es
+9,1,L0,けれど,Q,me,時間がないけれど、私はきみを手伝います。,,S:私は=ich / V:手伝います=helfe / O:きみを=dir / M:時間がないけれど=[J:けれど=obwohl / S:=ich / O:時間が=keine Zeit / V:ない=habe],,helfen ＋ 3格（dir）
+9,1,L0,けれど,Q,me,難しいけれど、私はドイツ語が好きです。,,S:私は=ich / V:好きです=mag / O:ドイツ語が=Deutsch / M:難しいけれど=[J:けれど=obwohl / S:=es / C:難しい=schwer / V:=ist],,"Ich mag Deutsch, obwohl es schwer ist."
+9,1,L0,けれど,TALK,Lena,がんばり屋さんだね！,Du bist fleißig!,,,
+9,1,L0,けれど,DRILL,,,,"{""ja"":[""M、"",""S"",""M2"",""O"",""V""],""en"":[""S"",""V"",""O"",""M2"",""M""],""note"":""obwohl のかたまりの中は動詞が最後"",""slots"":{""S"":[[""私は"",""ich"",""1s""]],""V"":[{""ja"":""勉強します"",""en"":""lerne""},{""ja"":""泳ぎます"",""en"":""schwimme""},{""ja"":""します"",""en"":""spiele"",""o"":""sport""},{""ja"":""行きます"",""en"":""gehe"",""o"":""go""}],""O"":{""sport"":[[""サッカーを"",""Fußball""],[""テニスを"",""Tennis""]]},""M2"":{""go"":[[""学校へ"",""zur Schule""],[""公園へ"",""in den Park""]]},""M"":{""in"":{""ja"":[""V"",""J""],""en"":[""J"",""S"",""V""],""slots"":{""J"":[[""けれど"",""obwohl""]],""V"":[{""ja"":""疲れている"",""en"":""müde bin"",""o"":""me""},{""ja"":""時間がない"",""en"":""keine Zeit habe"",""o"":""me""},{""ja"":""眠い"",""en"":""schläfrig bin"",""o"":""me""},{""ja"":""雨が降っている"",""en"":""regnet"",""o"":""it""},{""ja"":""寒い"",""en"":""kalt ist"",""o"":""it""}],""S"":{""me"":[["""",""ich""]],""it"":[["""",""es""]]}}}}}}",,
+9,2,L1,〜したとき（過去）,INTRO,,レナと子どものころの話。,,,,
+9,2,L1,〜したとき（過去）,GOAL,,過去の「〜したとき」を als と war・hatte で言えるようになろう,,S:私は=ich / V:飼っていました=hatte / O:犬を=einen Hund / M:10歳だったとき=[J:とき=als / S:=ich / C:10歳=zehn / V:だった=war],,子どものころのことをドイツ語で言える
+9,2,L1,〜したとき（過去）,TALK,Lena,子どものころ、どんな子だった？,Wie warst du als Kind?,,,
+9,2,L1,〜したとき（過去）,Q,me,10歳だったとき、私は犬を飼っていました。,,S:私は=ich / V:飼っていました=hatte{habe|hatte} / O:犬を=einen Hund / M:10歳だったとき=[J:とき=als / S:=ich / C:10歳=zehn / V:だった=war],,hatte は haben の過去、war は sein の過去
+9,2,L1,〜したとき（過去）,Q,me,子どもだったとき、私はベルリンに住んでいました。,,S:私は=ich / V:住んでいました=wohnte{wohne|wohnte} / M:ベルリンに=in Berlin / M:子どもだったとき=[J:とき=als / S:=ich / C:子ども=ein Kind / V:だった=war],,wohnen の過去は wohnte
+9,2,L1,〜したとき（過去）,Q,me,時間があったとき、私は本を読みました。,,S:私は=ich / V:読みました=las{lese|las} / O:本を=ein Buch / M:時間があったとき=[J:とき=als / S:=ich / O:時間が=Zeit / V:あった=hatte],,lesen の過去は las
+9,2,L1,〜したとき（過去）,Q,me,疲れていたとき、私は早く寝ました。,,S:私は=ich / V:寝ました=schlief{schlafe|schlief} / M:早く=früh / M:疲れていたとき=[J:とき=als / S:=ich / C:疲れて=müde / V:いた=war],,schlafen の過去は schlief
+9,2,L1,〜したとき（過去）,Q,me,雨だったとき、私たちは家にいました。,,S:私たちは=wir / V:いました=waren{sind|waren} / M:家に=zu Hause / M:雨だったとき=[J:とき=als / S:=es / V:雨だった=regnete],,regnen の過去は regnete
+9,2,L1,〜したとき（過去）,TALK,Lena,かわいい！,Wie süß!,,,
+9,2,L1,〜したとき（過去）,DRILL,,,,"{""ja"":[""M、"",""S"",""M2"",""O"",""V""],""en"":[""S"",""V"",""O"",""M2"",""M""],""note"":""過去の「〜したとき」は als。war・hatte は過去の形"",""slots"":{""S"":[[""私は"",""ich"",""1s""]],""V"":[{""ja"":""飼っていました"",""en"":""hatte"",""o"":""pet""},{""ja"":""住んでいました"",""en"":""wohnte"",""o"":""live""},{""ja"":""読みました"",""en"":""las"",""o"":""read""},{""ja"":""しました"",""en"":""spielte"",""o"":""sport""}],""O"":{""pet"":[[""犬を"",""einen Hund""],[""ネコを"",""eine Katze""]],""read"":[[""たくさんの本を"",""viele Bücher""],[""マンガを"",""Comics""]],""sport"":[[""サッカーを"",""Fußball""],[""野球を"",""Baseball""]]},""M2"":{""live"":[[""ベルリンに"",""in Berlin""],[""大阪に"",""in Osaka""],[""海の近くに"",""am Meer""]]},""M"":{""in"":{""ja"":[""V"",""J""],""en"":[""J"",""S"",""V""],""slots"":{""J"":[[""とき"",""als""]],""S"":[["""",""ich""]],""V"":[[""子どもだった"",""ein Kind war""],[""10歳だった"",""zehn war""],[""小さかった"",""klein war""]]}}}}}",,
+9,3,L2,〜かどうか,INTRO,,「明日の討論会、レナは来るかな？」わからないことを言ってみよう。,,,,
+9,3,L2,〜かどうか,GOAL,,「〜かどうか」を ob で言えるようになろう,,S:私は=ich / V:知り=weiß / M:ません=nicht / O:彼女が来るかどうか=[J:かどうか=ob / S:彼女が=sie / V:来る=kommt],,「〜かどうかわからない」をドイツ語で言える
+9,3,L2,〜かどうか,TALK,Lena,明日、晴れるかな？,Ob es morgen sonnig ist?,,,
+9,3,L2,〜かどうか,Q,me,私は彼女が来るかどうか知りません。,,S:私は=ich / V:知り=weiß / M:ません=nicht / O:彼女が来るかどうか=[J:かどうか=ob / S:彼女が=sie / V:来る=kommt],kommt sie|wissen|dass,"Ich weiß nicht, ob sie kommt."
+9,3,L2,〜かどうか,Q,me,私はレナが元気かどうか知りません。,,S:私は=ich / V:知り=weiß / M:ません=nicht / O:レナが元気かどうか=[J:かどうか=ob / S:レナが=Lena / C:元気=gesund / V:=ist],ist Lena|wissen|dass,ob Lena gesund ist
+9,3,L2,〜かどうか,Q,me,私は明日晴れるかどうか知りません。,,S:私は=ich / V:知り=weiß / M:ません=nicht / O:明日晴れるかどうか=[J:かどうか=ob / S:=es / M:明日=morgen / C:晴れる=sonnig / V:=ist],ist es|weißt|wenn,ob es morgen sonnig ist
+9,3,L2,〜かどうか,Q,me,私はこの答えが正しいかどうかわかりません。,,S:私は=ich / V:わかり=weiß / M:ません=nicht / O:この答えが正しいかどうか=[J:かどうか=ob / S:この答えが=diese Antwort / C:正しい=richtig / V:=ist],ist diese|weiß ich|dass,ob diese Antwort richtig ist
+9,3,L2,〜かどうか,Q,me,私は彼がドイツ語を話せるかどうか知りません。,,S:私は=ich / V:知り=weiß / M:ません=nicht / O:彼がドイツ語を話せるかどうか=[J:かどうか=ob / S:彼が=er / O:ドイツ語を=Deutsch / V:話せる=sprechen kann],kann er|wissen|weil,kann が最後
+9,3,L2,〜かどうか,TALK,Lena,まあ、なんとかなるよ！,Das wird schon!,,,
+9,3,L2,〜かどうか,DRILL,,,,"{""ja"":[""S"",""O"",""V"",""M""],""en"":[""S"",""V"",""M"",""O""],""note"":""「〜かどうか」は ob。中の動詞は最後"",""slots"":{""S"":[[""私は"",""ich"",""1s""],[""私たちは"",""wir"",""1p""],[""母は"",""meine Mutter"",""3s""],[""彼は"",""er"",""3s""]],""V"":[{""ja"":""知り"",""f"":{""1s"":""weiß"",""2s"":""weißt"",""3s"":""weiß"",""1p"":""wissen"",""3p"":""wissen""}}],""M"":[[""ません"",""nicht""]],""O"":{""in"":{""ja"":[""S"",""V"",""J""],""en"":[""J"",""S"",""V""],""slots"":{""J"":[[""かどうか"",""ob""]],""S"":[{""ja"":""彼女が"",""en"":""sie"",""p"":""3s""},{""ja"":""レナが"",""en"":""Lena"",""p"":""3s""},{""ja"":""先生が"",""en"":""der Lehrer"",""p"":""3s""},{""ja"":""友だちが"",""en"":""meine Freunde"",""p"":""3p""}],""V"":[{""ja"":""来る"",""f"":{""3s"":""kommt"",""3p"":""kommen""}},{""ja"":""家にいる"",""f"":{""3s"":""zu Hause ist"",""3p"":""zu Hause sind""}},{""ja"":""ドイツ語を話せる"",""f"":{""3s"":""Deutsch sprechen kann"",""3p"":""Deutsch sprechen können""}}]}}}}}",,
+9,4,L3,〜する前に,INTRO,,討論会の前の日の過ごし方をレナに話そう。,,,,
+9,4,L3,〜する前に,GOAL,,「〜する前に」を bevor で言えるようになろう,,S:私は=ich / V:読みます=lese / O:本を=ein Buch / M:寝る前に=[J:前に=bevor / S:=ich / V:寝る=schlafe],,「〜する前に」をドイツ語で書ける
+9,4,L3,〜する前に,Q,me,寝る前に、私は本を読みます。,,S:私は=ich / V:読みます=lese / O:本を=ein Buch / M:寝る前に=[J:前に=bevor / S:=ich / V:寝る=schlafe],,"Bevor ich schlafe, lese ich ein Buch. も正解"
+9,4,L3,〜する前に,Q,me,学校へ行く前に、私は朝ごはんを食べます。,,S:私は=ich / V:食べます=esse / O:朝ごはんを=Frühstück / M:学校へ行く前に=[J:前に=bevor / S:=ich / M:学校へ=zur Schule / V:行く=gehe],,bevor ich zur Schule gehe
+9,4,L3,〜する前に,Q,me,疲れているけれど、私は宿題をします。,,S:私は=ich / V:します=mache / O:宿題を=Hausaufgaben / M:疲れているけれど=[J:けれど=obwohl / S:=ich / C:疲れている=müde / V:=bin],,obwohl も動詞は最後
+9,4,L3,〜する前に,Q,me,私は明日雨が降るかどうか知りません。,,S:私は=ich / V:知り=weiß / M:ません=nicht / O:明日雨が降るかどうか=[J:かどうか=ob / S:=es / M:明日=morgen / V:雨が降る=regnet],,ob es morgen regnet
+9,4,L3,〜する前に,Q,me,若かったとき、私はよくテニスをしました。,,S:私は=ich / V:しました=spielte / M:よく=oft / O:テニスを=Tennis / M:若かったとき=[J:とき=als / S:=ich / C:若かった=jung / V:=war],,spielen の過去は spielte
+9,4,L3,〜する前に,TALK,Lena,準備ばっちりだね！,Gut vorbereitet!,,,
+9,4,L3,〜する前に,DRILL,,,,"{""ja"":[""M、"",""S"",""O"",""V""],""en"":[""S"",""V"",""O"",""M""],""note"":""「〜する前に」は bevor。中の動詞は最後"",""slots"":{""S"":[[""私は"",""ich"",""1s""]],""V"":[{""ja"":""読みます"",""en"":""lese"",""o"":""read""},{""ja"":""食べます"",""en"":""esse"",""o"":""eat""},{""ja"":""飲みます"",""en"":""trinke"",""o"":""drink""}],""O"":{""read"":[[""本を"",""ein Buch""],[""新聞を"",""die Zeitung""]],""eat"":[[""朝ごはんを"",""Frühstück""],[""パンを"",""Brot""]],""drink"":[[""牛乳を"",""Milch""],[""お茶を"",""Tee""]]},""M"":{""in"":{""ja"":[""V"",""J""],""en"":[""J"",""S"",""V""],""slots"":{""J"":[[""前に"",""bevor""]],""S"":[["""",""ich""]],""V"":[[""寝る"",""schlafe""],[""学校へ行く"",""zur Schule gehe""],[""家を出る"",""aus dem Haus gehe""]]}}}}}",,
+9,5,L4,意見文を書こう,INTRO,,「わたしの意見」を作文しよう。箱なしでまるごと書くよ。,,,,
+9,5,L4,意見文を書こう,GOAL,,箱がなくても、obwohl・als・ob・bevor の文を組み立てられるようになろう,,S:私は=ich / V:書きます=schreibe / O:日記を=Tagebuch / M:寝る前に=[J:前に=bevor / S:=ich / V:寝る=schlafe],,理由・時・条件を入れて意見を書ける
+9,5,L4,意見文を書こう,Q,me,私はドイツ語は役に立つと思います。,,S:私は=ich / V:思います=denke||finde / O:ドイツ語は役に立つと=[J:と=dass / S:ドイツ語は=Deutsch / C:役に立つ=nützlich / V:=ist],,dass も動詞は最後
+9,5,L4,意見文を書こう,Q,me,難しいけれど、私は毎日練習します。,,S:私は=ich / V:練習します=übe / M:毎日=jeden Tag / M:難しいけれど=[J:けれど=obwohl / S:=es / C:難しい=schwer / V:=ist],,üben（練習する）
+9,5,L4,意見文を書こう,Q,me,私はそれが本当かどうかわかりません。,,S:私は=ich / V:わかり=weiß / M:ません=nicht / O:それが本当かどうか=[J:かどうか=ob / S:それが=das / C:本当=wahr / V:=ist],,ob das wahr ist
+9,5,L4,意見文を書こう,Q,me,寝る前に、私は手紙を書きます。,,S:私は=ich / V:書きます=schreibe / O:手紙を=einen Brief / M:寝る前に=[J:前に=bevor / S:=ich / V:寝る=schlafe],,bevor ich schlafe
+9,5,L4,意見文を書こう,Q,me,子どもだったとき、私はピアノを習っていました。,,S:私は=ich / V:習っていました=lernte / O:ピアノを=Klavier / M:子どもだったとき=[J:とき=als / S:=ich / C:子ども=ein Kind / V:だった=war],,lernen の過去は lernte
+9,5,L4,意見文を書こう,TALK,Lena,説得力がある！,Das überzeugt!,,,
+9,5,L4,意見文を書こう,DRILL,,,,"{""use"":[""9-1"",""9-2"",""9-3"",""9-4""]}",,
+9,6,BOSS,火山のディベート,INTRO,,討論会本番！意見・理由・時をすばやく言おう。,,,,
+9,6,BOSS,火山のディベート,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:私は=ich / V:思います=denke / O:自然は大切だと=[J:と=dass / S:自然は=die Natur / C:大切だ=wichtig / V:=ist],,自分の意見をドイツ語で話せる
+9,6,BOSS,火山のディベート,Q,me,私は自然は大切だと思います。,,S:私は=ich / V:思います=denke||finde / O:自然は大切だと=[J:と=dass / S:自然は=die Natur / C:大切だ=wichtig / V:=ist],,dass die Natur wichtig ist
+9,6,BOSS,火山のディベート,Q,me,難しいけれど、私は毎日練習します。,,S:私は=ich / V:練習します=übe / M:毎日=jeden Tag / M:難しいけれど=[J:けれど=obwohl / S:=es / C:難しい=schwer / V:=ist],,obwohl es schwer ist
+9,6,BOSS,火山のディベート,Q,me,私は明日晴れるかどうか知りません。,,S:私は=ich / V:知り=weiß / M:ません=nicht / O:明日晴れるかどうか=[J:かどうか=ob / S:=es / M:明日=morgen / C:晴れる=sonnig / V:=ist],,ob es morgen sonnig ist
+9,6,BOSS,火山のディベート,Q,me,学校へ行く前に、私は朝ごはんを食べます。,,S:私は=ich / V:食べます=esse / O:朝ごはんを=Frühstück / M:学校へ行く前に=[J:前に=bevor / S:=ich / M:学校へ=zur Schule / V:行く=gehe],,bevor ich zur Schule gehe
+9,6,BOSS,火山のディベート,Q,me,若かったとき、私はよくサッカーをしました。,,S:私は=ich / V:しました=spielte / M:よく=oft / O:サッカーを=Fußball / M:若かったとき=[J:とき=als / S:=ich / C:若かった=jung / V:=war],,過去の1回のこと・ころは als
+9,6,BOSS,火山のディベート,TALK,Lena,ディベート優勝！,Wir haben die Debatte gewonnen!,,,
+9,6,BOSS,火山のディベート,DRILL,,,,"{""use"":[""9-1"",""9-2"",""9-3"",""9-4""]}",,

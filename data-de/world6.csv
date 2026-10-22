@@ -1,0 +1,61 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+6,1,,私は本を読むのが好きです。,RULE,,「〜するのが好き」は 動詞 ＋ gern,Ich lese gern Bücher.,S:私は=ich / V:する=spiele / M:のが好きです=gern / O:サッカーを=Fußball,Ich gern lese Bücher.,「好き」という動詞を使わず、「好んで〜する」と言う。gern は動詞のすぐうしろ。
+6,2,,私は野菜を食べようとしています。,RULE,,zu ＋ 動詞のかたまりは最後,"Ich versuche, Gemüse zu essen.",S:私は=ich / V:しています=versuche / O:毎日ドイツ語を学ぼうと=[M:毎日=jeden Tag / O:ドイツ語を=Deutsch / V:学ぼうと=zu lernen],"Ich versuche, zu essen Gemüse.","「〜しようとする」は versuchen, … zu ＋ 動詞。zu ＋ 動詞はかたまりの最後で、かたまりの前にコンマ。"
+6,3,,私の夢は歌手になることです。,RULE,,「私の夢は〜することです」,"Mein Traum ist, Sänger zu werden.",S:私の夢は=mein Traum / V:です=ist / C:医者になること=[C:医者に=Arzt / V:なること=zu werden],"Mein Traum ist, zu werden Sänger.","Mein Traum ist, … zu ＋ 動詞。日本語の「医者に なること」と同じ順番！"
+6,1,L0,好きなこと,INTRO,,レナと「休みの日に何をするのが好き？」の話。,,,,
+6,1,L0,好きなこと,GOAL,,「〜するのが好き」を 動詞 ＋ gern で言えるようになろう,,S:私は=ich / V:する=spiele / M:のが好きです=gern / O:サッカーを=Fußball,,好きなことをドイツ語で言える
+6,1,L0,好きなこと,TALK,Lena,休みの日は何をするのが好き？,Was machst du gern in deiner Freizeit?,,,
+6,1,L0,好きなこと,Q,me,私はサッカーをするのが好きです。,,S:私は=ich / V:する=spiele / M:のが好きです=gern / O:サッカーを=Fußball,,「〜するのが好き」は 動詞 ＋ gern。gern は動詞のすぐうしろ
+6,1,L0,好きなこと,Q,me,私は本を読むのが好きです。,,S:私は=ich / V:読む=lese / M:のが好きです=gern / O:本を=Bücher,,Ich lese gern Bücher.
+6,1,L0,好きなこと,Q,me,レナは歌うのが好きです。,,S:レナは=Lena / V:歌う=singt / M:のが好きです=gern,,Lena singt gern.
+6,1,L0,好きなこと,Q,me,私たちは料理をするのが好きです。,,S:私たちは=wir / V:料理をする=kochen / M:のが好きです=gern,,kochen（料理する）
+6,1,L0,好きなこと,Q,me,私の兄は泳ぐのが好きです。,,S:私の兄は=mein Bruder / V:泳ぐ=schwimmt / M:のが好きです=gern,,er のとき schwimmt
+6,1,L0,好きなこと,TALK,Lena,私も泳ぐのが好き！,Ich schwimme auch gern!,,,
+6,1,L0,好きなこと,DRILL,,,,"{""ja"":[""S"",""O"",""V"",""M""],""en"":[""S"",""V"",""M"",""O""],""note"":""「〜するのが好き」は 動詞 ＋ gern"",""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""彼女は"",""sie"",""3s""],[""私の母は"",""meine Mutter"",""3s""],[""私の兄は"",""mein Bruder"",""3s""],[""私たちは"",""wir"",""1p""],[""私の両親は"",""meine Eltern"",""3p""]],""M"":[[""のが好きです"",""gern""]],""V"":[{""ja"":""する"",""f"":{""1s"":""spiele"",""2s"":""spielst"",""3s"":""spielt"",""1p"":""spielen"",""3p"":""spielen""},""o"":""sport""},{""ja"":""読む"",""f"":{""1s"":""lese"",""2s"":""liest"",""3s"":""liest"",""1p"":""lesen"",""3p"":""lesen""},""o"":""read""},{""ja"":""聞く"",""f"":{""1s"":""höre"",""2s"":""hörst"",""3s"":""hört"",""1p"":""hören"",""3p"":""hören""},""o"":""listen""},{""ja"":""料理をする"",""f"":{""1s"":""koche"",""2s"":""kochst"",""3s"":""kocht"",""1p"":""kochen"",""3p"":""kochen""}},{""ja"":""泳ぐ"",""f"":{""1s"":""schwimme"",""2s"":""schwimmst"",""3s"":""schwimmt"",""1p"":""schwimmen"",""3p"":""schwimmen""}}],""O"":{""sport"":[[""サッカーを"",""Fußball""],[""テニスを"",""Tennis""],[""バスケットボールを"",""Basketball""]],""read"":[[""本を"",""Bücher""],[""マンガを"",""Comics""]],""listen"":[[""音楽を"",""Musik""],[""ラジオを"",""Radio""]]}}}",,
+6,2,L1,〜しようとしている,INTRO,,レナが「最近がんばっていることは？」と聞いてきた。,,,,
+6,2,L1,〜しようとしている,GOAL,,"「〜しようとする」を versuchen, … zu ＋ 動詞で言えるようになろう",,S:私は=ich / V:しています=versuche / O:毎日ドイツ語を学ぼうと=[M:毎日=jeden Tag / O:ドイツ語を=Deutsch / V:学ぼうと=zu lernen],,がんばっていることをドイツ語で言える
+6,2,L1,〜しようとしている,TALK,Lena,最近がんばってることある？,Was versuchst du gerade?,,,
+6,2,L1,〜しようとしている,Q,me,私は毎日ドイツ語を学ぼうとしています。,,S:私は=ich / V:しています=versuche{versuche|versuchst|versucht} / O:毎日ドイツ語を学ぼうと=[M:毎日=jeden Tag / O:ドイツ語を=Deutsch / V:学ぼうと=zu lernen],,zu ＋ 動詞はかたまりの最後。かたまりの前にコンマ
+6,2,L1,〜しようとしている,Q,me,私は野菜を食べようとしています。,,S:私は=ich / V:しています=versuche{versuche|versuchst|versucht} / O:野菜を食べようと=[O:野菜を=Gemüse / V:食べようと=zu essen],,"Ich versuche, Gemüse zu essen."
+6,2,L1,〜しようとしている,Q,me,レナは日本語を話そうとしています。,,S:レナは=Lena / V:しています=versucht{versuche|versucht|versuchen} / O:日本語を話そうと=[O:日本語を=Japanisch / V:話そうと=zu sprechen],,sie のとき versucht
+6,2,L1,〜しようとしている,Q,me,私たちはたくさん水を飲もうとしています。,,S:私たちは=wir / V:しています=versuchen{versuche|versucht|versuchen} / O:たくさん水を飲もうと=[O:たくさん水を=viel Wasser / V:飲もうと=zu trinken],,wir のとき versuchen
+6,2,L1,〜しようとしている,Q,me,兄は宿題をしようとしています。,,S:兄は=mein Bruder / V:しています=versucht{versuche|versucht|versuchen} / O:宿題をしようと=[O:宿題を=die Hausaufgaben||seine Hausaufgaben / V:しようと=zu machen],,Hausaufgaben machen（宿題をする）
+6,2,L1,〜しようとしている,TALK,Lena,えらい！,Toll gemacht!,,,
+6,2,L1,〜しようとしている,DRILL,,,,"{""ja"":[""S"",""O"",""V""],""en"":[""S"",""V"",""O""],""note"":""versuchen, … zu ＋ 動詞（最後）"",""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""彼女は"",""sie"",""3s""],[""私の母は"",""meine Mutter"",""3s""],[""私の兄は"",""mein Bruder"",""3s""],[""私たちは"",""wir"",""1p""],[""私の両親は"",""meine Eltern"",""3p""]],""V"":[{""ja"":""しています"",""f"":{""1s"":""versuche"",""2s"":""versuchst"",""3s"":""versucht"",""1p"":""versuchen"",""3p"":""versuchen""}}],""O"":{""in"":{""ja"":[""M"",""O"",""V""],""en"":[""M"",""O"",""V""],""opt"":[""M""],""slots"":{""M"":[[""毎日"",""jeden Tag""]],""V"":[{""ja"":""学ぼうと"",""en"":""zu lernen"",""o"":""learn""},{""ja"":""食べようと"",""en"":""zu essen"",""o"":""food""},{""ja"":""飲もうと"",""en"":""zu trinken"",""o"":""drink""},{""ja"":""読もうと"",""en"":""zu lesen"",""o"":""read""}],""O"":{""learn"":[[""ドイツ語を"",""Deutsch""],[""英語を"",""Englisch""],[""日本語を"",""Japanisch""]],""food"":[[""野菜を"",""Gemüse""],[""果物を"",""Obst""]],""drink"":[[""水を"",""Wasser""],[""牛乳を"",""Milch""]],""read"":[[""本を"",""Bücher""],[""新聞を"",""die Zeitung""]]}}}}}}",,
+6,3,L2,夢はなに？,INTRO,,レナと将来の夢について話そう。,,,,
+6,3,L2,夢はなに？,GOAL,,「私の夢は〜することです」を zu ＋ 動詞で言えるようになろう,,S:私の夢は=mein Traum / V:です=ist / C:医者になること=[C:医者に=Arzt / V:なること=zu werden],,夢をドイツ語で言える
+6,3,L2,夢はなに？,TALK,Lena,将来の夢は？,Was ist dein Traum?,,,
+6,3,L2,夢はなに？,Q,me,私の夢は医者になることです。,,S:私の夢は=mein Traum / V:です=ist / C:医者になること=[C:医者に=Arzt||Ärztin / V:なること=zu werden],werden|bin|Ärzten,zu werden（なること）は最後
+6,3,L2,夢はなに？,Q,me,私の夢は世界を旅することです。,,S:私の夢は=mein Traum / V:です=ist / C:世界を旅すること=[M:世界を=um die Welt / V:旅すること=zu reisen],reisen|ist es|mein,um die Welt reisen（世界を旅する）
+6,3,L2,夢はなに？,Q,me,レナの夢は日本に住むことです。,,S:レナの夢は=Lenas Traum / V:です=ist / C:日本に住むこと=[M:日本に=in Japan / V:住むこと=zu wohnen],wohnt|sind|Lena,Lenas Traum（レナの夢）
+6,3,L2,夢はなに？,Q,me,私の夢は歌手になることです。,,S:私の夢は=mein Traum / V:です=ist / C:歌手になること=[C:歌手に=Sänger||Sängerin / V:なること=zu werden],werde|ist|wird,"Mein Traum ist, Sänger zu werden."
+6,3,L2,夢はなに？,Q,me,私の夢は自分の店を開くことです。,,S:私の夢は=mein Traum / V:です=ist / C:自分の店を開くこと=[O:自分の店を=ein eigenes Geschäft / V:開くこと=zu eröffnen],eröffne|bin|mein,eröffnen（開く・開店する）
+6,3,L2,夢はなに？,TALK,Lena,かなうといいね！,Ich drücke dir die Daumen!,,,
+6,3,L2,夢はなに？,DRILL,,,,"{""ja"":[""S"",""C"",""V""],""en"":[""S"",""V"",""C""],""note"":""Mein Traum ist, … zu ＋ 動詞"",""slots"":{""S"":[[""私の夢は"",""mein Traum""],[""レナの夢は"",""Lenas Traum""]],""V"":[[""です"",""ist""]],""C"":{""in"":{""ja"":[""C"",""M"",""V""],""en"":[""C"",""M"",""V""],""slots"":{""V"":[{""ja"":""なること"",""en"":""zu werden"",""o"":""job""},{""ja"":""住むこと"",""en"":""zu wohnen"",""o"":""live""},{""ja"":""旅すること"",""en"":""zu reisen"",""o"":""travel""}],""C"":{""job"":[[""医者に"",""Arzt||Ärztin""],[""先生に"",""Lehrer||Lehrerin""],[""歌手に"",""Sänger||Sängerin""],[""パイロットに"",""Pilot||Pilotin""]]},""M"":{""live"":[[""日本に"",""in Japan""],[""ベルリンに"",""in Berlin""],[""海の近くに"",""am Meer""]],""travel"":[[""世界中を"",""um die ganze Welt""],[""ヨーロッパを"",""durch Europa""]]}}}}}}",,
+6,4,L3,未来の夢,INTRO,,レナに将来の自分について手紙を書こう。,,,,
+6,4,L3,未来の夢,GOAL,,gern と zu ＋ 動詞の文を自分で書けるようになろう,,S:私の夢は=mein Traum / V:です=ist / C:先生になること=[C:先生に=Lehrer / V:なること=zu werden],,好きなことと夢をドイツ語で書ける
+6,4,L3,未来の夢,Q,me,私は絵を描くのが好きです。,,S:私は=ich / V:描く=male / M:のが好きです=gern / O:絵を=Bilder,,malen（描く）＋ gern
+6,4,L3,未来の夢,Q,me,私は毎日本を読もうとしています。,,S:私は=ich / V:しています=versuche / O:毎日本を読もうと=[M:毎日=jeden Tag / O:本を=Bücher / V:読もうと=zu lesen],,"""Ich versuche, jeden Tag Bücher zu lesen."""
+6,4,L3,未来の夢,Q,me,私の夢は先生になることです。,,S:私の夢は=mein Traum / V:です=ist / C:先生になること=[C:先生に=Lehrer||Lehrerin / V:なること=zu werden],,職業には ein をつけない
+6,4,L3,未来の夢,Q,me,私の兄はギターを弾くのが好きです。,,S:私の兄は=mein Bruder / V:弾く=spielt / M:のが好きです=gern / O:ギターを=Gitarre,,Mein Bruder spielt gern Gitarre.
+6,4,L3,未来の夢,Q,me,私たちは毎日運動しようとしています。,,S:私たちは=wir / V:しています=versuchen / O:毎日運動しようと=[M:毎日=jeden Tag / V:運動しようと=Sport zu machen],,Sport machen（運動する）→ Sport zu machen
+6,4,L3,未来の夢,TALK,Lena,すてきな夢だね！,Was für ein schöner Traum!,,,
+6,4,L3,未来の夢,DRILL,,,,"{""use"":[""6-1"",""6-2"",""6-3""]}",,
+6,5,L4,夢をスピーチ,INTRO,,クラスで「私の夢」スピーチ。箱なしで書いてみよう。,,,,
+6,5,L4,夢をスピーチ,GOAL,,箱がなくても、gern・zu ＋ 動詞の文を組み立てられるようになろう,,S:私は=ich / V:料理をする=koche / M:のが好きです=gern,,自分の夢を1文でドイツ語にできる
+6,5,L4,夢をスピーチ,Q,me,私は料理をするのが好きです。,,S:私は=ich / V:料理をする=koche / M:のが好きです=gern,,Ich koche gern.
+6,5,L4,夢をスピーチ,Q,me,私の夢はコックになることです。,,S:私の夢は=mein Traum / V:です=ist / C:コックになること=[C:コックに=Koch||Köchin / V:なること=zu werden],,Koch（コック）
+6,5,L4,夢をスピーチ,Q,me,私は毎日新しい料理を作ろうとしています。,,S:私は=ich / V:しています=versuche / O:毎日新しい料理を作ろうと=[M:毎日=jeden Tag / O:新しい料理を=ein neues Gericht / V:作ろうと=zu kochen],,ein neues Gericht（新しい料理）
+6,5,L4,夢をスピーチ,Q,me,私はドイツ料理を食べるのが好きです。,,S:私は=ich / V:食べる=esse / M:のが好きです=gern / O:ドイツ料理を=deutsches Essen,,Ich esse gern deutsches Essen.
+6,5,L4,夢をスピーチ,Q,me,私の夢はいつかドイツに住むことです。,,S:私の夢は=mein Traum / V:です=ist / C:いつかドイツに住むこと=[M:いつか=eines Tages / M:ドイツに=in Deutschland / V:住むこと=zu wohnen],,「いつか」→「どこ」→ zu wohnen
+6,5,L4,夢をスピーチ,TALK,Lena,いいスピーチ！,Eine tolle Rede!,,,
+6,5,L4,夢をスピーチ,DRILL,,,,"{""use"":[""6-1"",""6-2"",""6-3""]}",,
+6,6,BOSS,未来の自分へ,INTRO,,10年後の自分へメッセージ！ここまでの文をすばやく。,,,,
+6,6,BOSS,未来の自分へ,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:私の夢は=mein Traum / V:です=ist / C:サッカー選手になること=[C:サッカー選手に=Fußballspieler / V:なること=zu werden],,夢と好きなことをドイツ語で話せる
+6,6,BOSS,未来の自分へ,Q,me,私は泳ぐのが好きです。,,S:私は=ich / V:泳ぐ=schwimme / M:のが好きです=gern,,Ich schwimme gern.
+6,6,BOSS,未来の自分へ,Q,me,私の夢はサッカー選手になることです。,,S:私の夢は=mein Traum / V:です=ist / C:サッカー選手になること=[C:サッカー選手に=Fußballspieler||Fußballspielerin / V:なること=zu werden],,zu werden は最後
+6,6,BOSS,未来の自分へ,Q,me,私は毎日走ろうとしています。,,S:私は=ich / V:しています=versuche / O:毎日走ろうと=[M:毎日=jeden Tag / V:走ろうと=zu laufen],,"Ich versuche, jeden Tag zu laufen."
+6,6,BOSS,未来の自分へ,Q,me,レナは写真をとるのが好きです。,,S:レナは=Lena / V:とる=macht / M:のが好きです=gern / O:写真を=Fotos,,Fotos machen（写真をとる）
+6,6,BOSS,未来の自分へ,Q,me,私の夢は世界中を旅することです。,,S:私の夢は=mein Traum / V:です=ist / C:世界中を旅すること=[M:世界中を=um die ganze Welt / V:旅すること=zu reisen],,um die ganze Welt（世界中を）
+6,6,BOSS,未来の自分へ,TALK,Lena,10年後に読もうね！,Lesen wir das in zehn Jahren!,,,
+6,6,BOSS,未来の自分へ,DRILL,,,,"{""use"":[""6-1"",""6-2"",""6-3""]}",,

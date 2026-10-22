@@ -1,0 +1,65 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+4,1,,私はドイツ語はおもしろいと思います。,RULE,,dass（〜と）のかたまりでは、動詞は最後,"Ich denke, dass Deutsch interessant ist.",S:私は=ich / V:思います=denke / O:ドイツ語はおもしろいと=[J:と=dass / S:ドイツ語は=Deutsch / C:おもしろい=interessant / V:=ist],"Ich denke, dass Deutsch ist interessant.",dass のうしろは「主語 … 動詞」で、動詞がかたまりの最後。「ドイツ語は おもしろい（です）と」という日本語と同じ順番！\ndass の前にはコンマを打つ。
+4,2,,雨が降っているので、私は家にいます。,RULE,,weil（〜ので）のかたまりも、動詞は最後,"Ich bleibe zu Hause, weil es regnet.",S:私は=ich / V:います=bleibe / M:家に=zu Hause / M:雨が降っているので=[J:ので=weil / S:=es / V:雨が降っている=regnet],"Ich bleibe zu Hause, weil regnet es.",理由を言う weil のかたまりも、動詞（regnet）が最後。weil の前にもコンマ。
+4,2,,雨が降っているので、私は家にいます。,RULE,,かたまりを先頭に出すと、動詞 → 主語,"Weil es regnet, bleibe ich zu Hause.",M:雨が降っているので=[J:ので=weil / S:=es / V:雨が降っている=regnet] / V:います=bleibe / S:私は=ich / M:家に=zu Hause,"Weil es regnet, ich bleibe zu Hause.","weil・wenn のかたまり全体で「1番目」の1つ分。だから次は動詞（2番目）、そのあとに主語。\nWeil es regnet, bleibe ich zu Hause."
+4,3,,時間があるとき、私は本を読みます。,RULE,,wenn は「〜とき」も「もし〜なら」も,"Ich lese Bücher, wenn ich Zeit habe.",S:私は=ich / V:読みます=lese / O:本を=Bücher / M:時間があるとき=[J:とき=wenn / S:=ich / O:時間が=Zeit / V:ある=habe],"Ich lese Bücher, wenn ich habe Zeit.",「〜とき」も「もし〜なら」も wenn で言える。かたまりの中は動詞が最後：wenn ich Zeit habe。
+4,3,,,TABLE,,3つのつなぎ言葉,,"つなぎ言葉|意味|例（動詞は最後）;[dass]|〜と|Ich denke, dass Deutsch interessant ist.;[weil]|〜ので|…, weil es regnet.;[wenn]|〜とき・もし〜なら|…, wenn ich Zeit habe.",,
+4,4,,ドイツ語が好きなので、私はドイツへ行きたいです。,RULE,,動詞の置き場所まとめ,"Ich möchte nach Deutschland fahren, weil ich Deutsch mag.",S:私は=ich / V:たいです=möchte / M:ドイツへ=nach Deutschland / V:行き=fahren / M:ドイツ語が好きなので=[J:ので=weil / S:=ich / O:ドイツ語が=Deutsch / V:好きな=mag],"Ich möchte fahren nach Deutschland, weil ich mag Deutsch.",・ふつうの文：動詞は2番目\n・2つ目の動詞（möchte … fahren ／ habe … gespielt）：最後\n・weil・dass・wenn の中：最後\n・疑問文：先頭（疑問詞があれば2番目）\nこの4つで、ドイツ語の語順はほとんど説明できる！
+4,1,L0,〜と思う,INTRO,,レナと「日本とドイツ、どっちがいい？」の話に。意見を言おう。,,,,
+4,1,L0,〜と思う,GOAL,,dass のかたまりで、動詞を最後に置けるようになろう,,S:私は=ich / V:思います=denke / O:ドイツ語はおもしろいと=[J:と=dass / S:ドイツ語は=Deutsch / C:おもしろい=interessant / V:=ist],,自分の意見をドイツ語で言える
+4,1,L0,〜と思う,TALK,Lena,日本語って難しい？,Ist Japanisch schwer?,,,
+4,1,L0,〜と思う,Q,me,私はドイツ語はおもしろいと思います。,,S:私は=ich / V:思います=denke / O:ドイツ語はおもしろいと=[J:と=dass / S:ドイツ語は=Deutsch / C:おもしろい=interessant / V:=ist],,dass のあとは「主語 … 動詞」。ist は最後！ 日本語と同じ順番
+4,1,L0,〜と思う,Q,me,私は日本語は難しいと思います。,,S:私は=ich / V:思います=denke / O:日本語は難しいと=[J:と=dass / S:日本語は=Japanisch / C:難しい=schwer / V:=ist],,dass の前にはコンマ
+4,1,L0,〜と思う,Q,me,私はレナは親切だと思います。,,S:私は=ich / V:思います=denke / O:レナは親切だと=[J:と=dass / S:レナは=Lena / C:親切=nett / V:=ist],,dass Lena nett ist
+4,1,L0,〜と思う,Q,me,私は彼が正しいと知っています。,,S:私は=ich / V:知っています=weiß / O:彼が正しいと=[J:と=dass / S:彼が=er / C:正しい=recht / V:=hat],,「正しい」は recht haben。dass の中で hat は最後
+4,1,L0,〜と思う,Q,me,私はベルリンは美しいと思います。,,S:私は=ich / V:思います=denke / O:ベルリンは美しいと=[J:と=dass / S:ベルリンは=Berlin / C:美しい=schön / V:=ist],,schön（美しい）
+4,1,L0,〜と思う,TALK,Lena,そう言ってくれてうれしい！,Das freut mich!,,,
+4,1,L0,〜と思う,DRILL,,,,"{""ja"":[""S"",""O"",""V""],""en"":[""S"",""V"",""O""],""note"":""dass のかたまりの中では、動詞は最後"",""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""彼女は"",""sie"",""3s""],[""私の母は"",""meine Mutter"",""3s""],[""私の兄は"",""mein Bruder"",""3s""],[""私たちは"",""wir"",""1p""],[""私の両親は"",""meine Eltern"",""3p""]],""V"":[{""ja"":""思います"",""f"":{""1s"":""denke"",""2s"":""denkst"",""3s"":""denkt"",""1p"":""denken"",""3p"":""denken""}}],""O"":{""in"":{""ja"":[""S"",""C"",""J""],""en"":[""J"",""S"",""C"",""V""],""slots"":{""J"":[[""と"",""dass""]],""S"":[{""ja"":""ドイツ語は"",""en"":""Deutsch"",""p"":""3s"",""o"":""study""},{""ja"":""数学は"",""en"":""Mathe"",""p"":""3s"",""o"":""study""},{""ja"":""この本は"",""en"":""dieses Buch"",""p"":""3s"",""o"":""study""},{""ja"":""ベルリンは"",""en"":""Berlin"",""p"":""3s"",""o"":""place""},{""ja"":""私の町は"",""en"":""meine Stadt"",""p"":""3s"",""o"":""place""},{""ja"":""ネコは"",""en"":""Katzen"",""p"":""3p"",""o"":""animal""},{""ja"":""ソーセージは"",""en"":""Würstchen"",""p"":""3p"",""o"":""food""},{""ja"":""ドイツのパンは"",""en"":""deutsches Brot"",""p"":""3s"",""o"":""food""}],""V"":[{""ja"":"""",""f"":{""1s"":""bin"",""2s"":""bist"",""3s"":""ist"",""1p"":""sind"",""3p"":""sind""}}],""C"":{""study"":[[""おもしろい"",""interessant""],[""難しい"",""schwer""],[""大切だ"",""wichtig""]],""place"":[[""美しい"",""schön""],[""静かだ"",""ruhig""]],""animal"":[[""かわいい"",""süß""],[""かしこい"",""klug""]],""food"":[[""おいしい"",""lecker""]]}}}}}}",,
+4,2,L1,〜ので,INTRO,,「どうして？」とレナに聞かれた。理由を答えよう。,,,,
+4,2,L1,〜ので,GOAL,,weil（〜ので）で理由を言えるようになろう,,S:私は=ich / V:います=bleibe / M:家に=zu Hause / M:雨が降っているので=[J:ので=weil / S:=es / V:雨が降っている=regnet],,理由をドイツ語で言える
+4,2,L1,〜ので,TALK,Lena,どうして今日は来ないの？,Warum kommst du heute nicht?,,,
+4,2,L1,〜ので,Q,me,雨が降っているので、私は家にいます。,,S:私は=ich / V:います=bleibe{bleibe|bleibst|bleibt} / M:家に=zu Hause / M:雨が降っているので=[J:ので=weil / S:=es / V:雨が降っている=regnet],,"weil の中は regnet が最後。Weil es regnet, bleibe ich zu Hause. も正解（そのときは bleibe ich の順）"
+4,2,L1,〜ので,Q,me,おなかがすいているので、私はパンを食べます。,,S:私は=ich / V:食べます=esse{esse|isst|essen} / O:パンを=Brot / M:おなかがすいているので=[J:ので=weil / S:=ich / V:おなかがすいている=Hunger habe],,「おなかがすいている」は Hunger haben。weil の中では habe が最後
+4,2,L1,〜ので,Q,me,ドイツ語が好きなので、私は毎日勉強します。,,S:私は=ich / V:勉強します=lerne{lerne|lernst|lernt} / M:毎日=jeden Tag / M:ドイツ語が好きなので=[J:ので=weil / S:=ich / O:ドイツ語が=Deutsch / V:好きな=mag],,weil ich Deutsch mag。mag が最後
+4,2,L1,〜ので,Q,me,母は忙しいので、私が料理をします。,,S:私が=ich / V:料理をします=koche{koche|kochst|kocht} / M:母は忙しいので=[J:ので=weil / S:母は=meine Mutter / C:忙しい=beschäftigt / V:=ist],,weil meine Mutter beschäftigt ist
+4,2,L1,〜ので,Q,me,天気がいいので、私たちは公園へ行きます。,,S:私たちは=wir / V:行きます=gehen{gehe|geht|gehen} / M:公園へ=in den Park / M:天気がいいので=[J:ので=weil / S:天気が=das Wetter / C:いい=schön / V:=ist],,天気がいいは das Wetter ist schön
+4,2,L1,〜ので,TALK,Lena,なるほどね！,"Ach, deshalb!",,,
+4,2,L1,〜ので,DRILL,,,,"{""ja"":[""M、"",""S"",""O"",""V""],""en"":[""S"",""V"",""O"",""M""],""note"":""weil の中では動詞は最後。かたまりを先頭にしたら 動詞 → 主語"",""slots"":{""S"":[[""私は"",""ich"",""1s""]],""V"":[[""好きです"",""mag""]],""O"":[{""ja"":""夏が"",""en"":""den Sommer"",""o"":""summer""},{""ja"":""冬が"",""en"":""den Winter"",""o"":""winter""},{""ja"":""犬が"",""en"":""Hunde"",""o"":""dogs""},{""ja"":""ドイツ語が"",""en"":""Deutsch"",""o"":""de""},{""ja"":""土曜日が"",""en"":""den Samstag"",""o"":""sat""}],""M"":{""in"":{""ja"":[""V"",""J""],""en"":[""J"",""S"",""V""],""slots"":{""J"":[[""ので"",""weil""]],""S"":[["""",""ich""]],""V"":{""summer"":[[""泳げる"",""schwimmen kann""],[""海に行ける"",""ans Meer fahren kann""]],""winter"":[[""スキーができる"",""Ski fahren kann""],[""雪が好きな"",""Schnee mag""]],""dogs"":[[""動物が好きな"",""Tiere mag""],[""犬を飼っている"",""einen Hund habe""]],""de"":[[""ドイツの音楽が好きな"",""deutsche Musik mag""],[""ドイツに行きたい"",""nach Deutschland fahren möchte""]],""sat"":[[""学校がない"",""keine Schule habe""],[""長く寝られる"",""lange schlafen kann""]]}}}}}}",,
+4,3,L2,〜とき・もし,INTRO,,レナと「ひまなときに何する？」の話。,,,,
+4,3,L2,〜とき・もし,GOAL,,wenn（〜とき・もし〜なら）を使えるようになろう,,S:私は=ich / V:読みます=lese / O:本を=Bücher / M:時間があるとき=[J:とき=wenn / S:=ich / O:時間が=Zeit / V:ある=habe],,「〜とき」「もし〜なら」をドイツ語で言える
+4,3,L2,〜とき・もし,TALK,Lena,ひまなときは何してる？,Was machst du in deiner Freizeit?,,,
+4,3,L2,〜とき・もし,Q,me,時間があるとき、私は本を読みます。,,S:私は=ich / V:読みます=lese / O:本を=Bücher||ein Buch / M:時間があるとき=[J:とき=wenn / S:=ich / O:時間が=Zeit / V:ある=habe],liest|hast|lesen,"wenn の中では habe が最後。Wenn ich Zeit habe, lese ich Bücher. も正解"
+4,3,L2,〜とき・もし,Q,me,雨が降るとき、私は家でゲームをします。,,S:私は=ich / V:します=spiele / M:家で=zu Hause / O:ゲームを=Videospiele / M:雨が降るとき=[J:とき=wenn / S:=es / V:雨が降る=regnet],spielt|regnen|spielst,wenn es regnet
+4,3,L2,〜とき・もし,Q,me,もし晴れたら、私たちは海へ行きます。,,S:私たちは=wir / V:行きます=fahren / M:海へ=ans Meer / M:もし晴れたら=[J:もし=wenn / S:=es / C:晴れ=sonnig / V:たら=ist],fährt|fahre|sind,「もし〜なら」も wenn
+4,3,L2,〜とき・もし,Q,me,疲れたとき、私は音楽を聞きます。,,S:私は=ich / V:聞きます=höre / O:音楽を=Musik / M:疲れたとき=[J:とき=wenn / S:=ich / C:疲れた=müde / V:=bin],hört|hören|bin,wenn ich müde bin
+4,3,L2,〜とき・もし,Q,me,おなかがすいたとき、私はおにぎりを食べます。,,S:私は=ich / V:食べます=esse / O:おにぎりを=Onigiri / M:おなかがすいたとき=[J:とき=wenn / S:=ich / V:おなかがすいた=Hunger habe],isst|essen|habe,wenn ich Hunger habe
+4,3,L2,〜とき・もし,TALK,Lena,私と同じだ！,Ich auch!,,,
+4,3,L2,〜とき・もし,DRILL,,,,"{""ja"":[""M、"",""S"",""O"",""V""],""en"":[""S"",""V"",""O"",""M""],""note"":""wenn のかたまりの中でも、動詞は最後"",""slots"":{""S"":[[""私は"",""ich"",""1s""]],""V"":[{""ja"":""読みます"",""en"":""lese"",""o"":""read""},{""ja"":""聞きます"",""en"":""höre"",""o"":""listen""},{""ja"":""します"",""en"":""spiele"",""o"":""game""},{""ja"":""食べます"",""en"":""esse"",""o"":""eat""}],""O"":{""read"":[[""本を"",""Bücher""],[""マンガを"",""Comics""]],""listen"":[[""音楽を"",""Musik""],[""ラジオを"",""Radio""]],""game"":[[""ゲームを"",""Videospiele""],[""トランプを"",""Karten""]],""eat"":[[""チョコレートを"",""Schokolade""],[""アイスを"",""Eis""]]},""M"":{""in"":{""ja"":[""O"",""V"",""J""],""en"":[""J"",""S"",""O"",""V""],""slots"":{""J"":[[""とき"",""wenn""]],""S"":[["""",""ich""]],""V"":[{""ja"":""ある"",""en"":""habe"",""o"":""time""},{""ja"":""疲れている"",""en"":""müde bin""},{""ja"":""ひまな"",""en"":""frei habe""},{""ja"":""悲しい"",""en"":""traurig bin""}],""O"":{""time"":[[""時間が"",""Zeit""]]}}}}}}",,
+4,4,L3,日本とドイツ,INTRO,,レナとオンラインで「日本とドイツ」についておしゃべり。,,,,
+4,4,L3,日本とドイツ,GOAL,,「〜と思う」「〜ので」で、意見と理由を書けるようになろう,,S:私は=ich / V:思います=finde / O:日本はきれいだと=[J:と=dass / S:日本は=Japan / C:きれい=sauber / V:=ist],,意見と理由をドイツ語で伝えられる
+4,4,L3,日本とドイツ,TALK,Lena,日本のどこが好き？,Was magst du an Japan?,,,
+4,4,L3,日本とドイツ,Q,me,私は日本はきれいだと思います。,,S:私は=ich / V:思います=denke||finde / O:日本はきれいだと=[J:と=dass / S:日本は=Japan / C:きれい=schön / V:=ist],,dass のあと、動詞は最後
+4,4,L3,日本とドイツ,Q,me,私はドイツのパンはおいしいと思います。,,S:私は=ich / V:思います=finde||denke / O:ドイツのパンはおいしいと=[J:と=dass / S:ドイツのパンは=deutsches Brot||das deutsche Brot / C:おいしい=lecker / V:=ist],,lecker（おいしい）
+4,4,L3,日本とドイツ,Q,me,電車は速いので、私は電車が好きです。,,S:私は=ich / V:好きです=mag / O:電車が=Züge / M:電車は速いので=[J:ので=weil / S:電車は=Züge||die Züge / C:速い=schnell / V:=sind],,電車（複数）なので sind が最後
+4,4,L3,日本とドイツ,Q,me,私はレナが来ると知っています。,,S:私は=ich / V:知っています=weiß / O:レナが来ると=[J:と=dass / S:レナが=Lena / V:来る=kommt],,dass Lena kommt
+4,4,L3,日本とドイツ,Q,me,ドイツ語が好きなので、私はドイツへ行きたいです。,,S:私は=ich / V:たいです=möchte / M:ドイツへ=nach Deutschland / V:行き=fahren||reisen||fliegen / M:ドイツ語が好きなので=[J:ので=weil / S:=ich / O:ドイツ語が=Deutsch / V:好きな=mag],,"Weil ich Deutsch mag, möchte ich nach Deutschland fahren. も正解"
+4,4,L3,日本とドイツ,TALK,Lena,ドイツで待ってるね！,Ich warte in Deutschland auf dich!,,,
+4,4,L3,日本とドイツ,DRILL,,,,"{""use"":[""4-1"",""4-2""]}",,
+4,5,L4,手紙を書こう,INTRO,,レナに手紙を書こう。理由や気持ちも入れて。,,,,
+4,5,L4,手紙を書こう,GOAL,,箱がなくても、dass・weil・wenn の文を組み立てられるようになろう,,S:私は=ich / V:書きます=schreibe / O:あなたに=dir / O:手紙を=einen Brief,,気持ちや理由をドイツ語の手紙で書ける
+4,5,L4,手紙を書こう,Q,me,私はベルリンはきれいだと思います。,,S:私は=ich / V:思います=finde||denke / O:ベルリンはきれいだと=[J:と=dass / S:ベルリンは=Berlin / C:きれい=schön / V:=ist],,
+4,5,L4,手紙を書こう,Q,me,時間があるとき、私はあなたに手紙を書きます。,,S:私は=ich / V:書きます=schreibe / O:あなたに=dir / O:手紙を=einen Brief / M:時間があるとき=[J:とき=wenn / S:=ich / O:時間が=Zeit / V:ある=habe],,dir（あなたに）→ einen Brief（手紙を）の順
+4,5,L4,手紙を書こう,Q,me,雨が降っているので、私は家で本を読みます。,,S:私は=ich / V:読みます=lese / M:家で=zu Hause / O:本を=ein Buch / M:雨が降っているので=[J:ので=weil / S:=es / V:雨が降っている=regnet],,weil es regnet
+4,5,L4,手紙を書こう,Q,me,もし雨が降ったら、私たちは家でゲームをします。,,S:私たちは=wir / V:します=spielen / M:家で=zu Hause / O:ゲームを=Videospiele / M:もし雨が降ったら=[J:もし=wenn / S:=es / V:雨が降ったら=regnet],,wenn es regnet
+4,5,L4,手紙を書こう,Q,me,私はあなたが元気だと願っています。,,S:私は=ich / V:願っています=hoffe / O:あなたが元気だと=[J:と=dass / S:あなたが=du / C:元気=gesund / V:=bist],,hoffen（願う）。dass du gesund bist
+4,5,L4,手紙を書こう,TALK,Lena,お手紙ありがとう！,Danke für deinen Brief!,,,
+4,5,L4,手紙を書こう,DRILL,,,,"{""use"":[""4-1"",""4-2"",""4-3""]}",,
+4,6,BOSS,村のお祭りスピーチ,INTRO,,ドイツの村のお祭りで、日本代表としてスピーチ！,,,,
+4,6,BOSS,村のお祭りスピーチ,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:私は=ich / V:思います=finde / O:この村は美しいと=[J:と=dass / S:この村は=dieses Dorf / C:美しい=schön / V:=ist],,自分の考えと理由をドイツ語で話せる
+4,6,BOSS,村のお祭りスピーチ,Q,me,私はこの村は美しいと思います。,,S:私は=ich / V:思います=finde||denke / O:この村は美しいと=[J:と=dass / S:この村は=dieses Dorf||das Dorf / C:美しい=schön / V:=ist],,dass … ist
+4,6,BOSS,村のお祭りスピーチ,Q,me,レナは親切なので、私はレナが好きです。,,S:私は=ich / V:好きです=mag / O:レナが=Lena / M:レナは親切なので=[J:ので=weil / S:レナは=Lena / C:親切=nett / V:=ist],,weil Lena nett ist
+4,6,BOSS,村のお祭りスピーチ,Q,me,時間があるとき、私は手紙を書きます。,,S:私は=ich / V:書きます=schreibe / O:手紙を=einen Brief / M:時間があるとき=[J:とき=wenn / S:=ich / O:時間が=Zeit / V:ある=habe],,wenn ich Zeit habe
+4,6,BOSS,村のお祭りスピーチ,Q,me,私はこの村が好きです。,,S:私は=ich / V:好きです=mag / O:この村が=dieses Dorf,,
+4,6,BOSS,村のお祭りスピーチ,Q,me,もし晴れたら、私たちは公園へ行きます。,,S:私たちは=wir / V:行きます=gehen / M:公園へ=in den Park / M:もし晴れたら=[J:もし=wenn / S:=es / C:晴れ=sonnig / V:たら=ist],,wenn es sonnig ist
+4,6,BOSS,村のお祭りスピーチ,TALK,Lena,最高のスピーチだったよ！,Das war eine tolle Rede!,,,
+4,6,BOSS,村のお祭りスピーチ,DRILL,,,,"{""use"":[""4-1"",""4-2"",""4-3""]}",,

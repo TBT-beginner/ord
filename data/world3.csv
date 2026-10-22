@@ -1,0 +1,58 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+3,1,L0,週末どうだった？,INTRO,,月曜日の朝。エマが「週末どうだった？」と聞いてきた。今度は過去のお話。「どこで」「いつ」の M がたくさん出てくるよ。,,,,
+3,1,L0,週末どうだった？,GOAL,,過去形（-ed）と「場所 → 時」の順を身に付けよう,,S:私は=I / V:行きました=went / M:海に=to the beach / M~:先週の日曜日に=last Sunday,,週末にしたことを英語で話せる
+3,1,,,RULE,,過去のことは過去形。M が2つなら「場所」→「時」,,S:私は=I / V:行きました=went / M:海に=to the beach / M~:先週の日曜日に=last Sunday,,
+3,1,L0,週末どうだった？,TALK,Emma,週末どうだった？,How was your weekend?,,,
+3,1,L0,週末どうだった？,Q,me,私は先週の日曜日に海に行きました。,,S:私は=I / V:行きました=went / M:海に=to the beach||to the sea / M~:先週の日曜日に=last Sunday,,過去のことは過去形。go → went。M が2つなら「場所」→「時」の順
+3,1,L0,週末どうだった？,Q,me,私たちは車で行きました。,,S:私たちは=We / V:行きました=went / M:車で=by car,,「〜で（乗り物）」は by 〜
+3,1,L0,週末どうだった？,Q,me,天気はとてもよかったです。,,S:天気は=The weather / V:です=was / C:とてもよかった=very good||very nice||great,,過去のことなので is → was
+3,1,L0,週末どうだった？,Q,me,私たちは海で泳ぎました。,,S:私たちは=We / V:泳ぎました=swam / M:海で=in the sea||in the ocean,,swim の過去形は swam
+3,1,L0,週末どうだった？,Q,me,私はそこできれいな貝を見つけました。,,S:私は=I / V:見つけました=found / O:きれいな貝を=a beautiful shell||beautiful shells||a pretty shell / M:そこで=there,,find → found。「そこで」は there 1語で文の後ろへ
+3,1,L0,週末どうだった？,TALK,Emma,わあ、楽しそう！,"Wow, that sounds fun!",,,
+3,2,L1,海の家でランチ,INTRO,,お昼ごはんの話。動詞のカードは、今の形と過去の形から選ぶよ。,,,,
+3,2,L1,海の家でランチ,GOAL,,ate・bought のように形が変わる過去形を身に付けよう,,S:私たちは=We / V:食べました=ate / O:焼きそばを=yakisoba / M:海の家で=at a beach house,,食べたもの・買ったものを英語で言える
+3,2,,,RULE,,形が大きく変わる過去形（ate・bought など）を覚える,,S:私たちは=We / V:食べました=ate / O:焼きそばを=yakisoba / M:海の家で=at a beach house,,
+3,2,L1,海の家でランチ,TALK,Emma,何を食べたの？,What did you eat?,,,
+3,2,L1,海の家でランチ,Q,me,私たちは海の家で焼きそばを食べました。,,S:私たちは=We / V:食べました=ate{eat|eats|ate} / O:焼きそばを=yakisoba / M:海の家で=at a beach house||at the beach house,,eat の過去形は ate。O → 場所の M の順
+3,2,L1,海の家でランチ,Q,me,父はかき氷を買いました。,,S:父は=My father||My dad / V:買いました=bought{buy|buys|bought} / O:かき氷を=shaved ice||some shaved ice,,buy の過去形は bought
+3,2,L1,海の家でランチ,Q,me,妹はアイスを2つ食べました。,,S:妹は=My sister||My little sister||My younger sister / V:食べました=ate{eat|eats|ate} / O:アイスを2つ=two ice creams,,
+3,2,L1,海の家でランチ,Q,me,海の家はとても混んでいました。,,S:海の家は=The beach house / V:いました=was{is|was|were} / C:とても混んで=very crowded||so crowded,,主語が1つで過去なので was
+3,2,L1,海の家でランチ,Q,me,私たちはそこで2時間過ごしました。,,S:私たちは=We / V:過ごしました=spent{spend|spends|spent} / O:2時間=two hours / M:そこで=there,,spend の過去形は spent
+3,2,L1,海の家でランチ,TALK,Emma,焼きそば食べてみたい！,I want to try yakisoba!,,,
+3,3,L2,午後のできごと,INTRO,,午後の話をしよう。主語と動詞を見つけたら、今の形・過去の形のひっかけに注意！,,,,
+3,3,L2,午後のできごと,GOAL,,今の形と過去の形を使い分けられるようになろう,,S:兄は=My brother / V:釣りました=caught / O:大きな魚を=a big fish,,その日の出来事を英語で順番に説明できる
+3,3,,,RULE,,今の形と過去の形を見分ける,,S:兄は=My brother / V:釣りました=caught / O:大きな魚を=a big fish,,
+3,3,L2,午後のできごと,TALK,Emma,午後は何をしたの？,What did you do in the afternoon?,,,
+3,3,L2,午後のできごと,Q,me,午後、私たちはビーチバレーをしました。,,S:私たちは=We / V:しました=played / O:ビーチバレーを=beach volleyball / M~:午後、=in the afternoon,play | did,スポーツを「する」は play。過去なので played
+3,3,L2,午後のできごと,Q,me,兄は大きな魚を釣りました。,,S:兄は=My brother||My big brother||My older brother / V:釣りました=caught / O:大きな魚を=a big fish,catched | catches,catch の過去形は caught（catched ではない）
+3,3,L2,午後のできごと,Q,me,私は浜辺で古いボートを見ました。,,S:私は=I / V:見ました=saw / O:古いボートを=an old boat / M:浜辺で=on the beach,see | a old boat,old は母音で始まるので a ではなく an
+3,3,L2,午後のできごと,Q,me,夕日はとても美しかったです。,,S:夕日は=The sunset / V:です=was / C:とても美しかった=very beautiful||so beautiful,is | were,
+3,3,L2,午後のできごと,Q,me,私たちは7時に家に帰りました。,,S:私たちは=We / V:帰りました=came||went||got / M:家に=home / M~:7時に=at seven||at 7,come | to home,home の前に to はいらない
+3,3,L2,午後のできごと,TALK,Emma,最高の一日だね！,What a perfect day!,,,
+3,4,L3,日記を書こう,INTRO,,ほかの日のことも英語の日記に書いてみよう。英単語は自分で打ちこむよ。,,,,
+3,4,L3,日記を書こう,GOAL,,過去形のつづり（study → studied など）を自分で書けるようになろう,,S:私は=I / V:勉強しました=studied / M:図書館で=at the library / M~:昨日=yesterday,,英語で短い日記が書ける
+3,4,,,RULE,,過去形を自分で書く（study → studied など）,,S:私は=I / V:勉強しました=studied / M:図書館で=at the library / M~:昨日=yesterday,,
+3,4,L3,日記を書こう,TALK,Emma,英語の日記、読ませて！,Let me read your English diary!,,,
+3,4,L3,日記を書こう,Q,me,私は昨日、図書館で勉強しました。,,S:私は=I / V:勉強しました=studied / M:図書館で=at the library||in the library / M~:昨日、=yesterday,,study の過去形は studied（y → ied）
+3,4,L3,日記を書こう,Q,me,私は公園で友だちに会いました。,,S:私は=I / V:会いました=met||saw / O:友だちに=my friend||a friend||my friends / M:公園で=in the park||at the park,,「〜に会う」の「〜に」は O
+3,4,L3,日記を書こう,Q,me,私たちは公園でサッカーをしました。,,S:私たちは=We / V:しました=played / O:サッカーを=soccer / M:公園で=in the park||at the park,,
+3,4,L3,日記を書こう,Q,me,その試合はとてもよかったです。,,S:その試合は=The game||The match / V:です=was / C:とてもよかった=very good||great||very nice,,
+3,4,L3,日記を書こう,Q,me,私は夜に宿題をしました。,,S:私は=I / V:しました=did / O:宿題を=my homework||homework / M~:夜に=at night,,do の過去形は did
+3,4,L3,日記を書こう,TALK,Emma,いそがしい週末だったね！,You had a busy weekend!,,,
+3,5,L4,エマへのメール,INTRO,,先週末のことをエマにメールしよう。箱はもうないよ。今のことと過去のことが混ざるので注意！,,,,
+3,5,L4,エマへのメール,GOAL,,箱がなくても、今の形と過去の形を使い分けて書けるようになろう,,S:祖母は=My grandmother / V:住んでいます=lives / M:大阪に=in Osaka,,近況を英語のメールで伝えられる
+3,5,,,RULE,,今も続いていることは現在形、終わったことは過去形,,S:祖母は=My grandmother / V:住んでいます=lives / M:大阪に=in Osaka,,
+3,5,L4,エマへのメール,Q,me,私は土曜日に祖母を訪ねました。,,S:私は=I / V:訪ねました=visited / O:祖母を=my grandmother||my grandma / M~:土曜日に=on Saturday||last Saturday,,
+3,5,L4,エマへのメール,Q,me,祖母は大阪に住んでいます。,,S:祖母は=My grandmother||My grandma||She / V:住んでいます=lives / M:大阪に=in Osaka,,今も住んでいるので現在形。主語が1人なので lives
+3,5,L4,エマへのメール,Q,me,私たちはいっしょにテレビを見ました。,,S:私たちは=We / V:見ました=watched / O:テレビを=TV / M:いっしょに=together,,
+3,5,L4,エマへのメール,Q,me,祖母はとても親切でした。,,S:祖母は=My grandmother||My grandma||She / V:でした=was / C:とても親切=very kind,,
+3,5,L4,エマへのメール,Q,me,私は日曜日の夜に家に帰りました。,,S:私は=I / V:帰りました=came||went||got / M:家に=home / M~:日曜日の夜に=on Sunday night,,
+3,5,L4,エマへのメール,TALK,Emma,やさしいおばあちゃんだね！,Your grandma sounds kind!,,,
+3,6,BOSS,週末スピーチ,INTRO,,英語の授業で「わたしの週末」スピーチ！ヒントは文字数だけ。目標タイムをめざそう。,,,,
+3,6,BOSS,週末スピーチ,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:私は=I / V:行きました=went / M:京都に=to Kyoto / M~:先週末=last weekend,,週末の出来事を英語でスピーチできる
+3,6,BOSS,週末スピーチ,Q,me,先週の日曜日に、私は京都に行きました。,,S:私は=I / V:行きました=went / M:京都に=to Kyoto / M~:先週の日曜日に=last Sunday,,
+3,6,BOSS,週末スピーチ,Q,me,私は古いお寺を見ました。,,S:私は=I / V:見ました=saw||visited / O:古いお寺を=an old temple||old temples,,old は母音で始まるので an
+3,6,BOSS,週末スピーチ,Q,me,私たちはそこでかき氷を買いました。,,S:私たちは=We / V:買いました=bought / O:かき氷を=shaved ice||some shaved ice / M:そこで=there,,
+3,6,BOSS,週末スピーチ,Q,me,私は大きなアイスを食べました。,,S:私は=I / V:食べました=ate||had / O:大きなアイスを=a big ice cream,,
+3,6,BOSS,週末スピーチ,Q,me,京都はとても美しかったです。,,S:京都は=Kyoto / V:です=was / C:とても美しかった=very beautiful||so beautiful,,
+3,6,BOSS,週末スピーチ,TALK,Emma,京都は私のあこがれ！,Kyoto is my dream!,,,

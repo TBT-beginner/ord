@@ -1,0 +1,58 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+8,1,L0,なかまを紹介,INTRO,,友だちを紹介しよう。「大阪に住んでいる友だち」のような長い説明は、who や that を使って名詞のうしろにつけるよ。,,,,
+8,1,L0,なかまを紹介,GOAL,,人やものを who・which ＋ 文で説明できるようになろう,,S:私には=I / V:います=have / O:大阪に住んでいる友だちが=[N:友だちが=a friend / M:大阪に住んでいる=who lives in Osaka],,人や物を、文を使ってくわしく説明できる
+8,1,,,RULE,,人の説明は who、ものの説明は which / that ＋ 文 を名詞のうしろに,,S:私には=I / V:います=have / O:大阪に住んでいる友だちが=[N:友だちが=a friend / M:大阪に住んでいる=who lives in Osaka],,
+8,1,L0,なかまを紹介,TALK,Emma,ケンの友だちのこと教えて！,Tell me about your friends!,,,
+8,1,L0,なかまを紹介,Q,me,私には大阪に住んでいる友だちがいます。,,S:私には=I / V:います=have / O:大阪に住んでいる友だちが=[N:友だちが=a friend / M:大阪に住んでいる=who lives in Osaka||that lives in Osaka],,「〜がいる」でも人が主語なら have。説明する名詞が人なので who
+8,1,L0,なかまを紹介,Q,me,ピアノがじょうずな女の子はエマです。,,S:ピアノがじょうずな女の子は=[N:女の子は=The girl / M:ピアノがじょうずな=who plays the piano well||who is good at the piano] / V:です=is / C:エマ=Emma,,
+8,1,L0,なかまを紹介,Q,me,これは私が昨日買った本です。,,S:これは=This / V:です=is / C:私が昨日買った本=[N:本=the book / M:私が昨日買った=that I bought yesterday||which I bought yesterday||I bought yesterday],,もの（本）なので that / which。省略もできる
+8,1,L0,なかまを紹介,Q,me,私は英語を話せるロボットがほしいです。,,S:私は=I / V:ほしいです=want / O:英語を話せるロボットが=[N:ロボットが=a robot / M:英語を話せる=that can speak English||which can speak English],,
+8,1,L0,なかまを紹介,Q,me,彼は私を助けてくれた男の子です。,,S:彼は=He / V:です=is / C:私を助けてくれた男の子=[N:男の子=the boy / M:私を助けてくれた=who helped me||that helped me],,
+8,1,L0,なかまを紹介,TALK,Emma,すてきな友だちがたくさんいるね！,You have a lot of nice friends!,,,
+8,2,L1,城下町の人びと,INTRO,,城下町を歩いてみよう。説明する名詞が人なら who、ものなら which。カードで選ぶよ。,,,,
+8,2,L1,城下町の人びと,GOAL,,人なら who、もの・動物なら which と使い分けられるようになろう,,S:お城で働いている人は=[N:人は=The man / M:お城で働いている=who works at the castle] / V:です=is / C:私のおじ=my uncle,,町の人や店を英語で説明できる
+8,2,,,RULE,,人なら who、もの・動物なら which を選ぶ,,S:お城で働いている人は=[N:人は=The man / M:お城で働いている=who works at the castle] / V:です=is / C:私のおじ=my uncle,,
+8,2,L1,城下町の人びと,TALK,Emma,お城がきれい！,The castle is beautiful!,,,
+8,2,L1,城下町の人びと,Q,me,お城で働いている人は私のおじです。,,S:お城で働いている人は=[N:人は=The man||The person / M:お城で働いている=who works at the castle{who works at the castle|which works at the castle}||that works at the castle] / V:です=is / C:私のおじ=my uncle,,人なので who
+8,2,L1,城下町の人びと,Q,me,私はおいしいだんごを売る店を知っています。,,S:私は=I / V:知っています=know / O:おいしいだんごを売る店を=[N:店を=a shop||a store / M:おいしいだんごを売る=which sells delicious dango{which sells delicious dango|who sells delicious dango}||that sells delicious dango],,店（もの）なので which
+8,2,L1,城下町の人びと,Q,me,着物を着ている女性は先生です。,,S:着物を着ている女性は=[N:女性は=The woman||The lady / M:着物を着ている=who is wearing a kimono{who is wearing a kimono|which is wearing a kimono}||wearing a kimono] / V:です=is / C:先生=a teacher,,
+8,2,L1,城下町の人びと,Q,me,これは400年前に建てられたお城です。,,S:これは=This / V:です=is / C:400年前に建てられたお城=[N:お城=the castle||a castle / M:400年前に建てられた=which was built 400 years ago{which was built 400 years ago|who was built 400 years ago}||that was built 400 years ago||built 400 years ago],,
+8,2,L1,城下町の人びと,Q,me,私には絵が得意な友だちがいます。,,S:私には=I / V:います=have / O:絵が得意な友だちが=[N:友だちが=a friend / M:絵が得意な=who is good at drawing{who is good at drawing|which is good at drawing}||who is good at painting],,
+8,2,L1,城下町の人びと,TALK,Emma,おだんご食べたい！,I want to eat dango!,,,
+8,3,L2,歴史博物館,INTRO,,博物館で見たものを話そう。文全体の主語と動詞を見つけてから、説明の文を名詞のうしろへ。,,,,
+8,3,L2,歴史博物館,GOAL,,文全体の主語・動詞と、説明の中の主語・動詞を見分けられるようになろう,,S:ガイドをしてくれた男性は=[N:男性は=The man / M:ガイドをしてくれた=who guided us] / V:でした=was / C:とても親切=very kind,,見学したことをくわしく英語で話せる
+8,3,,,RULE,,文全体の主語・動詞と、説明の中の主語・動詞を見分ける,,S:ガイドをしてくれた男性は=[N:男性は=The man / M:ガイドをしてくれた=who guided us] / V:でした=was / C:とても親切=very kind,,
+8,3,L2,歴史博物館,TALK,Emma,博物館どうだった？,How was the museum?,,,
+8,3,L2,歴史博物館,Q,me,私は有名な画家がかいた絵を見ました。,,S:私は=I / V:見ました=saw / O:有名な画家がかいた絵を=[N:絵を=a picture||a painting / M:有名な画家がかいた=that a famous artist painted||which a famous artist painted||painted by a famous artist],who | sees,
+8,3,L2,歴史博物館,Q,me,ガイドをしてくれた男性はとても親切でした。,,S:ガイドをしてくれた男性は=[N:男性は=The man / M:ガイドをしてくれた=who guided us||that guided us] / V:でした=was / C:とても親切=very kind,which | is,
+8,3,L2,歴史博物館,Q,me,私たちは古い刀がある部屋に入りました。,,S:私たちは=We / V:入りました=entered||went into / O:古い刀がある部屋に=[N:部屋に=the room||a room / M:古い刀がある=which has old swords||that has old swords],who | enter,
+8,3,L2,歴史博物館,Q,me,私は100年前に書かれた手紙を読みました。,,S:私は=I / V:読みました=read / O:100年前に書かれた手紙を=[N:手紙を=a letter / M:100年前に書かれた=which was written 100 years ago||that was written 100 years ago||written 100 years ago],who | wrote,
+8,3,L2,歴史博物館,Q,me,私に話しかけてきた女の子はアメリカ出身でした。,,S:私に話しかけてきた女の子は=[N:女の子は=The girl / M:私に話しかけてきた=who talked to me||who spoke to me||that talked to me] / V:でした=was / M:アメリカ出身=from America||from the US,which | is,
+8,3,L2,歴史博物館,TALK,Emma,楽しそう！私も行きたい！,Sounds fun! I want to go too!,,,
+8,4,L3,友だちの紹介文,INTRO,,英語の授業で「わたしの親友」紹介文を書こう。説明の文は自分で打ちこむよ。,,,,
+8,4,L3,友だちの紹介文,GOAL,,who・that の説明を自分で書けるようになろう,,S:彼女は=She / V:です=is / C:私を笑わせてくれる友だち=[N:友だち=a friend / M:私を笑わせてくれる=who makes me laugh],,友だちの良さを英語で紹介できる
+8,4,,,RULE,,who / that の文を自分で書く。省略できる that もある,,S:彼女は=She / V:です=is / C:私を笑わせてくれる友だち=[N:友だち=a friend / M:私を笑わせてくれる=who makes me laugh],,
+8,4,L3,友だちの紹介文,TALK,Emma,親友ってどんな人？,What is your best friend like?,,,
+8,4,L3,友だちの紹介文,Q,me,私には歌がうまい友だちがいます。,,S:私には=I / V:います=have / O:歌がうまい友だちが=[N:友だちが=a friend / M:歌がうまい=who sings well||who is good at singing||that sings well],,
+8,4,L3,友だちの紹介文,Q,me,彼女が作るケーキはとてもおいしいです。,,S:彼女が作るケーキは=[N:ケーキは=The cake / M:彼女が作る=she makes||that she makes||which she makes] / V:です=is / C:とてもおいしい=very good||very delicious||so good,,「彼女が作る」のように説明の中に主語があるときは that を省略できる
+8,4,L3,友だちの紹介文,Q,me,私は彼女がくれた本が大好きです。,,S:私は=I / V:大好きです=love / O:彼女がくれた本が=[N:本が=the book / M:彼女がくれた=she gave me||that she gave me||which she gave me],,
+8,4,L3,友だちの紹介文,Q,me,彼女は私を笑わせてくれる友だちです。,,S:彼女は=She / V:です=is / C:私を笑わせてくれる友だち=[N:友だち=a friend / M:私を笑わせてくれる=who makes me laugh||that makes me laugh],,
+8,4,L3,友だちの紹介文,Q,me,彼女は私がいちばん信頼している人です。,,S:彼女は=She / V:です=is / C:私がいちばん信頼している人=[N:人=the person / M:私がいちばん信頼している=I trust the most||who I trust the most||that I trust the most],,
+8,4,L3,友だちの紹介文,TALK,Emma,すてきな親友だね！,She sounds like a great friend!,,,
+8,5,L4,なかまへの手紙,INTRO,,転校した友だちに手紙を書こう。箱なしで、説明つきの文をまるごと打ちこむよ。,,,,
+8,5,L4,なかまへの手紙,GOAL,,箱がなくても、名詞 ＋ 説明の文を組み立てられるようになろう,,S:私は=I / V:使っています=use / O:あなたがくれたペンを=[N:ペンを=the pen / M:あなたがくれた=you gave me] / M~:毎日=every day,,友だちに近況を英語の手紙で伝えられる
+8,5,,,RULE,,箱がなくても、名詞＋説明の文を組み立てる,,S:私は=I / V:使っています=use / O:あなたがくれたペンを=[N:ペンを=the pen / M:あなたがくれた=you gave me] / M~:毎日=every day,,
+8,5,L4,なかまへの手紙,Q,me,私はあなたが好きな映画を見ました。,,S:私は=I / V:見ました=watched||saw / O:あなたが好きな映画を=[N:映画を=the movie||the film / M:あなたが好きな=you like||that you like||which you like],,
+8,5,L4,なかまへの手紙,Q,me,私は毎日あなたがくれたペンを使っています。,,S:私は=I / V:使っています=use / O:あなたがくれたペンを=[N:ペンを=the pen / M:あなたがくれた=you gave me||that you gave me||which you gave me] / M~:毎日=every day,,
+8,5,L4,なかまへの手紙,Q,me,私にはテニスが得意な兄がいます。,,S:私には=I / V:います=have / O:テニスが得意な兄が=[N:兄が=a brother||an older brother||a big brother / M:テニスが得意な=who is good at tennis||who plays tennis well],,
+8,5,L4,なかまへの手紙,Q,me,私が住んでいる町は小さいです。,,S:私が住んでいる町は=[N:町は=The town / M:私が住んでいる=I live in||that I live in||which I live in] / V:です=is / C:小さい=small,,live in の in を忘れずに
+8,5,L4,なかまへの手紙,Q,me,これは私が毎朝聞く歌です。,,S:これは=This / V:です=is / C:私が毎朝聞く歌=[N:歌=the song / M:私が毎朝聞く=I listen to every morning||that I listen to every morning||which I listen to every morning],,
+8,5,L4,なかまへの手紙,TALK,Emma,お手紙、きっと喜ぶよ！,Your friend will love the letter!,,,
+8,6,BOSS,お城の案内人,INTRO,,お城の案内人になって、英語で説明しよう！ヒントは文字数だけ。,,,,
+8,6,BOSS,お城の案内人,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:これは=This / V:です=is / C:200年前に建てられた門=[N:門=the gate / M:200年前に建てられた=which was built 200 years ago],,観光案内を英語でできる
+8,6,BOSS,お城の案内人,Q,me,私たちが乗った船はとても古かったです。,,S:私たちが乗った船は=[N:船は=The boat / M:私たちが乗った=we rode||we took||that we rode||which we rode] / V:です=was / C:とても古かった=very old,,
+8,6,BOSS,お城の案内人,Q,me,これは100年前に書かれた手紙です。,,S:これは=This / V:です=is / C:100年前に書かれた手紙=[N:手紙=the letter||a letter / M:100年前に書かれた=which was written 100 years ago||that was written 100 years ago||written 100 years ago],,
+8,6,BOSS,お城の案内人,Q,me,庭を歩いている人たちは観光客です。,,S:庭を歩いている人たちは=[N:人たちは=The people / M:庭を歩いている=who are walking in the garden||walking in the garden] / V:です=are / C:観光客=tourists,,
+8,6,BOSS,お城の案内人,Q,me,私は城で働いている人に会いました。,,S:私は=I / V:会いました=met / O:城で働いている人に=[N:人に=a person||a man / M:城で働いている=who works at the castle||that works at the castle],,
+8,6,BOSS,お城の案内人,Q,me,私は彼女が作ったケーキを食べました。,,S:私は=I / V:食べました=ate||had / O:彼女が作ったケーキを=[N:ケーキを=the cake / M:彼女が作った=she made||that she made||which she made],,
+8,6,BOSS,お城の案内人,TALK,Emma,最高のガイドだったよ！,You were a great guide!,,,

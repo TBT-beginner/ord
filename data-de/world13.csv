@@ -1,0 +1,63 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+13,1,,私はベルリンへ行きました。,RULE,,移動の「〜した」は sein ＋ 過去分詞,Ich bin nach Berlin gefahren.,S:私は=ich / V:=bin / M:ベルリンへ=nach Berlin / V:行きました=gefahren,Ich habe nach Berlin gefahren.,gehen・fahren・kommen・fliegen・aufstehen などは haben ではなく sein。
+13,1,,,TABLE,,〜した（完了形）,,辞書の形|〜した|いっしょに使う;fahren（行く）|[gefahren]|sein;kommen（来る）|[gekommen]|sein;aufstehen（起きる）|[aufgestanden]|sein;machen（する）|[gemacht]|haben;sehen（見る）|gesehen|haben,,
+13,2,,,RULE,,war・hatte（だった・持っていた）,,S:私は=ich / V:いました=war / C:とても疲れて=sehr müde,,sein・haben は、話すときも過去形 war・hatte をよく使う。
+13,3,,ドイツ語はスイスで話されています。,RULE,,「〜される」は wird ＋ 過去分詞,Deutsch wird in der Schweiz gesprochen.,S:ドイツ語は=Deutsch / V:=wird / M:スイスで=in der Schweiz / V:話されています=gesprochen,Deutsch wird gesprochen in der Schweiz.,wird は2番目、過去分詞は最後。
+13,4,,,RULE,,「〜された」は wurde ＋ 過去分詞,,S:このお城は=das Schloss / V:=wurde / M:1600年に=1600 / V:建てられました=gebaut,,Das Schloss wurde 1600 gebaut.
+13,1,L0,行った・来た,INTRO,,とけい台の丘で、レナと旅の思い出を話そう。,,,,
+13,1,L0,行った・来た,GOAL,,移動の「〜した」を sein ＋ 過去分詞で言えるようになろう,,S:私は=ich / V:=bin / M:ベルリンへ=nach Berlin / V:行きました=gefahren,,行った・来たをドイツ語で言える
+13,1,L0,行った・来た,TALK,Lena,この旅で、どこに行った？,Wohin bist du gefahren?,,,
+13,1,L0,行った・来た,Q,me,私はベルリンへ行きました。,,S:私は=ich / V:=bin / M:ベルリンへ=nach Berlin / V:行きました=gefahren,,移動（行く・来る）の「〜した」は haben ではなく sein
+13,1,L0,行った・来た,Q,me,レナは日本に来ました。,,S:レナは=Lena / V:=ist / M:日本に=nach Japan / V:来ました=gekommen,,kommen → gekommen
+13,1,L0,行った・来た,Q,me,私たちは駅まで歩きました。,,S:私たちは=wir / V:=sind / M:駅まで=zum Bahnhof / V:歩きました=gelaufen||gegangen,,wir のとき sind
+13,1,L0,行った・来た,Q,me,私は6時に起きました。,,S:私は=ich / V:=bin / M:6時に=um sechs Uhr / V:起きました=aufgestanden,,aufstehen → aufgestanden（ge が中に入る）
+13,1,L0,行った・来た,Q,me,電車は時間どおりに出発しました。,,S:電車は=der Zug / V:=ist / M:時間どおりに=pünktlich / V:出発しました=abgefahren,,abfahren → abgefahren
+13,1,L0,行った・来た,TALK,Lena,たくさん旅したね！,Du bist viel gereist!,,,
+13,1,L0,行った・来た,DRILL,,,,"{""ja"":[""M2、"",""S"",""M"",""V2""],""en"":[""S"",""V"",""M2~"",""M"",""V2""],""opt"":[""M2""],""note"":""移動の「〜した」は sein ＋ 過去分詞"",""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""彼女は"",""sie"",""3s""],[""私の母は"",""meine Mutter"",""3s""],[""私の兄は"",""mein Bruder"",""3s""],[""私たちは"",""wir"",""1p""],[""私の両親は"",""meine Eltern"",""3p""]],""V"":[{""ja"":"""",""f"":{""1s"":""bin"",""2s"":""bist"",""3s"":""ist"",""1p"":""sind"",""3p"":""sind""}}],""V2"":[{""ja"":""行きました"",""en"":""gefahren"",""o"":""go""},{""ja"":""来ました"",""en"":""gekommen"",""o"":""come""},{""ja"":""起きました"",""en"":""aufgestanden"",""o"":""up""},{""ja"":""飛行機で行きました"",""en"":""geflogen"",""o"":""go""}],""M"":{""go"":[[""ベルリンへ"",""nach Berlin""],[""ミュンヘンへ"",""nach München""],[""海へ"",""ans Meer""]],""come"":[[""日本に"",""nach Japan""],[""ここに"",""hierher""]],""up"":[[""6時に"",""um sechs Uhr""],[""早く"",""früh""]]},""M2"":[[""昨日"",""gestern""],[""先週"",""letzte Woche""]]}}",,
+13,2,L1,だった・持っていた,INTRO,,旅のあいだの気持ちや出来事をふりかえろう。,,,,
+13,2,L1,だった・持っていた,GOAL,,「〜だった」「〜があった」を war・hatte で言えるようになろう,,S:私は=ich / V:いました=war / C:とても疲れて=sehr müde,,「〜だった」「〜があった」をドイツ語で言える
+13,2,L1,だった・持っていた,TALK,Lena,旅はどうだった？,Wie war die Reise?,,,
+13,2,L1,だった・持っていた,Q,me,私はとても疲れていました。,,S:私は=ich / V:いました=war{bin|war} / C:とても疲れて=sehr müde,,sein の過去：ich war
+13,2,L1,だった・持っていた,Q,me,昨日、天気は悪かったです。,,S:天気は=das Wetter / V:かったです=war{ist|war} / M~:昨日=gestern / C:悪=schlecht,,Gestern war das Wetter schlecht. も正解
+13,2,L1,だった・持っていた,Q,me,私は時間がありませんでした。,,S:私は=ich / V:ありませんでした=hatte{habe|hatte} / O:時間が=keine Zeit,,haben の過去：ich hatte
+13,2,L1,だった・持っていた,Q,me,子どものころ、私は犬を飼っていました。,,S:私は=ich / V:飼っていました=hatte{habe|hatte} / M~:子どものころ=als Kind / O:犬を=einen Hund,,Als Kind hatte ich einen Hund. も正解
+13,2,L1,だった・持っていた,Q,me,レナはとても幸せでした。,,S:レナは=Lena / V:でした=war{ist|war} / C:とても幸せ=sehr glücklich,,sie のときも war
+13,2,L1,だった・持っていた,TALK,Lena,いい思い出だね。,Schöne Erinnerungen.,,,
+13,2,L1,だった・持っていた,DRILL,,,,"{""ja"":[""M、"",""S"",""C"",""O"",""V""],""en"":[""S"",""V"",""M~"",""C"",""O""],""opt"":[""M""],""note"":""sein の過去は war、haben の過去は hatte"",""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""彼女は"",""sie"",""3s""],[""私の母は"",""meine Mutter"",""3s""],[""私の兄は"",""mein Bruder"",""3s""],[""私たちは"",""wir"",""1p""],[""私の両親は"",""meine Eltern"",""3p""]],""V"":[{""ja"":""いました"",""f"":{""1s"":""war"",""2s"":""warst"",""3s"":""war"",""1p"":""waren"",""3p"":""waren""},""o"":""te""},{""ja"":""でした"",""f"":{""1s"":""war"",""2s"":""warst"",""3s"":""war"",""1p"":""waren"",""3p"":""waren""},""o"":""desu""},{""ja"":""ありませんでした"",""f"":{""1s"":""hatte"",""2s"":""hattest"",""3s"":""hatte"",""1p"":""hatten"",""3p"":""hatten""},""o"":""nohave""},{""ja"":""飼っていました"",""f"":{""1s"":""hatte"",""2s"":""hattest"",""3s"":""hatte"",""1p"":""hatten"",""3p"":""hatten""},""o"":""pet""}],""C"":{""te"":[[""とても疲れて"",""sehr müde""],[""とても緊張して"",""sehr nervös""]],""desu"":[[""とても幸せ"",""sehr glücklich""],[""病気"",""krank""]]},""O"":{""nohave"":[[""時間が"",""keine Zeit""],[""お金が"",""kein Geld""]],""pet"":[[""犬を"",""einen Hund""],[""ネコを"",""eine Katze""]]},""M"":{""pet"":[[""子どものころ"",""als Kind""]],""te"":[[""昨日"",""gestern""]],""desu"":[[""昨日"",""gestern""]],""nohave"":[[""昨日"",""gestern""]]}}}",,
+13,3,L2,〜されている,INTRO,,とけい台の町のことを説明しよう。,,,,
+13,3,L2,〜されている,GOAL,,「〜される」を wird ＋ 過去分詞で言えるようになろう,,S:ドイツ語は=Deutsch / V:=wird / M:スイスで=in der Schweiz / V:話されています=gesprochen,,受け身をドイツ語で言える
+13,3,L2,〜されている,TALK,Lena,この町のこと、知ってる？,Kennst du diese Stadt?,,,
+13,3,L2,〜されている,Q,me,ドイツ語はスイスで話されています。,,S:ドイツ語は=Deutsch / V:=wird / M:スイスで=in der Schweiz / V:話されています=gesprochen,ist|spricht|sprechen,wird … gesprochen（最後）
+13,3,L2,〜されている,Q,me,この歌は多くの人に歌われています。,,S:この歌は=dieses Lied / V:=wird / M:多くの人に=von vielen Menschen / V:歌われています=gesungen,singt|werden|gesingt,von ＋ 3格（〜によって）
+13,3,L2,〜されている,Q,me,パンは毎朝焼かれます。,,S:パンは=das Brot / V:=wird / M:毎朝=jeden Morgen / V:焼かれます=gebacken,backt|ist|gebackt,backen → gebacken
+13,3,L2,〜されている,Q,me,その店は9時に開けられます。,,S:その店は=der Laden / V:=wird / M:9時に=um neun Uhr / V:開けられます=geöffnet,öffnet|werden|geöffnen,öffnen → geöffnet
+13,3,L2,〜されている,Q,me,この部屋は毎日そうじされます。,,S:この部屋は=dieses Zimmer / V:=wird / M:毎日=jeden Tag / V:そうじされます=geputzt,putzt|ist|werden,putzen → geputzt
+13,3,L2,〜されている,TALK,Lena,物知りだね！,Du weißt viel!,,,
+13,3,L2,〜されている,DRILL,,,,"{""ja"":[""S"",""M"",""V2""],""en"":[""S"",""V"",""M~"",""V2""],""note"":""「〜される」は wird、「〜された」は wurde ＋ 過去分詞（最後）"",""slots"":{""S"":[{""ja"":""この部屋は"",""en"":""dieses Zimmer"",""o"":""clean""},{""ja"":""パンは"",""en"":""das Brot"",""o"":""bake""},{""ja"":""その店は"",""en"":""der Laden"",""o"":""open""},{""ja"":""車は"",""en"":""das Auto"",""o"":""wash""}],""M"":[{""ja"":""毎日"",""en"":""jeden Tag"",""g"":""now""},{""ja"":""毎朝"",""en"":""jeden Morgen"",""g"":""now""},{""ja"":""昨日"",""en"":""gestern"",""g"":""past""}],""V"":[{""ja"":"""",""f"":{""past"":""wurde"",""_"":""wird""}}],""V2"":{""clean"":[{""ja"":{""past"":""そうじされました"",""_"":""そうじされます""},""en"":""geputzt""}],""bake"":[{""ja"":{""past"":""焼かれました"",""_"":""焼かれます""},""en"":""gebacken""}],""open"":[{""ja"":{""past"":""開けられました"",""_"":""開けられます""},""en"":""geöffnet""}],""wash"":[{""ja"":{""past"":""洗われました"",""_"":""洗われます""},""en"":""gewaschen""}]}}}",,
+13,4,L3,〜された,INTRO,,とけい台やお城の歴史を調べよう。,,,,
+13,4,L3,〜された,GOAL,,「〜された」を wurde ＋ 過去分詞で言えるようになろう,,S:このお城は=das Schloss / V:=wurde / M:1600年に=1600 / V:建てられました=gebaut,,歴史をドイツ語で説明できる
+13,4,L3,〜された,Q,me,このお城は1600年に建てられました。,,S:このお城は=das Schloss||dieses Schloss / V:=wurde / M:1600年に=1600||im Jahr 1600 / V:建てられました=gebaut,,年は数字だけでOK（im Jahr 1600 も正解）
+13,4,L3,〜された,Q,me,この時計はスイスで作られました。,,S:この時計は=diese Uhr / V:=wurde / M:スイスで=in der Schweiz / V:作られました=gemacht||hergestellt,,wurde … gemacht
+13,4,L3,〜された,Q,me,この歌は多くの人に歌われました。,,S:この歌は=dieses Lied / V:=wurde / M:多くの人に=von vielen Menschen / V:歌われました=gesungen,,wurde … gesungen
+13,4,L3,〜された,Q,me,この本は英語で書かれました。,,S:この本は=dieses Buch / V:=wurde / M:英語で=auf Englisch / V:書かれました=geschrieben,,schreiben → geschrieben
+13,4,L3,〜された,Q,me,その窓はケンによって割られました。,,S:その窓は=das Fenster / V:=wurde / M:ケンによって=von Ken / V:割られました=zerbrochen||kaputt gemacht,,von ＋ 人（〜によって）
+13,4,L3,〜された,TALK,Lena,歴史博士だ！,Ein echter Geschichtsexperte!,,,
+13,4,L3,〜された,DRILL,,,,"{""ja"":[""S"",""M"",""V2""],""en"":[""S"",""V"",""M"",""V2""],""note"":""「〜された」は wurde ＋ 過去分詞"",""slots"":{""S"":[{""ja"":""このお城は"",""en"":""dieses Schloss"",""o"":""build""},{""ja"":""この橋は"",""en"":""diese Brücke"",""o"":""build""},{""ja"":""この絵は"",""en"":""dieses Bild"",""o"":""paint""},{""ja"":""この手紙は"",""en"":""dieser Brief"",""o"":""write""},{""ja"":""この本は"",""en"":""dieses Buch"",""o"":""write""}],""V"":[["""",""wurde""]],""V2"":{""build"":[[""建てられました"",""gebaut""]],""paint"":[[""かかれました"",""gemalt""]],""write"":[[""書かれました"",""geschrieben""]]},""M"":{""build"":[[""1600年に"",""1600""],[""100年前に"",""vor 100 Jahren""]],""paint"":[[""有名な画家によって"",""von einem berühmten Maler""]],""write"":[[""英語で"",""auf Englisch""],[""祖父によって"",""von meinem Opa""]]}}}",,
+13,5,L4,思い出アルバム,INTRO,,旅の写真にドイツ語でコメントをつけよう。,,,,
+13,5,L4,思い出アルバム,GOAL,,箱がなくても、過去と受け身の文を組み立てられるようになろう,,S:私たちは=wir / V:=sind / M:去年=letztes Jahr / M:ドイツへ=nach Deutschland / V:行きました=gefahren,,思い出をドイツ語で書ける
+13,5,L4,思い出アルバム,Q,me,私たちは去年ドイツへ行きました。,,S:私たちは=wir / V:=sind / M~:去年=letztes Jahr / M:ドイツへ=nach Deutschland / V:行きました=gefahren||geflogen,,飛行機なら geflogen
+13,5,L4,思い出アルバム,Q,me,お城はとても美しかったです。,,S:お城は=das Schloss / V:かったです=war / C:とても美し=sehr schön,,war（だった）
+13,5,L4,思い出アルバム,Q,me,このお城は1890年に建てられました。,,S:このお城は=das Schloss||dieses Schloss / V:=wurde / M:1890年に=1890||im Jahr 1890 / V:建てられました=gebaut,,wurde … gebaut
+13,5,L4,思い出アルバム,Q,me,私たちはたくさん写真をとりました。,,S:私たちは=wir / V:=haben / O:たくさん写真を=viele Fotos / V:とりました=gemacht,,移動でないので haben
+13,5,L4,思い出アルバム,Q,me,ドイツ語はオーストリアでも話されています。,,S:ドイツ語は=Deutsch / V:=wird / M:オーストリアでも=auch in Österreich / V:話されています=gesprochen,,auch（〜も）
+13,5,L4,思い出アルバム,TALK,Lena,すてきなアルバム！,Ein schönes Album!,,,
+13,5,L4,思い出アルバム,DRILL,,,,"{""use"":[""13-1"",""13-2"",""13-3"",""13-4""]}",,
+13,6,BOSS,最後のスピーチ,INTRO,,とけい台の丘で、旅の最後のスピーチ！,,,,
+13,6,BOSS,最後のスピーチ,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:私は=ich / V:=bin / M:1年前に=vor einem Jahr / M:ドイツへ=nach Deutschland / V:来ました=gekommen,,旅の思い出をドイツ語で話せる
+13,6,BOSS,最後のスピーチ,Q,me,私は1年前にドイツへ来ました。,,S:私は=ich / V:=bin / M:1年前に=vor einem Jahr / M:ドイツへ=nach Deutschland / V:来ました=gekommen,,bin … gekommen
+13,6,BOSS,最後のスピーチ,Q,me,ドイツ語はとても難しかったです。,,S:ドイツ語は=Deutsch / V:かったです=war / C:とても難し=sehr schwer,,war（だった）
+13,6,BOSS,最後のスピーチ,Q,me,私はたくさんの人に助けられました。,,S:私は=ich / V:=wurde / M:たくさんの人に=von vielen Menschen / V:助けられました=unterstützt,,wurde … unterstützt
+13,6,BOSS,最後のスピーチ,Q,me,私たちはたくさん写真をとりました。,,S:私たちは=wir / V:=haben / O:たくさん写真を=viele Fotos / V:とりました=gemacht,,Fotos machen（写真をとる）
+13,6,BOSS,最後のスピーチ,Q,me,私はいつかドイツに来るでしょう。,,S:私は=ich / V:でしょう=werde / M:いつか=eines Tages / M:ドイツに=nach Deutschland / V:来る=kommen,,werde … kommen（最後）
+13,6,BOSS,最後のスピーチ,TALK,Lena,またいつでも来てね！,Komm bald wieder!,,,
+13,6,BOSS,最後のスピーチ,DRILL,,,,"{""use"":[""13-1"",""13-2"",""13-3"",""13-4""]}",,

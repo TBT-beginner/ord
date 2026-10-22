@@ -1,0 +1,58 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+5,1,L0,誕生日プレゼント,INTRO,,ケンの誕生日！もらったプレゼントをエマに話そう。「人に」「ものを」の2つの O が出てくるよ。,,,,
+5,1,L0,誕生日プレゼント,GOAL,,「人に」→「ものを」の順（O が2つ）を身に付けよう,,S:父は=My father / V:くれました=gave / O:私に=me / O:時計を=a watch,,だれが何をくれたか英語で言える
+5,1,,,RULE,,「人に」「ものを」の O が2つ。順番は 人 → もの,,S:父は=My father / V:くれました=gave / O:私に=me / O:時計を=a watch,,
+5,1,L0,誕生日プレゼント,TALK,Emma,お誕生日おめでとう！何をもらったの？,Happy birthday! What did you get?,,,
+5,1,L0,誕生日プレゼント,Q,me,父は私に時計をくれました。,,S:父は=My father||My dad / V:くれました=gave / O:私に=me / O:時計を=a watch,,give → gave。O が2つのときは「人に」→「ものを」
+5,1,L0,誕生日プレゼント,Q,me,母は私にケーキを作ってくれました。,,S:母は=My mother||My mom / V:作ってくれました=made / O:私に=me / O:ケーキを=a cake,,
+5,1,L0,誕生日プレゼント,Q,me,姉は私に本を買ってくれました。,,S:姉は=My sister||My big sister||My older sister / V:買ってくれました=bought / O:私に=me / O:本を=a book,,
+5,1,L0,誕生日プレゼント,Q,me,私はエマにカードを送りました。,,S:私は=I / V:送りました=sent / O:エマに=Emma / O:カードを=a card,,send → sent
+5,1,L0,誕生日プレゼント,Q,me,祖父は私にお金をくれました。,,S:祖父は=My grandfather||My grandpa / V:くれました=gave / O:私に=me / O:お金を=some money||money,,
+5,1,L0,誕生日プレゼント,TALK,Emma,いいなあ、すてきな誕生日だね！,What a wonderful birthday!,,,
+5,2,L1,お返しをしよう,INTRO,,今度はケンがお返しをする番。「彼女に」「私たちに」などの形をカードで選ぼう。,,,,
+5,2,L1,お返しをしよう,GOAL,,「〜に」の me・us・him・her・them を使えるようになろう,,S:私は=I / V:あげました=gave / O:彼女に=her / O:プレゼントを=a present,,だれに何をあげたか英語で言える
+5,2,,,RULE,,「〜に」にあたる人は me / us / him / her / them の形,,S:私は=I / V:あげました=gave / O:彼女に=her / O:プレゼントを=a present,,
+5,2,L1,お返しをしよう,TALK,Emma,お返しは何にするの？,What will you give back?,,,
+5,2,L1,お返しをしよう,Q,me,私は彼女にプレゼントをあげました。,,S:私は=I / V:あげました=gave / O:彼女に=her{she|her|hers} / O:プレゼントを=a present||a gift,,「彼女に」は her
+5,2,L1,お返しをしよう,Q,me,私は彼に手紙を書きました。,,S:私は=I / V:書きました=wrote / O:彼に=him{he|his|him} / O:手紙を=a letter,,「彼に」は him。write → wrote
+5,2,L1,お返しをしよう,Q,me,先生は私たちに宿題を出しました。,,S:先生は=Our teacher||The teacher / V:出しました=gave / O:私たちに=us{we|our|us} / O:宿題を=homework||some homework,,「私たちに」は us
+5,2,L1,お返しをしよう,Q,me,私は弟に英語を教えます。,,S:私は=I / V:教えます=teach / O:弟に=my brother||my little brother||my younger brother / O:英語を=English,,
+5,2,L1,お返しをしよう,Q,me,エマは私たちに写真を見せてくれました。,,S:エマは=Emma / V:見せてくれました=showed / O:私たちに=us{we|our|us} / O:写真を=some pictures||her pictures||pictures||some photos,,
+5,2,L1,お返しをしよう,TALK,Emma,みんなよろこぶね！,Everyone will be happy!,,,
+5,3,L2,あだ名と気持ち,INTRO,,「O を C と呼ぶ」「O を C にする」の文だよ。O と C はイコールの関係！,,,,
+5,3,L2,あだ名と気持ち,GOAL,,O のすぐうしろに C を置く文（O ＝ C）を身に付けよう,,S:みんなは=Everyone / V:呼びます=calls / O:私を=me / C:ケンちゃんと=Ken-chan,,呼び名や気持ちの変化を英語で言える
+5,3,,,RULE,,O のすぐ後ろに C。O＝C の関係になる,,S:みんなは=Everyone / V:呼びます=calls / O:私を=me / C:ケンちゃんと=Ken-chan,,
+5,3,L2,あだ名と気持ち,TALK,Emma,クラスで何て呼ばれてるの？,What do your classmates call you?,,,
+5,3,L2,あだ名と気持ち,Q,me,みんなは私をケンちゃんと呼びます。,,S:みんなは=Everyone / V:呼びます=calls / O:私を=me / C:ケンちゃんと=Ken-chan,call | I,私（me）＝ケンちゃん（C）。Everyone は1人扱いなので calls
+5,3,L2,あだ名と気持ち,Q,me,私たちはその犬をポチと名づけました。,,S:私たちは=We / V:名づけました=named / O:その犬を=the dog||that dog / C:ポチと=Pochi,name | Pochi's,
+5,3,L2,あだ名と気持ち,Q,me,そのニュースは私を悲しくさせました。,,S:そのニュースは=The news||That news / V:させました=made / O:私を=me / C:悲しく=sad,makes | sadly,「〜を…にする・させる」は make O C。C は sad（sadly ではない）
+5,3,L2,あだ名と気持ち,Q,me,その歌は私を幸せにします。,,S:その歌は=The song||That song / V:します=makes / O:私を=me / C:幸せに=happy,make | happily,
+5,3,L2,あだ名と気持ち,Q,me,私は部屋をきれいにしておきます。,,S:私は=I / V:しておきます=keep / O:部屋を=my room / C:きれいに=clean,keeps | cleanly,「O を C にしておく」は keep O C
+5,3,L2,あだ名と気持ち,TALK,Emma,私もケンちゃんって呼ぼうかな！,Maybe I'll call you Ken-chan too!,,,
+5,4,L3,プレゼント選び,INTRO,,母の日のプレゼントを選ぶよ。O が2つの文と、O＋C の文を自分で打ちこもう。,,,,
+5,4,L3,プレゼント選び,GOAL,,O が2つの文と O ＋ C の文を書き分けられるようになろう,,S:その花は=The flowers / V:しました=made / O:母を=my mother / C:とても幸せに=very happy,,プレゼントを選んだ理由を英語で書ける
+5,4,,,RULE,,O が2つの文と O＋C の文を書き分ける,,S:その花は=The flowers / V:しました=made / O:母を=my mother / C:とても幸せに=very happy,,
+5,4,L3,プレゼント選び,TALK,Emma,何を買うの？,What are you going to buy?,,,
+5,4,L3,プレゼント選び,Q,me,私は母に本を買いました。,,S:私は=I / V:買いました=bought / O:母に=my mother||my mom / O:本を=a book,,「人に」→「ものを」の順
+5,4,L3,プレゼント選び,Q,me,兄は私に自転車を貸してくれました。,,S:兄は=My brother||My big brother||My older brother / V:貸してくれました=lent / O:私に=me / O:自転車を=his bike||his bicycle,,lend → lent
+5,4,L3,プレゼント選び,Q,me,私はエマにメールを送りました。,,S:私は=I / V:送りました=sent / O:エマに=Emma / O:メールを=an email||an e-mail,,
+5,4,L3,プレゼント選び,Q,me,母の笑顔は私をうれしくさせます。,,S:母の笑顔は=My mother's smile||My mom's smile / V:させます=makes / O:私を=me / C:うれしく=happy,,
+5,4,L3,プレゼント選び,Q,me,その本は母をとても幸せにしました。,,S:その本は=The book / V:しました=made / O:母を=my mother||my mom / C:とても幸せに=very happy,,
+5,4,L3,プレゼント選び,TALK,Emma,お母さん、きっと喜ぶよ！,Your mom will love it!,,,
+5,5,L4,お礼のメッセージ,INTRO,,カメラをくれたおじさんに、お礼のメッセージを書こう。箱なしで英文を打ちこむよ。,,,,
+5,5,L4,お礼のメッセージ,GOAL,,箱がなくても、O が2つの文・O ＋ C の文を組み立てられるようになろう,,S:おじは=My uncle / V:くれました=gave / O:私に=me / O:カメラを=a camera,,お礼のメッセージを英語で書ける
+5,5,,,RULE,,箱がなくても SVOO・SVOC を組み立てる,,S:おじは=My uncle / V:くれました=gave / O:私に=me / O:カメラを=a camera,,
+5,5,L4,お礼のメッセージ,Q,me,私はおじに手紙を書きました。,,S:私は=I / V:書きました=wrote / O:おじに=my uncle / O:手紙を=a letter,,
+5,5,L4,お礼のメッセージ,Q,me,おじは私にカメラをくれました。,,S:おじは=My uncle||He / V:くれました=gave / O:私に=me / O:カメラを=a camera,,
+5,5,L4,お礼のメッセージ,Q,me,そのカメラは私をわくわくさせます。,,S:そのカメラは=The camera||It / V:させます=makes / O:私を=me / C:わくわく=excited,,「わくわくした気持ち」は excited
+5,5,L4,お礼のメッセージ,Q,me,私は彼に写真を送ります。,,S:私は=I / V:送ります=send||will send / O:彼に=him / O:写真を=pictures||some pictures||photos||some photos,,
+5,5,L4,お礼のメッセージ,Q,me,その写真は私を幸せにします。,,S:その写真は=The picture||The photo||It / V:します=makes / O:私を=me / C:幸せに=happy,,
+5,5,L4,お礼のメッセージ,TALK,Emma,おじさん、喜ぶだろうね！,Your uncle will be glad!,,,
+5,6,BOSS,ありがとうスピーチ,INTRO,,誕生日パーティーのお礼スピーチ！ヒントは文字数だけ。目標タイムをめざそう。,,,,
+5,6,BOSS,ありがとうスピーチ,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:そのパーティーは=The party / V:しました=made / O:私を=me / C:とても幸せに=very happy,,感謝の気持ちを英語でスピーチできる
+5,6,BOSS,ありがとうスピーチ,Q,me,友だちは私にプレゼントをくれました。,,S:友だちは=My friends / V:くれました=gave / O:私に=me / O:プレゼントを=a present||a gift||presents,,
+5,6,BOSS,ありがとうスピーチ,Q,me,彼らは私にカードを書いてくれました。,,S:彼らは=They / V:書いてくれました=wrote / O:私に=me / O:カードを=a card||cards,,
+5,6,BOSS,ありがとうスピーチ,Q,me,そのパーティーは私をとても幸せにしました。,,S:そのパーティーは=The party / V:しました=made / O:私を=me / C:とても幸せに=very happy,,
+5,6,BOSS,ありがとうスピーチ,Q,me,みんなは私をケンちゃんと呼びました。,,S:みんなは=Everyone / V:呼びました=called / O:私を=me / C:ケンちゃんと=Ken-chan,,
+5,6,BOSS,ありがとうスピーチ,Q,me,私は彼らに写真を送りました。,,S:私は=I / V:送りました=sent / O:彼らに=them / O:写真を=pictures||some pictures||photos||some photos,,「彼らに」は them
+5,6,BOSS,ありがとうスピーチ,TALK,Emma,心のこもったスピーチだったよ！,That was a heartfelt speech!,,,

@@ -1,0 +1,136 @@
+# 単語カードに出す意味（ドイツ語 = 日本語）。例文の日本語を切り出すと意味にならない語だけ書く。
+# 「-」はカードにしない（auf・an など、動詞といっしょに覚える前つづり）。
+
+# sein・haben・werden とその形
+sein = ＝（〜は…です）・いる
+war = ＝だった（〜は…でした）・いた
+waren = ＝だった（〜は…でした）・いた
+habe = 持っている（haben）
+hast = 持っている（haben）
+hat = 持っている・飼っている（haben）
+hatte = 持っていた・あった（haben の過去）
+werde = 〜するつもりだ（werden）
+werden = 〜するつもりだ（werden）
+wirst = 〜するつもりだ（werden）
+wird = 〜だろう（werden）
+wurde = 〜された（受け身の過去）
+
+# 2つ目の動詞といっしょに使う動詞
+möchte = 〜したい（möchten）
+möchten = 〜したい（möchten）
+kann = 〜できる（können）
+kannst = 〜できる（können）
+können = 〜できる（können）
+muss = 〜しなければならない（müssen）
+musst = 〜しなければならない（müssen）
+müssen = 〜しなければならない（müssen）
+darf = 〜してもいい（dürfen）
+darfst = 〜してもいい（dürfen）
+dürfen = 〜してもいい（dürfen）
+solltest = 〜したほうがいい（sollen）
+sollten = 〜したほうがいい（sollen）
+versuche = やってみる（versuchen）
+versucht = やってみる（versuchen）
+versuchen = やってみる（versuchen）
+
+# 文の最後に来る動詞のもとの形
+sehen = 見る
+essen = 食べる
+fahren = （乗り物で）行く
+sprechen = 話す
+kaufen = 買う
+zeigen = 見せる
+fotografieren = 写真をとる
+sitzen = 座る
+trinken = 飲む
+mitbringen = 持ってくる
+üben = 練習する
+aufstehen = 起きる
+anrufen = 電話する
+einkaufen = 買い物をする
+anfassen = さわる
+zurückkommen = 帰ってくる
+reisen = 旅行する
+sprechen kann = 話せる
+
+# zu ＋ 動詞（〜すること・〜しようと）
+zu lernen = 学ぶ（zu ＋ 動詞）
+zu essen = 食べる（zu ＋ 動詞）
+zu sprechen = 話す（zu ＋ 動詞）
+zu trinken = 飲む（zu ＋ 動詞）
+zu machen = する（zu ＋ 動詞）
+zu werden = なる（zu ＋ 動詞）
+zu reisen = 旅をする（zu ＋ 動詞）
+zu wohnen = 住む（zu ＋ 動詞）
+zu eröffnen = 開く（zu ＋ 動詞）
+zu lesen = 読む（zu ＋ 動詞）
+Sport zu machen = 運動する（zu ＋ 動詞）
+zu kochen = 料理する（zu ＋ 動詞）
+zu laufen = 走る（zu ＋ 動詞）
+zu gehen = 歩く・行く（zu ＋ 動詞）
+
+# 意味が文の場面に引っぱられていた動詞
+komme = 来る（komme aus 〜 で「〜の出身だ」）
+gehört = 〜のものだ（gehören）
+gibt = あげる・くれる（geben）
+bleibe = いる・とどまる（bleiben）
+bleiben = いる・とどまる（bleiben）
+sieht = テレビを見る（fernsehen）
+siehst = テレビを見る（fernsehen）
+mag = 好きだ（mögen）
+magst = 好きだ（mögen）
+
+# 動詞から離れて文の最後に来る前つづり
+auf = -
+an = -
+ein = -
+fern = -
+ab = -
+aus = -
+zu = -
+mit = -
+
+# つなぎ言葉・疑問の言葉
+dass = 〜ということ（つなぎ言葉）
+weil = 〜なので（つなぎ言葉）
+wenn = 〜とき・もし〜なら（つなぎ言葉）
+obwohl = 〜だけれど（つなぎ言葉）
+als = 〜したとき・〜より
+ob = 〜かどうか（つなぎ言葉）
+bevor = 〜する前に（つなぎ言葉）
+wo = どこ
+was = 何
+wann = いつ・何時
+das = これ・それ
+
+# 文の中で形が変わっていた言葉
+nicht = 〜ない（打ち消し）
+man = （ふつうの）人は
+gern = 好んで（gern ＋ 動詞で「〜するのが好き」）
+lieber = もっと好んで（「〜のほうが好き」）
+am liebsten = いちばん好んで（「〜がいちばん好き」）
+teuer = （値段が）高い
+kalt = 寒い・冷たい
+schlecht = 悪い
+sehr schwer = とても難しい
+jung = 若い
+sonnig = 晴れている
+keine Zeit = 時間がない
+keinen Hund = 犬を…ない（kein）
+kein Fleisch = 肉を…ない（kein）
+kein Geld = お金がない
+
+# 前置詞といっしょに覚えるかたまり
+auf mich = 私を（warten auf 〜 で「〜を待つ」）
+sehr müde = とても疲れている
+
+# 「します」だけでは何をするのかわからない動詞
+spiele = （スポーツ・ゲームを）する・（楽器を）弾く（spielen）
+spielst = （スポーツ・ゲームを）する・（楽器を）弾く（spielen）
+spielt = （スポーツ・ゲームを）する・（楽器を）弾く（spielen）
+spielen = （スポーツ・ゲームを）する・（楽器を）弾く（spielen）
+spielte = （スポーツ・ゲームを）した・（楽器を）弾いた（spielen の過去）
+gespielt = （スポーツ・ゲームを）した（spielen）
+mache = （宿題などを）する・作る（machen）
+macht = （宿題などを）する・作る（machen）
+gemacht = （宿題などを）した・作った（machen）

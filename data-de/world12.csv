@@ -1,0 +1,64 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+12,1,,東京はベルリンより大きいです。,RULE,,「〜より…」は -er ＋ als,Tokio ist größer als Berlin.,S:東京は=Tokio / V:です=ist / C:大きい=größer / M:ベルリンより=als Berlin,Tokio ist mehr groß als Berlin.,groß → größer、hoch → höher のように形が変わるものもある。
+12,1,,,TABLE,,くらべる形,,形容詞|〜より|いちばん;groß|[größer]|[am größten];schnell|[schneller]|[am schnellsten];hoch|[höher]|[am höchsten];gern（好んで）|[lieber]|[am liebsten],,
+12,2,,,RULE,,「いちばん…」は am -sten,,S:このジェットコースターは=diese Achterbahn / V:です=ist / C:いちばん速い=am schnellsten,,am ＋ 形容詞 ＋ sten。
+12,3,,私は兄と同じくらい背が高いです。,RULE,,「〜と同じくらい」は so … wie,Ich bin so groß wie mein Bruder.,S:私は=ich / V:です=bin / C:同じくらい背が高い=so groß / M:兄と=wie mein Bruder,Ich bin so groß als mein Bruder.,so ＋ 形容詞（そのままの形）＋ wie。
+12,4,,,RULE,,「〜のほうが好き」は lieber,,S:私は=ich / V:する=spiele / M:ほうが好きです=lieber / O:サッカーを=Fußball / M:テニスより=als Tennis,,gern → lieber → am liebsten。
+12,1,L0,どっちが大きい？,INTRO,,遊園地でレナとくらべっこ。,,,,
+12,1,L0,どっちが大きい？,GOAL,,「〜より…」を 形容詞-er ＋ als で言えるようになろう,,S:東京は=Tokio / V:です=ist / C:大きい=größer / M:ベルリンより=als Berlin,,2つをくらべてドイツ語で言える
+12,1,L0,どっちが大きい？,TALK,Lena,どっちが大きい？,Was ist größer?,,,
+12,1,L0,どっちが大きい？,Q,me,東京はベルリンより大きいです。,,S:東京は=Tokio / V:です=ist / C:大きい=größer / M:ベルリンより=als Berlin,,groß → größer（ウムラウトがつく）
+12,1,L0,どっちが大きい？,Q,me,このジェットコースターはあれより速いです。,,S:このジェットコースターは=diese Achterbahn / V:です=ist / C:速い=schneller / M:あれより=als die andere,,schnell → schneller
+12,1,L0,どっちが大きい？,Q,me,私の兄は私より背が高いです。,,S:私の兄は=mein Bruder / V:です=ist / C:背が高い=größer / M:私より=als ich,,als のあとは ich（「〜は」の形）
+12,1,L0,どっちが大きい？,Q,me,このアイスはケーキより安いです。,,S:このアイスは=dieses Eis / V:です=ist / C:安い=billiger / M:ケーキより=als der Kuchen,,billig → billiger
+12,1,L0,どっちが大きい？,Q,me,ドイツ語は英語より難しいです。,,S:ドイツ語は=Deutsch / V:です=ist / C:難しい=schwerer / M:英語より=als Englisch,,schwer → schwerer
+12,1,L0,どっちが大きい？,TALK,Lena,くらべるの楽しいね！,Vergleichen macht Spaß!,,,
+12,1,L0,どっちが大きい？,DRILL,,,,"{""ja"":[""S"",""M"",""C"",""V""],""en"":[""S"",""V"",""C"",""M""],""note"":""「〜より…」は -er ＋ als"",""slots"":{""S"":[{""ja"":""私の兄は"",""en"":""mein Bruder"",""o"":""person""},{""ja"":""レナは"",""en"":""Lena"",""o"":""person""},{""ja"":""私の父は"",""en"":""mein Vater"",""o"":""person""},{""ja"":""この車は"",""en"":""dieses Auto"",""o"":""thing""},{""ja"":""この自転車は"",""en"":""dieses Fahrrad"",""o"":""thing""},{""ja"":""東京は"",""en"":""Tokio"",""o"":""city""},{""ja"":""ベルリンは"",""en"":""Berlin"",""o"":""city""}],""V"":[[""です"",""ist""]],""C"":{""person"":[[""背が高い"",""größer""],[""年上"",""älter""],[""速い"",""schneller""]],""thing"":[[""大きい"",""größer""],[""安い"",""billiger""],[""新しい"",""neuer""],[""高い"",""teurer""]],""city"":[[""大きい"",""größer""]]},""M"":{""person"":[[""私より"",""als ich""],[""母より"",""als meine Mutter""],[""ケンより"",""als Ken""]],""thing"":[[""あれより"",""als das andere""],[""私のより"",""als meins""]],""city"":[[""ミュンヘンより"",""als München""],[""京都より"",""als Kyoto""]]}}}",,
+12,2,L1,いちばんはどれ？,INTRO,,遊園地のいちばんをさがそう。,,,,
+12,2,L1,いちばんはどれ？,GOAL,,「いちばん…」を am -sten で言えるようになろう,,S:このジェットコースターは=diese Achterbahn / V:です=ist / C:いちばん速い=am schnellsten,,いちばんのものをドイツ語で言える
+12,2,L1,いちばんはどれ？,TALK,Lena,いちばん人気はどれ？,Was ist am beliebtesten?,,,
+12,2,L1,いちばんはどれ？,Q,me,このジェットコースターはいちばん速いです。,,S:このジェットコースターは=diese Achterbahn / V:です=ist{bin|ist|sind} / C:いちばん速い=am schnellsten,,am ＋ 形容詞 ＋ sten
+12,2,L1,いちばんはどれ？,Q,me,観覧車はいちばん高いです。,,S:観覧車は=das Riesenrad / V:です=ist{bin|ist|sind} / C:いちばん高い=am höchsten,,hoch → am höchsten（形が変わる）
+12,2,L1,いちばんはどれ？,Q,me,レナはクラスでいちばん背が高いです。,,S:レナは=Lena / V:です=ist{bin|ist|sind} / M:クラスで=in der Klasse / C:いちばん背が高い=am größten,,groß → am größten
+12,2,L1,いちばんはどれ？,Q,me,このお化け屋敷はいちばんこわいです。,,S:このお化け屋敷は=diese Geisterbahn / V:です=ist{bin|ist|sind} / C:いちばんこわい=am gruseligsten,,gruselig（こわい）→ am gruseligsten
+12,2,L1,いちばんはどれ？,Q,me,夏は遊園地がいちばん楽しいです。,,S:遊園地が=der Freizeitpark / V:です=ist{bin|ist|sind} / M~:夏は=im Sommer / C:いちばん楽しい=am schönsten,,Im Sommer ist der Freizeitpark am schönsten. も正解
+12,2,L1,いちばんはどれ？,TALK,Lena,全部乗りたい！,Ich will alles fahren!,,,
+12,2,L1,いちばんはどれ？,DRILL,,,,"{""ja"":[""S"",""M"",""C"",""V""],""en"":[""S"",""V"",""M"",""C""],""note"":""「いちばん…」は am -sten"",""slots"":{""S"":[{""ja"":""レナは"",""en"":""Lena"",""o"":""person""},{""ja"":""ケンは"",""en"":""Ken"",""o"":""person""},{""ja"":""私の兄は"",""en"":""mein Bruder"",""o"":""person""},{""ja"":""このジェットコースターは"",""en"":""diese Achterbahn"",""o"":""ride""},{""ja"":""観覧車は"",""en"":""das Riesenrad"",""o"":""ride""}],""V"":[[""です"",""ist""]],""C"":{""person"":[[""いちばん背が高い"",""am größten""],[""いちばん速い"",""am schnellsten""],[""いちばん年上"",""am ältesten""]],""ride"":[[""いちばん速い"",""am schnellsten""],[""いちばん高い"",""am höchsten""],[""いちばんこわい"",""am gruseligsten""]]},""M"":{""person"":[[""クラスで"",""in der Klasse""],[""家族の中で"",""in der Familie""]],""ride"":[[""この遊園地で"",""in diesem Park""],[""ドイツで"",""in Deutschland""]]}}}",,
+12,3,L2,同じくらい？,INTRO,,いろいろなものを「同じくらい」でくらべよう。,,,,
+12,3,L2,同じくらい？,GOAL,,「〜と同じくらい…」を so … wie で言えるようになろう,,S:私は=ich / V:です=bin / C:同じくらい背が高い=so groß / M:兄と=wie mein Bruder,,「同じくらい」をドイツ語で言える
+12,3,L2,同じくらい？,TALK,Lena,どっちも同じくらい？,Beide gleich?,,,
+12,3,L2,同じくらい？,Q,me,私は兄と同じくらい背が高いです。,,S:私は=ich / V:です=bin / C:同じくらい背が高い=so groß / M:兄と=wie mein Bruder,als|größer|wie ich,so groß wie …
+12,3,L2,同じくらい？,Q,me,このチケットはあのチケットと同じくらい高いです。,,S:このチケットは=dieses Ticket / V:です=ist / C:同じくらい高い=so teuer / M:あのチケットと=wie das andere Ticket,teurer|als|ist so,teuer（値段が高い）
+12,3,L2,同じくらい？,Q,me,レナは私と同じくらい忙しいです。,,S:レナは=Lena / V:です=ist / C:同じくらい忙しい=so beschäftigt / M:私と=wie ich,als ich|beschäftigter|mich,wie のあとは ich
+12,3,L2,同じくらい？,Q,me,今年のお祭りは去年と同じくらい楽しいです。,,S:今年のお祭りは=das Fest in diesem Jahr / V:です=ist / C:同じくらい楽しい=so schön / M:去年と=wie im letzten Jahr,schöner|als|wie,so schön wie …
+12,3,L2,同じくらい？,Q,me,東京の夏は大阪と同じくらい暑いです。,,S:東京の夏は=der Sommer in Tokio / V:です=ist / C:同じくらい暑い=so heiß / M:大阪と=wie in Osaka,heißer|als|wie Osaka,so heiß wie in Osaka
+12,3,L2,同じくらい？,TALK,Lena,いい勝負だね！,Unentschieden!,,,
+12,3,L2,同じくらい？,DRILL,,,,"{""ja"":[""S"",""M"",""C"",""V""],""en"":[""S"",""V"",""C"",""M""],""note"":""「〜と同じくらい」は so ＋ 形容詞 ＋ wie"",""slots"":{""S"":[{""ja"":""私は"",""en"":""ich"",""p"":""1s"",""o"":""person""},{""ja"":""レナは"",""en"":""Lena"",""p"":""3s"",""o"":""person""},{""ja"":""ケンは"",""en"":""Ken"",""p"":""3s"",""o"":""person""}],""V"":[{""ja"":""です"",""f"":{""1s"":""bin"",""2s"":""bist"",""3s"":""ist"",""1p"":""sind"",""3p"":""sind""}}],""C"":{""person"":[[""同じくらい背が高い"",""so groß""],[""同じくらい忙しい"",""so beschäftigt""],[""同じくらい速い"",""so schnell""]]},""M"":{""person"":[[""兄と"",""wie mein Bruder""],[""母と"",""wie meine Mutter""],[""トムと"",""wie Tom""]]}}}",,
+12,4,L3,もっと好き・いちばん好き,INTRO,,レナと「どっちが好き？」の話。,,,,
+12,4,L3,もっと好き・いちばん好き,GOAL,,「〜のほうが好き」「いちばん好き」を lieber・am liebsten で言えるようになろう,,S:私は=ich / V:する=spiele / M:ほうが好きです=lieber / O:サッカーを=Fußball / M:テニスより=als Tennis,,好きなものをくらべて言える
+12,4,L3,もっと好き・いちばん好き,TALK,Lena,どっちが好き？,Was magst du lieber?,,,
+12,4,L3,もっと好き・いちばん好き,Q,me,私はテニスよりサッカーをするほうが好きです。,,S:私は=ich / V:する=spiele / M:ほうが好きです=lieber / O:サッカーを=Fußball / M:テニスより=als Tennis,,gern → lieber → am liebsten
+12,4,L3,もっと好き・いちばん好き,Q,me,私は紅茶よりコーヒーを飲むほうが好きです。,,S:私は=ich / V:飲む=trinke / M:ほうが好きです=lieber / O:コーヒーを=Kaffee / M:紅茶より=als Tee,,Ich trinke lieber Kaffee als Tee.
+12,4,L3,もっと好き・いちばん好き,Q,me,私はピザを食べるのがいちばん好きです。,,S:私は=ich / V:食べる=esse / M:のがいちばん好きです=am liebsten / O:ピザを=Pizza,,Ich esse am liebsten Pizza.
+12,4,L3,もっと好き・いちばん好き,Q,me,東京は大阪より大きいです。,,S:東京は=Tokio / V:です=ist / C:大きい=größer / M:大阪より=als Osaka,,größer als
+12,4,L3,もっと好き・いちばん好き,Q,me,このゲームはいちばんおもしろいです。,,S:このゲームは=dieses Spiel / V:です=ist / C:いちばんおもしろい=am lustigsten,,lustig → am lustigsten
+12,4,L3,もっと好き・いちばん好き,TALK,Lena,私と同じだ！,Wie ich!,,,
+12,4,L3,もっと好き・いちばん好き,DRILL,,,,"{""use"":[""12-1"",""12-2"",""12-3""]}",,
+12,5,L4,日本とドイツくらべ,INTRO,,日本とドイツをくらべるレポートを書こう。,,,,
+12,5,L4,日本とドイツくらべ,GOAL,,箱がなくても、くらべる文を組み立てられるようになろう,,S:富士山は=der Fuji / V:です=ist / C:高い=höher / M:ツークシュピッツェより=als die Zugspitze,,日本とドイツをくらべてドイツ語で書ける
+12,5,L4,日本とドイツくらべ,Q,me,富士山はツークシュピッツェより高いです。,,S:富士山は=der Fuji / V:です=ist / C:高い=höher / M:ツークシュピッツェより=als die Zugspitze,,hoch → höher
+12,5,L4,日本とドイツくらべ,Q,me,ドイツのパンは日本のパンより固いです。,,S:ドイツのパンは=deutsches Brot / V:です=ist / C:固い=härter / M:日本のパンより=als japanisches Brot,,hart → härter
+12,5,L4,日本とドイツくらべ,Q,me,日本の夏はドイツの夏より暑いです。,,S:日本の夏は=der Sommer in Japan / V:です=ist / C:暑い=heißer / M:ドイツの夏より=als der Sommer in Deutschland,,heiß → heißer
+12,5,L4,日本とドイツくらべ,Q,me,私は電車で行くのがいちばん好きです。,,S:私は=ich / V:行く=fahre / M:のがいちばん好きです=am liebsten / M:電車で=mit dem Zug,,Ich fahre am liebsten mit dem Zug.
+12,5,L4,日本とドイツくらべ,Q,me,ドイツ語は日本語と同じくらいおもしろいです。,,S:ドイツ語は=Deutsch / V:です=ist / C:同じくらいおもしろい=so interessant / M:日本語と=wie Japanisch,,so interessant wie …
+12,5,L4,日本とドイツくらべ,TALK,Lena,おもしろいレポート！,Ein spannender Bericht!,,,
+12,5,L4,日本とドイツくらべ,DRILL,,,,"{""use"":[""12-1"",""12-2"",""12-3""]}",,
+12,6,BOSS,遊園地ガイド,INTRO,,遊園地のガイドになって、比較の文をすばやく言おう！,,,,
+12,6,BOSS,遊園地ガイド,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:観覧車は=das Riesenrad / V:です=ist / C:高い=höher / M:お城より=als das Schloss,,遊園地をドイツ語で案内できる
+12,6,BOSS,遊園地ガイド,Q,me,このジェットコースターはドイツでいちばん速いです。,,S:このジェットコースターは=diese Achterbahn / V:です=ist / M:ドイツで=in Deutschland / C:いちばん速い=am schnellsten,,am schnellsten
+12,6,BOSS,遊園地ガイド,Q,me,観覧車はお城より高いです。,,S:観覧車は=das Riesenrad / V:です=ist / C:高い=höher / M:お城より=als das Schloss,,höher als
+12,6,BOSS,遊園地ガイド,Q,me,子どもたちはメリーゴーランドに乗るのがいちばん好きです。,,S:子どもたちは=die Kinder / V:乗る=fahren / M:のがいちばん好きです=am liebsten / O:メリーゴーランドに=Karussell,,Die Kinder fahren am liebsten Karussell.
+12,6,BOSS,遊園地ガイド,Q,me,このアイスはチョコレートアイスと同じくらいおいしいです。,,S:このアイスは=dieses Eis / V:です=ist / C:同じくらいおいしい=so lecker / M:チョコレートアイスと=wie das Schokoladeneis,,so lecker wie …
+12,6,BOSS,遊園地ガイド,Q,me,夜は遊園地がいちばん美しいです。,,S:遊園地が=der Freizeitpark / V:です=ist / M~:夜は=abends / C:いちばん美しい=am schönsten,,Abends ist der Freizeitpark am schönsten. も正解
+12,6,BOSS,遊園地ガイド,TALK,Lena,最高のガイド！,Der beste Führer!,,,
+12,6,BOSS,遊園地ガイド,DRILL,,,,"{""use"":[""12-1"",""12-2"",""12-3""]}",,

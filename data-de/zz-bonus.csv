@@ -1,0 +1,118 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+1,99,L3,おまけ：宇宙人のじこしょうかい,INTRO,,宇宙人のゾーグが島にやってきた！ゾーグになりきって、ドイツ語で自己紹介しよう。,,,,
+1,99,L3,おまけ：宇宙人のじこしょうかい,GOAL,,ワールド1の sein で、宇宙人になりきって自己紹介しよう,,,,ちがう場面でも sein の文が言える
+1,99,L3,おまけ：宇宙人のじこしょうかい,TALK,Hakomaru,はじめまして！きみはだれ？,Hallo! Wer bist du?,,,
+1,99,L3,おまけ：宇宙人のじこしょうかい,Q,me,私はゾーグです。,,S:私は=ich / V:です=bin / C:ゾーグ=Zorg,,ich のとき bin
+1,99,L3,おまけ：宇宙人のじこしょうかい,Q,me,私は300歳です。,,S:私は=ich / V:です=bin / C:300歳=dreihundert||300||dreihundert Jahre alt||300 Jahre alt,,
+1,99,L3,おまけ：宇宙人のじこしょうかい,Q,me,私の星はとても寒いです。,,S:私の星は=mein Planet / V:です=ist / C:とても寒い=sehr kalt,,Planet は男性名詞なので mein
+1,99,L3,おまけ：宇宙人のじこしょうかい,Q,me,私の目は緑色です。,,S:私の目は=meine Augen / V:です=sind / C:緑色=grün,,目は2つ（Augen）なので sind
+1,99,L3,おまけ：宇宙人のじこしょうかい,Q,me,私たちは友だちです。,,S:私たちは=wir / V:です=sind / C:友だち=Freunde,,
+1,99,L3,おまけ：宇宙人のじこしょうかい,TALK,Hakomaru,よろしくね、ゾーグ！,Freut mich! Willkommen!,,,
+2,99,L3,おまけ：ドラゴンのまいにち,INTRO,,高原の山に住むドラゴンのドラコ。ドラコのまいにちをドイツ語で紹介しよう。,,,,
+2,99,L3,おまけ：ドラゴンのまいにち,GOAL,,ワールド2の「動詞は2番目」で、ドラゴンのまいにちを紹介しよう,,,,ちがう場面でも動詞を2番目に置ける
+2,99,L3,おまけ：ドラゴンのまいにち,TALK,Hakomaru,ドラゴンってふだん何をしているのかな？,Was macht ein Drache jeden Tag?,,,
+2,99,L3,おまけ：ドラゴンのまいにち,Q,me,ドラコは毎朝トーストを食べます。,,S:ドラコは=Draco / V:食べます=isst / M~:毎朝=jeden Morgen / O:トーストを=Toast,,essen は er・sie のとき isst
+2,99,L3,おまけ：ドラゴンのまいにち,Q,me,ドラコはテニスをします。,,S:ドラコは=Draco / V:します=spielt / O:テニスを=Tennis,,
+2,99,L3,おまけ：ドラゴンのまいにち,Q,me,彼は大きな家に住んでいます。,,S:彼は=er / V:住んでいます=wohnt / M:大きな家に=in einem großen Haus,,
+2,99,L3,おまけ：ドラゴンのまいにち,Q,me,彼の妹はピアノを弾きます。,,S:彼の妹は=seine Schwester / V:弾きます=spielt / O:ピアノを=Klavier,,彼の＝sein。Schwester は女性名詞なので seine
+2,99,L3,おまけ：ドラゴンのまいにち,Q,me,日曜日に、ドラコは本を読みます。,,S:ドラコは=Draco / V:読みます=liest / M~:日曜日に=am Sonntag / O:本を=ein Buch||Bücher,,Am Sonntag liest Draco … と、時を前に出しても動詞は2番目
+2,99,L3,おまけ：ドラゴンのまいにち,TALK,Hakomaru,ドラゴンも ぼくたちと同じだね！,Drachen sind wie wir!,,,
+3,99,L3,おまけ：海賊のしつもん,INTRO,,海岸に海賊船がやってきた！海賊たちに質問したり、答えたりしよう。,,,,
+3,99,L3,おまけ：海賊のしつもん,GOAL,,ワールド3の「疑問文・否定・2つ目の動詞」で、海賊と話そう,,,,ちがう場面でも質問や否定の文が言える
+3,99,L3,おまけ：海賊のしつもん,TALK,Hakomaru,ようこそ、海賊さん！,Willkommen!,,,
+3,99,L3,おまけ：海賊のしつもん,Q,me,あなたは宝を探していますか？,,V:探していますか=suchst / S:あなたは=du / O:宝を=den Schatz||einen Schatz,,はい・いいえの質問は動詞から
+3,99,L3,おまけ：海賊のしつもん,Q,me,船長はどこにいますか？,,W:どこに=wo / V:いますか=ist / S:船長は=der Kapitän,,疑問詞 → 動詞 → 主語
+3,99,L3,おまけ：海賊のしつもん,Q,me,私たちはお金がありません。,,S:私たちは=wir / V:ありません=haben / O:お金が=kein Geld,,「〜がない」は kein＋名詞
+3,99,L3,おまけ：海賊のしつもん,Q,me,私は島へ行きたいです。,,S:私は=ich / V:たいです=möchte / M:島へ=auf die Insel||zur Insel / V:行き=fahren||gehen,,möchte … 2つ目の動詞は最後
+3,99,L3,おまけ：海賊のしつもん,Q,me,私たちは浜辺でカニを食べました。,,S:私たちは=wir / V:=haben / M:浜辺で=am Strand / O:カニを=Krabben||eine Krabbe / V:食べました=gegessen,,haben … gegessen
+3,99,L3,おまけ：海賊のしつもん,TALK,Hakomaru,海賊さんも おなかがすいていたんだね！,Piraten haben auch Hunger!,,,
+4,99,L3,おまけ：おばけやしき,INTRO,,村のはずれに古いおばけやしきが…。理由や気持ちをドイツ語で言おう。,,,,
+4,99,L3,おまけ：おばけやしき,GOAL,,ワールド4の「weil・dass・wenn（動詞は最後）」で、おばけやしきの話をしよう,,,,ちがう場面でも「〜ので」「〜と思う」「〜とき」が言える
+4,99,L3,おまけ：おばけやしき,TALK,Hakomaru,ちょっとこわいけど…入ってみよう！,Ich habe Angst … aber los!,,,
+4,99,L3,おまけ：おばけやしき,Q,me,私はこの家はこわいと思います。,,S:私は=ich / V:思います=denke / O:この家はこわいと=[J:と=dass / S:この家は=dieses Haus||das Haus / C:こわい=gruselig / V:=ist],,dass のあと、動詞は最後
+4,99,L3,おまけ：おばけやしき,Q,me,暗いので、私たちは家に帰ります。,,S:私たちは=wir / V:帰ります=gehen / M:家に=nach Hause / M:暗いので=[J:ので=weil / S:=es / C:暗い=dunkel / V:=ist],,weil es dunkel ist
+4,99,L3,おまけ：おばけやしき,Q,me,私はおばけはやさしいと思います。,,S:私は=ich / V:思います=denke / O:おばけはやさしいと=[J:と=dass / S:おばけは=das Gespenst / C:やさしい=nett||freundlich / V:=ist],,Gespenst（おばけ）は中性名詞
+4,99,L3,おまけ：おばけやしき,Q,me,時間があるとき、私はおばけやしきに行きます。,,S:私は=ich / V:行きます=gehe / M:おばけやしきに=ins Geisterhaus / M:時間があるとき=[J:とき=wenn / S:=ich / O:時間が=Zeit / V:ある=habe],,wenn ich Zeit habe
+4,99,L3,おまけ：おばけやしき,Q,me,雨が降っているので、私たちは中にいます。,,S:私たちは=wir / V:います=bleiben / M:中に=drinnen / M:雨が降っているので=[J:ので=weil / S:=es / V:雨が降っている=regnet],,weil es regnet
+4,99,L3,おまけ：おばけやしき,TALK,Hakomaru,おばけさん、また遊ぼうね！,Tschüss! Bis bald!,,,
+5,99,L3,おまけ：サンタのしごと,INTRO,,山のおくにはサンタの工場がある！サンタのしごとをドイツ語で説明しよう。,,,,
+5,99,L3,おまけ：サンタのしごと,GOAL,,ワールド5の「3格（〜に）・helfen・danken」で、サンタのしごとを説明しよう,,,,ちがう場面でも3格が使える
+5,99,L3,おまけ：サンタのしごと,TALK,Hakomaru,サンタさんって どんなしごとをしているの？,Was macht der Weihnachtsmann?,,,
+5,99,L3,おまけ：サンタのしごと,Q,me,サンタは子どもたちにおもちゃをあげます。,,S:サンタは=der Weihnachtsmann / V:あげます=gibt / O:子どもたちに=den Kindern / O:おもちゃを=Spielzeug||Geschenke,,子どもたちに＝den Kindern（3格の複数は -n）
+5,99,L3,おまけ：サンタのしごと,Q,me,トナカイは私に地図を見せます。,,S:トナカイは=das Rentier / V:見せます=zeigt / O:私に=mir / O:地図を=eine Karte||die Karte,,私に＝mir
+5,99,L3,おまけ：サンタのしごと,Q,me,私はサンタを手伝います。,,S:私は=ich / V:手伝います=helfe / O:サンタを=dem Weihnachtsmann,,helfen の相手は3格（dem）
+5,99,L3,おまけ：サンタのしごと,Q,me,子どもたちはサンタにお礼を言います。,,S:子どもたちは=die Kinder / V:お礼を言います=danken / O:サンタに=dem Weihnachtsmann,,danken の相手も3格
+5,99,L3,おまけ：サンタのしごと,Q,me,サンタは私にクッキーを焼いてくれます。,,S:サンタは=der Weihnachtsmann / V:焼いてくれます=backt / O:私に=mir / O:クッキーを=Kekse,,
+5,99,L3,おまけ：サンタのしごと,TALK,Hakomaru,ぼくもサンタのお手伝いがしたいな！,Ich möchte auch helfen!,,,
+6,99,L3,おまけ：にんじゃ学校,INTRO,,森のおくに にんじゃ学校があった！にんじゃの生徒になりきって話そう。,,,,
+6,99,L3,おまけ：にんじゃ学校,GOAL,,ワールド6の「gern・zu ＋ 動詞」で、にんじゃの夢を話そう,,,,ちがう場面でも「〜するのが好き」「〜すること」が言える
+6,99,L3,おまけ：にんじゃ学校,TALK,Hakomaru,にんじゃ学校ってどんなところ？,Wie ist die Ninja-Schule?,,,
+6,99,L3,おまけ：にんじゃ学校,Q,me,私は手裏剣を投げるのが好きです。,,S:私は=ich / V:投げる=werfe / M:のが好きです=gern / O:手裏剣を=Shuriken||Wurfsterne,,Ich werfe gern Shuriken.
+6,99,L3,おまけ：にんじゃ学校,Q,me,私たちは飛ぶのが好きです。,,S:私たちは=wir / V:飛ぶ=fliegen / M:のが好きです=gern,,Wir fliegen gern.
+6,99,L3,おまけ：にんじゃ学校,Q,me,先生は屋根の上を走るのが好きです。,,S:先生は=der Lehrer||die Lehrerin / V:走る=läuft / M:のが好きです=gern / M:屋根の上を=auf dem Dach,,laufen は er・sie のとき läuft
+6,99,L3,おまけ：にんじゃ学校,Q,me,私の夢はにんじゃになることです。,,S:私の夢は=mein Traum / V:です=ist / C:にんじゃになること=[C:にんじゃに=Ninja / V:なること=zu werden],,zu werden（なること）は最後
+6,99,L3,おまけ：にんじゃ学校,Q,me,私は静かに歩こうとしています。,,S:私は=ich / V:しています=versuche / O:静かに歩こうと=[M:静かに=leise / V:歩こうと=zu gehen],,"Ich versuche, leise zu gehen."
+6,99,L3,おまけ：にんじゃ学校,TALK,Hakomaru,ニン！ぼくも にんじゃになれるかな？,Kann ich auch ein Ninja werden?,,,
+7,99,L3,おまけ：モンスターずかん,INTRO,,砂漠でふしぎなモンスターをたくさん見つけた！どんなモンスターか説明しよう。,,,,
+7,99,L3,おまけ：モンスターずかん,GOAL,,ワールド7の「名詞の説明・形容詞の語尾」で、モンスターを説明しよう,,,,ちがう場面でも名詞を説明できる
+7,99,L3,おまけ：モンスターずかん,TALK,Hakomaru,見て！へんな生き物がいっぱい！,Schau mal! So viele Monster!,,,
+7,99,L3,おまけ：モンスターずかん,Q,me,これは大きいモンスターです。,,S:これは=das / V:です=ist / C:大きいモンスター=ein großes Monster,,Monster は中性名詞なので ein großes
+7,99,L3,おまけ：モンスターずかん,Q,me,それは小さな赤いモンスターです。,,S:それは=das / V:です=ist / C:小さな赤いモンスター=ein kleines rotes Monster,,形容詞が2つでも、どちらにも -es
+7,99,L3,おまけ：モンスターずかん,Q,me,私は青いモンスターが見えます。,,S:私は=ich / V:見えます=sehe / O:青いモンスターが=ein blaues Monster,,
+7,99,L3,おまけ：モンスターずかん,Q,me,森の中のモンスターは歌います。,,S:森の中のモンスターは=[N:モンスターは=das Monster / M:森の中の=im Wald] / V:歌います=singt,,im Wald（森の中の）は名詞のうしろ
+7,99,L3,おまけ：モンスターずかん,Q,me,箱の中のモンスターはハコまるです。,,S:箱の中のモンスターは=[N:モンスターは=das Monster / M:箱の中の=in der Kiste||im Karton] / V:です=ist / C:ハコまる=Hakomaru,,
+7,99,L3,おまけ：モンスターずかん,TALK,Hakomaru,えっ、ぼくもモンスター？,Was? Bin ich auch ein Monster?,,,
+8,99,L3,おまけ：なぞなぞ大会,INTRO,,城下町でなぞなぞ大会！ 答えを関係文で説明しよう。,,,,
+8,99,L3,おまけ：なぞなぞ大会,GOAL,,ワールド8の「関係文（動詞は最後）」で、なぞなぞを出そう,,,,ちがう場面でも人やものを説明できる
+8,99,L3,おまけ：なぞなぞ大会,TALK,Hakomaru,なぞなぞを出すよ。わかるかな？,Ein Rätsel! Weißt du es?,,,
+8,99,L3,おまけ：なぞなぞ大会,Q,me,それは長い鼻を持つ動物です。,,S:それは=das / V:です=ist / C:長い鼻を持つ動物=[N:動物=ein Tier / M:長い鼻を持つ=das eine lange Nase hat],,こたえは Elefant！ Tier は中性なので das
+8,99,L3,おまけ：なぞなぞ大会,Q,me,これは空を飛ぶ機械です。,,S:これは=das / V:です=ist / C:空を飛ぶ機械=[N:機械=eine Maschine / M:空を飛ぶ=die fliegt||die am Himmel fliegt],,こたえは Flugzeug！ Maschine は女性なので die
+8,99,L3,おまけ：なぞなぞ大会,Q,me,彼は病気の人を助ける人です。,,S:彼は=er / V:です=ist / C:病気の人を助ける人=[N:人=ein Mensch / M:病気の人を助ける=der kranken Menschen hilft],,こたえは Arzt！ Mensch は男性なので der
+8,99,L3,おまけ：なぞなぞ大会,Q,me,それは夜に鳴く鳥です。,,S:それは=das / V:です=ist / C:夜に鳴く鳥=[N:鳥=ein Vogel / M:夜に鳴く=der nachts singt||der in der Nacht singt],,こたえは Eule！ Vogel は男性なので der
+8,99,L3,おまけ：なぞなぞ大会,Q,me,これは私が毎朝使うブラシです。,,S:これは=das / V:です=ist / C:私が毎朝使うブラシ=[N:ブラシ=eine Bürste / M:私が毎朝使う=die ich jeden Morgen benutze],,こたえは Zahnbürste！
+8,99,L3,おまけ：なぞなぞ大会,TALK,Hakomaru,ぜんぶ わかったね！なぞなぞ名人だ！,Super! Du bist ein Rätselmeister!,,,
+9,99,L3,おまけ：お天気キャスター,INTRO,,火山のテレビ局で、ハコまるがお天気キャスターに！ いろいろなつなぎ言葉で話そう。,,,,
+9,99,L3,おまけ：お天気キャスター,GOAL,,ワールド9の「obwohl・als・ob・bevor」で、天気の話をしよう,,,,ちがう場面でもつなぎ言葉の文が言える
+9,99,L3,おまけ：お天気キャスター,TALK,Hakomaru,お天気の時間です！,Jetzt kommt das Wetter!,,,
+9,99,L3,おまけ：お天気キャスター,Q,me,寒いけれど、私は公園で踊ります。,,S:私は=ich / V:踊ります=tanze / M:公園で=im Park / M:寒いけれど=[J:けれど=obwohl / S:=es / C:寒い=kalt / V:=ist],,obwohl es kalt ist
+9,99,L3,おまけ：お天気キャスター,Q,me,雨が降っているけれど、ハコまるは外に出ます。,,S:ハコまるは=Hakomaru / V:出ます=geht / M:外に=nach draußen||raus / M:雨が降っているけれど=[J:けれど=obwohl / S:=es / V:雨が降っている=regnet],,
+9,99,L3,おまけ：お天気キャスター,Q,me,私は明日雪が降るかどうか知りません。,,S:私は=ich / V:知り=weiß / M:ません=nicht / O:明日雪が降るかどうか=[J:かどうか=ob / S:=es / M:明日=morgen / V:雪が降る=schneit],,ob のあとも動詞は最後
+9,99,L3,おまけ：お天気キャスター,Q,me,寝る前に、私は天気予報を見ます。,,S:私は=ich / V:見ます=sehe||schaue / O:天気予報を=den Wetterbericht / M:寝る前に=[J:前に=bevor / S:=ich / V:寝る=schlafen gehe||ins Bett gehe||schlafe],,bevor（〜する前に）
+9,99,L3,おまけ：お天気キャスター,Q,me,晴れたとき、私たちは海へ行きました。,,S:私たちは=wir / V:行きました=gingen||fuhren / M:海へ=ans Meer / M:晴れたとき=[J:とき=als / S:=es / C:晴れた=sonnig / V:=war],,過去の1回のことは als
+9,99,L3,おまけ：お天気キャスター,TALK,Hakomaru,以上、お天気でした！,Das war das Wetter!,,,
+10,99,L3,おまけ：ハコまるの一日,INTRO,,港に住むハコまるの一日をのぞいてみよう！ 分離動詞を使って説明しよう。,,,,
+10,99,L3,おまけ：ハコまるの一日,GOAL,,ワールド10の「分離動詞」で、ハコまるの一日を説明しよう,,,,ちがう場面でも分離動詞が使える
+10,99,L3,おまけ：ハコまるの一日,TALK,Hakomaru,ぼくの一日を見てね！,Das ist mein Tag!,,,
+10,99,L3,おまけ：ハコまるの一日,Q,me,ハコまるは7時に起きます。,,S:ハコまるは=Hakomaru / V:起きます=steht / M:7時に=um sieben||um 7 / V:=auf,,aufstehen（起きる）は steht … auf
+10,99,L3,おまけ：ハコまるの一日,Q,me,ハコまるは部屋を片づけます。,,S:ハコまるは=Hakomaru / V:片づけます=räumt / O:部屋を=sein Zimmer||das Zimmer / V:=auf,,aufräumen（片づける）
+10,99,L3,おまけ：ハコまるの一日,Q,me,私たちはスーパーで買い物をします。,,S:私たちは=wir / V:買い物をします=kaufen / M:スーパーで=im Supermarkt / V:=ein,,einkaufen（買い物をする）
+10,99,L3,おまけ：ハコまるの一日,Q,me,ハコまるは夜テレビを見ます。,,S:ハコまるは=Hakomaru / V:テレビを見ます=sieht / M:夜=abends / V:=fern,,fernsehen（テレビを見る）
+10,99,L3,おまけ：ハコまるの一日,Q,me,あなたもいっしょに来ますか？,,V:いっしょに来ますか=kommst / S:あなたも=du / V:=mit,,mitkommen（いっしょに来る）。質問でも mit は最後
+10,99,L3,おまけ：ハコまるの一日,TALK,Hakomaru,おやすみなさい！,Gute Nacht!,,,
+11,99,L3,おまけ：タイムマシン,INTRO,,空港のとなりにタイムマシンが！ 未来の旅のルールをドイツ語で言おう。,,,,
+11,99,L3,おまけ：タイムマシン,GOAL,,ワールド11の「話法の助動詞・werden」で、未来の旅の話をしよう,,,,ちがう場面でも助動詞の文が言える
+11,99,L3,おまけ：タイムマシン,TALK,Hakomaru,シートベルトをしめてね！,Bitte anschnallen!,,,
+11,99,L3,おまけ：タイムマシン,Q,me,私たちは未来へ行くでしょう。,,S:私たちは=wir / V:でしょう=werden / M:未来へ=in die Zukunft / V:行く=reisen||fahren||gehen,,werden … 動詞は最後
+11,99,L3,おまけ：タイムマシン,Q,me,ロボットがあなたを助けるでしょう。,,S:ロボットが=ein Roboter / V:でしょう=wird / O:あなたを=dir / V:助ける=helfen,,helfen の相手は3格（dir）
+11,99,L3,おまけ：タイムマシン,Q,me,あなたは恐竜にさわってはいけません。,,S:あなたは=du / V:はいけません=darfst / O:恐竜に=die Dinosaurier||den Dinosaurier / M:=nicht / V:さわって=anfassen,,nicht dürfen（〜してはいけない）
+11,99,L3,おまけ：タイムマシン,Q,me,私は空飛ぶ車を運転できます。,,S:私は=ich / V:できます=kann / O:空飛ぶ車を=ein fliegendes Auto / V:運転=fahren,,kann … fahren
+11,99,L3,おまけ：タイムマシン,Q,me,私たちは5時までに帰らなければなりません。,,S:私たちは=wir / V:なければなりません=müssen / M:5時までに=bis fünf Uhr||bis 5 Uhr / V:帰ら=zurückkommen||zurückfahren,,müssen … 動詞は最後
+11,99,L3,おまけ：タイムマシン,TALK,Hakomaru,未来のぼくに会えるかな？,Treffe ich mich in der Zukunft?,,,
+12,99,L3,おまけ：どうぶつオリンピック,INTRO,,遊園地でどうぶつオリンピック開催！ 選手たちをくらべて実況しよう。,,,,
+12,99,L3,おまけ：どうぶつオリンピック,GOAL,,ワールド12の「比較」で、どうぶつたちをくらべよう,,,,ちがう場面でも「〜より」「いちばん」が言える
+12,99,L3,おまけ：どうぶつオリンピック,TALK,Hakomaru,さあ、レースがはじまるよ！,Das Rennen beginnt!,,,
+12,99,L3,おまけ：どうぶつオリンピック,Q,me,チーターはライオンより速いです。,,S:チーターは=der Gepard / V:です=ist / C:速い=schneller / M:ライオンより=als der Löwe,,schnell → schneller
+12,99,L3,おまけ：どうぶつオリンピック,Q,me,ゾウはいちばん重いです。,,S:ゾウは=der Elefant / V:です=ist / C:いちばん重い=am schwersten,,schwer → am schwersten
+12,99,L3,おまけ：どうぶつオリンピック,Q,me,キリンはいちばん背が高いです。,,S:キリンは=die Giraffe / V:です=ist / C:いちばん背が高い=am größten,,groß → am größten
+12,99,L3,おまけ：どうぶつオリンピック,Q,me,この試合はあの試合よりおもしろいです。,,S:この試合は=dieses Spiel / V:です=ist / C:おもしろい=spannender||interessanter / M:あの試合より=als das andere||als das andere Spiel,,
+12,99,L3,おまけ：どうぶつオリンピック,Q,me,私はサッカーより水泳が好きです。,,S:私は=ich / V:好きです=mag / O:水泳が=Schwimmen / M:サッカーより=lieber als Fußball,,「〜より…が好き」は lieber als
+12,99,L3,おまけ：どうぶつオリンピック,TALK,Hakomaru,みんな金メダルだね！,Alle bekommen Gold!,,,
+13,99,L3,おまけ：はくぶつかんのたから,INTRO,,とけい台の丘のはくぶつかんで、たからものをドイツ語で紹介しよう。,,,,
+13,99,L3,おまけ：はくぶつかんのたから,GOAL,,ワールド13の「完了形・過去形・受け身」で、たからものを紹介しよう,,,,ちがう場面でも過去や受け身の文が言える
+13,99,L3,おまけ：はくぶつかんのたから,TALK,Hakomaru,すごい！古いものがいっぱい！,Wow! So viele alte Sachen!,,,
+13,99,L3,おまけ：はくぶつかんのたから,Q,me,この絵は400年前にかかれました。,,S:この絵は=dieses Bild||das Bild / V:=wurde / M:400年前に=vor 400 Jahren||vor vierhundert Jahren / V:かかれました=gemalt,,wurde … gemalt
+13,99,L3,おまけ：はくぶつかんのたから,Q,me,その王冠は金で作られました。,,S:その王冠は=die Krone / V:=wurde / M:金で=aus Gold / V:作られました=gemacht,,wurde … gemacht
+13,99,L3,おまけ：はくぶつかんのたから,Q,me,ハコまるは博物館に行きました。,,S:ハコまるは=Hakomaru / V:=ist / M:博物館に=ins Museum / V:行きました=gegangen,,行く（gehen）の完了形は sein を使う
+13,99,L3,おまけ：はくぶつかんのたから,Q,me,私たちは昨日ドイツから来ました。,,S:私たちは=wir / V:=sind / M~:昨日=gestern / M:ドイツから=aus Deutschland / V:来ました=gekommen,,wir sind … gekommen
+13,99,L3,おまけ：はくぶつかんのたから,Q,me,昔、ここに王様が住んでいました。,,S:王様が=ein König / V:住んでいました=wohnte / M~:昔=früher / M:ここに=hier,,Früher wohnte hier ein König. と、時を前に出すと自然
+13,99,L3,おまけ：はくぶつかんのたから,TALK,Hakomaru,ぼくの箱も いつか はくぶつかんに かざられるかな？,Komme ich auch einmal ins Museum?,,,

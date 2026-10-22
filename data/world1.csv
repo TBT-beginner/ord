@@ -1,0 +1,59 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+1,1,L0,はじめてのメッセージ,INTRO,,留学生のエマがクラスにやってきた！LINEで自己紹介を送ろう。,,,,
+1,1,L0,はじめてのメッセージ,GOAL,,「〜です」を S → V（am / is）→ C の順で言えるようになろう,,S:私は=I / V:です=am / C:ケン=Ken,,名前・年齢・住んでいる所を英語で言える
+1,1,,,RULE,,「〜です」は S＋V（am / is）＋C の順,,S:私は=I / V:です=am / C:ケン=Ken,,
+1,1,L0,はじめてのメッセージ,TALK,Emma,やあ！エマだよ。よろしくね！,"Hi! I'm Emma. Nice to meet you!",,,
+1,1,L0,はじめてのメッセージ,Q,me,私はケンです。,,S:私は=I / V:です=am / C:ケン=Ken,,「です」は be動詞。主語が I なら am
+1,1,L0,はじめてのメッセージ,Q,me,私は14歳です。,,S:私は=I / V:です=am / C:14歳=fourteen||14||fourteen years old||14 years old,,「〜歳です」は数字だけでOK。years old をつけても正解
+1,1,L0,はじめてのメッセージ,Q,me,私は大阪に住んでいます。,,S:私は=I / V:住んでいます=live / M:大阪に=in Osaka,,「住んでいます」は live の1語。「〜に」は in で表す
+1,1,L0,はじめてのメッセージ,Q,me,私の好きなスポーツはサッカーです。,,S:私の好きなスポーツは=My favorite sport / V:です=is / C:サッカー=soccer,,「私の好きなスポーツは」全体で1つの S（主語）
+1,1,L0,はじめてのメッセージ,Q,me,私はサッカー部に入っています。,,S:私は=I / V:入っています=am / M:サッカー部に=in the soccer club,,「〜部に入っている」は be in the 〜 club。ここの be動詞は「いる」の意味
+1,1,L0,はじめてのメッセージ,TALK,Emma,いいね！私もサッカー好きだよ！,Cool! I like soccer too!,,,
+1,2,L1,家族を紹介しよう,INTRO,,エマが家族の写真を見たいって。写真を送って説明しよう。,,,,
+1,2,L1,家族を紹介しよう,GOAL,,主語に合わせて am / is / are を使い分けられるようになろう,,S:姉と私は=My sister and I / V:です=are / C:仲良し=good friends,,家族を1人ずつ英語で紹介できる
+1,2,,,RULE,,主語によって be動詞が am / is / are に変わる,,S:姉と私は=My sister and I / V:です=are / C:仲良し=good friends,,
+1,2,L1,家族を紹介しよう,TALK,Emma,ケンの家族のこと教えて！,Tell me about your family!,,,
+1,2,L1,家族を紹介しよう,Q,me,これは私の家族です。,,S:これは=This / V:です=is{be} / C:私の家族=my family,,This（これ）は1つのものなので is
+1,2,L1,家族を紹介しよう,Q,me,父は先生です。,,S:父は=My father||My dad / V:です=is{be} / C:先生=a teacher,,「父」は My father。職業の前には a をつける
+1,2,L1,家族を紹介しよう,Q,me,母はとても親切です。,,S:母は=My mother||My mom / V:です=is{be} / C:とても親切=very kind,,「とても親切」で1つの C
+1,2,L1,家族を紹介しよう,Q,me,姉と私は仲良しです。,,S:姉と私は=My sister and I / V:です=are{be} / C:仲良し=good friends,,主語が2人なので are
+1,2,L1,家族を紹介しよう,Q,me,うちの犬は今、庭にいます。,,S:うちの犬は=Our dog||My dog / V:います=is{be} / M:庭に=in the garden||in the yard / M~:今、=now,,「いる・ある」も be動詞で表せる。now は文の最初にも置ける
+1,2,L1,家族を紹介しよう,TALK,Emma,楽しそうな家族だね！,Your family sounds fun!,,,
+1,3,L2,学校を案内しよう,INTRO,,エマに学校を案内するよ。まず日本語の文から「主語」と「動詞」を見つけよう。,,,,
+1,3,L2,学校を案内しよう,GOAL,,日本語の文から、主語と動詞を見つけられるようになろう,,S:図書館は=The library / V:あります=is / M:2階に=on the second floor,,学校の様子や場所を英語で説明できる
+1,3,,,RULE,,日本語の文から主語と動詞を見つける。「〜にある」も be動詞,,S:図書館は=The library / V:あります=is / M:2階に=on the second floor,,
+1,3,L2,学校を案内しよう,TALK,Emma,ケンの学校ってどんな感じ？,What is your school like?,,,
+1,3,L2,学校を案内しよう,Q,me,私たちの学校はとても大きいです。,,S:私たちの学校は=Our school / V:です=is / C:とても大きい=very big||very large,are | big school,
+1,3,L2,学校を案内しよう,Q,me,担任の先生はおもしろいです。,,S:担任の先生は=Our homeroom teacher||My homeroom teacher / V:です=is / C:おもしろい=funny||interesting,am | fun,
+1,3,L2,学校を案内しよう,Q,me,図書館は2階にあります。,,S:図書館は=The library / V:あります=is / M:2階に=on the second floor||on the 2nd floor,has | are,「〜にあります」は is＋場所。has は使わない
+1,3,L2,学校を案内しよう,Q,me,体育館は新しいです。,,S:体育館は=The gym / V:です=is / C:新しい=new,are | a new,形容詞1語の C には a をつけない
+1,3,L2,学校を案内しよう,Q,me,私は毎日学校に来ます。,,S:私は=I / V:来ます=come / M:学校に=to school / M~:毎日=every day,comes | at school,every day は文の最初にも置ける
+1,3,L2,学校を案内しよう,TALK,Emma,早く学校を見てみたい！,I want to see your school soon!,,,
+1,4,L3,放課後と週末,INTRO,,放課後や週末の過ごし方をエマに教えよう。今度は英単語を自分で打ちこむよ。,,,,
+1,4,L3,放課後と週末,GOAL,,「どこ」「いつ」を文の後ろに置けるようになろう,,S:私は=I / V:行きます=go / M:公園に=to the park / M~:放課後=after school,,放課後や週末の過ごし方を英語で書ける
+1,4,,,RULE,,「どこ」「いつ」の M は文の後ろに置く,,S:私は=I / V:行きます=go / M:公園に=to the park / M~:放課後=after school,,
+1,4,L3,放課後と週末,TALK,Emma,放課後は何してるの？,What do you do after school?,,,
+1,4,L3,放課後と週末,Q,me,私は放課後、公園に行きます。,,S:私は=I / V:行きます=go / M:公園に=to the park / M~:放課後、=after school,,日本語は「放課後」が前でも、英語の基本は「場所」→「時」
+1,4,L3,放課後と週末,Q,me,私の好きな食べ物はラーメンです。,,S:私の好きな食べ物は=My favorite food / V:です=is / C:ラーメン=ramen,,
+1,4,L3,放課後と週末,Q,me,ラーメンはとてもおいしいです。,,S:ラーメンは=Ramen||It / V:です=is / C:とてもおいしい=very good||very delicious||so good||so delicious,,
+1,4,L3,放課後と週末,Q,me,私の姉は先生です。,,S:私の姉は=My sister||My big sister||My older sister / V:です=is / C:先生=a teacher,,職業の前には a
+1,4,L3,放課後と週末,Q,me,日曜日、私は家にいます。,,S:私は=I / V:います=am / M:家に=at home / M~:日曜日、=on Sundays||every Sunday||on Sunday,,日本語では「日曜日、」が先頭でも、英語はまず S と V から。毎週のことなので on Sundays（every Sunday でもOK）。on Sunday は「ある日曜日（今度の日曜日など）」
+1,4,L3,放課後と週末,TALK,Emma,今度いっしょにラーメン食べよう！,Let's eat ramen together sometime!,,,
+1,5,L4,自己紹介カード,INTRO,,エマのアルバムに自己紹介カードを書こう。箱はもうないよ。英文をまるごと打ちこもう。,,,,
+1,5,L4,自己紹介カード,GOAL,,箱がなくても、S → V → C / M の順で文を組み立てられるようになろう,,S:私の誕生日は=My birthday / V:です=is / M:5月=in May,,自己紹介カードを英文で書ける
+1,5,,,RULE,,箱がなくても S → V → C / M の順で組み立てる,,S:私の誕生日は=My birthday / V:です=is / M:5月=in May,,
+1,5,L4,自己紹介カード,TALK,Emma,私のアルバムにカードを書いてくれる？,Can you write a card for my album?,,,
+1,5,L4,自己紹介カード,Q,me,私は14歳です。,,S:私は=I / V:です=am / C:14歳=fourteen||14||fourteen years old||14 years old,,
+1,5,L4,自己紹介カード,Q,me,私の誕生日は5月です。,,S:私の誕生日は=My birthday / V:です=is / M:5月=in May,,月の前には in をつける
+1,5,L4,自己紹介カード,Q,me,私の犬はとても大きいです。,,S:私の犬は=My dog / V:です=is / C:とても大きい=very big||so big,,
+1,5,L4,自己紹介カード,Q,me,私のネコはとてもかわいいです。,,S:私のネコは=My cat / V:です=is / C:とてもかわいい=very cute||so cute,,
+1,5,L4,自己紹介カード,Q,me,私の部屋は2階にあります。,,S:私の部屋は=My room / V:あります=is / M:2階に=on the second floor||on the 2nd floor,,「〜にあります」は is＋場所
+1,5,L4,自己紹介カード,TALK,Emma,すてきなカードだね！,What a nice card!,,,
+1,6,BOSS,自己紹介スピーチ,INTRO,,クラスのみんなの前で、エマに向けて自己紹介スピーチ！ヒントは文字数だけ。目標タイムをめざそう。,,,,
+1,6,BOSS,自己紹介スピーチ,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:私は=I / V:です=am / C:とても幸せ=very happy / M~:今=now,,自己紹介スピーチの原稿を英語で作れる
+1,6,BOSS,自己紹介スピーチ,Q,me,私の名前はケンです。,,S:私の名前は=My name / V:です=is / C:ケン=Ken,,
+1,6,BOSS,自己紹介スピーチ,Q,me,私の学校は公園の近くにあります。,,S:私の学校は=My school / V:あります=is / M:公園の近くに=near the park,,「〜にあります」は is＋場所
+1,6,BOSS,自己紹介スピーチ,Q,me,私の母は先生です。,,S:私の母は=My mother||My mom / V:です=is / C:先生=a teacher,,
+1,6,BOSS,自己紹介スピーチ,Q,me,私は毎日公園に行きます。,,S:私は=I / V:行きます=go / M:公園に=to the park / M~:毎日=every day,,
+1,6,BOSS,自己紹介スピーチ,Q,me,私の誕生日は5月です。,,S:私の誕生日は=My birthday / V:です=is / M:5月=in May,,
+1,6,BOSS,自己紹介スピーチ,TALK,Emma,ありがとう、ケン！最高のスピーチだったよ！,"Thank you, Ken! Great speech!",,,

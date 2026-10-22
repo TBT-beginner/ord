@@ -12,6 +12,12 @@
 | `gojun-world.html` | 公開用の完成ファイル |
 | `preview/` | 手元確認用（`node preview/serve.js` → http://localhost:5178） |
 
+## 公開（Cloudflare Pages）
+
+- GitHub の TBT-beginner/ord をつなぐ。ビルドコマンド `node build.js && node build.js de`、出力ディレクトリ `preview`（英語版が `/`、ドイツ語版が `/de`）
+- `preview/` の中身もコミットしてあるので、ビルドコマンドなしでも同じ内容が公開される
+- 直したら `node build.js` と `node build.js de` を実行してからコミット・プッシュ
+
 ## 問題を足す・直す
 
 1. `data/` の CSV を Excel などで編集（新しいワールドは `world3.csv` のように追加）

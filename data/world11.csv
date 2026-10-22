@@ -1,0 +1,58 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+11,1,L0,旅のよてい,INTRO,,エマと家族旅行の計画！これからのことは will や be going to を使うよ。,,,,
+11,1,L0,旅のよてい,GOAL,,will・be going to で、これからのことを言えるようになろう,,S:私は=I / V:泳ぐつもりです=am going to swim / M:海で=in the sea,,これからの予定を英語で言える
+11,1,,,RULE,,未来のことは will / be going to ＋動詞の原形。2語以上でも1つの V,,S:私は=I / V:泳ぐつもりです=am going to swim / M:海で=in the sea,,
+11,1,L0,旅のよてい,TALK,Emma,夏休みはどこに行くの？,Where are you going this summer?,,,
+11,1,L0,旅のよてい,Q,me,私たちは来週ハワイに行きます。,,S:私たちは=We / V:行きます=will go||are going to go / M:ハワイに=to Hawaii / M~:来週=next week,,これからのことなので will go
+11,1,L0,旅のよてい,Q,me,私は海で泳ぐつもりです。,,S:私は=I / V:泳ぐつもりです=am going to swim||will swim / M:海で=in the sea||in the ocean,,「〜するつもり」は be going to ＋原形
+11,1,L0,旅のよてい,Q,me,明日は晴れるでしょう。,,S:=It / V:でしょう=will be / C:晴れる=sunny / M~:明日は=tomorrow,,天気なので It。「〜でしょう」は will
+11,1,L0,旅のよてい,Q,me,母はおみやげを買うでしょう。,,S:母は=My mother||My mom / V:買うでしょう=will buy / O:おみやげを=souvenirs||some souvenirs,,will のあとの動詞に s はつけない
+11,1,L0,旅のよてい,Q,me,私はエマに手紙を書くつもりです。,,S:私は=I / V:書くつもりです=am going to write||will write / O:エマに=Emma / O:手紙を=a letter,,
+11,1,L0,旅のよてい,TALK,Emma,楽しそう！おみやげ待ってるね！,Sounds fun! I'll wait for a souvenir!,,,
+11,2,L1,空港のルール,INTRO,,空港には守るルールがいっぱい。can・must・should のあとの動詞の形をカードで選ぼう。,,,,
+11,2,L1,空港のルール,GOAL,,can・must・should の使い方を身に付けよう,,S:あなたは=You / V:見せなければなりません=must show / O:パスポートを=your passport,,できること・しなければならないことを言える
+11,2,,,RULE,,can（できる）・must（しなければならない）・should（したほうがいい）＋動詞の原形,,S:あなたは=You / V:見せなければなりません=must show / O:パスポートを=your passport,,
+11,2,L1,空港のルール,TALK,Emma,空港って広いね！,The airport is so big!,,,
+11,2,L1,空港のルール,Q,me,私は英語を少し話せます。,,S:私は=I / V:話せます=can speak{can speak|can speaks|can spoke} / O:英語を=English / M:少し=a little,,can のあとは原形
+11,2,L1,空港のルール,Q,me,あなたはパスポートを見せなければなりません。,,S:あなたは=You / V:見せなければなりません=must show{must show|must shows|must showed}||have to show / O:パスポートを=your passport,,
+11,2,L1,空港のルール,Q,me,私たちは早く空港に着いたほうがいいです。,,S:私たちは=We / V:着いたほうがいいです=should arrive{should arrive|should arrives|should arrived} / M:空港に=at the airport / M:早く=early,,
+11,2,L1,空港のルール,Q,me,飛行機の中では静かにしなければなりません。,,S:=You||We / V:しなければなりません=must be{must be|must is|must are} / C:静かに=quiet / M:飛行機の中では=on the plane,,日本語に主語がなくても英語では You などが必要。must のあとの be動詞は原形の be
+11,2,L1,空港のルール,Q,me,エマは日本語の歌を歌えます。,,S:エマは=Emma / V:歌えます=can sing{can sing|can sings|can sang} / O:日本語の歌を=Japanese songs||a Japanese song,,主語が3人称単数でも can のあとは原形
+11,2,L1,空港のルール,TALK,Emma,ルールを守って楽しい旅にしよう！,Let's follow the rules and have a great trip!,,,
+11,3,L2,空港で質問,INTRO,,空港のカウンターで質問しよう。Can・Will・Should も、疑問文では S の前に出るよ。,,,,
+11,3,L2,空港で質問,GOAL,,助動詞を前に出す疑問文を身に付けよう,,A:=Can / S:=I / V:使えますか=use / O:このカードを=this card,,お願いや予定をたずねられる
+11,3,,,RULE,,助動詞の疑問文は、助動詞を S の前に出す,,A:=Can / S:=I / V:使えますか=use / O:このカードを=this card,,
+11,3,L2,空港で質問,TALK,Emma,わからないことは聞いてみよう！,Let's ask if we don't know something!,,,
+11,3,L2,空港で質問,Q,me,このカードを使えますか？,,A:=Can / S:=I / V:使えますか=use / O:このカードを=this card,Do | uses,日本語に主語がないけど、英語では I が必要
+11,3,L2,空港で質問,Q,me,飛行機は何時に着きますか？,,W:何時に=What time / A:=will||does / S:飛行機は=the plane / V:着きますか=arrive,arrives | is,
+11,3,L2,空港で質問,Q,me,私たちはここで待ったほうがいいですか？,,A:=Should / S:私たちは=we / V:待ったほうがいいですか=wait / M:ここで=here,Do | waits,
+11,3,L2,空港で質問,Q,me,あなたは明日来られますか？,,A:=Can / S:あなたは=you / V:来られますか=come / M:明日=tomorrow,comes | Do,
+11,3,L2,空港で質問,Q,me,雨は降るでしょうか？,,A:=Will / S:=it / V:降るでしょうか=rain,rains | Is,天気の文は it。「〜でしょうか」は Will で始める
+11,3,L2,空港で質問,TALK,Emma,これで安心だね！,Now we can relax!,,,
+11,4,L3,旅行のルールブック,INTRO,,旅行のルールブックを英語で作ろう。助動詞と動詞を自分で打ちこむよ。,,,,
+11,4,L3,旅行のルールブック,GOAL,,助動詞・未来の文を自分で書けるようになろう,,S:あなたは=You / V:しなければなりません=must wear / O:シートベルトを=your seat belt,,旅のきまりを英語で書ける
+11,4,,,RULE,,will・be going to・must・should・can't を自分で書く,,S:あなたは=You / V:しなければなりません=must wear / O:シートベルトを=your seat belt,,
+11,4,L3,旅行のルールブック,TALK,Emma,ルールブック、見せて！,Show me the rule book!,,,
+11,4,L3,旅行のルールブック,Q,me,あなたは牛乳を飲んだほうがいいです。,,S:あなたは=You / V:飲んだほうがいいです=should drink / O:牛乳を=milk,,
+11,4,L3,旅行のルールブック,Q,me,私たちはホテルで朝ごはんを食べるつもりです。,,S:私たちは=We / V:食べるつもりです=are going to eat||will eat||are going to have||will have / O:朝ごはんを=breakfast / M:ホテルで=at the hotel,,
+11,4,L3,旅行のルールブック,Q,me,あなたは空港で静かにしなければなりません。,,S:あなたは=You / V:しなければなりません=must be||have to be / C:静かに=quiet / M:空港で=at the airport,,
+11,4,L3,旅行のルールブック,Q,me,私は泳げません。,,S:私は=I / V:泳げません=can't swim||cannot swim,,「〜できない」は can't
+11,4,L3,旅行のルールブック,Q,me,明日は雨が降らないでしょう。,,S:=It / V:降らないでしょう=won't rain||will not rain / M~:明日は=tomorrow,,
+11,4,L3,旅行のルールブック,TALK,Emma,これで準備ばっちり！,Now we're all ready!,,,
+11,5,L4,旅のしおり,INTRO,,クラスに配る「旅のしおり」を英語で書こう。箱なしで英文をまるごと打ちこむよ。,,,,
+11,5,L4,旅のしおり,GOAL,,箱がなくても、助動詞・未来の文を組み立てられるようになろう,,S:私たちは=We / V:とまる予定です=are going to stay / M:ホテルに=at the hotel / M:3日間=for three days,,予定とルールを英語で知らせられる
+11,5,,,RULE,,箱がなくても助動詞・未来の文を組み立てる,,S:私たちは=We / V:とまる予定です=are going to stay / M:ホテルに=at the hotel / M:3日間=for three days,,
+11,5,L4,旅のしおり,Q,me,私たちは9時に空港に集まります。,,S:私たちは=We / V:集まります=will meet||will gather||meet / M:空港に=at the airport / M:9時に=at nine||at 9,,場所 → 時の順
+11,5,L4,旅のしおり,Q,me,あなたはパスポートを持ってこなければなりません。,,S:あなたは=You / V:持ってこなければなりません=must bring||have to bring / O:パスポートを=your passport,,
+11,5,L4,旅のしおり,Q,me,飛行機は11時に出発するでしょう。,,S:飛行機は=The plane / V:出発するでしょう=will leave / M:11時に=at eleven||at 11,,
+11,5,L4,旅のしおり,Q,me,私たちはホテルに3日間とまる予定です。,,S:私たちは=We / V:とまる予定です=are going to stay||will stay / M:ホテルに=at the hotel / M:3日間=for three days||for 3 days,,
+11,5,L4,旅のしおり,Q,me,あなたは英語で話したほうがいいです。,,S:あなたは=You / V:話したほうがいいです=should speak||should talk / M:英語で=in English,,
+11,5,L4,旅のしおり,TALK,Emma,わかりやすいしおりだね！,This guidebook is easy to read!,,,
+11,6,BOSS,機長アナウンス,INTRO,,機長になったつもりで機内アナウンス！ヒントは文字数だけ。,,,,
+11,6,BOSS,機長アナウンス,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:私たちは=We / V:着陸します=will land / M~:まもなく=soon,,アナウンスのように予定とお願いを伝えられる
+11,6,BOSS,機長アナウンス,Q,me,私たちはまもなく空港に着きます。,,S:私たちは=We / V:着きます=will arrive / M:空港に=at the airport / M~:まもなく=soon,,
+11,6,BOSS,機長アナウンス,Q,me,皆さんは静かにしなければなりません。,,S:皆さんは=Everyone||You / V:しなければなりません=must be||has to be||have to be / C:静かに=quiet,,
+11,6,BOSS,機長アナウンス,Q,me,東京の天気は晴れでしょう。,,S:東京の天気は=The weather in Tokyo / V:でしょう=will be / C:晴れ=sunny||clear,,
+11,6,BOSS,機長アナウンス,Q,me,あなたは窓から富士山が見られます。,,S:あなたは=You / V:見られます=can see / O:富士山が=Mt. Fuji||Mount Fuji / M:窓から=from the window,,
+11,6,BOSS,機長アナウンス,Q,me,私たちはホテルに3日間とまるでしょう。,,S:私たちは=We / V:とまるでしょう=will stay||are going to stay / M:ホテルに=at the hotel / M:3日間=for three days||for 3 days,,
+11,6,BOSS,機長アナウンス,TALK,Emma,本物の機長みたい！,You sound like a real pilot!,,,

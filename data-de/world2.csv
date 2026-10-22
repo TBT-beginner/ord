@@ -1,0 +1,65 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+2,1,,,RULE,,「〜を」は動詞のうしろ,,S:私は=ich / V:飲みます=trinke / O:牛乳を=Milch,,日本語は「牛乳を 飲みます」と動詞が最後。ドイツ語は ich trinke Milch と動詞が2番目に来て、「〜を」はそのうしろ。
+2,1,,,RULE,,「いつ」は動詞のすぐうしろ、「〜を」の前,,S:私は=ich / V:食べます=esse / M:毎日=jeden Tag / O:リンゴを=einen Apfel,,ドイツ語は「いつ」→「どこ」→「〜を」の順が多い。英語の I eat an apple every day とは「毎日」の位置がちがう。
+2,2,,放課後、私はサッカーをします。,RULE,,動詞はいつも2番目！,Nach der Schule spiele ich Fußball.,M:放課後=nach der Schule / V:します=spiele / S:私は=ich / O:サッカーを=Fußball,Nach der Schule ich spiele Fußball.,ドイツ語でいちばん大事なルール。文の最初に何を置いても、動詞は2番目。\n・Ich spiele nach der Schule Fußball.（主語が1番目）\n・Nach der Schule spiele ich Fußball.（「放課後」が1番目 → 動詞 → 主語）\n2番目をゆずった主語は、動詞のすぐうしろに回る。
+2,3,,コーチはその選手をほめます。,RULE,,男性名詞の「〜を」は den・einen,Der Trainer lobt den Spieler.,S:コーチは=der Trainer / V:ほめます=lobt / O:その選手を=den Spieler,Der Trainer lobt der Spieler.,「〜を」になるとき、男性名詞だけ形が変わる：der → den、ein → einen、kein → keinen。\n女性（die・eine）と中性（das・ein）は変わらない。
+2,3,,,TABLE,,「〜を」で変わるのは男性だけ,,|男性|女性|中性;〜は|[der=der Trainer] ・ ein|die ・ eine|das ・ ein;〜を|[den=den Spieler/den Park] ・ [einen=einen Apfel/einen Ball/einen Film/einen Hund/einen Schläger]|die ・ [eine=eine Kamera]|das ・ [ein=ein Buch],,
+2,4,,,RULE,,「いつ」→「どこ」の順,,S:私たちは=wir / V:行きます=gehen / M:土曜日に=am Samstag / M:公園へ=in den Park,,英語は「どこ → いつ」（to the park on Saturday）だけど、ドイツ語は「いつ → どこ」。日本語の「土曜日に 公園へ」と同じ順番！
+2,1,L0,朝ごはん,INTRO,,レナが日本の朝ごはんに興味しんしん。毎日の生活を伝えよう。,,,,
+2,1,L0,朝ごはん,GOAL,,「〜を」を動詞のうしろに置く順番を身に付けよう,,S:私は=ich / V:飲みます=trinke / O:牛乳を=Milch,,毎日の習慣をドイツ語で言える
+2,1,L0,朝ごはん,TALK,Lena,日本の朝ごはんって何を食べるの？,Was isst man in Japan zum Frühstück?,,,
+2,1,L0,朝ごはん,Q,me,私は牛乳を飲みます。,,S:私は=ich / V:飲みます=trinke / O:牛乳を=Milch,,日本語は「〜を → 飲む」、ドイツ語は「飲む → 〜を」
+2,1,L0,朝ごはん,Q,me,私はご飯を食べます。,,S:私は=ich / V:食べます=esse / O:ご飯を=Reis,,essen（食べる）。ich esse
+2,1,L0,朝ごはん,Q,me,私の母はコーヒーを飲みます。,,S:私の母は=meine Mutter / V:飲みます=trinkt / O:コーヒーを=Kaffee,,主語が sie（1人）なので trinkt
+2,1,L0,朝ごはん,Q,me,私の父はパンを食べます。,,S:私の父は=mein Vater / V:食べます=isst / O:パンを=Brot,,essen は er・sie のとき isst（形が変わる）
+2,1,L0,朝ごはん,Q,me,私は毎日リンゴを食べます。,,S:私は=ich / V:食べます=esse / M~:毎日=jeden Tag / O:リンゴを=einen Apfel,,「いつ」は動詞のうしろ、O の前。Apfel は男性名詞なので「1つの〜を」は einen
+2,1,L0,朝ごはん,TALK,Lena,おいしそう！,Lecker!,,,
+2,1,L0,朝ごはん,DRILL,,,,"{""ja"":[""S"",""M"",""O"",""V""],""en"":[""S"",""V"",""M~"",""O""],""opt"":[""M""],""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""彼女は"",""sie"",""3s""],[""私の母は"",""meine Mutter"",""3s""],[""私の兄は"",""mein Bruder"",""3s""],[""私たちは"",""wir"",""1p""],[""私の両親は"",""meine Eltern"",""3p""]],""V"":[{""ja"":""飲みます"",""f"":{""1s"":""trinke"",""2s"":""trinkst"",""3s"":""trinkt"",""1p"":""trinken"",""3p"":""trinken""},""o"":""drink""},{""ja"":""食べます"",""f"":{""1s"":""esse"",""2s"":""isst"",""3s"":""isst"",""1p"":""essen"",""3p"":""essen""},""o"":""food""},{""ja"":""買います"",""f"":{""1s"":""kaufe"",""2s"":""kaufst"",""3s"":""kauft"",""1p"":""kaufen"",""3p"":""kaufen""},""o"":""shop""}],""M"":[[""毎日"",""jeden Tag""],[""毎朝"",""jeden Morgen""],[""夜に"",""abends""],[""今日"",""heute""],[""よく"",""oft""]],""O"":{""drink"":[[""牛乳を"",""Milch""],[""コーヒーを"",""Kaffee""],[""お茶を"",""Tee""],[""水を"",""Wasser""],[""ジュースを"",""Saft""],[""ココアを"",""Kakao""]],""food"":[[""パンを"",""Brot""],[""ご飯を"",""Reis""],[""リンゴを"",""einen Apfel""],[""チーズを"",""Käse""],[""魚を"",""Fisch""],[""肉を"",""Fleisch""],[""果物を"",""Obst""]],""shop"":[[""パンを"",""Brot""],[""本を"",""ein Buch""],[""かばんを"",""eine Tasche""],[""ペンを"",""einen Stift""],[""花を"",""Blumen""],[""ノートを"",""ein Heft""]]}}}",,
+2,2,L1,放課後,INTRO,,レナが「放課後は何してるの？」と聞いてきた。,,,,
+2,2,L1,放課後,GOAL,,「いつ」を先頭に出したら 動詞 → 主語 にする「動詞は2番目」を身に付けよう,,M:放課後=nach der Schule / V:します=spiele / S:私は=ich / O:サッカーを=Fußball,,「いつ」から始まる文をドイツ語で言える
+2,2,L1,放課後,TALK,Lena,放課後は何してるの？,Was machst du nach der Schule?,,,
+2,2,L1,放課後,Q,me,放課後、私はサッカーをします。,,S:私は=ich / V:します=spiele{spiele|spielst|spielt} / M~:放課後=nach der Schule / O:サッカーを=Fußball,,「放課後」を先頭にすると Nach der Schule spiele ich Fußball. 動詞はいつも2番目！
+2,2,L1,放課後,Q,me,毎日、私は宿題をします。,,S:私は=ich / V:します=mache{mache|machst|macht} / M~:毎日=jeden Tag / O:宿題を=Hausaufgaben,,「宿題をする」は Hausaufgaben machen。Jeden Tag mache ich … も正解
+2,2,L1,放課後,Q,me,月曜日に、私はピアノを弾きます。,,S:私は=ich / V:弾きます=spiele{spiele|spielst|spielt} / M~:月曜日に=am Montag / O:ピアノを=Klavier,,曜日の「〜に」は am。楽器を弾くのも spielen
+2,2,L1,放課後,Q,me,夜に、私は本を読みます。,,S:私は=ich / V:読みます=lese{lese|liest|lesen} / M~:夜に=abends / O:本を=ein Buch,,lesen は du・er のとき liest。Abends lese ich ein Buch. も正解
+2,2,L1,放課後,Q,me,週末、私の兄はテニスをします。,,S:私の兄は=mein Bruder / V:します=spielt{spiele|spielt|spielen} / M~:週末=am Wochenende / O:テニスを=Tennis,,主語が er なので spielt。Am Wochenende spielt mein Bruder Tennis.
+2,2,L1,放課後,TALK,Lena,私は放課後ギターを弾くよ！,Nach der Schule spiele ich Gitarre!,,,
+2,2,L1,放課後,DRILL,,,,"{""ja"":[""M、"",""S"",""O"",""V""],""en"":[""S"",""V"",""M~"",""O""],""note"":""「いつ」を先頭にしたら、動詞 → 主語 の順"",""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""彼女は"",""sie"",""3s""],[""私の兄は"",""mein Bruder"",""3s""],[""私の妹は"",""meine Schwester"",""3s""],[""私の友だちは"",""mein Freund"",""3s""],[""私たちは"",""wir"",""1p""]],""V"":[{""ja"":""します"",""f"":{""1s"":""spiele"",""2s"":""spielst"",""3s"":""spielt"",""1p"":""spielen"",""3p"":""spielen""},""o"":""sport""},{""ja"":""弾きます"",""f"":{""1s"":""spiele"",""2s"":""spielst"",""3s"":""spielt"",""1p"":""spielen"",""3p"":""spielen""},""o"":""instr""},{""ja"":""読みます"",""f"":{""1s"":""lese"",""2s"":""liest"",""3s"":""liest"",""1p"":""lesen"",""3p"":""lesen""},""o"":""read""},{""ja"":""します"",""f"":{""1s"":""mache"",""2s"":""machst"",""3s"":""macht"",""1p"":""machen"",""3p"":""machen""},""o"":""do""}],""M"":[[""放課後"",""nach der Schule""],[""月曜日に"",""am Montag""],[""週末に"",""am Wochenende""],[""夜に"",""abends""],[""毎日"",""jeden Tag""],[""朝に"",""morgens""],[""日曜日に"",""am Sonntag""]],""O"":{""sport"":[[""サッカーを"",""Fußball""],[""テニスを"",""Tennis""],[""バスケットボールを"",""Basketball""],[""バレーボールを"",""Volleyball""],[""野球を"",""Baseball""],[""卓球を"",""Tischtennis""]],""instr"":[[""ピアノを"",""Klavier""],[""ギターを"",""Gitarre""],[""バイオリンを"",""Geige""],[""フルートを"",""Flöte""]],""read"":[[""本を"",""ein Buch""],[""マンガを"",""Comics""],[""新聞を"",""eine Zeitung""],[""メールを"",""eine E-Mail""]],""do"":[[""宿題を"",""Hausaufgaben""],[""運動を"",""Sport""],[""ヨガを"",""Yoga""]]}}}",,
+2,3,L2,部活,INTRO,,レナが日本の部活について知りたいって。,,,,
+2,3,L2,部活,GOAL,,男性名詞の「〜を」（den・einen）を使えるようになろう,,S:コーチは=der Trainer / V:ほめます=lobt / O:その選手を=den Spieler,,部活のことをドイツ語で話せる
+2,3,L2,部活,TALK,Lena,何部に入ってるの？,In welchem Verein bist du?,,,
+2,3,L2,部活,Q,me,私はボールを持っています。,,S:私は=ich / V:持っています=habe / O:ボールを=einen Ball,hat|bin|ein Ball,「持っている」は haben。Ball は男性名詞なので「〜を」のとき einen
+2,3,L2,部活,Q,me,私たちは毎日走ります。,,S:私たちは=wir / V:走ります=laufen / M~:毎日=jeden Tag,läuft|laufe|uns,wir のとき動詞は -en の形
+2,3,L2,部活,Q,me,コーチはその選手をほめます。,,S:コーチは=der Trainer / V:ほめます=lobt / O:その選手を=den Spieler,lobe|die Trainer|der Spieler,Spieler は男性名詞。「〜を」のとき der → den
+2,3,L2,部活,Q,me,放課後、私たちは体育館で練習します。,,S:私たちは=wir / V:練習します=trainieren / M~:放課後=nach der Schule / M:体育館で=in der Turnhalle,trainiert|trainiere|uns,「いつ」→「どこ」の順。Nach der Schule trainieren wir … も正解
+2,3,L2,部活,Q,me,私の友だちはラケットを買います。,,S:私の友だちは=mein Freund / V:買います=kauft / O:ラケットを=einen Schläger,kaufe|meinen Freund|ein Schläger,Schläger（ラケット）は男性名詞なので einen
+2,3,L2,部活,TALK,Lena,楽しそう！,Das klingt lustig!,,,
+2,3,L2,部活,DRILL,,,,"{""ja"":[""S"",""O"",""V""],""en"":[""S"",""V"",""O""],""note"":""男性名詞の「〜を」は ein → einen、der → den"",""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""彼女は"",""sie"",""3s""],[""私の母は"",""meine Mutter"",""3s""],[""私の兄は"",""mein Bruder"",""3s""],[""私たちは"",""wir"",""1p""],[""私の両親は"",""meine Eltern"",""3p""]],""V"":[{""ja"":""持っています"",""f"":{""1s"":""habe"",""2s"":""hast"",""3s"":""hat"",""1p"":""haben"",""3p"":""haben""},""o"":""thing""},{""ja"":""買います"",""f"":{""1s"":""kaufe"",""2s"":""kaufst"",""3s"":""kauft"",""1p"":""kaufen"",""3p"":""kaufen""},""o"":""thing""},{""ja"":""さがしています"",""f"":{""1s"":""suche"",""2s"":""suchst"",""3s"":""sucht"",""1p"":""suchen"",""3p"":""suchen""},""o"":""thing""}],""O"":{""thing"":[[""ボールを"",""einen Ball""],[""ペンを"",""einen Stift""],[""かさを"",""einen Schirm""],[""かぎを"",""einen Schlüssel""],[""かばんを"",""eine Tasche""],[""時計を"",""eine Uhr""],[""スマホを"",""ein Handy""],[""自転車を"",""ein Fahrrad""],[""そのボールを"",""den Ball""],[""そのかばんを"",""die Tasche""],[""その本を"",""das Buch""]]}}}",,
+2,4,L3,週末の予定,INTRO,,週末にレナと何をするか相談しよう。,,,,
+2,4,L3,週末の予定,GOAL,,「いつ」→「どこ」の順で、予定を書けるようになろう,,S:私たちは=wir / V:行きます=gehen / M:土曜日に=am Samstag / M:公園へ=in den Park,,週末の予定をドイツ語で話せる
+2,4,L3,週末の予定,TALK,Lena,週末、何する？,Was machen wir am Wochenende?,,,
+2,4,L3,週末の予定,Q,me,週末、私たちは公園へ行きます。,,S:私たちは=wir / V:行きます=gehen / M~:週末=am Wochenende / M:公園へ=in den Park,,Am Wochenende gehen wir … と、時を前に出しても動詞は2番目
+2,4,L3,週末の予定,Q,me,私はパンを買います。,,S:私は=ich / V:買います=kaufe / O:パンを=Brot,,kaufen は ich のとき kaufe
+2,4,L3,週末の予定,Q,me,レナはボールを持っています。,,S:レナは=Lena / V:持っています=hat / O:ボールを=einen Ball,,haben は er・sie のとき hat
+2,4,L3,週末の予定,Q,me,日曜日に、私は本を読みます。,,S:私は=ich / V:読みます=lese / M~:日曜日に=am Sonntag / O:本を=ein Buch,,
+2,4,L3,週末の予定,Q,me,午後に、私たちはテニスをします。,,S:私たちは=wir / V:します=spielen / M~:午後に=am Nachmittag / O:テニスを=Tennis,,
+2,4,L3,週末の予定,TALK,Lena,いいね、そうしよう！,"Super, so machen wir das!",,,
+2,4,L3,週末の予定,DRILL,,,,"{""ja"":[""M、"",""S"",""M2"",""V""],""en"":[""S"",""V"",""M~"",""M2""],""note"":""「いつ」→「どこへ」の順"",""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""彼女は"",""sie"",""3s""],[""私の母は"",""meine Mutter"",""3s""],[""私の兄は"",""mein Bruder"",""3s""],[""私たちは"",""wir"",""1p""],[""私の両親は"",""meine Eltern"",""3p""]],""V"":[{""ja"":""行きます"",""f"":{""1s"":""gehe"",""2s"":""gehst"",""3s"":""geht"",""1p"":""gehen"",""3p"":""gehen""}}],""M"":[[""土曜日に"",""am Samstag""],[""日曜日に"",""am Sonntag""],[""週末に"",""am Wochenende""],[""今日"",""heute""],[""明日"",""morgen""]],""M2"":[[""公園へ"",""in den Park""],[""映画館へ"",""ins Kino""],[""町へ"",""in die Stadt""],[""学校へ"",""zur Schule""],[""プールへ"",""ins Schwimmbad""],[""図書館へ"",""in die Bibliothek""],[""スーパーへ"",""in den Supermarkt""],[""家へ"",""nach Hause""]]}}",,
+2,5,L4,一日のスケジュール,INTRO,,レナに日本の中学生の一日を紹介しよう。,,,,
+2,5,L4,一日のスケジュール,GOAL,,箱がなくても、動詞を2番目に置いて文を組み立てられるようになろう,,M:7時に=um sieben Uhr / V:食べます=esse / S:私は=ich / O:朝ごはんを=Frühstück,,一日の流れをドイツ語で書ける
+2,5,L4,一日のスケジュール,Q,me,毎日、私はパンを食べます。,,S:私は=ich / V:食べます=esse / M~:毎日=jeden Tag / O:パンを=Brot,,Jeden Tag esse ich Brot. と、時を前に出しても動詞は2番目
+2,5,L4,一日のスケジュール,Q,me,私はバスで学校へ行きます。,,S:私は=ich / V:行きます=fahre / M:バスで=mit dem Bus / M:学校へ=zur Schule,,乗り物で行くときは fahren。「どうやって」→「どこへ」の順
+2,5,L4,一日のスケジュール,Q,me,学校で、私たちは英語を勉強します。,,S:私たちは=wir / V:勉強します=lernen / M~:学校で=in der Schule / O:英語を=Englisch,,In der Schule lernen wir Englisch. も正解
+2,5,L4,一日のスケジュール,Q,me,夕方に、私は宿題をします。,,S:私は=ich / V:します=mache / M~:夕方に=am Abend / O:宿題を=Hausaufgaben,,Am Abend mache ich Hausaufgaben.
+2,5,L4,一日のスケジュール,Q,me,夜に、私はピアノを弾きます。,,S:私は=ich / V:弾きます=spiele / M~:夜に=abends / O:ピアノを=Klavier,,
+2,5,L4,一日のスケジュール,TALK,Lena,日本の中学生って忙しいね！,Japanische Schüler sind aber fleißig!,,,
+2,5,L4,一日のスケジュール,DRILL,,,,"{""use"":[""2-1"",""2-2"",""2-3"",""2-4""]}",,
+2,6,BOSS,わたしの一日日記,INTRO,,レナに送る「わたしの一日」の日記を仕上げよう！,,,,
+2,6,BOSS,わたしの一日日記,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:私は=ich / V:飲みます=trinke / O:お茶を=Tee,,毎日の生活をドイツ語の日記に書ける
+2,6,BOSS,わたしの一日日記,Q,me,毎朝、私はお茶を飲みます。,,S:私は=ich / V:飲みます=trinke / M~:毎朝=jeden Morgen / O:お茶を=Tee,,Jeden Morgen trinke ich Tee.
+2,6,BOSS,わたしの一日日記,Q,me,私の兄はパンを食べます。,,S:私の兄は=mein Bruder / V:食べます=isst / O:パンを=Brot,,er isst
+2,6,BOSS,わたしの一日日記,Q,me,放課後、私たちはバスケットボールをします。,,S:私たちは=wir / V:します=spielen / M~:放課後=nach der Schule / O:バスケットボールを=Basketball,,wir spielen
+2,6,BOSS,わたしの一日日記,Q,me,私は犬を飼っています。,,S:私は=ich / V:飼っています=habe / O:犬を=einen Hund,,Hund は男性名詞なので einen
+2,6,BOSS,わたしの一日日記,Q,me,夜に、私は音楽を聞きます。,,S:私は=ich / V:聞きます=höre / M~:夜に=abends / O:音楽を=Musik,,hören（聞く）。Abends höre ich Musik.
+2,6,BOSS,わたしの一日日記,TALK,Lena,日記ありがとう！,Danke für dein Tagebuch!,,,
+2,6,BOSS,わたしの一日日記,DRILL,,,,"{""use"":[""2-1"",""2-2"",""2-3"",""2-4""]}",,

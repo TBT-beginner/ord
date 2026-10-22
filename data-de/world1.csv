@@ -1,0 +1,69 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+1,1,,私はケンです。,RULE,,まず覚える「だれが」の言葉,Ich bin Ken.,,Du bist Ken.,ドイツ語の文は「だれが」にあたる言葉から始まることが多い。まずこの6つを覚えよう。\nsie は「彼女」と「彼ら」の両方の意味。どちらかは動詞の形でわかる（sie ist ＝彼女は、sie sind ＝彼らは）。\n文の最初では大文字で書く（Ich・Er）。
+1,1,,,TABLE,,主語の言葉,,日本語|ドイツ語|例;私|[ich]|Ich bin Ken.;あなた・きみ|[du]|Wie alt bist du?;彼|[er]|Er wohnt in Berlin.;彼女・彼ら|sie|—;それ|[es=es regnet/es sonnig]|Es regnet.;私たち|[wir]|Wir laufen jeden Tag.,,
+1,1,,,RULE,,「〜は…です」は 主語 → sein（＝）→ 中身 の順,,S:私は=ich / V:です=bin / C:ケン=Ken,,日本語は「私は ケン です」と「です」が最後。ドイツ語は「私は です ケン」の順。「私＝ケン」のように、主語と中身を「＝」でつなぐ動詞 sein を、主語のすぐうしろに置く。\nドイツ語の文は大文字で始め、名詞（Name・Schule など）はいつも大文字で書く。
+1,2,,私の両親は親切です。,RULE,,sein（＝）は主語で形が変わる,Meine Eltern sind nett.,S:私の両親は=meine Eltern / V:です=sind / C:親切=nett,Meine Eltern ist nett.,1人・1つ（mein Vater・das）なら ist、2人以上（meine Eltern）なら sind。英語の am / is / are と同じ考え方。
+1,2,,,TABLE,,sein（＝）の形,,主語|形|例;ich（私）|[bin]|Ich bin Ken.;du（きみ）|[bist]|Wie alt bist du?;er・sie・es（彼・彼女・それ・1人の人）|[ist]|Mein Vater ist Lehrer.;wir・sie（私たち・彼ら・2人以上）|[sind]|Meine Eltern sind nett.,,
+1,2,,私の母は医者です。,RULE,,名詞には「男性・女性・中性」がある,Meine Mutter ist Ärztin.,S:私の母は=meine Mutter / V:です=ist / C:医者=Ärztin,Mein Mutter ist Ärztin.,名詞は der / die / das といっしょに覚えるのがコツ。
+1,2,,,TABLE,,「その」「私の」は名詞の性で変わる,,|男性|女性|中性|複数;その|[der=der Trainer/der Bahnhof]|[die=die Mutter/die Schwester]|[das=das Buch/das Klassenzimmer]|[die=die Schüler/die Leute];私の|[mein=mein Vater/mein Bruder/mein Name]|[meine=meine Mutter/meine Schwester/meine Familie/meine Klasse]|[mein=mein Hobby]|[meine=meine Eltern/meine Brüder];私たちの|[unser=unser Klassenlehrer]|[unsere=unsere Schule]|—|—,,
+1,3,,,RULE,,主語と動詞を見つけて、動詞を主語に合わせる,,S:私たちの学校は=unsere Schule / V:です=ist / C:大きい=groß,,日本語の「〜は」「〜が」が主語、文の最後の「です・する」が動詞。ドイツ語ではこの2つが文の頭にならぶ。
+1,4,,彼はベルリンに住んでいます。,RULE,,ふつうの動詞も、主語で語尾が変わる,Er wohnt in Berlin.,S:彼は=er / V:住んでいます=wohnt / M:ベルリンに=in Berlin,Er wohne in Berlin.,辞書の形（wohnen）から -en を取って、主語に合う語尾をつける。\nmögen（好き）→ ich mag・er mag のように、形が大きく変わる動詞もある。
+1,4,,,TABLE,,動詞の語尾,,主語|語尾|wohnen（住む）|lernen（学ぶ）;ich|-e|[wohne]|[lerne];du|-st|[wohnst]|lernst;er・sie・es|-t|[wohnt]|lernt;wir・sie|-en|wohnen|lernen,,
+1,1,L0,はじめてのメッセージ,INTRO,,ドイツからの留学生レナがクラスにやってきた！メッセージで自己紹介を送ろう。,,,,
+1,1,L0,はじめてのメッセージ,GOAL,,「〜は…です」を 主語 → sein（＝）→ 中身 の順で言えるようになろう,,S:私は=ich / V:です=bin / C:ケン=Ken,,名前・年齢・住んでいる所をドイツ語で言える
+1,1,L0,はじめてのメッセージ,TALK,Lena,やあ！レナだよ。よろしくね！,Hallo! Ich bin Lena. Freut mich!,,,
+1,1,L0,はじめてのメッセージ,Q,me,私はケンです。,,S:私は=ich / V:です=bin / C:ケン=Ken,,「です」は sein という動詞。主語が ich なら bin
+1,1,L0,はじめてのメッセージ,Q,me,私は14歳です。,,S:私は=ich / V:です=bin / C:14歳=vierzehn||14||vierzehn Jahre alt||14 Jahre alt,,「〜歳です」は数字だけでOK。Jahre alt をつけても正解
+1,1,L0,はじめてのメッセージ,Q,me,私は大阪に住んでいます。,,S:私は=ich / V:住んでいます=wohne / M:大阪に=in Osaka,,「住んでいる」は wohnen。ich のときは wohne
+1,1,L0,はじめてのメッセージ,Q,me,私の名前はケンです。,,S:私の名前は=mein Name / V:です=ist / C:ケン=Ken,,主語が mein Name（1つ）なので ist
+1,1,L0,はじめてのメッセージ,Q,me,私は生徒です。,,S:私は=ich / V:です=bin / C:生徒=Schüler||Schülerin,,職業や立場には ein をつけない。女子なら Schülerin
+1,1,L0,はじめてのメッセージ,TALK,Lena,いいね！私も生徒だよ！,Cool! Ich bin auch Schülerin!,,,
+1,1,L0,はじめてのメッセージ,DRILL,,,,"{""ja"":[""S"",""C"",""V""],""en"":[""S"",""V"",""C""],""note"":""職業や立場には ein をつけない。女性は -in（Lehrerin）"",""slots"":{""S"":[{""ja"":""私は"",""en"":""ich"",""p"":""1s"",""o"":""any""},{""ja"":""きみは"",""en"":""du"",""p"":""2s"",""o"":""any""},{""ja"":""彼は"",""en"":""er"",""p"":""3s"",""o"":""m""},{""ja"":""彼女は"",""en"":""sie"",""p"":""3s"",""o"":""f""},{""ja"":""私の父は"",""en"":""mein Vater"",""p"":""3s"",""o"":""m""},{""ja"":""私の母は"",""en"":""meine Mutter"",""p"":""3s"",""o"":""f""},{""ja"":""私の兄は"",""en"":""mein Bruder"",""p"":""3s"",""o"":""m""},{""ja"":""私の姉は"",""en"":""meine Schwester"",""p"":""3s"",""o"":""f""},{""ja"":""私たちは"",""en"":""wir"",""p"":""1p"",""o"":""pl""},{""ja"":""私の両親は"",""en"":""meine Eltern"",""p"":""3p"",""o"":""pl""}],""V"":[{""ja"":""です"",""f"":{""1s"":""bin"",""2s"":""bist"",""3s"":""ist"",""1p"":""sind"",""3p"":""sind""}}],""C"":{""any"":[[""生徒"",""Schüler||Schülerin""],[""先生"",""Lehrer||Lehrerin""],[""医者"",""Arzt||Ärztin""],[""日本人"",""Japaner||Japanerin""]],""m"":[[""生徒"",""Schüler""],[""先生"",""Lehrer""],[""医者"",""Arzt""],[""日本人"",""Japaner""],[""エンジニア"",""Ingenieur""]],""f"":[[""生徒"",""Schülerin""],[""先生"",""Lehrerin""],[""医者"",""Ärztin""],[""日本人"",""Japanerin""],[""エンジニア"",""Ingenieurin""]],""pl"":[[""生徒"",""Schüler""],[""先生"",""Lehrer""],[""医者"",""Ärzte""],[""日本人"",""Japaner""]]}}}",,
+1,2,L1,家族を紹介しよう,INTRO,,レナが家族の写真を見たいって。写真を送って説明しよう。,,,,
+1,2,L1,家族を紹介しよう,GOAL,,主語に合わせて bin / ist / sind を使い分けられるようになろう,,S:姉と私は=meine Schwester und ich / V:です=sind / C:仲良し=gute Freunde,,家族を1人ずつドイツ語で紹介できる
+1,2,L1,家族を紹介しよう,TALK,Lena,家族の写真見せて！,Zeig mir ein Foto von deiner Familie!,,,
+1,2,L1,家族を紹介しよう,Q,me,これは私の家族です。,,S:これは=das / V:です=ist{bin|ist|sind} / C:私の家族=meine Familie,,「これは〜です」は Das ist 〜。家族（Familie）は女性名詞なので meine
+1,2,L1,家族を紹介しよう,Q,me,私の父は先生です。,,S:私の父は=mein Vater / V:です=ist{bin|ist|sind} / C:先生=Lehrer,,父（Vater）は男性名詞なので mein。職業には ein をつけない
+1,2,L1,家族を紹介しよう,Q,me,私の母は医者です。,,S:私の母は=meine Mutter / V:です=ist{bin|ist|sind} / C:医者=Ärztin,,母（Mutter）は女性名詞なので meine。女性の医者は Ärztin
+1,2,L1,家族を紹介しよう,Q,me,私の兄はとても背が高いです。,,S:私の兄は=mein Bruder / V:です=ist{bin|ist|sind} / C:とても背が高い=sehr groß,,「背が高い」は groß。ä・ö・ü・ß は ae・oe・ue・ss と打ってもOK
+1,2,L1,家族を紹介しよう,Q,me,私の両親は親切です。,,S:私の両親は=meine Eltern / V:です=sind{bin|ist|sind} / C:親切=nett,,両親（Eltern）は2人なので sind。複数の「私の」は meine
+1,2,L1,家族を紹介しよう,TALK,Lena,すてきな家族だね！,Was für eine tolle Familie!,,,
+1,2,L1,家族を紹介しよう,DRILL,,,,"{""ja"":[""S"",""C"",""V""],""en"":[""S"",""V"",""C""],""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""彼女は"",""sie"",""3s""],[""私の母は"",""meine Mutter"",""3s""],[""私の兄は"",""mein Bruder"",""3s""],[""私たちは"",""wir"",""1p""],[""私の両親は"",""meine Eltern"",""3p""],[""私の友だちは"",""mein Freund"",""3s""],[""私たちの先生は"",""unser Lehrer"",""3s""]],""V"":[{""ja"":""です"",""f"":{""1s"":""bin"",""2s"":""bist"",""3s"":""ist"",""1p"":""sind"",""3p"":""sind""}}],""C"":[[""親切"",""nett""],[""背が高い"",""groß""],[""眠い"",""müde""],[""幸せ"",""glücklich""],[""おもしろい"",""lustig""],[""静か"",""ruhig""],[""忙しい"",""beschäftigt""],[""元気"",""gesund""],[""病気"",""krank""]]}}",,
+1,3,L2,学校を紹介しよう,INTRO,,レナがケンの学校について聞いてきた。,,,,
+1,3,L2,学校を紹介しよう,GOAL,,主語と動詞を見つけて、動詞の形を主語に合わせられるようになろう,,S:私たちの学校は=unsere Schule / V:です=ist / C:大きい=groß,,学校や先生のことをドイツ語で説明できる
+1,3,L2,学校を紹介しよう,TALK,Lena,あなたの学校はどんなところ？,Wie ist deine Schule?,,,
+1,3,L2,学校を紹介しよう,Q,me,私たちの学校は大きいです。,,S:私たちの学校は=unsere Schule / V:です=ist / C:大きい=groß,bin|sind|klein,Schule は女性名詞なので unsere（私たちの）
+1,3,L2,学校を紹介しよう,Q,me,担任の先生はおもしろいです。,,S:担任の先生は=unser Klassenlehrer / V:です=ist / C:おもしろい=lustig,sind|bist|langweilig,「担任の先生」は Klassenlehrer。笑えるおもしろさは lustig
+1,3,L2,学校を紹介しよう,Q,me,教室はとても明るいです。,,S:教室は=das Klassenzimmer / V:です=ist / C:とても明るい=sehr hell,sind|bin|dunkel,Klassenzimmer は中性名詞なので das
+1,3,L2,学校を紹介しよう,Q,me,生徒たちは親切です。,,S:生徒たちは=die Schüler / V:です=sind / C:親切=nett,ist|bin|der Schüler,生徒たち（複数）なので sind。複数の「その」は die
+1,3,L2,学校を紹介しよう,Q,me,私のクラスは静かです。,,S:私のクラスは=meine Klasse / V:です=ist / C:静か=ruhig,sind|bin|laut,Klasse は女性名詞なので meine
+1,3,L2,学校を紹介しよう,TALK,Lena,いい学校だね！,Deine Schule klingt toll!,,,
+1,3,L2,学校を紹介しよう,DRILL,,,,"{""use"":[""1-2""]}",,
+1,4,L3,友だちを紹介しよう,INTRO,,レナの友だちのマックスとも話すことに。自分や友だちのことをもっとくわしく。,,,,
+1,4,L3,友だちを紹介しよう,GOAL,,主語に合わせて動詞の語尾（-e・-st・-t・-en）を変えられるようになろう,,S:彼は=er / V:住んでいます=wohnt / M:ベルリンに=in Berlin,,自分や友だちのことを動詞を使って言える
+1,4,L3,友だちを紹介しよう,TALK,Max,やあ、マックスだよ。ベルリンから来たんだ。,"Hallo, ich bin Max. Ich komme aus Berlin.",,,
+1,4,L3,友だちを紹介しよう,Q,me,私は日本の出身です。,,S:私は=ich / V:出身です=komme / M:日本の=aus Japan,,「〜の出身です」は komme aus 〜（〜から来る）
+1,4,L3,友だちを紹介しよう,Q,me,彼はベルリンに住んでいます。,,S:彼は=er / V:住んでいます=wohnt / M:ベルリンに=in Berlin,,主語が er なので wohnen → wohnt
+1,4,L3,友だちを紹介しよう,Q,me,私はドイツ語を習っています。,,S:私は=ich / V:習っています=lerne / O:ドイツ語を=Deutsch,,lernen（学ぶ）。ich なので lerne。言語名は大文字で始める
+1,4,L3,友だちを紹介しよう,Q,me,レナは音楽が好きです。,,S:レナは=Lena / V:好きです=mag / O:音楽が=Musik,,「〜が好き」は mögen。er・sie のときは mag（形が大きく変わる）
+1,4,L3,友だちを紹介しよう,Q,me,私の姉は東京で働いています。,,S:私の姉は=meine Schwester / V:働いています=arbeitet / M:東京で=in Tokio,,arbeiten は主語が sie だと arbeitet（t が続くので e をはさむ）
+1,4,L3,友だちを紹介しよう,TALK,Max,よろしくね！,Freut mich!,,,
+1,4,L3,友だちを紹介しよう,DRILL,,,,"{""ja"":[""S"",""M"",""O"",""V""],""en"":[""S"",""V"",""M"",""O""],""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""彼女は"",""sie"",""3s""],[""私の母は"",""meine Mutter"",""3s""],[""私の兄は"",""mein Bruder"",""3s""],[""私たちは"",""wir"",""1p""],[""私の両親は"",""meine Eltern"",""3p""]],""V"":[{""ja"":""住んでいます"",""f"":{""1s"":""wohne"",""2s"":""wohnst"",""3s"":""wohnt"",""1p"":""wohnen"",""3p"":""wohnen""},""o"":""live""},{""ja"":""働いています"",""f"":{""1s"":""arbeite"",""2s"":""arbeitest"",""3s"":""arbeitet"",""1p"":""arbeiten"",""3p"":""arbeiten""},""o"":""work""},{""ja"":""出身です"",""f"":{""1s"":""komme"",""2s"":""kommst"",""3s"":""kommt"",""1p"":""kommen"",""3p"":""kommen""},""o"":""from""},{""ja"":""習っています"",""f"":{""1s"":""lerne"",""2s"":""lernst"",""3s"":""lernt"",""1p"":""lernen"",""3p"":""lernen""},""o"":""learn""}],""M"":{""live"":[[""東京に"",""in Tokio""],[""大阪に"",""in Osaka""],[""ベルリンに"",""in Berlin""],[""ミュンヘンに"",""in München""],[""ウィーンに"",""in Wien""],[""京都に"",""in Kyoto""]],""work"":[[""東京で"",""in Tokio""],[""病院で"",""im Krankenhaus""],[""銀行で"",""in einer Bank""],[""学校で"",""in einer Schule""],[""ベルリンで"",""in Berlin""]],""from"":[[""日本の"",""aus Japan""],[""ドイツの"",""aus Deutschland""],[""オーストリアの"",""aus Österreich""],[""スイスの"",""aus der Schweiz""],[""中国の"",""aus China""]]},""O"":{""learn"":[[""ドイツ語を"",""Deutsch""],[""英語を"",""Englisch""],[""日本語を"",""Japanisch""],[""フランス語を"",""Französisch""],[""中国語を"",""Chinesisch""],[""ピアノを"",""Klavier""],[""数学を"",""Mathe""]]}}}",,
+1,5,L4,自己紹介の練習,INTRO,,明日はオンラインでレナのクラスと交流会。自己紹介を練習しよう。,,,,
+1,5,L4,自己紹介の練習,GOAL,,箱がなくても、主語 → 動詞 → … の文を組み立てられるようになろう,,S:私は=ich / V:です=bin / C:15歳=fünfzehn,,自己紹介をドイツ語の文でまるごと書ける
+1,5,L4,自己紹介の練習,Q,me,私はユイです。,,S:私は=ich / V:です=bin / C:ユイ=Yui,,ich のときは bin
+1,5,L4,自己紹介の練習,Q,me,私は15歳です。,,S:私は=ich / V:です=bin / C:15歳=fünfzehn||15||fünfzehn Jahre alt||15 Jahre alt,,15 は fünfzehn（ü は ue と打ってもOK）
+1,5,L4,自己紹介の練習,Q,me,私は京都に住んでいます。,,S:私は=ich / V:住んでいます=wohne / M:京都に=in Kyoto,,wohnen は ich のとき wohne
+1,5,L4,自己紹介の練習,Q,me,私は英語を習っています。,,S:私は=ich / V:習っています=lerne / O:英語を=Englisch,,英語は Englisch。名詞なので大文字で始める
+1,5,L4,自己紹介の練習,Q,me,私の趣味は料理です。,,S:私の趣味は=mein Hobby / V:です=ist / C:料理=Kochen,,Hobby は中性名詞なので mein。「料理（すること）」は Kochen
+1,5,L4,自己紹介の練習,TALK,Lena,明日楽しみ！,Ich freue mich auf morgen!,,,
+1,5,L4,自己紹介の練習,DRILL,,,,"{""use"":[""1-1"",""1-2"",""1-4""]}",,
+1,6,BOSS,自己紹介スピーチ,INTRO,,交流会本番！レナのクラスのみんなの前で自己紹介スピーチ。,,,,
+1,6,BOSS,自己紹介スピーチ,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:私の名前は=mein Name / V:です=ist / C:ケン=Ken,,自己紹介スピーチの原稿をドイツ語で作れる
+1,6,BOSS,自己紹介スピーチ,Q,me,私の名前はケンです。,,S:私の名前は=mein Name / V:です=ist / C:ケン=Ken,,mein Name（1つ）なので ist
+1,6,BOSS,自己紹介スピーチ,Q,me,私は大阪の出身です。,,S:私は=ich / V:出身です=komme / M:大阪の=aus Osaka,,「〜の出身」は komme aus 〜
+1,6,BOSS,自己紹介スピーチ,Q,me,私の父はエンジニアです。,,S:私の父は=mein Vater / V:です=ist / C:エンジニア=Ingenieur,,職業には ein をつけない
+1,6,BOSS,自己紹介スピーチ,Q,me,私の兄たちは背が高いです。,,S:私の兄たちは=meine Brüder / V:です=sind / C:背が高い=groß,,兄たち（複数）なので meine と sind
+1,6,BOSS,自己紹介スピーチ,Q,me,私はドイツ語を習っています。,,S:私は=ich / V:習っています=lerne / O:ドイツ語を=Deutsch,,ich lerne
+1,6,BOSS,自己紹介スピーチ,TALK,Lena,すばらしいスピーチだった！,Super Rede!,,,
+1,6,BOSS,自己紹介スピーチ,DRILL,,,,"{""use"":[""1-1"",""1-2"",""1-4""]}",,

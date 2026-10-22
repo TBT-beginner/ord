@@ -1,0 +1,63 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+11,1,,,RULE,,未来・予定は werden ＋ 原形（最後）,,S:私は=ich / V:つもりです=werde / M:明日=morgen / M:ベルリンへ=nach Berlin / V:行く=fahren,,werden は2番目、もう1つの動詞は原形で最後。
+11,2,,あなたはここで待たなければなりません。,RULE,,müssen（ねばならない）・dürfen（してもよい）,Du musst hier warten.,S:あなたは=du / V:なければなりません=musst / O:パスポートを=deinen Pass / V:見せ=zeigen,Du musst warten hier.,助動詞は主語に合わせて形が変わり、もう1つの動詞は原形で最後。
+11,2,,,TABLE,,助動詞の形,,主語|werden|müssen|dürfen|können|sollte;ich|[werde]|[muss]|[darf]|kann|sollte;du|[wirst]|[musst]|[darfst]|[kannst]|[solltest];er・sie・es|[wird]|muss|darf|kann|sollte;wir・sie・Sie|[werden]|[müssen]|[dürfen]|[können]|[sollten],,
+11,3,,,RULE,,助動詞の疑問文は助動詞が先頭,,V:てもいいですか=darf / S:=ich / M:ここで=hier / V:写真をとっ=fotografieren,,Darf ich hier fotografieren? 助動詞 → 主語 → … → 動詞（最後）。
+11,4,,,RULE,,「〜したほうがいい」は sollte,,S:あなたは=du / V:だほうがいいです=solltest / O:もっと水を=mehr Wasser / V:飲ん=trinken,,Du solltest mehr Wasser trinken.
+11,1,L0,旅のよてい,INTRO,,レナとドイツ旅行の予定を立てよう。,,,,
+11,1,L0,旅のよてい,GOAL,,予定を werden ＋ 動詞の原形で言えるようになろう,,S:私は=ich / V:つもりです=werde / M:明日=morgen / M:ベルリンへ=nach Berlin / V:行く=fahren,,予定をドイツ語で言える
+11,1,L0,旅のよてい,TALK,Lena,旅行の予定は？,Was hast du auf der Reise vor?,,,
+11,1,L0,旅のよてい,Q,me,私は明日ベルリンへ行くつもりです。,,S:私は=ich / V:つもりです=werde / M:明日=morgen / M:ベルリンへ=nach Berlin / V:行く=fahren,,werden は ich werde / du wirst / er wird
+11,1,L0,旅のよてい,Q,me,レナは来週日本に来るでしょう。,,S:レナは=Lena / V:でしょう=wird / M:来週=nächste Woche / M:日本に=nach Japan / V:来る=kommen,,sie のとき wird
+11,1,L0,旅のよてい,Q,me,私たちは空港で待つつもりです。,,S:私たちは=wir / V:つもりです=werden / M:空港で=am Flughafen / V:待つ=warten,,wir のとき werden
+11,1,L0,旅のよてい,Q,me,明日は雨が降るでしょう。,,S:=es / V:でしょう=wird / M:明日は=morgen / V:雨が降る=regnen,,Es wird morgen regnen.
+11,1,L0,旅のよてい,Q,me,飛行機はまもなく着陸するでしょう。,,S:飛行機は=das Flugzeug / V:でしょう=wird / M:まもなく=bald / V:着陸する=landen,,landen（着陸する）は最後
+11,1,L0,旅のよてい,TALK,Lena,楽しみ！,Ich freue mich!,,,
+11,1,L0,旅のよてい,DRILL,,,,"{""ja"":[""S"",""M"",""M2"",""O"",""V2"",""V""],""en"":[""S"",""V"",""M~"",""M2"",""O"",""V2""],""opt"":[""M""],""note"":""werden ＋ 動詞の原形（最後）"",""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""彼女は"",""sie"",""3s""],[""私の母は"",""meine Mutter"",""3s""],[""私の兄は"",""mein Bruder"",""3s""],[""私たちは"",""wir"",""1p""],[""私の両親は"",""meine Eltern"",""3p""]],""V"":[{""ja"":""つもりです"",""f"":{""1s"":""werde"",""2s"":""wirst"",""3s"":""wird"",""1p"":""werden"",""3p"":""werden""}}],""M"":[[""明日"",""morgen""],[""来週"",""nächste Woche""],[""週末に"",""am Wochenende""]],""V2"":[{""ja"":""行く"",""en"":""fahren"",""o"":""go""},{""ja"":""訪ねる"",""en"":""besuchen"",""o"":""visit""},{""ja"":""買う"",""en"":""kaufen"",""o"":""buy""},{""ja"":""見る"",""en"":""sehen"",""o"":""see""}],""M2"":{""go"":[[""ベルリンへ"",""nach Berlin""],[""ミュンヘンへ"",""nach München""],[""海へ"",""ans Meer""]]},""O"":{""visit"":[[""祖母を"",""meine Oma""],[""博物館を"",""das Museum""]],""buy"":[[""おみやげを"",""Souvenirs""],[""新しいくつを"",""neue Schuhe""]],""see"":[[""お城を"",""das Schloss""],[""サッカーの試合を"",""ein Fußballspiel""]]}}}",,
+11,2,L1,空港のルール,INTRO,,空港のルールをレナに教えてもらおう。,,,,
+11,2,L1,空港のルール,GOAL,,müssen（ねばならない）・dürfen（してもよい）を使えるようになろう,,S:あなたは=du / V:なければなりません=musst / O:パスポートを=deinen Pass / V:見せ=zeigen,,ルールをドイツ語で言える
+11,2,L1,空港のルール,TALK,Lena,空港にはルールがたくさん！,Am Flughafen gibt es viele Regeln!,,,
+11,2,L1,空港のルール,Q,me,あなたはパスポートを見せなければなりません。,,S:あなたは=du / V:なければなりません=musst{muss|musst|müssen} / O:パスポートを=deinen Pass / V:見せ=zeigen,,du のときは musst
+11,2,L1,空港のルール,Q,me,ここで写真をとってもいいです。,,S:=man / V:てもいいです=darf{darf|darfst|dürfen} / M:ここで=hier / V:写真をとっ=fotografieren,,man（人は一般に）のとき darf
+11,2,L1,空港のルール,Q,me,私たちは早く空港に行かなければなりません。,,S:私たちは=wir / V:なければなりません=müssen{muss|müssen} / M:早く=früh / M:空港に=zum Flughafen / V:行か=fahren,,wir のとき müssen
+11,2,L1,空港のルール,Q,me,あなたはここで待たなければなりません。,,S:あなたは=du / V:なければなりません=musst{muss|musst|müssen} / M:ここで=hier / V:待た=warten,,Du musst hier warten.
+11,2,L1,空港のルール,Q,me,子どもたちはここで遊んでもいいです。,,S:子どもたちは=die Kinder / V:でもいいです=dürfen{darf|dürfen} / M:ここで=hier / V:遊ん=spielen,,複数なので dürfen
+11,2,L1,空港のルール,TALK,Lena,これで安心！,Jetzt bist du bereit!,,,
+11,2,L1,空港のルール,DRILL,,,,"{""ja"":[""S"",""M"",""O"",""V2"",""V""],""en"":[""S"",""V"",""O"",""M"",""V2""],""note"":""助動詞は2番目、もう1つの動詞は原形で最後"",""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""彼女は"",""sie"",""3s""],[""私たちは"",""wir"",""1p""]],""V"":[{""ja"":""なければなりません"",""f"":{""1s"":""muss"",""2s"":""musst"",""3s"":""muss"",""1p"":""müssen"",""3p"":""müssen""}},{""ja"":""てもいいです"",""f"":{""1s"":""darf"",""2s"":""darfst"",""3s"":""darf"",""1p"":""dürfen"",""3p"":""dürfen""}},{""ja"":""られます"",""f"":{""1s"":""kann"",""2s"":""kannst"",""3s"":""kann"",""1p"":""können"",""3p"":""können""}}],""V2"":[{""ja"":""見せ"",""en"":""zeigen"",""o"":""show""},{""ja"":""食べ"",""en"":""essen"",""o"":""eat""},{""ja"":""寝"",""en"":""schlafen"",""o"":""sleep""},{""ja"":""見"",""en"":""sehen"",""o"":""see""},{""ja"":""起き"",""en"":""aufstehen"",""o"":""time""}],""O"":{""show"":[[""パスポートを"",""den Pass""],[""チケットを"",""das Ticket""]],""eat"":[[""ケーキを"",""Kuchen""],[""ソーセージを"",""Würstchen""]],""see"":[[""映画を"",""einen Film""],[""富士山を"",""den Fuji""]]},""M"":{""sleep"":[[""ここで"",""hier""],[""機内で"",""im Flugzeug""]],""time"":[[""早く"",""früh""],[""6時に"",""um sechs Uhr""]]}}}",,
+11,3,L2,空港で質問,INTRO,,空港のカウンターで質問しよう。,,,,
+11,3,L2,空港で質問,GOAL,,助動詞を先頭に出す疑問文を身に付けよう,,V:てもいいですか=darf / S:=ich / M:ここで=hier / V:写真をとっ=fotografieren,,空港で質問できる
+11,3,L2,空港で質問,TALK,Lena,聞きたいことは？,Was möchtest du fragen?,,,
+11,3,L2,空港で質問,Q,me,ここで写真をとってもいいですか？,,V:てもいいですか=darf / S:=ich / M:ここで=hier / V:写真をとっ=fotografieren,dürfen|darfst|fotografiere,Darf ich hier fotografieren?
+11,3,L2,空港で質問,Q,me,あなたは英語を話せますか？,,V:せますか=kannst / S:あなたは=du / O:英語を=Englisch / V:話=sprechen,kann|sprichst|können,Kannst du Englisch sprechen?
+11,3,L2,空港で質問,Q,me,私たちはここで待たなければなりませんか？,,V:なければなりませんか=müssen / S:私たちは=wir / M:ここで=hier / V:待た=warten,muss|wartet|warten wir,Müssen wir hier warten?
+11,3,L2,空港で質問,Q,me,あなたは明日来るつもりですか？,,V:つもりですか=wirst / S:あなたは=du / M:明日=morgen / V:来る=kommen,wird|kommst|werde,du のとき wirst
+11,3,L2,空港で質問,Q,me,私はここに座ってもいいですか？,,V:てもいいですか=darf / S:私は=ich / M:ここに=hier / V:座っ=sitzen,darfst|sitze|dürfen,Darf ich hier sitzen?
+11,3,L2,空港で質問,TALK,Lena,全部わかったね！,Jetzt ist alles klar!,,,
+11,3,L2,空港で質問,DRILL,,,,"{""ja"":[""S"",""M"",""O"",""V2"",""V""],""en"":[""V"",""S"",""O"",""M"",""V2""],""q"":true,""note"":""助動詞の疑問文は助動詞が先頭、もう1つの動詞は最後"",""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""私たちは"",""wir"",""1p""]],""V"":[{""ja"":""てもいいですか"",""f"":{""1s"":""darf"",""2s"":""darfst"",""3s"":""darf"",""1p"":""dürfen"",""3p"":""dürfen""}},{""ja"":""られますか"",""f"":{""1s"":""kann"",""2s"":""kannst"",""3s"":""kann"",""1p"":""können"",""3p"":""können""}}],""V2"":[{""ja"":""食べ"",""en"":""essen"",""o"":""eat""},{""ja"":""寝"",""en"":""schlafen"",""o"":""sleep""},{""ja"":""見"",""en"":""sehen"",""o"":""see""}],""O"":{""eat"":[[""ケーキを"",""Kuchen""],[""ここで何か"",""hier etwas""]],""see"":[[""映画を"",""einen Film""],[""お城を"",""das Schloss""]]},""M"":{""sleep"":[[""ここで"",""hier""],[""機内で"",""im Flugzeug""]]}}}",,
+11,4,L3,旅行のアドバイス,INTRO,,初めてドイツに行く友だちにアドバイスしよう。,,,,
+11,4,L3,旅行のアドバイス,GOAL,,「〜したほうがいい」を sollte で言えるようになろう,,S:あなたは=du / V:たほうがいいです=solltest / O:もっと水を=mehr Wasser / V:飲ん=trinken,,アドバイスをドイツ語で書ける
+11,4,L3,旅行のアドバイス,Q,me,あなたはもっと水を飲んだほうがいいです。,,S:あなたは=du / V:だほうがいいです=solltest / O:もっと水を=mehr Wasser / V:飲ん=trinken,,du のとき solltest
+11,4,L3,旅行のアドバイス,Q,me,私たちは早く寝たほうがいいです。,,S:私たちは=wir / V:たほうがいいです=sollten / M:早く=früh / V:寝=schlafen,,wir のとき sollten
+11,4,L3,旅行のアドバイス,Q,me,あなたはパスポートを持ってこなければなりません。,,S:あなたは=du / V:なければなりません=musst / O:パスポートを=deinen Pass / V:持ってこ=mitbringen,,mitbringen（持ってくる）は最後にくっつく
+11,4,L3,旅行のアドバイス,Q,me,明日は晴れるでしょう。,,S:=es / V:でしょう=wird / M:明日は=morgen / V:晴れる=sonnig sein,,Es wird morgen sonnig sein.
+11,4,L3,旅行のアドバイス,Q,me,私はドイツ語で話すつもりです。,,S:私は=ich / V:つもりです=werde / M:ドイツ語で=auf Deutsch / V:話す=sprechen,,auf Deutsch（ドイツ語で）
+11,4,L3,旅行のアドバイス,TALK,Lena,いいアドバイス！,Gute Tipps!,,,
+11,4,L3,旅行のアドバイス,DRILL,,,,"{""ja"":[""S"",""M"",""O"",""V2"",""V""],""en"":[""S"",""V"",""O"",""M"",""V2""],""note"":""「〜したほうがいい」は sollte ＋ 動詞（最後）"",""slots"":{""S"":[[""あなたは"",""du"",""2s""],[""私たちは"",""wir"",""1p""],[""彼は"",""er"",""3s""]],""V"":[{""ja"":""ほうがいいです"",""f"":{""1s"":""sollte"",""2s"":""solltest"",""3s"":""sollte"",""1p"":""sollten"",""3p"":""sollten""}}],""V2"":[{""ja"":""飲んだ"",""en"":""trinken"",""o"":""drink""},{""ja"":""寝た"",""en"":""schlafen"",""o"":""sleep""},{""ja"":""食べた"",""en"":""essen"",""o"":""eat""},{""ja"":""練習した"",""en"":""üben"",""o"":""practice""}],""O"":{""drink"":[[""もっと水を"",""mehr Wasser""],[""お茶を"",""Tee""]],""eat"":[[""野菜を"",""Gemüse""],[""朝ごはんを"",""Frühstück""]],""practice"":[[""もっとドイツ語を"",""mehr Deutsch""],[""ピアノを"",""Klavier""]]},""M"":{""sleep"":[[""早く"",""früh""]]}}}",,
+11,5,L4,旅のしおり,INTRO,,旅のしおりを作ろう。予定とルールを箱なしで書くよ。,,,,
+11,5,L4,旅のしおり,GOAL,,箱がなくても、助動詞・werden の文を組み立てられるようになろう,,S:私たちは=wir / V:つもりです=werden / M:8時に=um acht Uhr / V:出発する=abfahren,,旅の予定とルールをドイツ語で書ける
+11,5,L4,旅のしおり,Q,me,私たちは8時に出発するつもりです。,,S:私たちは=wir / V:つもりです=werden / M:8時に=um acht Uhr / V:出発する=abfahren,,abfahren は最後でくっつく
+11,5,L4,旅のしおり,Q,me,あなたはチケットを買わなければなりません。,,S:あなたは=du / V:なければなりません=musst / O:チケットを=eine Fahrkarte||ein Ticket / V:買わ=kaufen,,Du musst eine Fahrkarte kaufen.
+11,5,L4,旅のしおり,Q,me,あなたは機内で寝てもいいです。,,S:あなたは=du / V:てもいいです=darfst / M:機内で=im Flugzeug / V:寝=schlafen,,du のとき darfst
+11,5,L4,旅のしおり,Q,me,レナは空港で私を待つでしょう。,,S:レナは=Lena / V:でしょう=wird / M:空港で=am Flughafen / O:私を=auf mich / V:待つ=warten,,warten auf ＋ 4格（auf mich）
+11,5,L4,旅のしおり,Q,me,私たちはもっとドイツ語を練習したほうがいいです。,,S:私たちは=wir / V:たほうがいいです=sollten / O:もっとドイツ語を=mehr Deutsch / V:練習し=üben,,üben（練習する）
+11,5,L4,旅のしおり,TALK,Lena,完ぺきなしおり！,Ein perfekter Plan!,,,
+11,5,L4,旅のしおり,DRILL,,,,"{""use"":[""11-1"",""11-2"",""11-3"",""11-4""]}",,
+11,6,BOSS,機長アナウンス,INTRO,,機長になって機内アナウンス！ていねいに Sie（皆さん）を使うよ。,,,,
+11,6,BOSS,機長アナウンス,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:私たちは=wir / V:でしょう=werden / M:まもなく=bald / V:着陸する=landen,,機内アナウンスをドイツ語で言える
+11,6,BOSS,機長アナウンス,Q,me,皆さんは早く寝たほうがいいです。,,S:皆さんは=Sie / V:たほうがいいです=sollten / M:早く=früh / V:寝=schlafen,,Sie sollten … schlafen
+11,6,BOSS,機長アナウンス,Q,me,私たちはまもなく着陸するでしょう。,,S:私たちは=wir / V:でしょう=werden / M:まもなく=bald / V:着陸する=landen,,werden … landen
+11,6,BOSS,機長アナウンス,Q,me,ベルリンの天気は晴れでしょう。,,S:ベルリンの天気は=das Wetter in Berlin / V:でしょう=wird / C:晴れ=sonnig / V:=sein,,wird … sonnig sein
+11,6,BOSS,機長アナウンス,Q,me,皆さんはパスポートを持ってこなければなりません。,,S:皆さんは=Sie / V:なければなりません=müssen / O:パスポートを=Ihren Pass / V:持ってこ=mitbringen,,
+11,6,BOSS,機長アナウンス,Q,me,皆さんは窓から富士山が見られます。,,S:皆さんは=Sie / V:られます=können / M:窓から=aus dem Fenster / O:富士山が=den Fuji / V:見=sehen,,Sie können … sehen
+11,6,BOSS,機長アナウンス,TALK,Lena,かっこいい機長！,Ein toller Kapitän!,,,
+11,6,BOSS,機長アナウンス,DRILL,,,,"{""use"":[""11-1"",""11-2"",""11-3"",""11-4""]}",,

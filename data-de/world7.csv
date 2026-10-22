@@ -1,0 +1,63 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+7,1,,,RULE,,名詞の説明は名詞のうしろ,,S:机の上の本は=[N:本は=das Buch / M:机の上の=auf dem Tisch] / V:です=ist / C:新しい=neu,,日本語は「机の上の 本」、ドイツ語は das Buch auf dem Tisch。前置詞（auf・an・in・unter）のあとは3格。
+7,2,,これは新しい車です。,RULE,,形容詞 ＋ 名詞は語尾が変わる,Das ist ein neues Auto.,S:これは=das / V:です=ist / C:大きな犬=ein großer Hund,Das ist ein neuer Auto.,ein のあと：男性 -er、女性 -e、中性 -es。形容詞は名詞の前（日本語と同じ順番）。
+7,2,,,TABLE,,ein ＋ 形容詞 ＋ 名詞,,|男性|女性|中性;〜は|[ein großer Hund]|[eine kleine Katze]|[ein neues Auto];〜を|einen großen Hund|eine kleine Katze|[ein neues Buch],,
+7,3,,長い髪の女の子はレナです。,RULE,,mit・aus の説明もうしろ,Das Mädchen mit langen Haaren ist Lena.,S:ベルリン出身の男の人は=[N:男の人は=der Mann / M:ベルリン出身の=aus Berlin] / V:です=ist / C:私の先生=mein Lehrer,Das mit langen Haaren Mädchen ist Lena.,「〜を持った」は mit ＋ 3格、「〜出身の」は aus。どちらも名詞のうしろ。
+7,1,L0,机の上の本,INTRO,,レナの部屋を案内してもらおう。いろいろな物を説明するよ。,,,,
+7,1,L0,机の上の本,GOAL,,名詞の説明（〜の上の など）を名詞のうしろに置けるようになろう,,S:机の上の本は=[N:本は=das Buch / M:机の上の=auf dem Tisch] / V:です=ist / C:新しい=neu,,物や人を説明してドイツ語で言える
+7,1,L0,机の上の本,TALK,Lena,これが私の部屋だよ！,Das ist mein Zimmer!,,,
+7,1,L0,机の上の本,Q,me,机の上の本は新しいです。,,S:机の上の本は=[N:本は=das Buch / M:机の上の=auf dem Tisch] / V:です=ist / C:新しい=neu,,日本語は「説明 → 名詞」、ドイツ語は「名詞 → 説明」
+7,1,L0,机の上の本,Q,me,窓のそばの女の子はレナです。,,S:窓のそばの女の子は=[N:女の子は=das Mädchen / M:窓のそばの=am Fenster] / V:です=ist / C:レナ=Lena,,Mädchen は中性名詞（das）。am ＝ an dem
+7,1,L0,机の上の本,Q,me,壁の写真はきれいです。,,S:壁の写真は=[N:写真は=das Foto||das Bild / M:壁の=an der Wand] / V:です=ist / C:きれい=schön,,Wand は女性名詞。an der Wand
+7,1,L0,机の上の本,Q,me,いすの下のネコは私のです。,,S:いすの下のネコは=[N:ネコは=die Katze / M:いすの下の=unter dem Stuhl] / V:です=ist / C:私の=meine,,Katze が女性なので「私の」も meine
+7,1,L0,机の上の本,Q,me,箱の中の地図はとても古いです。,,S:箱の中の地図は=[N:地図は=die Karte / M:箱の中の=in der Kiste] / V:です=ist / C:とても古い=sehr alt,,Kiste は女性名詞。in der Kiste
+7,1,L0,机の上の本,TALK,Lena,よくわかったね！,Gut erkannt!,,,
+7,1,L0,机の上の本,DRILL,,,,"{""ja"":[""S"",""C"",""V""],""en"":[""S"",""V"",""C""],""note"":""名詞の説明は名詞のうしろ。前置詞のあとは3格"",""slots"":{""V"":[[""です"",""ist""]],""S"":{""in"":{""ja"":[""M"",""N""],""en"":[""N"",""M""],""slots"":{""N"":[{""ja"":""本は"",""en"":""das Buch"",""o"":""thing""},{""ja"":""かばんは"",""en"":""die Tasche"",""o"":""thing""},{""ja"":""かぎは"",""en"":""der Schlüssel"",""o"":""thing""},{""ja"":""ネコは"",""en"":""die Katze"",""o"":""animal""},{""ja"":""犬は"",""en"":""der Hund"",""o"":""animal""}],""M"":[[""机の上の"",""auf dem Tisch""],[""いすの下の"",""unter dem Stuhl""],[""ドアのそばの"",""an der Tür""],[""窓のそばの"",""am Fenster""]]}}},""C"":{""thing"":[[""新しい"",""neu""],[""古い"",""alt""],[""小さい"",""klein""]],""animal"":[[""かわいい"",""süß""],[""小さい"",""klein""],[""眠い"",""müde""]]}}}",,
+7,2,L1,大きな犬・小さなネコ,INTRO,,レナのペットや家の物を紹介してもらおう。,,,,
+7,2,L1,大きな犬・小さなネコ,GOAL,,形容詞の語尾（-er・-e・-es）を名詞の性に合わせられるようになろう,,S:これは=das / V:です=ist / C:大きな犬=ein großer Hund,,「〜な〇〇」をドイツ語で言える
+7,2,L1,大きな犬・小さなネコ,TALK,Lena,うちのペットを紹介するね！,Ich stelle dir meine Haustiere vor!,,,
+7,2,L1,大きな犬・小さなネコ,Q,me,これは大きな犬です。,,S:これは=das / V:です=ist{bin|ist|sind} / C:大きな犬=ein großer Hund,,男性名詞なので groß ＋ er
+7,2,L1,大きな犬・小さなネコ,Q,me,これは小さなネコです。,,S:これは=das / V:です=ist{bin|ist|sind} / C:小さなネコ=eine kleine Katze,,女性名詞なので klein ＋ e
+7,2,L1,大きな犬・小さなネコ,Q,me,これは新しい車です。,,S:これは=das / V:です=ist{bin|ist|sind} / C:新しい車=ein neues Auto,,中性名詞なので neu ＋ es
+7,2,L1,大きな犬・小さなネコ,Q,me,レナは親切な女の子です。,,S:レナは=Lena / V:です=ist{bin|ist|sind} / C:親切な女の子=ein nettes Mädchen,,Mädchen は中性なので nett ＋ es
+7,2,L1,大きな犬・小さなネコ,Q,me,ベルリンは大きな町です。,,S:ベルリンは=Berlin / V:です=ist{bin|ist|sind} / C:大きな町=eine große Stadt,,Stadt は女性名詞なので -e
+7,2,L1,大きな犬・小さなネコ,TALK,Lena,かわいいでしょ？,"Süß, oder?",,,
+7,2,L1,大きな犬・小さなネコ,DRILL,,,,"{""ja"":[""S"",""C"",""V""],""en"":[""S"",""V"",""C""],""note"":""ein のあと：男性 -er・女性 -e・中性 -es"",""slots"":{""S"":[[""これは"",""das""]],""V"":[[""です"",""ist""]],""C"":[[""大きな犬"",""ein großer Hund""],[""小さな犬"",""ein kleiner Hund""],[""新しい車"",""ein neues Auto""],[""古い車"",""ein altes Auto""],[""小さなネコ"",""eine kleine Katze""],[""かわいいネコ"",""eine süße Katze""],[""大きな町"",""eine große Stadt""],[""古い家"",""ein altes Haus""],[""新しいかばん"",""eine neue Tasche""],[""高い時計"",""eine teure Uhr""],[""古い本"",""ein altes Buch""],[""新しい自転車"",""ein neues Fahrrad""]]}}",,
+7,3,L2,どんな人？,INTRO,,町で会った人たちを説明しよう。,,,,
+7,3,L2,どんな人？,GOAL,,mit・aus を使った説明を名詞のうしろに置けるようになろう,,S:ベルリン出身の男の人は=[N:男の人は=der Mann / M:ベルリン出身の=aus Berlin] / V:です=ist / C:私の先生=mein Lehrer,,人の特徴をドイツ語で説明できる
+7,3,L2,どんな人？,TALK,Lena,あの人たちはだれ？,Wer sind die Leute da?,,,
+7,3,L2,どんな人？,Q,me,ベルリン出身の男の人は私の先生です。,,S:ベルリン出身の男の人は=[N:男の人は=der Mann / M:ベルリン出身の=aus Berlin] / V:です=ist / C:私の先生=mein Lehrer,dem Mann|sind|aus,aus（〜出身の）も名詞のうしろ
+7,3,L2,どんな人？,Q,me,長い髪の女の子はレナです。,,S:長い髪の女の子は=[N:女の子は=das Mädchen / M:長い髪の=mit langen Haaren] / V:です=ist / C:レナ=Lena,der Mädchen|bin|langen,mit langen Haaren（長い髪を持った）
+7,3,L2,どんな人？,Q,me,赤い屋根の家は私の家です。,,S:赤い屋根の家は=[N:家は=das Haus / M:赤い屋根の=mit dem roten Dach] / V:です=ist / C:私の家=mein Haus,die Haus|sind|rote,mit のあとは3格（dem roten Dach）
+7,3,L2,どんな人？,Q,me,日本から来た生徒は親切です。,,S:日本から来た生徒は=[N:生徒は=der Schüler||die Schülerin / M:日本から来た=aus Japan] / V:です=ist / C:親切=nett,Japan|bin|den Schüler,aus Japan（日本から来た）
+7,3,L2,どんな人？,Q,me,青いぼうしの男の子は私の弟です。,,S:青いぼうしの男の子は=[N:男の子は=der Junge / M:青いぼうしの=mit der blauen Mütze] / V:です=ist / C:私の弟=mein Bruder,dem Jungen|sind|blau,Mütze は女性名詞。mit der blauen Mütze
+7,3,L2,どんな人？,TALK,Lena,みんな知り合いなんだね！,Du kennst ja alle!,,,
+7,3,L2,どんな人？,DRILL,,,,"{""ja"":[""S"",""C"",""V""],""en"":[""S"",""V"",""C""],""note"":""mit・aus の説明も名詞のうしろ"",""slots"":{""V"":[[""です"",""ist""]],""S"":{""in"":{""ja"":[""M"",""N""],""en"":[""N"",""M""],""slots"":{""N"":[{""ja"":""男の人は"",""en"":""der Mann"",""o"":""m""},{""ja"":""女の人は"",""en"":""die Frau"",""o"":""f""},{""ja"":""男の子は"",""en"":""der Junge"",""o"":""b""},{""ja"":""女の子は"",""en"":""das Mädchen"",""o"":""g""}],""M"":[[""ベルリン出身の"",""aus Berlin""],[""日本から来た"",""aus Japan""],[""犬を連れた"",""mit dem Hund""],[""めがねの"",""mit der Brille""],[""赤いぼうしの"",""mit der roten Mütze""]]}}},""C"":{""m"":[[""私の先生"",""mein Lehrer""],[""私の父"",""mein Vater""],[""私のおじ"",""mein Onkel""]],""f"":[[""私の母"",""meine Mutter""],[""私の先生"",""meine Lehrerin""],[""私のおば"",""meine Tante""]],""b"":[[""私の弟"",""mein Bruder""],[""ケン"",""Ken""]],""g"":[[""レナ"",""Lena""],[""私の妹"",""meine Schwester""]]}}}",,
+7,4,L3,なくしもの,INTRO,,落とし物係のレナを手伝って、持ち主をさがそう。,,,,
+7,4,L3,なくしもの,GOAL,,名詞の説明と形容詞を自分で書けるようになろう,,S:テーブルの上のかぎは=[N:かぎは=der Schlüssel / M:テーブルの上の=auf dem Tisch] / V:です=ist / C:私の=meiner,,物の特徴をドイツ語で書ける
+7,4,L3,なくしもの,TALK,Lena,落とし物がたくさん！,So viele Fundsachen!,,,
+7,4,L3,なくしもの,Q,me,テーブルの上のかぎは私のです。,,S:テーブルの上のかぎは=[N:かぎは=der Schlüssel / M:テーブルの上の=auf dem Tisch] / V:です=ist / C:私の=meiner,,Schlüssel が男性なので「私の（もの）」は meiner
+7,4,L3,なくしもの,Q,me,私は小さなかばんをさがしています。,,S:私は=ich / V:さがしています=suche / O:小さなかばんを=eine kleine Tasche,,Tasche は女性名詞なので kleine
+7,4,L3,なくしもの,Q,me,窓のそばのかさはレナのです。,,S:窓のそばのかさは=[N:かさは=der Schirm / M:窓のそばの=am Fenster] / V:です=ist / C:レナの=Lenas,,
+7,4,L3,なくしもの,Q,me,これは新しい時計です。,,S:これは=das / V:です=ist / C:新しい時計=eine neue Uhr,,Uhr は女性名詞なので neue
+7,4,L3,なくしもの,Q,me,赤いボールは兄のものです。,,S:赤いボールは=der rote Ball / V:のものです=gehört / O:兄=meinem Bruder,,gehören ＋ 3格（meinem Bruder）
+7,4,L3,なくしもの,TALK,Lena,全部持ち主が見つかった！,Alles hat seinen Besitzer gefunden!,,,
+7,4,L3,なくしもの,DRILL,,,,"{""use"":[""7-1"",""7-2"",""7-3""]}",,
+7,5,L4,物の説明クイズ,INTRO,,レナと「これなーんだ？」クイズ。説明の文をまるごと書こう。,,,,
+7,5,L4,物の説明クイズ,GOAL,,箱がなくても、説明のついた文を書けるようになろう,,S:窓のそばのいすは=[N:いすは=der Stuhl / M:窓のそばの=am Fenster] / V:です=ist / C:新しい=neu,,物を説明する文をドイツ語で書ける
+7,5,L4,物の説明クイズ,Q,me,窓のそばのいすは新しいです。,,S:窓のそばのいすは=[N:いすは=der Stuhl / M:窓のそばの=am Fenster] / V:です=ist / C:新しい=neu,,am Fenster（窓のそばの）
+7,5,L4,物の説明クイズ,Q,me,これは小さな町です。,,S:これは=das / V:です=ist / C:小さな町=eine kleine Stadt,,Stadt は女性名詞なので -e
+7,5,L4,物の説明クイズ,Q,me,犬を連れた女の人は私の母です。,,S:犬を連れた女の人は=[N:女の人は=die Frau / M:犬を連れた=mit dem Hund] / V:です=ist / C:私の母=meine Mutter,,mit dem Hund（犬を連れた）
+7,5,L4,物の説明クイズ,Q,me,私は新しい本を読みます。,,S:私は=ich / V:読みます=lese / O:新しい本を=ein neues Buch,,中性名詞は「〜を」のときも neu ＋ es
+7,5,L4,物の説明クイズ,Q,me,私には親切な友だちがいます。,,S:私には=ich / V:います=habe / O:親切な友だちが=einen netten Freund||eine nette Freundin,,男性の「〜を」は einen netten
+7,5,L4,物の説明クイズ,TALK,Lena,全問正解！,Alles richtig!,,,
+7,5,L4,物の説明クイズ,DRILL,,,,"{""use"":[""7-1"",""7-2"",""7-3""]}",,
+7,6,BOSS,砂漠の宝さがし,INTRO,,砂漠で宝さがし！手がかりの説明をすばやく読みとろう。,,,,
+7,6,BOSS,砂漠の宝さがし,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:箱の中の宝は=[N:宝は=der Schatz / M:箱の中の=in der Kiste] / V:です=ist / C:とても美しい=sehr schön,,物を説明する文をすばやく書ける
+7,6,BOSS,砂漠の宝さがし,Q,me,机の上の箱は古いです。,,S:机の上の箱は=[N:箱は=die Kiste / M:机の上の=auf dem Tisch] / V:です=ist / C:古い=alt,,
+7,6,BOSS,砂漠の宝さがし,Q,me,これは小さなかぎです。,,S:これは=das / V:です=ist / C:小さなかぎ=ein kleiner Schlüssel,,Schlüssel は男性名詞なので ein kleiner
+7,6,BOSS,砂漠の宝さがし,Q,me,ベルリン出身の男の人は親切です。,,S:ベルリン出身の男の人は=[N:男の人は=der Mann / M:ベルリン出身の=aus Berlin] / V:です=ist / C:親切=nett,,
+7,6,BOSS,砂漠の宝さがし,Q,me,私たちは小さな地図を持っています。,,S:私たちは=wir / V:持っています=haben / O:小さな地図を=eine kleine Karte,,Karte は女性名詞なので klein ＋ e
+7,6,BOSS,砂漠の宝さがし,Q,me,箱の中の宝はとても美しいです。,,S:箱の中の宝は=[N:宝は=der Schatz / M:箱の中の=in der Kiste] / V:です=ist / C:とても美しい=sehr schön,,in der Kiste（箱の中の）
+7,6,BOSS,砂漠の宝さがし,TALK,Lena,宝物を見つけた！,Wir haben den Schatz gefunden!,,,
+7,6,BOSS,砂漠の宝さがし,DRILL,,,,"{""use"":[""7-1"",""7-2"",""7-3""]}",,

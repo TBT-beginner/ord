@@ -1,0 +1,58 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+9,1,L0,私の意見,INTRO,,いよいよ最後のワールド。自分の意見を言おう。「〜と思う」の中身は、箱の中に S と V が入った「文の中の文」になるよ。,,,,
+9,1,L0,私の意見,GOAL,,「〜と思う」を I think (that) ＋ 文で言えるようになろう,,S:私は=I / V:思います=think / O:英語はおもしろいと=[J:と=that / S:英語は=English / V:=is / C:おもしろい=interesting],,自分の意見を英語で言える
+9,1,,,RULE,,「〜と思う」は I think (that) S V …。思う中身は O のかたまり,,S:私は=I / V:思います=think / O:英語はおもしろいと=[J:と=that / S:英語は=English / V:=is / C:おもしろい=interesting],,
+9,1,L0,私の意見,TALK,Emma,英語の授業、どう思う？,What do you think about English class?,,,
+9,1,L0,私の意見,Q,me,私は英語はおもしろいと思います。,,S:私は=I / V:思います=think / O:英語はおもしろいと=[J:と=that||- / S:英語は=English / V:=is / C:おもしろい=interesting||fun],,「おもしろい」には is にあたる日本語がない。英語では is が必要
+9,1,L0,私の意見,Q,me,私はエマは親切だと思います。,,S:私は=I / V:思います=think / O:エマは親切だと=[J:と=that||- / S:エマは=Emma / V:だ=is / C:親切=kind],,
+9,1,L0,私の意見,Q,me,私はこの本は役に立つと思います。,,S:私は=I / V:思います=think / O:この本は役に立つと=[J:と=that||- / S:この本は=this book / V:=is / C:役に立つ=useful],,
+9,1,L0,私の意見,Q,me,私は彼が正しいと知っています。,,S:私は=I / V:知っています=know / O:彼が正しいと=[J:と=that||- / S:彼が=he / V:=is / C:正しい=right],,
+9,1,L0,私の意見,Q,me,私は数学は難しいと思います。,,S:私は=I / V:思います=think / O:数学は難しいと=[J:と=that||- / S:数学は=math / V:=is / C:難しい=difficult||hard],,
+9,1,L0,私の意見,TALK,Emma,私もそう思う！,I think so too!,,,
+9,2,L1,理由を言おう,INTRO,,意見には理由をつけよう。「〜ので」は because のかたまり。文の後ろに置くよ。,,,,
+9,2,L1,理由を言おう,GOAL,,理由を because ＋ 文で言えるようになろう,,S:私は=I / V:好きです=like / O:夏が=summer / M:泳げるので=[J:ので=because / S:=I / V:泳げる=can swim],,理由をつけて好き嫌いを英語で言える
+9,2,,,RULE,,理由「〜ので」は because S V …。文のうしろに置くのが基本,,S:私は=I / V:好きです=like / O:夏が=summer / M:泳げるので=[J:ので=because / S:=I / V:泳げる=can swim],,
+9,2,L1,理由を言おう,TALK,Emma,どうしてそう思うの？,Why do you think so?,,,
+9,2,L1,理由を言おう,Q,me,泳げるので、私は夏が好きです。,,S:私は=I / V:好きです=like / O:夏が=summer / M:泳げるので=[J:ので=because{because|so|when} / S:=I / V:泳げる=can swim],,日本語は理由が先。英語は because のかたまりを後ろに置くのが基本（前に置くときはカンマを打つ）
+9,2,L1,理由を言おう,Q,me,疲れていたので、私は早く寝ました。,,S:私は=I / V:寝ました=went to bed / M:早く=early / M:疲れていたので=[J:ので=because{because|so|when} / S:=I / V:いた=was / C:疲れて=tired],,
+9,2,L1,理由を言おう,Q,me,雨だったので、私たちは家にいました。,,S:私たちは=We / V:いました=stayed / M:家に=at home||home / M:雨だったので=[J:ので=because{because|so|when} / S:=it / V:だった=was / C:雨=rainy],,天気の文なので because の中の主語は it
+9,2,L1,理由を言おう,Q,me,おなかがすいていたので、私はラーメンを食べました。,,S:私は=I / V:食べました=ate||had / O:ラーメンを=ramen / M:おなかがすいていたので=[J:ので=because{because|so|when} / S:=I / V:いた=was / C:おなかがすいて=hungry],,
+9,2,L1,理由を言おう,Q,me,英語が好きなので、私は毎日勉強します。,,S:私は=I / V:勉強します=study / M~:毎日=every day / M:英語が好きなので=[J:ので=because{because|so|when} / S:=I / V:好き=like / O:英語が=English],,
+9,2,L1,理由を言おう,TALK,Emma,理由があるとわかりやすい！,Your reasons make it clear!,,,
+9,3,L2,もし・〜とき,INTRO,,「〜とき」は when、「もし〜なら」は if のかたまり。文全体の主語と動詞はどれかな？,,,,
+9,3,L2,もし・〜とき,GOAL,,「〜とき」「もし〜なら」を when・if ＋ 文で言えるようになろう,,S:私は=I / V:読みます=read / O:本を=books / M:時間があるとき=[J:とき=when / S:=I / V:ある=have / O:時間が=time],,条件や時を表す文を英語で言える
+9,3,,,RULE,,「〜とき」は when、「もし〜なら」は if。かたまりの中にも S と V,,S:私は=I / V:読みます=read / O:本を=books / M:時間があるとき=[J:とき=when / S:=I / V:ある=have / O:時間が=time],,
+9,3,L2,もし・〜とき,TALK,Emma,ひまなときは何してる？,What do you do in your free time?,,,
+9,3,L2,もし・〜とき,Q,me,時間があるとき、私は本を読みます。,,S:私は=I / V:読みます=read / O:本を=books / M:時間があるとき=[J:とき=when / S:=I / V:ある=have / O:時間が=time],if | reads,
+9,3,L2,もし・〜とき,Q,me,もし明日晴れたら、私たちはハイキングに行きます。,,S:私たちは=We / V:行きます=will go||go / M:ハイキングに=hiking / M:もし明日晴れたら=[J:もし=if / S:=it / V:=is / C:晴れたら=sunny / M:明日=tomorrow],when | went,if のかたまりの中は、未来のことでも is（will be にしない）
+9,3,L2,もし・〜とき,Q,me,私が家に帰ったとき、母は料理をしていました。,,S:母は=My mother||My mom / V:料理をしていました=was cooking / M:私が家に帰ったとき=[J:とき=when / S:私が=I / V:帰った=got||came / M:家に=home],if | cooked,
+9,3,L2,もし・〜とき,Q,me,試合に勝ったとき、私たちはとてもうれしかったです。,,S:私たちは=We / V:です=were / C:とてもうれしかった=very happy / M:試合に勝ったとき=[J:とき=when / S:=we / V:勝った=won / O:試合に=the game],if | was,
+9,3,L2,もし・〜とき,Q,me,もし時間があれば、私はあなたを手伝います。,,S:私は=I / V:手伝います=will help||can help||help / O:あなたを=you / M:もし時間があれば=[J:もし=if / S:=I / V:あれば=have / O:時間が=time],when | helped,
+9,3,L2,もし・〜とき,TALK,Emma,いっしょにハイキング行こう！,Let's go hiking together!,,,
+9,4,L3,討論会の準備,INTRO,,クラスの討論会に向けて、意見と理由を英語で書こう。自分で打ちこむよ。,,,,
+9,4,L3,討論会の準備,GOAL,,that・because・when の文を自分で書けるようになろう,,S:私は=I / V:好きです=like / O:図書館が=the library / M:静かなので=[J:ので=because / S:=it / V:=is / C:静か=quiet],,意見と理由を英語で書ける
+9,4,,,RULE,,that・because・when の文を自分で書く,,S:私は=I / V:好きです=like / O:図書館が=the library / M:静かなので=[J:ので=because / S:=it / V:=is / C:静か=quiet],,
+9,4,L3,討論会の準備,TALK,Emma,討論会、がんばろうね！,Let's do our best in the debate!,,,
+9,4,L3,討論会の準備,Q,me,私はスマホは便利だと思います。,,S:私は=I / V:思います=think / O:スマホは便利だと=[J:と=that||- / S:スマホは=smartphones / V:だ=are / C:便利=useful||convenient],,
+9,4,L3,討論会の準備,Q,me,私は宿題は大切だと思います。,,S:私は=I / V:思います=think / O:宿題は大切だと=[J:と=that||- / S:宿題は=homework / V:だ=is / C:大切=important],,
+9,4,L3,討論会の準備,Q,me,静かなので、私は図書館が好きです。,,S:私は=I / V:好きです=like / O:図書館が=the library / M:静かなので=[J:ので=because / S:=it / V:=is / C:静か=quiet],,
+9,4,L3,討論会の準備,Q,me,ひまなとき、私は音楽を聞きます。,,S:私は=I / V:聞きます=listen to / O:音楽を=music / M:ひまなとき=[J:とき=when / S:=I / V:=am / C:ひま=free],,「聞く」は listen to。to を忘れずに
+9,4,L3,討論会の準備,Q,me,私は彼女が来ると信じています。,,S:私は=I / V:信じています=believe / O:彼女が来ると=[J:と=that||- / S:彼女が=she / V:来る=will come||is coming],,
+9,4,L3,討論会の準備,TALK,Emma,説得力があるね！,That's convincing!,,,
+9,5,L4,意見文を書こう,INTRO,,「朝ごはんは大切か」について意見文を書こう。箱なしで、文の中の文も頭の中で組み立てるよ。,,,,
+9,5,L4,意見文を書こう,GOAL,,箱がなくても、意見・理由・条件の文を組み立てられるようになろう,,S:私は=I / V:思います=think / O:朝ごはんは大切だと=[J:と=that / S:朝ごはんは=breakfast / V:だ=is / C:大切=important],,意見文を英語で書ける
+9,5,,,RULE,,箱がなくても、意見・理由・条件の文を組み立てる,,S:私は=I / V:思います=think / O:朝ごはんは大切だと=[J:と=that / S:朝ごはんは=breakfast / V:だ=is / C:大切=important],,
+9,5,L4,意見文を書こう,Q,me,私は朝ごはんは大切だと思います。,,S:私は=I / V:思います=think / O:朝ごはんは大切だと=[J:と=that||- / S:朝ごはんは=breakfast / V:だ=is / C:大切=important],,
+9,5,L4,意見文を書こう,Q,me,おいしいので、私は毎日朝ごはんを食べます。,,S:私は=I / V:食べます=eat||have / O:朝ごはんを=breakfast / M~:毎日=every day / M:おいしいので=[J:ので=because / S:=it / V:=is / C:おいしい=delicious||good],,
+9,5,L4,意見文を書こう,Q,me,朝ごはんを食べないとき、私は眠くなります。,,S:私は=I / V:なります=get||feel||become / C:眠く=sleepy / M:朝ごはんを食べないとき=[J:とき=when / S:=I / V:食べない=don't eat||do not eat / O:朝ごはんを=breakfast],,
+9,5,L4,意見文を書こう,Q,me,もし早く起きれば、私は朝ごはんを食べられます。,,S:私は=I / V:食べられます=can eat||can have / O:朝ごはんを=breakfast / M:もし早く起きれば=[J:もし=if / S:=I / V:起きれば=get up||wake up / M:早く=early],,
+9,5,L4,意見文を書こう,Q,me,私はみんなが朝ごはんを食べるべきだと思います。,,S:私は=I / V:思います=think / O:みんなが朝ごはんを食べるべきだと=[J:と=that||- / S:みんなが=everyone / V:食べるべき=should eat||should have / O:朝ごはんを=breakfast],,
+9,5,L4,意見文を書こう,TALK,Emma,説得力のある意見文だね！,What a convincing essay!,,,
+9,6,BOSS,火山のディベート,INTRO,,最終ボス！火山のふもとで「自然を守ろう」ディベート。ヒントは文字数だけ。,,,,
+9,6,BOSS,火山のディベート,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:私は=I / V:思います=think / O:自然は大切だと=[J:と=that / S:自然は=nature / V:だ=is / C:大切=important],,ディベートで意見と理由を英語で述べられる
+9,6,BOSS,火山のディベート,Q,me,私は自然は大切だと思います。,,S:私は=I / V:思います=think / O:自然は大切だと=[J:と=that||- / S:自然は=nature / V:だ=is / C:大切=important],,
+9,6,BOSS,火山のディベート,Q,me,自然は大切なので、私たちは毎日公園をきれいにします。,,S:私たちは=We / V:します=keep / O:公園を=the park / C:きれいに=clean / M~:毎日=every day / M:自然は大切なので=[J:ので=because / S:自然は=nature / V:=is / C:大切=important],,
+9,6,BOSS,火山のディベート,Q,me,雨のとき、私は家で本を読みます。,,S:私は=I / V:読みます=read / O:本を=books / M:家で=at home / M:雨のとき=[J:とき=when / S:=it / V:=is / C:雨=rainy],,
+9,6,BOSS,火山のディベート,Q,me,もし時間があれば、私は公園を掃除します。,,S:私は=I / V:掃除します=will clean||clean / O:公園を=the park / M:もし時間があれば=[J:もし=if / S:=I / V:あれば=have / O:時間が=time],,
+9,6,BOSS,火山のディベート,Q,me,私はこの公園はとても大切だと信じています。,,S:私は=I / V:信じています=believe / O:この公園はとても大切だと=[J:と=that||- / S:この公園は=this park / V:だ=is / C:とても大切=very important],,
+9,6,BOSS,火山のディベート,TALK,Emma,全ワールドクリア！おめでとう、ケン！,"You cleared every world! Congratulations, Ken!",,,

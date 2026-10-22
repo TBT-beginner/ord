@@ -1,0 +1,58 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+7,1,L0,机の上の本,INTRO,,エマの部屋で、物の持ち主を説明しよう。「机の上の本」は英語では「本＋机の上の」の順になるよ。,,,,
+7,1,L0,机の上の本,GOAL,,名詞の説明を、名詞のうしろに置けるようになろう,,S:机の上の本は=[N:本=The book / M:机の上の=on the desk] / V:です=is / C:私のもの=mine,,物や人を、場所や特ちょうで説明できる
+7,1,,,RULE,,名詞の説明は、名詞のうしろにつける（後置修飾）,,S:机の上の本は=[N:本=The book / M:机の上の=on the desk] / V:です=is / C:私のもの=mine,,
+7,1,L0,机の上の本,TALK,Emma,これはだれの本？,Whose book is this?,,,
+7,1,L0,机の上の本,Q,me,机の上の本は私のものです。,,S:机の上の本は=[N:本=The book / M:机の上の=on the desk] / V:です=is / C:私のもの=mine,,日本語は「説明→名詞」、英語は「名詞→説明」。順番が逆になる
+7,1,L0,机の上の本,Q,me,窓のそばの女の子はエマです。,,S:窓のそばの女の子は=[N:女の子=The girl / M:窓のそばの=by the window] / V:です=is / C:エマ=Emma,,
+7,1,L0,机の上の本,Q,me,私は日本についての本を読みました。,,S:私は=I / V:読みました=read / O:日本についての本を=[N:本を=a book / M:日本についての=about Japan],,
+7,1,L0,机の上の本,Q,me,壁の写真はとてもきれいです。,,S:壁の写真は=[N:写真=The picture||The photo / M:壁の=on the wall] / V:です=is / C:とてもきれい=very beautiful||very pretty,,
+7,1,L0,机の上の本,Q,me,私は青い屋根の家に住んでいます。,,S:私は=I / V:住んでいます=live / M:青い屋根の家に=[N:家に=in the house||in a house / M:青い屋根の=with a blue roof],,
+7,1,L0,机の上の本,TALK,Emma,すてきな部屋だね！,What a nice room!,,,
+7,2,L1,公園の人たち,INTRO,,公園にいる人たちを説明しよう。「〜している人」は「人＋〜ing」の順。説明のかたちはカードで選ぶよ。,,,,
+7,2,L1,公園の人たち,GOAL,,「〜している〇〇」を 〇〇 ＋ 〜ing で言えるようになろう,,S:サッカーをしている男の子は=[N:男の子は=The boy / M:サッカーをしている=playing soccer] / V:です=is / C:私の弟=my brother,,している動作で人を説明できる
+7,2,,,RULE,,「〜している〇〇」は 〇〇＋〜ing（いくつかの語の説明は後ろ）,,S:サッカーをしている男の子は=[N:男の子は=The boy / M:サッカーをしている=playing soccer] / V:です=is / C:私の弟=my brother,,
+7,2,L1,公園の人たち,TALK,Emma,あの人たちはだれ？,Who are those people?,,,
+7,2,L1,公園の人たち,Q,me,サッカーをしている男の子は私の弟です。,,S:サッカーをしている男の子は=[N:男の子は=The boy / M:サッカーをしている=playing soccer{play soccer|playing soccer|played soccer}] / V:です=is / C:私の弟=my brother||my little brother||my younger brother,,
+7,2,L1,公園の人たち,Q,me,ベンチで本を読んでいる女性は私の先生です。,,S:ベンチで本を読んでいる女性は=[N:女性は=The woman||The lady / M:ベンチで本を読んでいる=reading a book on the bench{read a book on the bench|reading a book on the bench}] / V:です=is / C:私の先生=my teacher,,
+7,2,L1,公園の人たち,Q,me,犬を散歩させている男の人は私の父です。,,S:犬を散歩させている男の人は=[N:男の人は=The man / M:犬を散歩させている=walking a dog{walk a dog|walking a dog|walked a dog}||walking the dog] / V:です=is / C:私の父=my father||my dad,,
+7,2,L1,公園の人たち,Q,me,私は公園で泣いている赤ちゃんを見ました。,,S:私は=I / V:見ました=saw / O:公園で泣いている赤ちゃんを=[N:赤ちゃんを=a baby / M:公園で泣いている=crying in the park{cry in the park|crying in the park|cried in the park}],,
+7,2,L1,公園の人たち,Q,me,歌を歌っている女の子たちは私の友だちです。,,S:歌を歌っている女の子たちは=[N:女の子たちは=The girls / M:歌を歌っている=singing a song{sing a song|singing a song|sang a song}||singing songs] / V:です=are / C:私の友だち=my friends,,主語が複数なので are
+7,2,L1,公園の人たち,TALK,Emma,にぎやかな公園だね！,The park is so lively!,,,
+7,3,L2,おみやげ,INTRO,,旅行のおみやげを説明しよう。「〜で作られた」「〜に書かれた」は過去分詞を後ろにつける。主語と動詞も見つけてね。,,,,
+7,3,L2,おみやげ,GOAL,,「〜された〇〇」を 〇〇 ＋ 過去分詞で言えるようになろう,,S:これは=This / V:です=is / C:母が作ったケーキ=[N:ケーキ=a cake / M:母が作った=made by my mother],,作られた場所や人で物を説明できる
+7,3,,,RULE,,「〜された〇〇」は 〇〇＋過去分詞（made・written など）,,S:これは=This / V:です=is / C:母が作ったケーキ=[N:ケーキ=a cake / M:母が作った=made by my mother],,
+7,3,L2,おみやげ,TALK,Emma,それは何？,What's that?,,,
+7,3,L2,おみやげ,Q,me,これは母が作ったケーキです。,,S:これは=This / V:です=is / C:母が作ったケーキ=[N:ケーキ=a cake / M:母が作った=made by my mother||made by my mom],making | make,「母によって作られた」と考えて made by my mother
+7,3,L2,おみやげ,Q,me,私はイタリアで作られたかばんを持っています。,,S:私は=I / V:持っています=have / O:イタリアで作られたかばんを=[N:かばんを=a bag / M:イタリアで作られた=made in Italy],making | has,
+7,3,L2,おみやげ,Q,me,英語で書かれた手紙が届きました。,,S:英語で書かれた手紙が=[N:手紙が=A letter / M:英語で書かれた=written in English] / V:届きました=came||arrived,writing | wrote,write → written（書かれた）
+7,3,L2,おみやげ,Q,me,これは多くの人に愛されている歌です。,,S:これは=This / V:です=is / C:多くの人に愛されている歌=[N:歌=a song / M:多くの人に愛されている=loved by many people||loved by a lot of people],loving | love,
+7,3,L2,おみやげ,Q,me,私は日本製の車がほしいです。,,S:私は=I / V:ほしいです=want / O:日本製の車が=[N:車が=a car / M:日本製の=made in Japan],making | wants,「日本製の」は made in Japan
+7,3,L2,おみやげ,TALK,Emma,どれもすてき！,They are all lovely!,,,
+7,4,L3,なくしもの,INTRO,,大事な箱をなくしちゃった！特ちょうを英語で説明して、見つけてもらおう。,,,,
+7,4,L3,なくしもの,GOAL,,名詞のうしろの説明を、自分で書けるようになろう,,S:私は=I / V:なくしました=lost / O:赤いリボンのついた箱を=[N:箱を=a box / M:赤いリボンのついた=with a red ribbon],,なくした物の特ちょうを英語で伝えられる
+7,4,,,RULE,,前置詞・〜ing・過去分詞の説明を、名詞のうしろに自分で書く,,S:私は=I / V:なくしました=lost / O:赤いリボンのついた箱を=[N:箱を=a box / M:赤いリボンのついた=with a red ribbon],,
+7,4,L3,なくしもの,TALK,Emma,どうしたの？,What's wrong?,,,
+7,4,L3,なくしもの,Q,me,私はエマからの箱をなくしました。,,S:私は=I / V:なくしました=lost / O:エマからの箱を=[N:箱を=a box||the box / M:エマからの=from Emma],,lose の過去形は lost
+7,4,L3,なくしもの,Q,me,その箱の中の手紙は大切です。,,S:その箱の中の手紙は=[N:手紙は=The letter / M:その箱の中の=in the box] / V:です=is / C:大切=important,,
+7,4,L3,なくしもの,Q,me,図書館で働いている女性が手伝ってくれました。,,S:図書館で働いている女性が=[N:女性が=The woman||The lady / M:図書館で働いている=working at the library||working in the library] / V:手伝ってくれました=helped / O:=me,,日本語にない「私を」も英語では O として必要
+7,4,L3,なくしもの,Q,me,私は図書館で見つかった箱を見ました。,,S:私は=I / V:見ました=saw / O:図書館で見つかった箱を=[N:箱を=the box / M:図書館で見つかった=found in the library||found at the library],,
+7,4,L3,なくしもの,Q,me,中にはエマからのカードが入っていました。,,V:入っていました=There was / S:エマからのカードが=[N:カードが=a card / M:エマからの=from Emma] / M:中には=inside||in it,,「〜がある」の過去は There was
+7,4,L3,なくしもの,TALK,Emma,見つかってよかったね！,I'm glad you found it!,,,
+7,5,L4,物の説明クイズ,INTRO,,エマと「これなーんだ」クイズ。箱なしで、説明のついた文をまるごと打ちこもう。,,,,
+7,5,L4,物の説明クイズ,GOAL,,箱がなくても、説明のついた文を書けるようになろう,,S:机の下のネコは=[N:ネコは=The cat / M:机の下の=under the desk] / V:です=is / C:私の=mine,,説明のついた文を自分で組み立てられる
+7,5,,,RULE,,箱がなくても、説明を名詞のうしろにつけて書く,,S:机の下のネコは=[N:ネコは=The cat / M:机の下の=under the desk] / V:です=is / C:私の=mine,,
+7,5,L4,物の説明クイズ,Q,me,机の下のネコは私のです。,,S:机の下のネコは=[N:ネコは=The cat / M:机の下の=under the desk] / V:です=is / C:私の=mine,,
+7,5,L4,物の説明クイズ,Q,me,ピアノをひいている女の子はエマです。,,S:ピアノをひいている女の子は=[N:女の子は=The girl / M:ピアノをひいている=playing the piano] / V:です=is / C:エマ=Emma,,
+7,5,L4,物の説明クイズ,Q,me,私は英語で書かれた本を読みました。,,S:私は=I / V:読みました=read / O:英語で書かれた本を=[N:本を=a book / M:英語で書かれた=written in English],,
+7,5,L4,物の説明クイズ,Q,me,窓のそばのいすは新しいです。,,S:窓のそばのいすは=[N:いすは=The chair / M:窓のそばの=by the window] / V:です=is / C:新しい=new,,
+7,5,L4,物の説明クイズ,Q,me,私は北海道からの友だちに会いました。,,S:私は=I / V:会いました=met / O:北海道からの友だちに=[N:友だちに=a friend / M:北海道からの=from Hokkaido],,
+7,5,L4,物の説明クイズ,TALK,Emma,全問正解！すごい！,You got them all! Amazing!,,,
+7,6,BOSS,砂漠の宝さがし,INTRO,,砂漠で宝さがし！地図の説明を英語で読み上げよう。ヒントは文字数だけ。,,,,
+7,6,BOSS,砂漠の宝さがし,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:箱の中の地図は=[N:地図は=The map / M:箱の中の=in the box] / V:です=is / C:とても古い=very old,,場所や様子をくわしく英語で伝えられる
+7,6,BOSS,砂漠の宝さがし,Q,me,私は大きな木の近くの箱を見つけました。,,S:私は=I / V:見つけました=found / O:大きな木の近くの箱を=[N:箱を=the box||a box / M:大きな木の近くの=near the big tree],,
+7,6,BOSS,砂漠の宝さがし,Q,me,箱の中の地図はとても古いです。,,S:箱の中の地図は=[N:地図は=The map / M:箱の中の=in the box] / V:です=is / C:とても古い=very old,,
+7,6,BOSS,砂漠の宝さがし,Q,me,私は英語で書かれた手紙を見つけました。,,S:私は=I / V:見つけました=found / O:英語で書かれた手紙を=[N:手紙を=a letter / M:英語で書かれた=written in English],,
+7,6,BOSS,砂漠の宝さがし,Q,me,犬を散歩させている男の人が手伝ってくれました。,,S:犬を散歩させている男の人が=[N:男の人が=The man / M:犬を散歩させている=walking a dog] / V:手伝ってくれました=helped me||helped,,
+7,6,BOSS,砂漠の宝さがし,Q,me,私たちは箱の中の宝を見つけました。,,S:私たちは=We / V:見つけました=found / O:箱の中の宝を=[N:宝を=treasure||the treasure / M:箱の中の=in the box],,
+7,6,BOSS,砂漠の宝さがし,TALK,Emma,宝物を見つけたね！,You found the treasure!,,,

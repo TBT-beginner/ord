@@ -1,0 +1,58 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+10,1,L0,エマにインタビュー,INTRO,,学校新聞のために、エマにインタビュー！質問の文は、日本語にない「Do」が最初に来るよ。,,,,
+10,1,L0,エマにインタビュー,GOAL,,Do・Does や be動詞を前に出す疑問文を身に付けよう,,A:=Do / S:あなたは=you / V:好きですか=like / O:納豆が=natto,,相手に「〜ですか？」と質問できる
+10,1,,,RULE,,疑問文は Do・Does や be動詞（Are・Is）を S の前に出す,,A:=Do / S:あなたは=you / V:好きですか=like / O:納豆が=natto,,
+10,1,L0,エマにインタビュー,TALK,Emma,なんでも聞いて！,Ask me anything!,,,
+10,1,L0,エマにインタビュー,Q,me,あなたは納豆が好きですか？,,A:=Do / S:あなたは=you / V:好きですか=like / O:納豆が=natto,,疑問文は Do を文の最初に。Do にあたる日本語はない
+10,1,L0,エマにインタビュー,Q,me,あなたは日本語を話しますか？,,A:=Do / S:あなたは=you / V:話しますか=speak / O:日本語を=Japanese,,
+10,1,L0,エマにインタビュー,Q,me,エマはネコを飼っていますか？,,A:=Does / S:エマは=Emma / V:飼っていますか=have / O:ネコを=a cat||cats,,主語が3人称単数なら Does。動詞は原形の have
+10,1,L0,エマにインタビュー,Q,me,あなたは学生ですか？,,V:ですか=Are / S:あなたは=you / C:学生=a student,,be動詞の疑問文は、be動詞を S の前に出す
+10,1,L0,エマにインタビュー,Q,me,あなたは昨日いそがしかったですか？,,V:ですか=Were / S:あなたは=you / C:いそがしかった=busy / M:昨日=yesterday,,過去の be動詞の疑問文は Were / Was から
+10,1,L0,エマにインタビュー,TALK,Emma,楽しいインタビューだったね！,That was a fun interview!,,,
+10,2,L1,港の人にきいてみよう,INTRO,,港で働く人に質問しよう。Do・Does・Did のどれを使うか、カードで選ぶよ。,,,,
+10,2,L1,港の人にきいてみよう,GOAL,,主語と時に合わせて Do・Does・Did を使い分けられるようになろう,,A:=Did / S:あなたは=you / V:見ましたか=watch / O:その映画を=the movie,,過去のことを質問できる
+10,2,,,RULE,,主語と時によって Do・Does・Did を使い分ける。Did のあとの動詞は原形,,A:=Did / S:あなたは=you / V:見ましたか=watch / O:その映画を=the movie,,
+10,2,L1,港の人にきいてみよう,TALK,Emma,港の人に話しかけてみよう！,Let's talk to the people at the port!,,,
+10,2,L1,港の人にきいてみよう,Q,me,あなたはその映画を見ましたか？,,A:=Did{Do|Does|Did} / S:あなたは=you / V:見ましたか=watch{watch|watched}||see / O:その映画を=the movie,,過去の疑問文は Did。動詞は原形の watch にもどる
+10,2,L1,港の人にきいてみよう,Q,me,あなたのお兄さんは車を運転しますか？,,A:=Does{Do|Does|Did} / S:あなたのお兄さんは=your brother / V:運転しますか=drive{drive|drives} / O:車を=a car,,Does を使ったら、動詞に s はつけない
+10,2,L1,港の人にきいてみよう,Q,me,彼らは毎日練習しますか？,,A:=Do{Do|Does|Did} / S:彼らは=they / V:練習しますか=practice / M:毎日=every day,,
+10,2,L1,港の人にきいてみよう,Q,me,そのお店は日曜日に開いていますか？,,V:いますか=Is{Is|Are|Does} / S:そのお店は=the shop||the store / C:開いて=open / M:日曜日に=on Sundays||every Sunday||on Sunday,,「開いている」は be動詞＋open。疑問文は Is から。毎週のことなので on Sundays
+10,2,L1,港の人にきいてみよう,Q,me,あなたのご両親は家にいましたか？,,V:いましたか=Were{Was|Were|Did} / S:あなたのご両親は=your parents / M:家に=at home||home,,主語が複数で過去なので Were
+10,2,L1,港の人にきいてみよう,TALK,Emma,みんな親切だったね！,Everyone was so kind!,,,
+10,3,L2,どこ？なに？いつ？,INTRO,,「どこ」「なに」「いつ」をたずねよう。疑問詞は文のいちばん最初！主語と動詞も見つけてね。,,,,
+10,3,L2,どこ？なに？いつ？,GOAL,,疑問詞（What・Where…）で始まる疑問文を身に付けよう,,W:どこに=Where / A:=do / S:あなたは=you / V:住んでいますか=live,,「どこ・なに・いつ」をたずねられる
+10,3,,,RULE,,疑問詞（Where・What・When…）は文の最初。そのあとは疑問文の順,,W:どこに=Where / A:=do / S:あなたは=you / V:住んでいますか=live,,
+10,3,L2,どこ？なに？いつ？,TALK,Emma,私にもっと質問して！,Ask me more questions!,,,
+10,3,L2,どこ？なに？いつ？,Q,me,あなたはどこに住んでいますか？,,W:どこに=Where / A:=do / S:あなたは=you / V:住んでいますか=live,does | in where,疑問詞 → do → S → V の順
+10,3,L2,どこ？なに？いつ？,Q,me,あなたは何を食べましたか？,,W:何を=What / A:=did / S:あなたは=you / V:食べましたか=eat||have,ate | do,
+10,3,L2,どこ？なに？いつ？,Q,me,エマの誕生日はいつですか？,,W:いつ=When / V:ですか=is / S:エマの誕生日は=Emma's birthday,are | does,
+10,3,L2,どこ？なに？いつ？,Q,me,あなたはなぜ日本に来たのですか？,,W:なぜ=Why / A:=did / S:あなたは=you / V:来たのですか=come / M:日本に=to Japan,came | do,did のあとは原形の come
+10,3,L2,どこ？なに？いつ？,Q,me,あなたはどうやって学校に来ますか？,,W:どうやって=How / A:=do / S:あなたは=you / V:来ますか=come||get / M:学校に=to school,comes | what,
+10,3,L2,どこ？なに？いつ？,TALK,Emma,いい質問ばかり！,Those are all good questions!,,,
+10,4,L3,苦手なもの,INTRO,,苦手なものやしなかったことを伝えよう。「〜しない」は don't などを V の箱に入れるよ。,,,,
+10,4,L3,苦手なもの,GOAL,,don't・doesn't・didn't を使った否定文を身に付けよう,,S:私は=I / V:好きではありません=don't like / O:納豆が=natto,,「〜しない・〜ではない」と伝えられる
+10,4,,,RULE,,否定文は don't・doesn't・didn't や be動詞＋not を V の箱に,,S:私は=I / V:好きではありません=don't like / O:納豆が=natto,,
+10,4,L3,苦手なもの,TALK,Emma,苦手な食べ物はある？,Is there any food you don't like?,,,
+10,4,L3,苦手なもの,Q,me,私は納豆が好きではありません。,,S:私は=I / V:好きではありません=don't like||do not like / O:納豆が=natto,,
+10,4,L3,苦手なもの,Q,me,弟は野菜を食べません。,,S:弟は=My brother||My little brother||My younger brother / V:食べません=doesn't eat||does not eat / O:野菜を=vegetables,,主語が3人称単数なら doesn't。動詞は原形
+10,4,L3,苦手なもの,Q,me,私は昨日宿題をしませんでした。,,S:私は=I / V:しませんでした=didn't do||did not do / O:宿題を=my homework||homework / M~:昨日=yesterday,,
+10,4,L3,苦手なもの,Q,me,その映画はおもしろくありませんでした。,,S:その映画は=The movie||The film / V:ありませんでした=wasn't||was not / C:おもしろく=interesting||fun,,
+10,4,L3,苦手なもの,Q,me,私たちは日曜日は学校に行きません。,,S:私たちは=We / V:行きません=don't go||do not go / M:学校に=to school / M~:日曜日は=on Sundays||every Sunday||on Sunday,,毎週のことなので on Sundays（every Sunday でもOK）。on Sunday は「ある日曜日（今度の日曜日など）」
+10,4,L3,苦手なもの,TALK,Emma,私もピーマンは苦手！,I don't like green peppers either!,,,
+10,5,L4,港の案内所で,INTRO,,港の案内所で、船に乗る前に質問しよう。箱なしで英文をまるごと打ちこむよ。,,,,
+10,5,L4,港の案内所で,GOAL,,箱がなくても、疑問文・否定文を組み立てられるようになろう,,W:何時に=What time / A:=does / S:この船は=this ship / V:出ますか=leave,,旅先で必要なことを質問できる
+10,5,,,RULE,,箱がなくても疑問文・否定文を組み立てる,,W:何時に=What time / A:=does / S:この船は=this ship / V:出ますか=leave,,
+10,5,L4,港の案内所で,Q,me,この船は何時に出ますか？,,W:何時に=What time / A:=does / S:この船は=this ship||this boat / V:出ますか=leave,,
+10,5,L4,港の案内所で,Q,me,チケットはいくらですか？,,W:いくら=How much / V:ですか=is / S:チケットは=the ticket,,
+10,5,L4,港の案内所で,Q,me,私は地図を持っていません。,,S:私は=I / V:持っていません=don't have||do not have / O:地図を=a map,,
+10,5,L4,港の案内所で,Q,me,トイレはどこですか？,,W:どこ=Where / V:ですか=is / S:トイレは=the restroom||the bathroom||the toilet,,
+10,5,L4,港の案内所で,Q,me,あなたは英語を話せますか？,,A:=Can / S:あなたは=you / V:話せますか=speak / O:英語を=English,,「〜できますか？」は Can を文の最初に
+10,5,L4,港の案内所で,TALK,Emma,これで船に乗れるね！,Now we can get on the ship!,,,
+10,6,BOSS,クイズ大会の司会,INTRO,,港のお祭りでクイズ大会の司会！質問を次々に英語で出そう。ヒントは文字数だけ。,,,,
+10,6,BOSS,クイズ大会の司会,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,W:何色が=What color / A:=do / S:あなたは=you / V:好きですか=like,,英語で質問を次々に出せる
+10,6,BOSS,クイズ大会の司会,Q,me,あなたは何色が好きですか？,,W:何色が=What color / A:=do / S:あなたは=you / V:好きですか=like,,
+10,6,BOSS,クイズ大会の司会,Q,me,あなたは毎朝何時に起きますか？,,W:何時に=What time / A:=do / S:あなたは=you / V:起きますか=get up||wake up / M:毎朝=every morning,,
+10,6,BOSS,クイズ大会の司会,Q,me,エマはすしが好きではありません。,,S:エマは=Emma / V:好きではありません=doesn't like||does not like / O:すしが=sushi,,
+10,6,BOSS,クイズ大会の司会,Q,me,あなたは昨日どこへ行きましたか？,,W:どこへ=Where / A:=did / S:あなたは=you / V:行きましたか=go / M:昨日=yesterday,,
+10,6,BOSS,クイズ大会の司会,Q,me,彼は先生ですか？,,V:ですか=Is / S:彼は=he / C:先生=a teacher,,
+10,6,BOSS,クイズ大会の司会,TALK,Emma,最高の司会だったよ！,You were a great host!,,,

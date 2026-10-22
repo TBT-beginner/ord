@@ -1,0 +1,58 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+6,1,L0,好きなこと・したいこと,INTRO,,「〜すること」「〜したい」は、箱の中にもう1つ箱が入る「かたまり」になるよ。かたまりの中も英語の順番！,,,,
+6,1,L0,好きなこと・したいこと,GOAL,,「〜すること」「〜したい」を、箱の中の箱（かたまり）で言えるようになろう,,S:私は=I / V:好きです=like / O:サッカーをすること=[V:すること=playing / O:サッカーを=soccer],,好きなこと・したいことを英語で言える
+6,1,,,RULE,,「〜すること」「〜したい」は、箱の中に箱が入る「かたまり」,,S:私は=I / V:好きです=like / O:サッカーをすること=[V:すること=playing / O:サッカーを=soccer],,
+6,1,L0,好きなこと・したいこと,TALK,Emma,何をするのが好き？,What do you like to do?,,,
+6,1,L0,好きなこと・したいこと,Q,me,私はサッカーをすることが好きです。,,S:私は=I / V:好きです=like / O:サッカーをすることが=[V:すること=playing / O:サッカーを=soccer],,「〜すること」は 動詞ing。O のかたまりの中も V → O の順
+6,1,L0,好きなこと・したいこと,Q,me,私は絵を描くことが好きです。,,S:私は=I / V:好きです=like / O:絵を描くことが=[V:描くこと=drawing / O:絵を=pictures],,
+6,1,L0,好きなこと・したいこと,Q,me,姉は歌うことが大好きです。,,S:姉は=My sister||My big sister||My older sister / V:大好きです=loves / O:歌うことが=[V:歌うこと=singing],,
+6,1,L0,好きなこと・したいこと,Q,me,私は英語を話したいです。,,S:私は=I / V:たいです=want / O:英語を話し=[V:話し=to speak / O:英語を=English],,「〜したい」は want to 〜。to 〜 のかたまりが O になる
+6,1,L0,好きなこと・したいこと,Q,me,私の夢は先生になることです。,,S:私の夢は=My dream / V:です=is / C:先生になること=[V:なること=to become||to be / C:先生に=a teacher],,「〜になること」は to become 〜。かたまりが C になる
+6,1,L0,好きなこと・したいこと,TALK,Emma,すてきな夢だね！,That's a great dream!,,,
+6,3,L2,週末にやりたいこと,INTRO,,日本語の文から「文全体の」主語と動詞を見つけよう。かたまりの中の動詞にだまされないで！,,,,
+6,3,L2,週末にやりたいこと,GOAL,,文全体の動詞と、かたまりの中の動詞を見分けられるようになろう,,S:私は=I / V:たいです=want / O:映画を見=[V:見=to watch / O:映画を=a movie],,週末にやりたいことを英語で話せる
+6,3,,,RULE,,文全体の動詞と、かたまりの中の動詞を見分ける,,S:私は=I / V:たいです=want / O:映画を見=[V:見=to watch / O:映画を=a movie],,
+6,3,L2,週末にやりたいこと,TALK,Emma,今週末は何をしたい？,What do you want to do this weekend?,,,
+6,3,L2,週末にやりたいこと,Q,me,私は映画を見たいです。,,S:私は=I / V:たいです=want / O:映画を見=[V:見=to watch||to see / O:映画を=a movie||movies],watch | wants,
+6,3,L2,週末にやりたいこと,Q,me,弟はゲームをすることが好きです。,,S:弟は=My brother||My little brother||My younger brother / V:好きです=likes / O:ゲームをすることが=[V:すること=playing / O:ゲームを=video games||games],like | play,
+6,3,L2,週末にやりたいこと,Q,me,私たちは海で泳ぎたいです。,,S:私たちは=We / V:たいです=want / O:海で泳ぎ=[V:泳ぎ=to swim / M:海で=in the sea],swim | wants,かたまりの中にも M が入る
+6,3,L2,週末にやりたいこと,Q,me,母は花を育てることを楽しんでいます。,,S:母は=My mother||My mom / V:楽しんでいます=enjoys / O:花を育てることを=[V:育てること=growing / O:花を=flowers],to grow | enjoy,enjoy の後ろは 〜ing（to 〜 は使わない）
+6,3,L2,週末にやりたいこと,Q,me,私は新しい靴を買いたいです。,,S:私は=I / V:たいです=want / O:新しい靴を買い=[V:買い=to buy / O:新しい靴を=new shoes],buy | to buying,
+6,3,L2,週末にやりたいこと,TALK,Emma,いっしょに行こうよ！,Let's go together!,,,
+6,4,L3,未来の夢,INTRO,,将来の夢をエマに話そう。かたまりの中も自分で打ちこむよ。,,,,
+6,4,L3,未来の夢,GOAL,,かたまりの中まで自分で英語にできるようになろう,,S:私は=I / V:たいです=want / O:医者になり=[V:なり=to be / C:医者に=a doctor],,将来の夢を英語で語れる
+6,4,,,RULE,,かたまりの中も自分で英語にする,,S:私は=I / V:たいです=want / O:医者になり=[V:なり=to be / C:医者に=a doctor],,
+6,4,L3,未来の夢,TALK,Emma,将来は何になりたい？,What do you want to be in the future?,,,
+6,4,L3,未来の夢,Q,me,私は医者になりたいです。,,S:私は=I / V:たいです=want / O:医者になり=[V:なり=to be||to become / C:医者に=a doctor],,
+6,4,L3,未来の夢,Q,me,私の夢は英語の先生になることです。,,S:私の夢は=My dream / V:です=is / C:英語の先生になること=[V:なること=to become||to be / C:英語の先生に=an English teacher],,English は母音で始まるので an
+6,4,L3,未来の夢,Q,me,姉は本を読むことが大好きです。,,S:姉は=My sister||My big sister||My older sister / V:大好きです=loves / O:本を読むことが=[V:読むこと=reading||to read / O:本を=books],,
+6,4,L3,未来の夢,Q,me,私は友だちと話すことが好きです。,,S:私は=I / V:好きです=like / O:友だちと話すことが=[V:話すこと=talking||to talk / M:友だちと=with my friends||with friends],,
+6,4,L3,未来の夢,Q,me,私はいつか英語の歌を歌いたいです。,,S:私は=I / V:たいです=want / O:英語の歌を歌い=[V:歌い=to sing / O:英語の歌を=English songs||an English song] / M~:いつか=someday||some day,,
+6,4,L3,未来の夢,TALK,Emma,きっとできるよ！,You can do it!,,,
+6,2,L1,部活と趣味,INTRO,,部活や趣味の話をしよう。かたまりの中の動詞は「〜ing」か「to〜」か、カードで形を選ぶよ。,,,,
+6,2,L1,部活と趣味,GOAL,,動詞ing と want to ＋ 動詞を使い分けられるようになろう,,S:私は=I / V:好きです=like / O:本を読むことが=[V:読むこと=reading / O:本を=books],,趣味を英語で紹介できる
+6,2,,,RULE,,「〜すること」は 動詞ing、「〜したい」は want to 動詞,,S:私は=I / V:好きです=like / O:本を読むことが=[V:読むこと=reading / O:本を=books],,
+6,2,L1,部活と趣味,TALK,Emma,休みの日は何してるの？,What do you do on your days off?,,,
+6,2,L1,部活と趣味,Q,me,私は本を読むことが好きです。,,S:私は=I / V:好きです=like / O:本を読むことが=[V:読むこと=reading{read|reading|to reading} / O:本を=books],,「〜すること」は 動詞＋ing
+6,2,L1,部活と趣味,Q,me,兄はギターをひくことを楽しんでいます。,,S:兄は=My brother||My big brother||My older brother / V:楽しんでいます=enjoys / O:ギターをひくことを=[V:ひくこと=playing{play|playing|to play} / O:ギターを=the guitar],,enjoy の後ろは 〜ing（to 〜 は使わない）
+6,2,L1,部活と趣味,Q,me,私は新しいことを学びたいです。,,S:私は=I / V:たいです=want / O:新しいことを学び=[V:学び=to learn{learn|learning|to learn} / O:新しいことを=new things],,want の後ろは to＋動詞
+6,2,L1,部活と趣味,Q,me,私たちは英語の歌を歌うのが大好きです。,,S:私たちは=We / V:大好きです=love / O:英語の歌を歌うのが=[V:歌うの=singing{sing|singing|sang} / O:英語の歌を=English songs],,
+6,2,L1,部活と趣味,Q,me,私の趣味は写真をとることです。,,S:私の趣味は=My hobby / V:です=is / C:写真をとること=[V:とること=taking{take|taking|took} / O:写真を=pictures||photos],,かたまりが C になる文
+6,2,L1,部活と趣味,TALK,Emma,私も写真が好き！,I like taking pictures too!,,,
+6,5,L4,夢をスピーチ,INTRO,,将来の夢をスピーチ原稿にしよう。箱なしで、かたまりも頭の中で組み立てるよ。,,,,
+6,5,L4,夢をスピーチ,GOAL,,箱がなくても、かたまりの入った文を組み立てられるようになろう,,S:私の夢は=My dream / V:です=is / C:宇宙飛行士になること=[V:なること=to become / C:宇宙飛行士に=an astronaut],,将来の夢を英語でスピーチできる
+6,5,,,RULE,,箱がなくても、かたまりの入った文を組み立てる,,S:私の夢は=My dream / V:です=is / C:宇宙飛行士になること=[V:なること=to become / C:宇宙飛行士に=an astronaut],,
+6,5,L4,夢をスピーチ,Q,me,私は本を読むことが大好きです。,,S:私は=I / V:大好きです=love / O:本を読むことが=[V:読むこと=reading||to read / O:本を=books],,
+6,5,L4,夢をスピーチ,Q,me,私の夢は宇宙飛行士になることです。,,S:私の夢は=My dream / V:です=is / C:宇宙飛行士になること=[V:なること=to become||to be / C:宇宙飛行士に=an astronaut],,astronaut は母音で始まるので an
+6,5,L4,夢をスピーチ,Q,me,私は宇宙について学びたいです。,,S:私は=I / V:たいです=want / O:宇宙について学び=[V:学び=to learn||to study / M:宇宙について=about space],,
+6,5,L4,夢をスピーチ,Q,me,私は英語を勉強することを楽しんでいます。,,S:私は=I / V:楽しんでいます=enjoy / O:英語を勉強することを=[V:勉強すること=studying / O:英語を=English],,enjoy の後ろは 〜ing
+6,5,L4,夢をスピーチ,Q,me,私はいつか月に行きたいです。,,S:私は=I / V:たいです=want / O:月に行き=[V:行き=to go / M:月に=to the moon] / M~:いつか=someday||some day,,
+6,5,L4,夢をスピーチ,TALK,Emma,すごい夢！応援してるよ！,What a big dream! I'm rooting for you!,,,
+6,6,BOSS,未来の自分へ,INTRO,,10年後の自分への手紙を英語で書こう。ヒントは文字数だけ。目標タイムをめざそう。,,,,
+6,6,BOSS,未来の自分へ,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:私は=I / V:たいです=want / O:世界中の人を助け=[V:助け=to help / O:世界中の人を=people around the world],,未来の自分へのメッセージを英語で書ける
+6,6,BOSS,未来の自分へ,Q,me,私は料理をすることが大好きです。,,S:私は=I / V:大好きです=love / O:料理をすることが=[V:料理をすること=cooking||to cook],,
+6,6,BOSS,未来の自分へ,Q,me,私は友だちを助けたいです。,,S:私は=I / V:たいです=want / O:友だちを助け=[V:助け=to help / O:友だちを=my friends||my friend],,
+6,6,BOSS,未来の自分へ,Q,me,私の夢は医者になることです。,,S:私の夢は=My dream / V:です=is / C:医者になること=[V:なること=to become||to be / C:医者に=a doctor],,
+6,6,BOSS,未来の自分へ,Q,me,私はいつか宇宙に行きたいです。,,S:私は=I / V:たいです=want / O:宇宙に行き=[V:行き=to go / M:宇宙に=to space] / M~:いつか=someday||some day,,
+6,6,BOSS,未来の自分へ,Q,me,姉は絵を描くことが好きです。,,S:姉は=My sister||My big sister||My older sister / V:好きです=likes / O:絵を描くことが=[V:描くこと=drawing||to draw / O:絵を=pictures],,
+6,6,BOSS,未来の自分へ,TALK,Emma,未来のケン、がんばれ！,"Good luck, future Ken!",,,

@@ -1,0 +1,65 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+5,1,,,RULE,,「人に」→「ものを」の順,,S:私は=ich / V:あげます=gebe / O:母に=meiner Mutter / O:花を=Blumen,,「〜に」（3格）が先、「〜を」（4格）があと。英語の give my mother flowers と同じ順番。
+5,1,,私は母に花をあげます。,RULE,,「〜に」になると形が変わる（3格）,Ich gebe meiner Mutter Blumen.,S:私は=ich / V:あげます=gebe / O:兄に=meinem Bruder / O:ゲームを=ein Spiel,Ich gebe meine Mutter Blumen.,der → dem、die → der、das → dem。\nmein → meinem（男性・中性）、meine → meiner（女性）。
+5,1,,,TABLE,,「〜に」の形（3格）,,|男性|女性|中性|複数;その|[dem=dem Lehrer]|[der=der Lehrerin]|dem|den;私の|[meinem=meinem Vater/meinem Bruder]|[meiner=meiner Mutter/meiner Schwester]|meinem|meinen,,
+5,2,,レナは私に写真を見せます。,RULE,,「私に・きみに」は mir / dir,Lena zeigt mir ein Foto.,S:レナは=Lena / V:見せます=zeigt / O:私に=mir / O:写真を=ein Foto,Lena zeigt mich ein Foto.,mir（私に）・dir（きみに）・ihm（彼に）・ihr（彼女に）・uns（私たちに）。
+5,2,,,TABLE,,人の「〜は・〜に・〜を」,,〜は|〜に（3格）|〜を（4格）;ich|[mir]|mich;du|[dir]|dich;er|[ihm]|ihn;sie|[ihr]|sie;wir|[uns]|uns,,
+5,3,,レナは私を手伝います。,RULE,,helfen・danken の相手は3格,Lena hilft mir.,S:私は=ich / V:手伝います=helfe / O:母を=meiner Mutter,Lena hilft mich.,日本語では「母を手伝う」でも、ドイツ語は「〜に」の形（3格）。danken（感謝する）・stehen（似合う）も同じ。
+5,1,L0,誕生日プレゼント,INTRO,,もうすぐレナの家族の誕生日。だれに何をあげるか話そう。,,,,
+5,1,L0,誕生日プレゼント,GOAL,,「人に」→「ものを」の順と、「〜に」の形（3格）を身に付けよう,,S:私は=ich / V:あげます=gebe / O:母に=meiner Mutter / O:花を=Blumen,,だれに何をあげるかドイツ語で言える
+5,1,L0,誕生日プレゼント,TALK,Lena,誕生日には何をあげるの？,Was schenkst du zum Geburtstag?,,,
+5,1,L0,誕生日プレゼント,Q,me,私は母に花をあげます。,,S:私は=ich / V:あげます=gebe / O:母に=meiner Mutter / O:花を=Blumen,,Mutter は女性名詞。「〜に」のとき meine → meiner
+5,1,L0,誕生日プレゼント,Q,me,私は父に本をあげます。,,S:私は=ich / V:あげます=gebe / O:父に=meinem Vater / O:本を=ein Buch,,Vater は男性名詞。「〜に」のとき mein → meinem
+5,1,L0,誕生日プレゼント,Q,me,レナは私にカードをくれます。,,S:レナは=Lena / V:くれます=gibt / O:私に=mir / O:カードを=eine Karte,,「私に」は mir。geben は er・sie のとき gibt
+5,1,L0,誕生日プレゼント,Q,me,私は兄にゲームをあげます。,,S:私は=ich / V:あげます=gebe / O:兄に=meinem Bruder / O:ゲームを=ein Spiel,,「人に」（3格）→「ものを」（4格）の順
+5,1,L0,誕生日プレゼント,Q,me,私たちは先生に花をあげます。,,S:私たちは=wir / V:あげます=geben / O:先生に=dem Lehrer||der Lehrerin / O:花を=Blumen,,「その〜に」は der → dem（男性）、die → der（女性）
+5,1,L0,誕生日プレゼント,TALK,Lena,すてき！,Wie schön!,,,
+5,1,L0,誕生日プレゼント,DRILL,,,,"{""ja"":[""S"",""O"",""O2"",""V""],""en"":[""S"",""V"",""O"",""O2""],""note"":""「人に」（3格）→「ものを」（4格）"",""slots"":{""S"":[[""私は"",""ich"",""1s""],[""私たちは"",""wir"",""1p""],[""レナは"",""Lena"",""3s""],[""私の兄は"",""mein Bruder"",""3s""]],""V"":[{""ja"":""あげます"",""f"":{""1s"":""gebe"",""2s"":""gibst"",""3s"":""gibt"",""1p"":""geben"",""3p"":""geben""},""o"":""give""},{""ja"":""見せます"",""f"":{""1s"":""zeige"",""2s"":""zeigst"",""3s"":""zeigt"",""1p"":""zeigen"",""3p"":""zeigen""},""o"":""show""},{""ja"":""買います"",""f"":{""1s"":""kaufe"",""2s"":""kaufst"",""3s"":""kauft"",""1p"":""kaufen"",""3p"":""kaufen""},""o"":""give""},{""ja"":""送ります"",""f"":{""1s"":""schicke"",""2s"":""schickst"",""3s"":""schickt"",""1p"":""schicken"",""3p"":""schicken""},""o"":""send""}],""O"":[[""母に"",""meiner Mutter""],[""父に"",""meinem Vater""],[""姉に"",""meiner Schwester""],[""先生に"",""dem Lehrer""],[""友だちに"",""meinem Freund""],[""祖母に"",""meiner Oma""]],""O2"":{""give"":[[""花を"",""Blumen""],[""本を"",""ein Buch""],[""かばんを"",""eine Tasche""],[""ボールを"",""einen Ball""]],""show"":[[""写真を"",""ein Foto""],[""地図を"",""eine Karte""],[""町を"",""die Stadt""]],""send"":[[""手紙を"",""einen Brief""],[""カードを"",""eine Karte""],[""写真を"",""Fotos""]]}}}",,
+5,2,L1,お返しをしよう,INTRO,,レナからおみやげをもらった！お返しを考えよう。,,,,
+5,2,L1,お返しをしよう,GOAL,,「私に・きみに・彼に」の mir・dir・ihm・ihr を使えるようになろう,,S:彼女は=sie / V:見せます=zeigt / O:私に=mir / O:写真を=ein Foto,,「〜に」をドイツ語の代名詞で言える
+5,2,L1,お返しをしよう,TALK,Lena,ケンにおみやげがあるよ！,Ich habe ein Geschenk für dich!,,,
+5,2,L1,お返しをしよう,Q,me,レナは私に写真を見せます。,,S:レナは=Lena / V:見せます=zeigt{zeige|zeigst|zeigt} / O:私に=mir / O:写真を=ein Foto,,「私に」は mir
+5,2,L1,お返しをしよう,Q,me,私はきみに手紙を書きます。,,S:私は=ich / V:書きます=schreibe{schreibe|schreibst|schreibt} / O:きみに=dir / O:手紙を=einen Brief,,「きみに」は dir。Brief は男性なので einen
+5,2,L1,お返しをしよう,Q,me,私は彼に本をあげます。,,S:私は=ich / V:あげます=gebe{gebe|gibst|gibt} / O:彼に=ihm / O:本を=ein Buch,,「彼に」は ihm
+5,2,L1,お返しをしよう,Q,me,母は彼女にケーキを作ります。,,S:母は=meine Mutter / V:作ります=macht{mache|machst|macht} / O:彼女に=ihr / O:ケーキを=einen Kuchen,,「彼女に」は ihr
+5,2,L1,お返しをしよう,Q,me,先生は私たちに地図を見せます。,,S:先生は=der Lehrer / V:見せます=zeigt{zeige|zeigt|zeigen} / O:私たちに=uns / O:地図を=eine Karte,,「私たちに」は uns
+5,2,L1,お返しをしよう,TALK,Lena,ありがとう！,Danke schön!,,,
+5,2,L1,お返しをしよう,DRILL,,,,"{""ja"":[""S"",""O"",""O2"",""V""],""en"":[""S"",""V"",""O"",""O2""],""note"":""私に mir・きみに dir・彼に ihm・彼女に ihr・私たちに uns"",""slots"":{""S"":[[""レナは"",""Lena"",""3s""],[""母は"",""meine Mutter"",""3s""],[""先生は"",""der Lehrer"",""3s""],[""私の友だちは"",""mein Freund"",""3s""]],""V"":[{""ja"":""あげます"",""f"":{""1s"":""gebe"",""2s"":""gibst"",""3s"":""gibt"",""1p"":""geben"",""3p"":""geben""},""o"":""give""},{""ja"":""見せます"",""f"":{""1s"":""zeige"",""2s"":""zeigst"",""3s"":""zeigt"",""1p"":""zeigen"",""3p"":""zeigen""},""o"":""show""},{""ja"":""送ります"",""f"":{""1s"":""schicke"",""2s"":""schickst"",""3s"":""schickt"",""1p"":""schicken"",""3p"":""schicken""},""o"":""send""}],""O"":[[""私に"",""mir""],[""きみに"",""dir""],[""彼に"",""ihm""],[""彼女に"",""ihr""],[""私たちに"",""uns""]],""O2"":{""give"":[[""花を"",""Blumen""],[""本を"",""ein Buch""],[""かばんを"",""eine Tasche""],[""ボールを"",""einen Ball""]],""show"":[[""写真を"",""ein Foto""],[""地図を"",""eine Karte""],[""町を"",""die Stadt""]],""send"":[[""手紙を"",""einen Brief""],[""カードを"",""eine Karte""],[""写真を"",""Fotos""]]}}}",,
+5,3,L2,手伝う・ありがとう,INTRO,,レナの家でパーティーの準備。手伝ったり、お礼を言ったりしよう。,,,,
+5,3,L2,手伝う・ありがとう,GOAL,,helfen・danken の相手を3格で言えるようになろう,,S:私は=ich / V:手伝います=helfe / O:母を=meiner Mutter,,「手伝う」「感謝する」をドイツ語で言える
+5,3,L2,手伝う・ありがとう,TALK,Lena,手伝ってくれる？,Kannst du mir helfen?,,,
+5,3,L2,手伝う・ありがとう,Q,me,私は母を手伝います。,,S:私は=ich / V:手伝います=helfe / O:母を=meiner Mutter,meine Mutter|hilft|helfen,helfen の相手は、日本語で「〜を」でも3格
+5,3,L2,手伝う・ありがとう,Q,me,レナは私を手伝います。,,S:レナは=Lena / V:手伝います=hilft / O:私を=mir,mich|helfe|hilfst,helfen は er・sie のとき hilft。相手は mir
+5,3,L2,手伝う・ありがとう,Q,me,私はきみに感謝します。,,S:私は=ich / V:感謝します=danke / O:きみに=dir,dich|dankt|danken,danken の相手も3格
+5,3,L2,手伝う・ありがとう,Q,me,その帽子は私に似合います。,,S:その帽子は=der Hut / V:似合います=steht / O:私に=mir,mich|stehe|ich,stehen（似合う）の相手も3格
+5,3,L2,手伝う・ありがとう,Q,me,私たちは父を手伝います。,,S:私たちは=wir / V:手伝います=helfen / O:父を=meinem Vater,meinen Vater|hilft|helft,Vater は男性なので meinem
+5,3,L2,手伝う・ありがとう,TALK,Lena,助かったよ！,Das hilft mir sehr!,,,
+5,3,L2,手伝う・ありがとう,DRILL,,,,"{""ja"":[""S"",""O"",""V""],""en"":[""S"",""V"",""O""],""note"":""helfen・danken の相手は3格"",""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""私たちは"",""wir"",""1p""],[""レナは"",""Lena"",""3s""]],""V"":[{""ja"":""手伝います"",""f"":{""1s"":""helfe"",""2s"":""hilfst"",""3s"":""hilft"",""1p"":""helfen"",""3p"":""helfen""},""o"":""help""},{""ja"":""感謝します"",""f"":{""1s"":""danke"",""2s"":""dankst"",""3s"":""dankt"",""1p"":""danken"",""3p"":""danken""},""o"":""thank""}],""O"":{""help"":[[""母を"",""meiner Mutter""],[""父を"",""meinem Vater""],[""先生を"",""dem Lehrer""],[""友だちを"",""meiner Freundin""]],""thank"":[[""母に"",""meiner Mutter""],[""先生に"",""dem Lehrer""],[""祖父に"",""meinem Opa""]]}}}",,
+5,4,L3,プレゼント選び,INTRO,,デパートで家族へのプレゼントを選ぼう。,,,,
+5,4,L3,プレゼント選び,GOAL,,3格（人に）と4格（ものを）を書き分けられるようになろう,,S:私は=ich / V:買います=kaufe / O:弟に=meinem Bruder / O:ボールを=einen Ball,,だれに何を買うか書ける
+5,4,L3,プレゼント選び,TALK,Lena,だれに何を買う？,Was kaufst du für wen?,,,
+5,4,L3,プレゼント選び,Q,me,私は姉にかばんを買います。,,S:私は=ich / V:買います=kaufe / O:姉に=meiner Schwester / O:かばんを=eine Tasche,,「人に」（3格）→「ものを」（4格）
+5,4,L3,プレゼント選び,Q,me,私は弟にボールを買います。,,S:私は=ich / V:買います=kaufe / O:弟に=meinem Bruder / O:ボールを=einen Ball,,男性の「〜に」は meinem、「〜を」は einen
+5,4,L3,プレゼント選び,Q,me,レナは私に本をくれます。,,S:レナは=Lena / V:くれます=gibt / O:私に=mir / O:本を=ein Buch,,私に＝mir
+5,4,L3,プレゼント選び,Q,me,私たちは先生にカードを送ります。,,S:私たちは=wir / V:送ります=schicken / O:先生に=dem Lehrer||der Lehrerin / O:カードを=eine Karte,,schicken（送る）
+5,4,L3,プレゼント選び,Q,me,彼は私に時計を見せます。,,S:彼は=er / V:見せます=zeigt / O:私に=mir / O:時計を=eine Uhr,,Uhr は女性名詞なので eine
+5,4,L3,プレゼント選び,TALK,Lena,みんな喜ぶね！,Alle werden sich freuen!,,,
+5,4,L3,プレゼント選び,DRILL,,,,"{""use"":[""5-1"",""5-2"",""5-3""]}",,
+5,5,L4,お礼のメッセージ,INTRO,,お世話になったレナの家族に、お礼のメッセージを書こう。,,,,
+5,5,L4,お礼のメッセージ,GOAL,,箱がなくても、「人に → ものを」の文を組み立てられるようになろう,,S:私は=ich / V:あげます=gebe / O:きみに=dir / O:おみやげを=ein Geschenk,,お礼のメッセージをドイツ語で書ける
+5,5,L4,お礼のメッセージ,Q,me,私はきみに感謝します。,,S:私は=ich / V:感謝します=danke / O:きみに=dir,,danken ＋ 3格
+5,5,L4,お礼のメッセージ,Q,me,私はきみにおみやげをあげます。,,S:私は=ich / V:あげます=gebe / O:きみに=dir / O:おみやげを=ein Geschenk,,dir（きみに）→ ein Geschenk（おみやげを）
+5,5,L4,お礼のメッセージ,Q,me,母はきみにケーキを作ります。,,S:母は=meine Mutter / V:作ります=macht / O:きみに=dir / O:ケーキを=einen Kuchen,,Kuchen は男性なので einen
+5,5,L4,お礼のメッセージ,Q,me,私たちはきみに写真を送ります。,,S:私たちは=wir / V:送ります=schicken / O:きみに=dir / O:写真を=Fotos,,複数の「写真」は Fotos
+5,5,L4,お礼のメッセージ,Q,me,レナはいつも私を手伝います。,,S:レナは=Lena / V:手伝います=hilft / O:私を=mir / M:いつも=immer,,代名詞 mir は immer より前
+5,5,L4,お礼のメッセージ,TALK,Lena,メッセージありがとう！,Danke für deine Nachricht!,,,
+5,5,L4,お礼のメッセージ,DRILL,,,,"{""use"":[""5-1"",""5-2"",""5-3""]}",,
+5,6,BOSS,ありがとうスピーチ,INTRO,,ホームステイ最後の日。レナの家族の前でお礼のスピーチ！,,,,
+5,6,BOSS,ありがとうスピーチ,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:私は=ich / V:感謝します=danke / O:レナに=Lena,,お礼のスピーチをドイツ語で言える
+5,6,BOSS,ありがとうスピーチ,Q,me,私はレナに感謝します。,,S:私は=ich / V:感謝します=danke / O:レナに=Lena,,名前は形が変わらない
+5,6,BOSS,ありがとうスピーチ,Q,me,レナは私に町を見せます。,,S:レナは=Lena / V:見せます=zeigt / O:私に=mir / O:町を=die Stadt,,zeigen ＋ 3格 ＋ 4格
+5,6,BOSS,ありがとうスピーチ,Q,me,私はレナにプレゼントをあげます。,,S:私は=ich / V:あげます=gebe / O:レナに=Lena / O:プレゼントを=ein Geschenk,,「人に」→「ものを」
+5,6,BOSS,ありがとうスピーチ,Q,me,私たちは先生を手伝います。,,S:私たちは=wir / V:手伝います=helfen / O:先生を=dem Lehrer||der Lehrerin,,helfen ＋ 3格
+5,6,BOSS,ありがとうスピーチ,Q,me,その帽子は彼に似合います。,,S:その帽子は=der Hut / V:似合います=steht / O:彼に=ihm,,stehen ＋ 3格
+5,6,BOSS,ありがとうスピーチ,TALK,Lena,泣いちゃいそう！,Ich muss gleich weinen!,,,
+5,6,BOSS,ありがとうスピーチ,DRILL,,,,"{""use"":[""5-1"",""5-2"",""5-3""]}",,

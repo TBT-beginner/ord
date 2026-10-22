@@ -1,0 +1,62 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+8,1,,これはピアノを弾く女の子です。,RULE,,"説明の文は「名詞, der … 動詞」","Das ist das Mädchen, das Klavier spielt.",S:これは=das / V:です=ist / C:お城で働いている男の人=[N:男の人=der Mann / M:お城で働いている=der im Schloss arbeitet],"Das ist das Mädchen, das spielt Klavier.",名詞のうしろにコンマ、der / die / das（名詞の性に合わせる）、そして動詞は最後。
+8,1,,,TABLE,,説明の文のはじめ（名詞の性で選ぶ）,,"名詞|説明のはじめ|例;男性|[der=der im Schloss arbeitet/der in Berlin wohnt]|der Mann, der …;女性|[die=die Englisch unterrichtet/die einen Kimono trägt]|die Frau, die …;中性|[das=das Klavier spielt/das am Fluss steht]|das Haus, das …;複数|[die=die im Garten spielen]|die Kinder, die …",,
+8,2,,,RULE,,主語に説明がつくと、コンマではさむ,,S:お城で働いている男の人は=[N:男の人は=der Mann / M:お城で働いている=der im Schloss arbeitet] / V:です=ist / C:私のおじ=mein Onkel,,"Der Mann, der im Schloss arbeitet, ist mein Onkel. 説明の文の前とうしろにコンマ。"
+8,3,,これは私が好きな映画です。,RULE,,「〜が…した物」は den / das ＋ 主語 … 動詞,"Das ist der Film, den ich mag.",S:これは=das / V:です=ist / C:母が焼いたケーキ=[N:ケーキ=der Kuchen / M:母が焼いた=den meine Mutter gebacken hat],"Das ist der Film, der ich mag.",説明の中で「〜を」の役なら、男性は der → den。動詞（gebacken hat）は最後。
+8,1,L0,なかまを紹介,INTRO,,お城の町でレナの知り合いに会った。どんな人か説明しよう。,,,,
+8,1,L0,なかまを紹介,GOAL,,"人やものを「名詞, der … 動詞」の説明の文で言えるようになろう",,S:これは=das / V:です=ist / C:お城で働いている男の人=[N:男の人=der Mann / M:お城で働いている=der im Schloss arbeitet],,人やものを文で説明できる
+8,1,L0,なかまを紹介,TALK,Lena,紹介したい人がいるの！,Ich möchte dir jemanden vorstellen!,,,
+8,1,L0,なかまを紹介,Q,me,これはお城で働いている男の人です。,,S:これは=das / V:です=ist / C:お城で働いている男の人=[N:男の人=der Mann / M:お城で働いている=der im Schloss arbeitet],,説明の文（関係文）では動詞が最後。前にコンマ
+8,1,L0,なかまを紹介,Q,me,これはピアノを弾く女の子です。,,S:これは=das / V:です=ist / C:ピアノを弾く女の子=[N:女の子=das Mädchen / M:ピアノを弾く=das Klavier spielt],,Mädchen は中性なので das
+8,1,L0,なかまを紹介,Q,me,これは英語を教える女の人です。,,S:これは=das / V:です=ist / C:英語を教える女の人=[N:女の人=die Frau / M:英語を教える=die Englisch unterrichtet],,女性なので die
+8,1,L0,なかまを紹介,Q,me,これは川のそばに立っている家です。,,S:これは=das / V:です=ist / C:川のそばに立っている家=[N:家=das Haus / M:川のそばに立っている=das am Fluss steht],,Haus は中性なので das
+8,1,L0,なかまを紹介,Q,me,これはベルリンに住んでいる友だちです。,,S:これは=das / V:です=ist / C:ベルリンに住んでいる友だち=[N:友だち=der Freund / M:ベルリンに住んでいる=der in Berlin wohnt],,Freund は男性なので der
+8,1,L0,なかまを紹介,TALK,Lena,みんないい人でしょ？,"Alle sind nett, oder?",,,
+8,1,L0,なかまを紹介,DRILL,,,,"{""ja"":[""S"",""C"",""V""],""en"":[""S"",""V"",""C""],""note"":""説明の文は 名詞, der / die / das … 動詞（最後）"",""slots"":{""S"":[[""これは"",""das""]],""V"":[[""です"",""ist""]],""C"":{""in"":{""ja"":[""M"",""N""],""en"":[""N"",""M""],""slots"":{""N"":[{""ja"":""男の人"",""en"":""der Mann"",""o"":""m""},{""ja"":""男の子"",""en"":""der Junge"",""o"":""m""},{""ja"":""女の人"",""en"":""die Frau"",""o"":""f""},{""ja"":""女の子"",""en"":""das Mädchen"",""o"":""n""}],""M"":{""m"":[[""お城で働いている"",""der im Schloss arbeitet""],[""ピアノを弾く"",""der Klavier spielt""],[""ベルリンに住んでいる"",""der in Berlin wohnt""],[""日本語を話せる"",""der Japanisch sprechen kann""]],""f"":[[""お城で働いている"",""die im Schloss arbeitet""],[""英語を教える"",""die Englisch unterrichtet""],[""ベルリンに住んでいる"",""die in Berlin wohnt""],[""日本語を話せる"",""die Japanisch sprechen kann""]],""n"":[[""ピアノを弾く"",""das Klavier spielt""],[""ベルリンに住んでいる"",""das in Berlin wohnt""],[""日本語を話せる"",""das Japanisch sprechen kann""],[""歌っている"",""das singt""]]}}}}}}",,
+8,2,L1,城下町の人びと,INTRO,,レナと町を歩いて、出会った人を紹介し合おう。,,,,
+8,2,L1,城下町の人びと,GOAL,,主語に説明の文がつくとき、コンマではさめるようになろう,,S:お城で働いている男の人は=[N:男の人は=der Mann / M:お城で働いている=der im Schloss arbeitet] / V:です=ist / C:私のおじ=mein Onkel,,「〜している人は…です」をドイツ語で言える
+8,2,L1,城下町の人びと,TALK,Lena,あの人、知ってる？,Kennst du den Mann da?,,,
+8,2,L1,城下町の人びと,Q,me,お城で働いている男の人は私のおじです。,,S:お城で働いている男の人は=[N:男の人は=der Mann / M:お城で働いている=der im Schloss arbeitet] / V:です=ist{bin|ist|sind} / C:私のおじ=mein Onkel,,"Der Mann, der im Schloss arbeitet, ist mein Onkel."
+8,2,L1,城下町の人びと,Q,me,着物を着ている女の人は先生です。,,S:着物を着ている女の人は=[N:女の人は=die Frau / M:着物を着ている=die einen Kimono trägt] / V:です=ist{bin|ist|sind} / C:先生=Lehrerin,,tragen（着る）は sie のとき trägt
+8,2,L1,城下町の人びと,Q,me,だんごを売る店はとても有名です。,,S:だんごを売る店は=[N:店は=das Geschäft / M:だんごを売る=das Dango verkauft] / V:です=ist{bin|ist|sind} / C:とても有名=sehr berühmt,,Geschäft は中性なので das
+8,2,L1,城下町の人びと,Q,me,庭で遊んでいる子どもたちは私の弟たちです。,,S:庭で遊んでいる子どもたちは=[N:子どもたちは=die Kinder / M:庭で遊んでいる=die im Garten spielen] / V:です=sind{ist|sind} / C:私の弟たち=meine Brüder,,複数は die。説明の中の動詞も複数の形
+8,2,L1,城下町の人びと,Q,me,駅の近くにあるカフェは新しいです。,,S:駅の近くにあるカフェは=[N:カフェは=das Café / M:駅の近くにある=das am Bahnhof ist] / V:です=ist{bin|ist|sind} / C:新しい=neu,,説明の中の ist も最後
+8,2,L1,城下町の人びと,TALK,Lena,町のことにくわしくなったね！,Jetzt kennst du die Stadt gut!,,,
+8,2,L1,城下町の人びと,DRILL,,,,"{""ja"":[""S"",""C"",""V""],""en"":[""S"",""V"",""C""],""note"":""主語に説明の文がつくと、前とうしろにコンマ"",""slots"":{""V"":[[""です"",""ist""]],""S"":{""in"":{""ja"":[""M"",""N""],""en"":[""N"",""M""],""slots"":{""N"":[{""ja"":""男の人は"",""en"":""der Mann"",""o"":""m""},{""ja"":""女の人は"",""en"":""die Frau"",""o"":""f""},{""ja"":""女の子は"",""en"":""das Mädchen"",""o"":""n""}],""M"":{""m"":[[""お城で働いている"",""der im Schloss arbeitet""],[""公園で走っている"",""der im Park läuft""],[""犬を散歩させている"",""der den Hund ausführt""]],""f"":[[""着物を着ている"",""die einen Kimono trägt""],[""英語を教えている"",""die Englisch unterrichtet""],[""駅で働いている"",""die am Bahnhof arbeitet""]],""n"":[[""ピアノを弾いている"",""das Klavier spielt""],[""歌っている"",""das singt""],[""本を読んでいる"",""das ein Buch liest""]]}}}},""C"":{""m"":[[""私のおじ"",""mein Onkel""],[""私の父"",""mein Vater""],[""私の先生"",""mein Lehrer""]],""f"":[[""私の母"",""meine Mutter""],[""私の先生"",""meine Lehrerin""],[""私のおば"",""meine Tante""]],""n"":[[""レナ"",""Lena""],[""私の妹"",""meine Schwester""]]}}}",,
+8,3,L2,歴史博物館,INTRO,,博物館で、レナに思い出の品を説明しよう。,,,,
+8,3,L2,歴史博物館,GOAL,,「〜が…した物」を den / das ＋ 主語 … 動詞で言えるようになろう,,S:これは=das / V:です=ist / C:私が昨日買った本=[N:本=das Buch / M:私が昨日買った=das ich gestern gekauft habe],,「〜が…した物」をドイツ語で言える
+8,3,L2,歴史博物館,TALK,Lena,それは何？,Was ist das?,,,
+8,3,L2,歴史博物館,Q,me,これは私が昨日買った本です。,,S:これは=das / V:です=ist / C:私が昨日買った本=[N:本=das Buch / M:私が昨日買った=das ich gestern gekauft habe],der|habe gekauft|sind,説明の中は「主語 … gekauft habe」で最後
+8,3,L2,歴史博物館,Q,me,これは母が焼いたケーキです。,,S:これは=das / V:です=ist / C:母が焼いたケーキ=[N:ケーキ=der Kuchen / M:母が焼いた=den meine Mutter gebacken hat],der|die|hat gebacken,Kuchen は男性。「〜を」の役なので den
+8,3,L2,歴史博物館,Q,me,これは私がいちばんよく聞く歌です。,,S:これは=das / V:です=ist / C:私がいちばんよく聞く歌=[N:歌=das Lied / M:私がいちばんよく聞く=das ich am liebsten höre],der|den|hört,Lied は中性なので das
+8,3,L2,歴史博物館,Q,me,これは祖父がくれた時計です。,,S:これは=das / V:です=ist / C:祖父がくれた時計=[N:時計=die Uhr / M:祖父がくれた=die mir mein Opa geschenkt hat||die mein Opa mir geschenkt hat],der|den|hat,Uhr は女性なので die
+8,3,L2,歴史博物館,Q,me,これは私たちが見たお城です。,,S:これは=das / V:です=ist / C:私たちが見たお城=[N:お城=das Schloss / M:私たちが見た=das wir gesehen haben],den|die|haben gesehen,gesehen haben が最後
+8,3,L2,歴史博物館,TALK,Lena,大切な物ばかりだね。,Das sind wichtige Sachen.,,,
+8,3,L2,歴史博物館,DRILL,,,,"{""ja"":[""S"",""C"",""V""],""en"":[""S"",""V"",""C""],""note"":""「〜を」の役なら 男性 den・女性 die・中性 das。動詞は最後"",""slots"":{""S"":[[""これは"",""das""]],""V"":[[""です"",""ist""]],""C"":{""in"":{""ja"":[""M"",""N""],""en"":[""N"",""M""],""slots"":{""N"":[{""ja"":""本"",""en"":""das Buch"",""o"":""book""},{""ja"":""ケーキ"",""en"":""der Kuchen"",""o"":""cake""},{""ja"":""映画"",""en"":""der Film"",""o"":""film""},{""ja"":""時計"",""en"":""die Uhr"",""o"":""watch""},{""ja"":""かばん"",""en"":""die Tasche"",""o"":""bag""}],""M"":{""book"":[[""私が買った"",""das ich gekauft habe""],[""私が好きな"",""das ich mag""],[""父がくれた"",""das mir mein Vater geschenkt hat""]],""cake"":[[""母が焼いた"",""den meine Mutter gebacken hat""],[""私が買った"",""den ich gekauft habe""]],""film"":[[""私が好きな"",""den ich mag""],[""私が昨日見た"",""den ich gestern gesehen habe""]],""watch"":[[""祖父がくれた"",""die mir mein Opa geschenkt hat""],[""私が買った"",""die ich gekauft habe""]],""bag"":[[""私がいつも使う"",""die ich immer benutze""],[""私が買った"",""die ich gekauft habe""]]}}}}}}",,
+8,4,L3,友だちの紹介文,INTRO,,レナのクラスに送る「私の友だち」紹介文を書こう。,,,,
+8,4,L3,友だちの紹介文,GOAL,,名詞の性に合わせて der / die / das の説明の文を書けるようになろう,,S:私には=ich / V:います=habe / O:ピアノを弾く友だちが=[N:友だちが=einen Freund / M:ピアノを弾く=der Klavier spielt],,友だちを説明する文をドイツ語で書ける
+8,4,L3,友だちの紹介文,Q,me,私にはピアノを弾く友だちがいます。,,S:私には=ich / V:います=habe / O:ピアノを弾く友だちが=[N:友だちが=einen Freund / M:ピアノを弾く=der Klavier spielt],,友だちは「〜を」で einen Freund、説明の中では主語なので der
+8,4,L3,友だちの紹介文,Q,me,レナは日本語を話せる女の子です。,,S:レナは=Lena / V:です=ist / C:日本語を話せる女の子=[N:女の子=ein Mädchen / M:日本語を話せる=das Japanisch sprechen kann],,説明の中で kann が最後
+8,4,L3,友だちの紹介文,Q,me,これは私が毎日使うペンです。,,S:これは=das / V:です=ist / C:私が毎日使うペン=[N:ペン=der Stift / M:私が毎日使う=den ich jeden Tag benutze],,Stift は男性。「〜を」の役なので den
+8,4,L3,友だちの紹介文,Q,me,私には犬を飼っている友だちがいます。,,S:私には=ich / V:います=habe / O:犬を飼っている友だちが=[N:友だちが=eine Freundin / M:犬を飼っている=die einen Hund hat],,Freundin は女性なので die
+8,4,L3,友だちの紹介文,Q,me,東京に住んでいる兄はエンジニアです。,,S:東京に住んでいる兄は=[N:兄は=mein Bruder / M:東京に住んでいる=der in Tokio wohnt] / V:です=ist / C:エンジニア=Ingenieur,,"Mein Bruder, der in Tokio wohnt, ist Ingenieur."
+8,4,L3,友だちの紹介文,TALK,Lena,みんな読んで喜んでたよ！,Alle haben sich gefreut!,,,
+8,4,L3,友だちの紹介文,DRILL,,,,"{""use"":[""8-1"",""8-2"",""8-3""]}",,
+8,5,L4,なかまへの手紙,INTRO,,お城の町で出会った人たちに手紙を書こう。,,,,
+8,5,L4,なかまへの手紙,GOAL,,箱がなくても、説明の文の入った文を組み立てられるようになろう,,S:これは=das / V:です=ist / C:私が書いた手紙=[N:手紙=der Brief / M:私が書いた=den ich geschrieben habe],,説明の文を使って手紙を書ける
+8,5,L4,なかまへの手紙,Q,me,私には絵が得意な友だちがいます。,,S:私には=ich / V:います=habe / O:絵が得意な友だちが=[N:友だちが=einen Freund / M:絵が得意な=der gut malen kann],,der gut malen kann（絵が得意な）
+8,5,L4,なかまへの手紙,Q,me,これは私が書いた手紙です。,,S:これは=das / V:です=ist / C:私が書いた手紙=[N:手紙=der Brief / M:私が書いた=den ich geschrieben habe],,Brief は男性、「〜を」の役なので den
+8,5,L4,なかまへの手紙,Q,me,歌っている女の子は私の妹です。,,S:歌っている女の子は=[N:女の子は=das Mädchen / M:歌っている=das singt] / V:です=ist / C:私の妹=meine Schwester,,"Das Mädchen, das singt, ist meine Schwester."
+8,5,L4,なかまへの手紙,Q,me,これは私が好きな映画です。,,S:これは=das / V:です=ist / C:私が好きな映画=[N:映画=der Film / M:私が好きな=den ich mag],,Film は男性なので den
+8,5,L4,なかまへの手紙,Q,me,公園で走っている男の人は私の父です。,,S:公園で走っている男の人は=[N:男の人は=der Mann / M:公園で走っている=der im Park läuft] / V:です=ist / C:私の父=mein Vater,,laufen は er のとき läuft
+8,5,L4,なかまへの手紙,TALK,Lena,すてきな手紙！,Ein schöner Brief!,,,
+8,5,L4,なかまへの手紙,DRILL,,,,"{""use"":[""8-1"",""8-2"",""8-3""]}",,
+8,6,BOSS,お城の案内人,INTRO,,お城のガイドに挑戦！説明の文をすばやく使いこなそう。,,,,
+8,6,BOSS,お城の案内人,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:これは=das / V:です=ist / C:400年前に建てられたお城=[N:お城=das Schloss / M:400年前に建てられた=das vor 400 Jahren gebaut wurde],,お城を案内する文をドイツ語で話せる
+8,6,BOSS,お城の案内人,Q,me,これは私たちが見たお城です。,,S:これは=das / V:です=ist / C:私たちが見たお城=[N:お城=das Schloss / M:私たちが見た=das wir gesehen haben],,
+8,6,BOSS,お城の案内人,Q,me,公園で走っている男の人はとても親切でした。,,S:公園で走っている男の人は=[N:男の人は=der Mann / M:公園で走っている=der im Park läuft] / V:でした=war / C:とても親切=sehr nett,,
+8,6,BOSS,お城の案内人,Q,me,これは母が焼いたケーキです。,,S:これは=das / V:です=ist / C:母が焼いたケーキ=[N:ケーキ=der Kuchen / M:母が焼いた=den meine Mutter gebacken hat],,Kuchen は男性・「〜を」の役なので den
+8,6,BOSS,お城の案内人,Q,me,私にはピアノを弾く友だちがいます。,,S:私には=ich / V:います=habe / O:ピアノを弾く友だちが=[N:友だちが=einen Freund / M:ピアノを弾く=der Klavier spielt],,
+8,6,BOSS,お城の案内人,Q,me,歌っている女の子は私の妹です。,,S:歌っている女の子は=[N:女の子は=das Mädchen / M:歌っている=das singt] / V:です=ist / C:私の妹=meine Schwester,,"""Das Mädchen, das singt, ist meine Schwester."""
+8,6,BOSS,お城の案内人,TALK,Lena,最高のガイドだった！,Du warst ein super Führer!,,,
+8,6,BOSS,お城の案内人,DRILL,,,,"{""use"":[""8-1"",""8-2"",""8-3""]}",,

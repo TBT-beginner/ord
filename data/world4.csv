@@ -1,0 +1,58 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+4,1,L0,ぼくの町,INTRO,,エマが町を案内してほしいって。「〜があります・います」を英語で言ってみよう。,,,,
+4,1,L0,ぼくの町,GOAL,,「〜がある・いる」を There is で言えるようになろう,,V:あります=There is / S:公園が=a park / M:私の家の近くに=near my house,,町にあるものを英語で紹介できる
+4,1,,,RULE,,「〜がある・いる」は There is ＋ あるもの（S）＋ 場所（M）,,V:あります=There is / S:公園が=a park / M:私の家の近くに=near my house,,
+4,1,L0,ぼくの町,TALK,Emma,ケンの町ってどんなところ？,What is your town like?,,,
+4,1,L0,ぼくの町,Q,me,私の家の近くに公園があります。,,V:あります=There is / S:公園が=a park / M:私の家の近くに=near my house,,「〜がある」は There is から。あるものが S、場所の M は最後
+4,1,L0,ぼくの町,Q,me,公園には大きな木があります。,,V:あります=There is / S:大きな木が=a big tree / M:公園には=in the park,,
+4,1,L0,ぼくの町,Q,me,駅の近くに本屋が2つあります。,,V:あります=There are / S:本屋が2つ=two bookstores / M:駅の近くに=near the station,,あるものが2つ以上なら There are
+4,1,L0,ぼくの町,Q,me,川には魚がたくさんいます。,,V:います=There are / S:魚がたくさん=many fish||a lot of fish / M:川には=in the river,,生き物の「いる」も There is / There are
+4,1,L0,ぼくの町,Q,me,私の町には有名なお寺があります。,,V:あります=There is / S:有名なお寺が=a famous temple / M:私の町には=in my town,,
+4,1,L0,ぼくの町,TALK,Emma,町を歩いてみたい！,I want to walk around your town!,,,
+4,2,L1,商店街,INTRO,,商店街を歩きながら説明しよう。There is か There are か、カードで選ぶよ。,,,,
+4,2,L1,商店街,GOAL,,あるものの数で There is と There are を使い分けられるようになろう,,V:あります=There are / S:たくさんの店が=a lot of shops / M:この通りには=on this street,,通りの様子を英語で説明できる
+4,2,,,RULE,,あるものが1つなら There is、2つ以上なら There are,,V:あります=There are / S:たくさんの店が=a lot of shops / M:この通りには=on this street,,
+4,2,L1,商店街,TALK,Emma,にぎやかな通りだね！,This street is busy!,,,
+4,2,L1,商店街,Q,me,この通りにはたくさんの店があります。,,V:あります=There are{There is|There are} / S:たくさんの店が=many shops||a lot of shops / M:この通りには=on this street,,
+4,2,L1,商店街,Q,me,角にパン屋があります。,,V:あります=There is{There is|There are} / S:パン屋が=a bakery / M:角に=on the corner||at the corner,,
+4,2,L1,商店街,Q,me,店の近くにネコが3匹います。,,V:います=There are{There is|There are} / S:ネコが3匹=three cats / M:店の近くに=near the store||near the shop,,
+4,2,L1,商店街,Q,me,駅の中に小さなカフェがあります。,,V:あります=There is{There is|There are} / S:小さなカフェが=a small cafe / M:駅の中に=in the station,,
+4,2,L1,商店街,Q,me,その公園には子どもがたくさんいます。,,V:います=There are{There is|There are} / S:子どもがたくさん=many children||a lot of children / M:その公園には=in the park||in that park,,children は child の複数形
+4,2,L1,商店街,TALK,Emma,パン屋さんに行きたい！,I want to go to the bakery!,,,
+4,3,L2,天気と時間,INTRO,,天気や時間の話をしよう。日本語の文に主語がないときは、どうする？,,,,
+4,3,L2,天気と時間,GOAL,,天気・時間の文を、形だけの主語 It で言えるようになろう,,S:=It / V:です=is / C:晴れ=sunny / M~:今日は=today,,天気や時間を英語で言える
+4,3,,,RULE,,天気・時間・寒さ暑さの文は、形だけの主語 It を使う,,S:=It / V:です=is / C:晴れ=sunny / M~:今日は=today,,
+4,3,L2,天気と時間,TALK,Emma,今日はいい天気だね！,It's a nice day!,,,
+4,3,L2,天気と時間,Q,me,今日は晴れです。,,S:=It / V:です=is / C:晴れ=sunny / M~:今日は=today,This | sun,天気の文は It が主語。「それ」とは訳さない
+4,3,L2,天気と時間,Q,me,外はとても寒いです。,,S:=It / V:です=is / C:とても寒い=very cold / M:外は=outside,are | cold weather,
+4,3,L2,天気と時間,Q,me,今、3時です。,,S:=It / V:です=is / C:3時=three o'clock||three||3 o'clock||3:00 / M~:今、=now,This | are,時間の文も It が主語
+4,3,L2,天気と時間,Q,me,昨日は雨でした。,,S:=It / V:でした=was / C:雨=rainy / M~:昨日は=yesterday,is | rain,過去のことなので was。「雨の」は rainy
+4,3,L2,天気と時間,Q,me,夏はとても暑いです。,,S:=It / V:です=is / C:とても暑い=very hot / M~:夏は=in summer,Summer | hotly,
+4,3,L2,天気と時間,TALK,Emma,日本の夏は暑いってほんと？,Is it really hot in Japan in summer?,,,
+4,4,L3,道案内,INTRO,,エマに道を教えよう。There is と It を使い分けて、自分で打ちこむよ。,,,,
+4,4,L3,道案内,GOAL,,There is と It を使い分けて書けるようになろう,,V:あります=There is / S:バス停が=a bus stop / M:学校の近くに=near the school,,道案内や町の情報を英語で書ける
+4,4,,,RULE,,There is と It を使い分けて書く,,V:あります=There is / S:バス停が=a bus stop / M:学校の近くに=near the school,,
+4,4,L3,道案内,TALK,Emma,バス停はどこ？,Where is the bus stop?,,,
+4,4,L3,道案内,Q,me,学校の近くに本屋があります。,,V:あります=There is / S:本屋が=a bookstore / M:学校の近くに=near the school||near our school,,
+4,4,L3,道案内,Q,me,図書館の隣にカフェがあります。,,V:あります=There is / S:カフェが=a cafe||a café / M:図書館の隣に=next to the library,,
+4,4,L3,道案内,Q,me,この辺りには店がたくさんあります。,,V:あります=There are / S:店がたくさん=a lot of shops||many shops||a lot of stores||many stores / M:この辺りには=around here||in this area,,たくさんあるので There are
+4,4,L3,道案内,Q,me,駅までは遠いです。,,S:=It / V:です=is / C:遠い=far / M:駅までは=to the station,,きょりの文も It が主語
+4,4,L3,道案内,Q,me,今日はとても風が強いです。,,S:=It / V:です=is / C:とても風が強い=very windy / M~:今日は=today,,
+4,4,L3,道案内,TALK,Emma,ありがとう！わかりやすい！,Thanks! That was easy to understand!,,,
+4,5,L4,町の紹介文,INTRO,,エマの学校新聞に、ケンの町の紹介文をのせるよ。箱なしで英文を打ちこもう。,,,,
+4,5,L4,町の紹介文,GOAL,,箱がなくても、There is・It の文を組み立てられるようになろう,,V:あります=There is / S:大きな川が=a big river / M:私の町には=in my town,,町の紹介文を英語で書ける
+4,5,,,RULE,,箱がなくても There is / It の文を組み立てる,,V:あります=There is / S:大きな川が=a big river / M:私の町には=in my town,,
+4,5,L4,町の紹介文,Q,me,私の町には大きな川があります。,,V:あります=There is / S:大きな川が=a big river / M:私の町には=in my town,,
+4,5,L4,町の紹介文,Q,me,川の近くに古い城があります。,,V:あります=There is / S:古い城が=an old castle / M:川の近くに=near the river,,old の前は an
+4,5,L4,町の紹介文,Q,me,春には観光客がたくさんいます。,,V:います=There are / S:観光客がたくさん=a lot of tourists||many tourists / M~:春には=in spring,,
+4,5,L4,町の紹介文,Q,me,今日はとても寒いです。,,S:=It / V:です=is / C:とても寒い=very cold / M~:今日は=today,,
+4,5,L4,町の紹介文,Q,me,夜は静かです。,,S:=It / V:です=is / C:静か=quiet / M~:夜は=at night,,
+4,5,L4,町の紹介文,TALK,Emma,すてきな記事だね！,What a nice article!,,,
+4,6,BOSS,町ガイド発表,INTRO,,クラスで「わたしの町ガイド」を発表！ヒントは文字数だけ。目標タイムをめざそう。,,,,
+4,6,BOSS,町ガイド発表,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,S:=It / V:です=is / C:とても暑い=very hot / M~:今日は=today,,町の案内を英語で発表できる
+4,6,BOSS,町ガイド発表,Q,me,私たちの学校の近くに大きな図書館があります。,,V:あります=There is / S:大きな図書館が=a big library / M:私たちの学校の近くに=near our school,,
+4,6,BOSS,町ガイド発表,Q,me,図書館にはたくさんの本があります。,,V:あります=There are / S:たくさんの本が=a lot of books||many books / M:図書館には=in the library,,
+4,6,BOSS,町ガイド発表,Q,me,駅の近くに新しいショッピングモールがあります。,,V:あります=There is / S:新しいショッピングモールが=a new shopping mall / M:駅の近くに=near the station,,
+4,6,BOSS,町ガイド発表,Q,me,今日はとても暑いです。,,S:=It / V:です=is / C:とても暑い=very hot / M~:今日は=today,,
+4,6,BOSS,町ガイド発表,Q,me,今、5時です。,,S:=It / V:です=is / C:5時=five o'clock||five||5 o'clock||5:00 / M~:今、=now,,
+4,6,BOSS,町ガイド発表,TALK,Emma,私も町を案内してもらいたい！,I want you to show me around too!,,,

@@ -1,0 +1,68 @@
+world,stage,level,title,type,speaker,ja,en,chunks,distractors,note
+3,1,,,RULE,,はい・いいえの疑問文は、動詞が先頭,,V:しますか=spielst / S:あなたは=du / O:サッカーを=Fußball,,英語の Do にあたる言葉はない。動詞をそのまま文の最初に出して、そのうしろに主語。\ndu（あなた）のとき、動詞の語尾は -st。
+3,1,,,TABLE,,du（きみ）のときの動詞,,辞書の形|du の形|疑問文;spielen|[spielst]|Spielst du Fußball?;wohnen|[wohnst]|Wo wohnst du?;trinken|[trinkst]|Was trinkst du?;mögen|[magst]|Magst du Musik?;sein|[bist]|Wie alt bist du?,,
+3,1,,,RULE,,疑問詞 → 動詞 → 主語,,W:どこに=wo / V:住んでいますか=wohnst / S:あなたは=du,,Was（なに）・Wo（どこ）・Wann（いつ）・Wie（どうやって・どんな）が先頭。ここでも動詞は2番目。
+3,2,,私は時間がありません。,RULE,,「〜ない」は nicht と kein,Ich habe keine Zeit.,S:私は=ich / V:ありません=habe / O:時間が=keine Zeit,Ich habe nicht Zeit.,「（名詞）がない」は kein＋名詞（ein の反対）。それ以外は nicht。\nnicht は形容詞の前（nicht teuer）か、文の最後のほう（Ich mag Natto nicht.）。
+3,2,,,TABLE,,kein（〜ない）の形,,|男性|女性|中性;〜を|[keinen=keinen Hund]|[keine=keine Zeit/keine Karte]|[kein=kein Fleisch],,
+3,3,,私はお城を見たいです。,RULE,,2つ目の動詞は、文の最後（わく構造）,Ich möchte ein Schloss sehen.,S:私は=ich / V:たいです=möchte / O:お城を=ein Schloss / V:見=sehen,Ich möchte sehen ein Schloss.,möchte（〜したい）・kann（〜できる）が2番目に来ると、もう1つの動詞は原形のまま文の最後へ。2つの動詞で文をはさむので「わく構造」という。\n日本語の「お城を 見 たい」と同じで、「見る」がうしろ！
+3,3,,,TABLE,,2番目に来る動詞,,主語|möchte（〜したい）|kann（〜できる）;ich|[möchte]|[kann];du|möchtest|kannst;er・sie・es|[möchte=Lena möchte]|kann;wir・sie|[möchten]|können,,
+3,4,,私はサッカーをしました。,RULE,,「〜した」は habe ＋ 過去分詞（最後）,Ich habe Fußball gespielt.,S:私は=ich / V:=habe / O:サッカーを=Fußball / V:しました=gespielt,Ich habe gespielt Fußball.,話し言葉の「〜した」は habe（2番目）＋ ge〜t（最後）で作る。これもわく構造。\nspielen → gespielt、machen → gemacht。sehen → gesehen・essen → gegessen のように形が変わる動詞もある。
+3,4,,,TABLE,,過去分詞（最後に来る形）,,辞書の形|過去分詞;spielen|[gespielt];machen|[gemacht];sehen|[gesehen];essen|[gegessen];lesen|[gelesen],,
+3,1,L0,しつもんしよう,INTRO,,今度はケンがレナに質問する番！,,,,
+3,1,L0,しつもんしよう,GOAL,,動詞を文の最初に出す疑問文を身に付けよう,,V:しますか=spielst / S:あなたは=du / O:サッカーを=Fußball,,ドイツ語で相手に質問できる
+3,1,L0,しつもんしよう,TALK,Lena,なんでも聞いて！,Frag mich alles!,,,
+3,1,L0,しつもんしよう,Q,me,あなたはサッカーをしますか？,,V:しますか=spielst / S:あなたは=du / O:サッカーを=Fußball,,Do はいらない！ 動詞を先頭に出すだけ。du のとき動詞は -st
+3,1,L0,しつもんしよう,Q,me,あなたは日本食が好きですか？,,V:好きですか=magst / S:あなたは=du / O:日本食が=japanisches Essen,,mögen は du のとき magst
+3,1,L0,しつもんしよう,Q,me,あなたはどこに住んでいますか？,,W:どこに=wo / V:住んでいますか=wohnst / S:あなたは=du,,疑問詞 → 動詞 → 主語
+3,1,L0,しつもんしよう,Q,me,あなたは何を飲みますか？,,W:何を=was / V:飲みますか=trinkst / S:あなたは=du,,was（なに）が先頭、すぐ次に動詞
+3,1,L0,しつもんしよう,Q,me,あなたは何歳ですか？,,W:何歳=wie alt / V:ですか=bist / S:あなたは=du,,「何歳」は wie alt。sein は du のとき bist
+3,1,L0,しつもんしよう,TALK,Lena,15歳だよ！,Ich bin fünfzehn!,,,
+3,1,L0,しつもんしよう,DRILL,,,,"{""ja"":[""S"",""O"",""V""],""en"":[""V"",""S"",""O""],""q"":true,""note"":""疑問文は動詞が先頭"",""slots"":{""S"":[[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""彼女は"",""sie"",""3s""],[""レナは"",""Lena"",""3s""],[""きみのお兄さんは"",""dein Bruder"",""3s""]],""V"":[{""ja"":""しますか"",""f"":{""1s"":""spiele"",""2s"":""spielst"",""3s"":""spielt"",""1p"":""spielen"",""3p"":""spielen""},""o"":""sport""},{""ja"":""飲みますか"",""f"":{""1s"":""trinke"",""2s"":""trinkst"",""3s"":""trinkt"",""1p"":""trinken"",""3p"":""trinken""},""o"":""drink""},{""ja"":""好きですか"",""f"":{""1s"":""mag"",""2s"":""magst"",""3s"":""mag"",""1p"":""mögen"",""3p"":""mögen""},""o"":""like""},{""ja"":""習っていますか"",""f"":{""1s"":""lerne"",""2s"":""lernst"",""3s"":""lernt"",""1p"":""lernen"",""3p"":""lernen""},""o"":""learn""}],""O"":{""sport"":[[""サッカーを"",""Fußball""],[""テニスを"",""Tennis""],[""バスケットボールを"",""Basketball""],[""バレーボールを"",""Volleyball""],[""野球を"",""Baseball""],[""卓球を"",""Tischtennis""]],""drink"":[[""牛乳を"",""Milch""],[""コーヒーを"",""Kaffee""],[""お茶を"",""Tee""],[""水を"",""Wasser""],[""ジュースを"",""Saft""],[""ココアを"",""Kakao""]],""learn"":[[""ドイツ語を"",""Deutsch""],[""英語を"",""Englisch""],[""日本語を"",""Japanisch""],[""フランス語を"",""Französisch""],[""中国語を"",""Chinesisch""]],""like"":[[""音楽が"",""Musik""],[""サッカーが"",""Fußball""],[""すしが"",""Sushi""],[""ネコが"",""Katzen""],[""日本が"",""Japan""],[""チョコレートが"",""Schokolade""]]}}}",,
+3,2,L1,〜じゃないよ,INTRO,,レナの質問に「ちがうよ」と答えよう。,,,,
+3,2,L1,〜じゃないよ,GOAL,,nicht と kein を使い分けて「〜ない」と言えるようになろう,,S:私は=ich / V:ありません=habe / O:時間が=keine Zeit,,「〜ない」をドイツ語で言える
+3,2,L1,〜じゃないよ,TALK,Lena,ケンは納豆好き？,Magst du Natto?,,,
+3,2,L1,〜じゃないよ,Q,me,その本は高くないです。,,S:その本は=das Buch / V:です=ist{bin|ist|sind} / M:ない=nicht / C:高く=teuer,,nicht は形容詞の前
+3,2,L1,〜じゃないよ,Q,me,私は納豆が好きではありません。,,S:私は=ich / V:好きでは=mag{mag|magst} / O:納豆が=Natto / M:ありません=nicht,,文全体を打ち消す nicht は最後のほう
+3,2,L1,〜じゃないよ,Q,me,私は時間がありません。,,S:私は=ich / V:ありません=habe{habe|hast|hat} / O:時間が=keine Zeit,,「〜がない」は kein＋名詞。Zeit は女性名詞なので keine
+3,2,L1,〜じゃないよ,Q,me,彼は犬を飼っていません。,,S:彼は=er / V:飼っていません=hat{habe|hat|haben} / O:犬を=keinen Hund,,Hund は男性名詞なので「〜を」のとき keinen
+3,2,L1,〜じゃないよ,Q,me,今日は寒くないです。,,S:=es / V:です=ist{bin|ist|sind} / M~:今日は=heute / M:ない=nicht / C:寒く=kalt,,天気・寒さの文は主語 es。Heute ist es nicht kalt. も正解
+3,2,L1,〜じゃないよ,TALK,Lena,そうなんだ！,Ach so!,,,
+3,2,L1,〜じゃないよ,DRILL,,,,"{""ja"":[""S"",""O"",""V""],""en"":[""S"",""V"",""O""],""note"":""「〜がない」は kein。男性名詞の「〜を」は keinen"",""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""彼女は"",""sie"",""3s""],[""私の母は"",""meine Mutter"",""3s""],[""私の兄は"",""mein Bruder"",""3s""],[""私たちは"",""wir"",""1p""],[""私の両親は"",""meine Eltern"",""3p""]],""V"":[{""ja"":""飼っていません"",""f"":{""1s"":""habe"",""2s"":""hast"",""3s"":""hat"",""1p"":""haben"",""3p"":""haben""},""o"":""pet""},{""ja"":""持っていません"",""f"":{""1s"":""habe"",""2s"":""hast"",""3s"":""hat"",""1p"":""haben"",""3p"":""haben""},""o"":""thing""},{""ja"":""ありません"",""f"":{""1s"":""habe"",""2s"":""hast"",""3s"":""hat"",""1p"":""haben"",""3p"":""haben""},""o"":""abs""}],""O"":{""pet"":[[""犬を"",""keinen Hund""],[""ネコを"",""keine Katze""],[""鳥を"",""keinen Vogel""],[""魚を"",""keine Fische""]],""thing"":[[""かさを"",""keinen Schirm""],[""スマホを"",""kein Handy""],[""自転車を"",""kein Fahrrad""],[""かばんを"",""keine Tasche""],[""ペンを"",""keinen Stift""]],""abs"":[[""時間が"",""keine Zeit""],[""お金が"",""kein Geld""],[""やる気が"",""keine Lust""],[""宿題が"",""keine Hausaufgaben""]]}}}",,
+3,3,L2,〜したい,INTRO,,ドイツ旅行の計画！レナに「〜したい」と伝えよう。,,,,
+3,3,L2,〜したい,GOAL,,möchte を2番目、もう1つの動詞を最後に置けるようになろう,,S:私は=ich / V:たいです=möchte / O:お城を=ein Schloss / V:見=sehen,,したいこと・できることをドイツ語で言える
+3,3,L2,〜したい,TALK,Lena,ドイツで何がしたい？,Was möchtest du in Deutschland machen?,,,
+3,3,L2,〜したい,Q,me,私はお城を見たいです。,,S:私は=ich / V:たいです=möchte / O:お城を=ein Schloss / V:見=sehen,möchtest|sehe|siehst,möchte が2番目、sehen は最後。日本語と同じく「見る」が後ろ！
+3,3,L2,〜したい,Q,me,私はソーセージを食べたいです。,,S:私は=ich / V:たいです=möchte / O:ソーセージを=Würstchen||eine Wurst / V:食べ=essen,esse|möchtest|isst,2つ目の動詞は原形（essen）で最後
+3,3,L2,〜したい,Q,me,私たちはベルリンへ行きたいです。,,S:私たちは=wir / V:たいです=möchten / M:ベルリンへ=nach Berlin / V:行き=fahren||gehen,möchte|fahre|gehst,wir のときは möchten。都市へ行くは nach
+3,3,L2,〜したい,Q,me,私はドイツ語を話せます。,,S:私は=ich / V:せます=kann / O:ドイツ語を=Deutsch / V:話=sprechen,kannst|spreche|sprichst,kann（できる）も2番目、sprechen は最後
+3,3,L2,〜したい,Q,me,レナは日本で寿司を食べたいです。,,S:レナは=Lena / V:たいです=möchte / M:日本で=in Japan / O:寿司を=Sushi / V:食べ=essen,möchtest|isst|möchten,sie のときも möchte
+3,3,L2,〜したい,TALK,Lena,楽しみだね！,Ich freue mich schon!,,,
+3,3,L2,〜したい,DRILL,,,,"{""ja"":[""S"",""O"",""V2"",""V""],""en"":[""S"",""V"",""O"",""V2""],""note"":""2つ目の動詞（原形）は最後"",""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""彼女は"",""sie"",""3s""],[""私の母は"",""meine Mutter"",""3s""],[""私の兄は"",""mein Bruder"",""3s""],[""私たちは"",""wir"",""1p""],[""私の両親は"",""meine Eltern"",""3p""]],""V"":[{""ja"":""たいです"",""f"":{""1s"":""möchte"",""2s"":""möchtest"",""3s"":""möchte"",""1p"":""möchten"",""3p"":""möchten""}}],""V2"":[{""ja"":""見"",""en"":""sehen"",""o"":""see""},{""ja"":""食べ"",""en"":""essen"",""o"":""food""},{""ja"":""飲み"",""en"":""trinken"",""o"":""drink""},{""ja"":""買い"",""en"":""kaufen"",""o"":""buy""},{""ja"":""訪ね"",""en"":""besuchen"",""o"":""visit""}],""O"":{""see"":[[""お城を"",""ein Schloss""],[""大聖堂を"",""den Dom""],[""サッカーの試合を"",""ein Fußballspiel""],[""海を"",""das Meer""],[""山を"",""die Berge""]],""food"":[[""ソーセージを"",""Würstchen""],[""プレッツェルを"",""Brezeln""],[""ケーキを"",""Kuchen""],[""シュニッツェルを"",""Schnitzel""]],""drink"":[[""コーヒーを"",""Kaffee""],[""ジュースを"",""Saft""],[""ココアを"",""Kakao""]],""buy"":[[""チョコレートを"",""Schokolade""],[""Tシャツを"",""ein T-Shirt""],[""絵はがきを"",""Postkarten""],[""本を"",""ein Buch""]],""visit"":[[""ベルリンを"",""Berlin""],[""祖母を"",""meine Oma""],[""博物館を"",""das Museum""],[""友だちを"",""meine Freunde""]]}}}",,
+3,4,L3,〜した,INTRO,,週末にしたことをレナに報告しよう。,,,,
+3,4,L3,〜した,GOAL,,「〜した」を habe ＋ 過去分詞（最後）で言えるようになろう,,S:私は=ich / V:=habe / O:サッカーを=Fußball / V:しました=gespielt,,過去にしたことをドイツ語で言える
+3,4,L3,〜した,TALK,Lena,週末どうだった？,Wie war dein Wochenende?,,,
+3,4,L3,〜した,Q,me,私はサッカーをしました。,,S:私は=ich / V:=habe / O:サッカーを=Fußball / V:しました=gespielt,,「〜した」は habe（2番目）＋ gespielt（最後）。habe は日本語にない
+3,4,L3,〜した,Q,me,私はテニスをしました。,,S:私は=ich / V:=habe / O:テニスを=Tennis / V:しました=gespielt,,habe（2番目）… gespielt（最後）
+3,4,L3,〜した,Q,me,私は友だちとピザを食べました。,,S:私は=ich / V:=habe / M:友だちと=mit Freunden / O:ピザを=Pizza / V:食べました=gegessen,,essen → gegessen
+3,4,L3,〜した,Q,me,私の姉は宿題をしました。,,S:私の姉は=meine Schwester / V:=hat / O:宿題を=Hausaufgaben||die Hausaufgaben / V:しました=gemacht,,主語が sie なので hat
+3,4,L3,〜した,Q,me,日曜日に、私は本を読みました。,,S:私は=ich / V:=habe / M~:日曜日に=am Sonntag / O:本を=ein Buch / V:読みました=gelesen,,lesen → gelesen
+3,4,L3,〜した,TALK,Lena,楽しそうだね！,Das klingt toll!,,,
+3,4,L3,〜した,DRILL,,,,"{""ja"":[""M、"",""S"",""O"",""V2""],""en"":[""S"",""V"",""M~"",""O"",""V2""],""opt"":[""M""],""note"":""「〜した」は habe（2番目）＋ 過去分詞（最後）"",""slots"":{""S"":[[""私は"",""ich"",""1s""],[""きみは"",""du"",""2s""],[""彼は"",""er"",""3s""],[""彼女は"",""sie"",""3s""],[""私の母は"",""meine Mutter"",""3s""],[""私の兄は"",""mein Bruder"",""3s""],[""私たちは"",""wir"",""1p""],[""私の両親は"",""meine Eltern"",""3p""]],""V"":[{""ja"":"""",""f"":{""1s"":""habe"",""2s"":""hast"",""3s"":""hat"",""1p"":""haben"",""3p"":""haben""}}],""M"":[[""昨日"",""gestern""],[""週末に"",""am Wochenende""],[""先週"",""letzte Woche""],[""日曜日に"",""am Sonntag""],[""今朝"",""heute Morgen""]],""V2"":[{""ja"":""しました"",""en"":""gespielt"",""o"":""sport""},{""ja"":""見ました"",""en"":""gesehen"",""o"":""watch""},{""ja"":""食べました"",""en"":""gegessen"",""o"":""food""},{""ja"":""買いました"",""en"":""gekauft"",""o"":""buy""},{""ja"":""読みました"",""en"":""gelesen"",""o"":""read""},{""ja"":""しました"",""en"":""gemacht"",""o"":""do""}],""O"":{""sport"":[[""サッカーを"",""Fußball""],[""テニスを"",""Tennis""],[""バスケットボールを"",""Basketball""],[""バレーボールを"",""Volleyball""],[""野球を"",""Baseball""],[""卓球を"",""Tischtennis""]],""food"":[[""パンを"",""Brot""],[""ご飯を"",""Reis""],[""リンゴを"",""einen Apfel""],[""チーズを"",""Käse""],[""魚を"",""Fisch""],[""肉を"",""Fleisch""],[""果物を"",""Obst""]],""watch"":[[""映画を"",""einen Film""],[""試合を"",""ein Spiel""],[""アニメを"",""einen Anime""]],""buy"":[[""本を"",""ein Buch""],[""かばんを"",""eine Tasche""],[""ペンを"",""einen Stift""],[""チョコレートを"",""Schokolade""]],""read"":[[""本を"",""ein Buch""],[""マンガを"",""Comics""],[""新聞を"",""eine Zeitung""]],""do"":[[""宿題を"",""Hausaufgaben""],[""運動を"",""Sport""],[""ヨガを"",""Yoga""]]}}}",,
+3,5,L4,インタビュー,INTRO,,レナの家族にオンラインでインタビュー！,,,,
+3,5,L4,インタビュー,GOAL,,箱がなくても、疑問文・否定・2つの動詞の文を組み立てられるようになろう,,V:好きですか=magst / S:あなたは=du / O:音楽が=Musik,,ドイツ語でインタビューできる
+3,5,L4,インタビュー,Q,me,あなたは音楽が好きですか？,,V:好きですか=magst / S:あなたは=du / O:音楽が=Musik,,動詞が先頭。du magst
+3,5,L4,インタビュー,Q,me,あなたはどこで働いていますか？,,W:どこで=wo / V:働いていますか=arbeitest / S:あなたは=du,,arbeiten は du のとき arbeitest
+3,5,L4,インタビュー,Q,me,私は肉を食べません。,,S:私は=ich / V:食べません=esse / O:肉を=kein Fleisch,,「〜を食べない」は kein＋名詞でも言える
+3,5,L4,インタビュー,Q,me,私は日本へ行きたいです。,,S:私は=ich / V:たいです=möchte / M:日本へ=nach Japan / V:行き=fahren||reisen||fliegen||gehen,,möchte … fahren。国へ行くは nach
+3,5,L4,インタビュー,Q,me,あなたは昨日何をしましたか？,,W:何を=was / V:=hast / S:あなたは=du / M:昨日=gestern / V:しましたか=gemacht,,疑問詞 → hast → 主語 → … → gemacht（最後）
+3,5,L4,インタビュー,TALK,Lena,みんな喜んでたよ！,Alle haben sich gefreut!,,,
+3,5,L4,インタビュー,DRILL,,,,"{""use"":[""3-1"",""3-2"",""3-3"",""3-4""]}",,
+3,6,BOSS,港の案内所,INTRO,,ドイツの港町で迷子！案内所で質問して乗り切ろう。,,,,
+3,6,BOSS,港の案内所,GOAL,,ここまでの文を、すばやく正確に書けるようになろう,,W:どこ=wo / V:ですか=ist / S:駅は=der Bahnhof,,旅先でドイツ語で質問できる
+3,6,BOSS,港の案内所,Q,me,駅はどこですか？,,W:どこ=wo / V:ですか=ist / S:駅は=der Bahnhof,,Wo ist …?
+3,6,BOSS,港の案内所,Q,me,私は時間がありません。,,S:私は=ich / V:ありません=habe / O:時間が=keine Zeit,,「〜がない」は kein＋名詞
+3,6,BOSS,港の案内所,Q,me,私はパンを買いたいです。,,S:私は=ich / V:たいです=möchte / O:パンを=Brot / V:買い=kaufen,,möchte … kaufen
+3,6,BOSS,港の案内所,Q,me,あなたはテニスをしますか？,,V:しますか=spielst / S:あなたは=du / O:テニスを=Tennis,,はい・いいえの質問は動詞から
+3,6,BOSS,港の案内所,Q,me,レナはどこに住んでいますか？,,W:どこに=wo / V:住んでいますか=wohnt / S:レナは=Lena,,疑問詞 → 動詞 → 主語
+3,6,BOSS,港の案内所,TALK,Lena,無事に帰れたね！,"Gut, dass du zurück bist!",,,
+3,6,BOSS,港の案内所,DRILL,,,,"{""use"":[""3-1"",""3-2"",""3-3"",""3-4""]}",,
