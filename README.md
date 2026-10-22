@@ -12,11 +12,11 @@
 | `gojun-world.html` | 公開用の完成ファイル |
 | `preview/` | 手元確認用（`node preview/serve.js` → http://localhost:5178） |
 
-## 公開（Cloudflare Pages）
+## 公開（Cloudflare Workers）
 
-- GitHub の TBT-beginner/ord をつなぐ。ビルドコマンド `node build.js && node build.js de`、出力ディレクトリ `preview`（英語版が `/`、ドイツ語版が `/de`）
-- `preview/` の中身もコミットしてあるので、ビルドコマンドなしでも同じ内容が公開される
-- 直したら `node build.js` と `node build.js de` を実行してからコミット・プッシュ
+- 設定は `wrangler.jsonc`：`preview/` の中身をそのまま公開する（英語版が `/`、ドイツ語版が `/de`）。`preview/serve.js` は手元確認用なので `preview/.assetsignore` で外している
+- Cloudflare の画面では、ビルドコマンド `node build.js && node build.js de`、デプロイコマンド `npx wrangler deploy`。Worker の名前は `wrangler.jsonc` の `name`（いまは ord）とそろえる
+- 直したら `node build.js` と `node build.js de` を実行してからコミット・プッシュ（`preview/` の中身もコミットしてある）
 
 ## 問題を足す・直す
 

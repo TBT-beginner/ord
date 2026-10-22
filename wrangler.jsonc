@@ -1,0 +1,8 @@
+// Cloudflare Workers: serves the built game (preview/index.html = English at /, preview/de.html = German at /de)
+{
+  "name": "ord",
+  "compatibility_date": "2025-10-01",
+  "assets": {
+    "directory": "./preview"
+  }
+}
