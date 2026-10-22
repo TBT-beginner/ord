@@ -354,6 +354,27 @@ button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px soli
 .hako-say svg{width:44px;height:48px;flex:none}
 .hako-say p{margin:0;font-size:.9rem}
 .mission h2 small{font-size:.9rem;color:var(--ink-soft);margin-left:6px}
+.streak{display:flex;align-items:center;justify-content:center;gap:8px;margin:2px 0 6px;font-weight:800}
+.streak b{font-family:var(--f-en);font-size:1.3rem;color:var(--V)}
+.streak .rest{font-size:.75rem;font-weight:700;border:2px dashed var(--line);border-radius:999px;padding:0 8px;color:var(--ink-soft)}
+.week-plan .row{justify-content:center}
+.week-plan .row .btn{min-width:72px;justify-content:center;font-size:1.1rem}
+.next-tease{display:flex;align-items:center;justify-content:center;gap:6px;flex-wrap:wrap;margin:8px auto 2px;font-weight:700}
+.next-tease .lvbadge{margin:0}
+.dream-step{margin:6px auto;font-weight:800;color:var(--V)}
+.dream-line{all:unset;box-sizing:border-box;display:flex;align-items:center;gap:6px;max-width:100%;margin:0 0 8px;padding:4px 10px;border-radius:999px;font-size:.8rem;color:var(--ink-soft);cursor:pointer}
+.dream-line[hidden]{display:none}
+.dream-line:hover{background:var(--surface-2)}
+.dream-line:focus-visible{outline:3px solid var(--C)}
+.dream-line svg{width:16px;height:16px;fill:var(--star);flex:none}
+.dream-line span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dream-line b{color:var(--ink)}
+.dream-pop h2{font-size:1.1rem}
+.dream-opts{display:grid;gap:6px;margin:10px 0}
+.dream-opts .btn{justify-content:flex-start;text-align:left;box-shadow:none}
+.dream-own{display:flex;flex-direction:column;gap:4px;font-size:.85rem;font-weight:700;margin-bottom:10px}
+.dream-own input{font:inherit;font-weight:400;padding:8px 10px;border:2px solid var(--outline);border-radius:10px;background:var(--surface);color:var(--ink)}
+@media (min-width:880px){.install-btn{display:none}}
 .mlist{list-style:none;padding:0;margin:8px 0;display:grid;gap:6px;text-align:left}
 .mlist li{display:flex;align-items:center;gap:10px;border:2px solid var(--line);border-radius:12px;padding:8px 10px;font-weight:700}
 .mlist li.ok{border-color:var(--O);background:color-mix(in srgb,var(--O) 14%,var(--surface))}
@@ -856,6 +877,7 @@ textarea{width:100%;min-height:140px;border:2px solid var(--line);border-radius:
     <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
     <symbol id="i-repeat" viewBox="0 0 24 24"><path d="M4 11a7 7 0 0 1 12-4.9L18 8M20 13a7 7 0 0 1-12 4.9L6 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M18 3.5V8h-4.5M6 20.5V16h4.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
     <symbol id="i-timer" viewBox="0 0 24 24"><circle cx="12" cy="13.5" r="7.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M12 9.5v4.2l2.6 1.6M9.5 2.8h5M12 2.8V6M18.6 6.4l1.5-1.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11 12 4l8 7v9h-5v-6H9v6H4z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></symbol>
     <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5C6.5 4 9.5 4 12 6c2.5-2 5.5-2 8-.5V19c-2.5-1.5-5.5-1.5-8 .5-2.5-2-5.5-2-8-.5z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M12 6v13.5" stroke="currentColor" stroke-width="2.2"/></symbol>
   </defs>
 </svg>
@@ -876,9 +898,11 @@ textarea{width:100%;min-height:140px;border:2px solid var(--line);border-radius:
         <button type="button" class="icon-btn badged" id="open-stats" aria-label="きろく"><svg><use href="#i-chart"/></svg><span class="ml">きろく</span><span class="badge" id="due-badge" hidden></span></button>
         <button type="button" class="icon-btn badged" id="open-book" aria-label="コレクション"><svg><use href="#i-book"/></svg><span class="ml">コレクション</span><span class="badge newdot" id="col-dot" hidden>!</span></button>
         <button type="button" class="icon-btn qbtn" id="open-guide" aria-label="箱のせつめい"><b>?</b><span class="ml">箱のせつめい</span></button>
+        <button type="button" class="icon-btn install-btn" id="open-install" aria-label="ホーム画面に追加" hidden><svg><use href="#i-home"/></svg><span class="ml">ホーム画面に追加</span></button>
         <button type="button" class="icon-btn" id="open-settings" aria-label="設定"><svg><use href="#i-gear"/></svg><span class="ml">設定</span></button>
       </div>
     </header>
+    <button type="button" class="dream-line" id="dream-line" hidden aria-label="やりたいこと（タップで変える）"></button>
     <nav class="worlds" id="worlds" aria-label="ワールド一覧"></nav>
     <div class="whead"><h1 id="wtitle"></h1><div class="wgrow" id="wgrow"></div><span class="tag" id="wgram"></span><div class="wreel" id="wreel" role="listbox" aria-label="ワールドをえらぶ" hidden></div></div>
     <div class="mapbox" id="mapbox"></div>
@@ -2384,7 +2408,7 @@ document.addEventListener('keydown', e => {
   }
 });
 function renderWorlds() {
-  renderBadge(); renderStarPill(); renderMissionPill();
+  renderBadge(); renderStarPill(); renderMissionPill(); renderDream(); renderInstall();
   $('.seg').hidden = !featOpen('expert');
   ['#open-stats', '#open-book', '#open-title'].forEach(k => { $(k).hidden = !featOpen('records'); });
   requestAnimationFrame(() => { const c = document.querySelector('.wchip[aria-current="true"]'); if (c) c.scrollIntoView({ block: 'nearest', inline: 'nearest' }); });
@@ -2781,6 +2805,23 @@ const featWhen = f => f.when || `${f.need} をクリア`;
 const dayKey = (d = new Date()) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 const weekStart = (d = new Date()) => { const x = new Date(d); x.setHours(0, 0, 0, 0); x.setDate(x.getDate() - (x.getDay() + 6) % 7); return x; };
 const WEEK_GOAL = 3;
+// the week's goal is the number of days the player chose on the first visit of the week (2, 3 or 5)
+const weekTarget = () => ensureWeek().target || WEEK_GOAL;
+// days in a row; a rest ticket (from a week goal, two at most) covers a missed day, and a break just starts again
+const daysBetween = (a, b) => Math.round((Date.parse(b) - Date.parse(a)) / 864e5);
+function streakNow() {
+  const st = save.streak || {}; if (!st.n || !st.last) return { n: 0 };
+  const gap = daysBetween(st.last, dayKey()) - 1; // missed days since the last play
+  if (gap <= 0) return { n: st.n, alive: true };
+  if (gap <= (save.rest || 0)) return { n: st.n, alive: true, cover: gap };
+  return { n: 0, was: st.n };
+}
+function streakDay() {
+  const st = save.streak || (save.streak = { n: 0, best: 0, last: null }), now = streakNow(), today = dayKey();
+  if (st.last === today) return;
+  if (now.alive) { if (now.cover) save.rest -= now.cover; st.n++; } else st.n = 1;
+  st.last = today; st.best = Math.max(st.best || 0, st.n);
+}
 const MISSIONS = {
   clear1: { text: 'ステージを1つクリア', ok: c => (c.clear || 0) >= 1 },
   clear2: { text: 'ステージを2つクリア', ok: c => (c.clear || 0) >= 2 },
@@ -2808,7 +2849,7 @@ const missionDone = d => d.tasks.filter(t => MISSIONS[t].ok(d.c)).length;
 function bump(kind) {
   const d = ensureDaily(), w = ensureWeek(), before = d.tasks.filter(t => MISSIONS[t].ok(d.c));
   d.c[kind] = (d.c[kind] || 0) + 1;
-  if (!w.days[d.day]) w.days[d.day] = 'played';
+  if (!w.days[d.day]) { w.days[d.day] = 'played'; streakDay(); }
   const got = d.tasks.filter(t => MISSIONS[t].ok(d.c) && !before.includes(t));
   if (!d.done && missionDone(d) === d.tasks.length) { d.done = true; w.days[d.day] = 'done'; save.stamps = (save.stamps || 0) + 1; queuePop(stampPop); }
   checkWeek(); persist(); renderMissionPill();
@@ -2816,7 +2857,7 @@ function bump(kind) {
 }
 function checkWeek() {
   const w = ensureWeek();
-  if (!w.goal && Object.keys(w.days).length >= WEEK_GOAL) { w.goal = true; save.weekGoals = (save.weekGoals || 0) + 1; queuePop(weekPop); }
+  if (!w.goal && Object.keys(w.days).length >= weekTarget()) { w.goal = true; save.weekGoals = (save.weekGoals || 0) + 1; save.rest = Math.min(2, (save.rest || 0) + 1); queuePop(weekPop); }
 }
 // every sentence solved counts for the week; a sentence missed before and now right the first time is remembered
 // できる度 for the grammar of each stage (0–100), fed by every answer: stages, reviews, mixes, warm-ups
@@ -2835,7 +2876,8 @@ function noteSolved(q) {
 }
 function weekHtml() {
   const w = ensureWeek(), start = weekStart(), today = dayKey(), n = Object.keys(w.days).length;
-  return `<div class="week"><span class="wk-h">今週 <b>${Math.min(n, 7)}</b> / ${WEEK_GOAL}日${w.goal ? ' ✓' : ''}</span>${['月', '火', '水', '木', '金', '土', '日'].map((d, i) => {
+  const sk = streakNow();
+  return `${sk.n ? `<div class="streak">続けて <b>${sk.n}</b>日${save.rest ? `<span class="rest">休み券 ×${save.rest}</span>` : ''}</div>` : ''}<div class="week"><span class="wk-h">今週 <b>${Math.min(n, 7)}</b> / ${weekTarget()}日${w.goal ? ' ✓' : ''}</span>${['月', '火', '水', '木', '金', '土', '日'].map((d, i) => {
     const x = new Date(start); x.setDate(start.getDate() + i); const k = dayKey(x), st = w.days[k];
     return `<span class="wk-d ${st || ''} ${k === today ? 'today' : ''}"><i>${st === 'done' ? '★' : st ? '●' : ''}</i>${d}</span>`; }).join('')}</div>`;
 }
@@ -2872,10 +2914,14 @@ function nextStage() {
 }
 function greetLines() {
   const lines = [], lp = save.lastPlay, due = featOpen('review') ? weakDue().length : 0;
+  if (save.dream) lines.push(`「${esc(save.dream)}」に向けて、今日も1歩！`);
   lines.push(lp ? `おかえり！ 前回は <b>${lp.solved}文</b> といたね。` : 'おかえり！ きょうもいっしょにがんばろう！');
+  const sk = streakNow();
+  if (sk.n >= 2) lines.push(`<b>${sk.n}日</b> 続けているよ！${sk.cover ? ' 休んだ日は休み券が守ってくれたよ。' : ''}`);
+  else if (sk.was >= 2) lines.push(`また今日から始めよう！ 前は <b>${sk.was}日</b> 続いたよ。`);
   if (due) lines.push(`まちがえた文の復習が <b>${due}文</b> あるよ。`);
   const w = ensureWeek(), n = Object.keys(w.days).length;
-  if (!w.goal) lines.push(n ? `今週はあと <b>${Math.max(0, WEEK_GOAL - n)}日</b> あそぶと、週の目標たっせい！` : `今週 ${WEEK_GOAL}日 あそぶと、週の目標たっせい！`);
+  if (!w.goal) lines.push(n ? `今週はあと <b>${Math.max(0, weekTarget() - n)}日</b> あそぶと、週の目標たっせい！` : `今週 ${weekTarget()}日 あそぶと、週の目標たっせい！`);
   return lines;
 }
 function openMission(greet) {
@@ -2900,6 +2946,54 @@ function openMission(greet) {
     goStage(frontStage());
   });
 }
+// the first visit of a week: the player picks this week's days (a small promise to themself)
+// what the player wants to do with the language: chosen once (skippable), shown small above the map and in the greeting
+const LANGJ = LANG === 'de' ? 'ドイツ語' : 'ドイツ語';
+const DREAMS = ['旅行先で話してみたい', '海外の友だちと話したい', `好きな歌や映画が${LANGJ}でわかるようになりたい`, `ゲームや動画を${LANGJ}で楽しみたい`, 'テストでいい点をとりたい', '将来の仕事で使いたい'];
+const clearedCount = () => Object.values(save.stars).filter(x => x && x.clear).length;
+function openDream(done) {
+  const cur = save.dream || ''; let pick = cur;
+  openDialog(`<div class="dream-pop"><h2>${LANGJ}が話せるようになったら、何がしたい？</h2>
+    <p class="jasrc">えらぶか、自分のことばで書いてね。マップの上に小さく出るよ。あとから変えられる。</p>
+    <div class="dream-opts">${DREAMS.map(d => `<button type="button" class="btn ${d === cur ? 'primary' : ''}" data-dream="${esc(d)}">${esc(d)}</button>`).join('')}</div>
+    <label class="dream-own"><span>自分で書く</span><input id="dream-in" maxlength="30" autocomplete="off" value="${DREAMS.includes(cur) ? '' : esc(cur)}" placeholder="例：${LANG === 'de' ? 'ドイツでサッカーの試合を見る' : 'ハワイで買い物をする'}"></label>
+    <div class="row">${cur ? '<button type="button" class="btn ghosty" id="dream-clear">消す</button>' : ''}<button type="button" class="btn ghosty" id="dream-skip">${cur ? 'とじる' : 'あとで'}</button><button type="button" class="btn primary" id="dream-ok">これにする</button></div></div>`, done);
+  const opts = [...document.querySelectorAll('[data-dream]')], inp = $('#dream-in');
+  opts.forEach(b => b.onclick = () => { pick = b.dataset.dream; inp.value = ''; opts.forEach(x => x.classList.toggle('primary', x === b)); });
+  inp.oninput = () => { pick = inp.value; opts.forEach(x => x.classList.remove('primary')); };
+  const end = d => { save.dreamAsked = true; if (d !== undefined) save.dream = d; persist(); closeDialog(); renderDream(); };
+  $('#dream-ok').onclick = () => end(pick.trim() || cur);
+  $('#dream-skip').onclick = () => end();
+  const dc = $('#dream-clear'); if (dc) dc.onclick = () => end('');
+}
+function renderDream() {
+  const el = $('#dream-line'); if (!el) return;
+  el.hidden = !save.dream && !save.dreamAsked;
+  el.innerHTML = save.dream ? `<svg aria-hidden="true"><use href="#star"/></svg><span>やりたいこと：<b>${esc(save.dream)}</b></span>` : '<span>＋ やりたいことを決める</span>';
+}
+let installEvt = null;
+addEventListener('beforeinstallprompt', e => { e.preventDefault(); installEvt = e; renderInstall(); });
+const isStandalone = () => matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+const isIOS = () => /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+function renderInstall() {
+  const b = $('#open-install'); if (!b) return;
+  b.hidden = !document.querySelector('link[rel="manifest"]') || isStandalone() || !(installEvt || isIOS());
+}
+function openInstall() {
+  if (installEvt) { installEvt.prompt(); installEvt.userChoice.finally(() => { installEvt = null; renderInstall(); }); return; }
+  openDialog(`<div class="unlock-pop"><h2>ホーム画面に追加</h2><p>Safari の下の <b>共有ボタン</b>（□に↑）をタップして、<b>「ホーム画面に追加」</b>を選んでね。ホーム画面のアイコンから1タップで開けるようになるよ。</p>
+    <div class="row"><button type="button" class="btn primary" id="pop-ok">わかった</button></div></div>`);
+  $('#pop-ok').onclick = closeDialog;
+}
+function openWeekPlan(after) {
+  const w = ensureWeek(), month = dayKey().slice(0, 7), newMonth = !!save.month && save.month !== month;
+  save.month = month; persist();
+  openDialog(`<div class="unlock-pop week-plan"><h2>${newMonth ? '新しい月！' : '新しい週！'}</h2>
+    <p>${newMonth ? '新しいスタートの日。' : ''}今週は何日やる？ 自分で決めよう。</p>
+    <div class="row">${[2, 3, 5].map(n => `<button type="button" class="btn ${n === 3 ? 'primary' : ''}" data-wplan="${n}">${n}日</button>`).join('')}</div>
+    <p class="jasrc">決めた日数あそぶと、週の目標たっせい。ごほうびに「休み券」がもらえるよ。</p></div>`);
+  document.querySelectorAll('[data-wplan]').forEach(b => b.onclick = () => { w.target = +b.dataset.wplan; persist(); closeDialog(); if (after) after(); });
+}
 // popups after a result wait for each other
 const POPQ = [];
 function queuePop(fn) { POPQ.push(fn); if (POPQ.length === 1) setTimeout(runPop, 700); }
@@ -2913,8 +3007,9 @@ function stampPop(done) {
   if (!CALM) confetti($('#dialog'));
 }
 function weekPop(done) {
-  openDialog(`<div class="unlock-pop"><div class="stamp-big week" aria-hidden="true"><span>今週</span>${WEEK_GOAL}日</div>
-    <h2>週の目標 たっせい！</h2><p>今週 ${WEEK_GOAL}日 あそんだね。こつこつ続けるのが、いちばん力になるよ！（週の目標 ${save.weekGoals || 1}回め）</p>
+  openDialog(`<div class="unlock-pop"><div class="stamp-big week" aria-hidden="true"><span>今週</span>${weekTarget()}日</div>
+    <h2>週の目標 たっせい！</h2><p>今週 ${weekTarget()}日 あそんだね。こつこつ続けるのが、いちばん力になるよ！（週の目標 ${save.weekGoals || 1}回め）</p>
+    <p>ごほうびに <b>休み券</b>！ 1日休んでも、続けた日数が切れないよ（いま ${save.rest || 1}まい・2まいまで持てる）。</p>
     <div class="row"><button type="button" class="btn primary" id="pop-ok">やった！</button></div></div>`, done);
   $('#pop-ok').onclick = closeDialog; $('#pop-ok').focus();
   try { toySound('secret'); } catch (e) {}
@@ -3315,6 +3410,8 @@ $('#open-book').addEventListener('click', () => renderBook());
 $('#open-stats').addEventListener('click', () => renderStats());
 $('#open-title').addEventListener('click', () => renderBook('title'));
 $('#open-mission').addEventListener('click', () => openMission(false));
+$('#dream-line').addEventListener('click', () => openDream());
+$('#open-install').addEventListener('click', () => openInstall());
 $('#open-settings').addEventListener('click', () => openSettings());
 
 /* ---------- play ---------- */
@@ -4788,6 +4885,9 @@ function finishStage() {
   const w = WORLDS.find(x => x.id === st.world); const idx = w ? w.stages.findIndex(s => s.id === st.id) : -1;
   let next = w && idx >= 0 ? w.stages[idx + 1] : null;
   if (w && idx >= 0 && !next) { const nw = WORLDS[WORLDS.indexOf(w) + 1]; if (nw && worldUnlocked(nw.id)) next = nw.stages[0]; }
+  // the next stage, half hidden: something to come back for
+  const tease = next && !(save.stars[next.id] || {}).clear && !ta ? `<div class="next-tease"><span class="g-tag">つぎは</span><b class="en">${next.world}-${next.num}</b>「${esc(next.title.slice(0, Math.max(1, Math.ceil(next.title.length / 2))))}？？？」${LEVELS[next.level] ? `<span class="lvbadge">${LEVELS[next.level].badge}</span>` : ''}</div>` : '';
+  const dreamStep = save.dream && isNewCard && Math.random() < .34 ? `<div class="dream-step">「${esc(save.dream)}」に1歩近づいた！</div>` : '';
   const labels = ['クリア', 'ノーミス', bossRules ? '♥を半分以上のこす' : `${fmtTime(target())} 以内`];
   const on = [res.clear, res.nomiss, res.fast];
   $('#scr-result').innerHTML = `<div class="result">
@@ -4804,6 +4904,7 @@ function finishStage() {
     ${hakoSay}${growHtml}${missionHtml}${stickerHtml}
     ${P.extra ? '<p class="jasrc">♥ボーナスつきでクリア！ 次は ♥ボーナスなしでも挑戦してみよう。</p>' : ''}
     ${!ta && st.goal && st.goal.cando ? `<div class="goalcheck"><span class="g-tag can">できるようになった！</span><span><b>${jaWrap(st.goal.cando)}</b><br>${res.nomiss ? 'ノーミスだったので、自信をもっていいよ。' : st.level === 'SORT' ? 'まよった箱は、学校の「箱の名前と見分け方」で確かめよう。' : 'まちがえた文は、「きろく」の「にがて復習」でもう一度練習しよう。'}</span></div>` : ''}
+    ${dreamStep}${tease}
     <div class="actions" style="justify-content:center">
       <button type="button" class="btn ${st.level === 'DRILL' ? 'primary' : 'ghosty'}" id="r-retry">${st.level === 'DRILL' ? 'もう10問' : 'もう一度'}</button>
       <button type="button" class="btn" id="r-map">マップへ</button>
@@ -4816,6 +4917,7 @@ function finishStage() {
   P = null; show('result');
   sfx('clear');
   if (newFeats.length) queuePop(done => featPopup(newFeats, done));
+  if (!save.dreamAsked && clearedCount() >= 3) queuePop(done => openDream(done));
   if ((on.every(Boolean) || (ta && medalFor(total, target()) === 'gold')) && !CALM) confetti($('#scr-result'));
   if (stk != null) setTimeout(() => { try { toySound('gift'); } catch (e) {} }, 500);
   $('#r-retry').onclick = () => startStage(st.level === 'REVIEW' ? makeReview() : st.level === 'MIX' ? makeMix() : st.level === 'DRILL' ? makeDrill(st.src, st.drillLv) : st, { ta, hard, quick: st.level === 'DRILL', extra: P0extra });
@@ -5009,7 +5111,7 @@ function renderStats() {
     <h2 class="stat-h">続けたきろく</h2>
     <div class="stat-row">
       <div class="stat"><span>今週といた文</span><b>${ensureWeek().solved || 0}</b><small>文</small></div>
-      <div class="stat"><span>今週あそんだ日</span><b>${Object.keys(ensureWeek().days).length}</b><small>/ ${WEEK_GOAL}日</small></div>
+      <div class="stat"><span>今週あそんだ日</span><b>${Object.keys(ensureWeek().days).length}</b><small>/ ${weekTarget()}日</small></div>
       <div class="stat"><span>今日のスタンプ</span><b>${save.stamps || 0}</b><small>こ</small></div>
       <div class="stat"><span>週の目標</span><b>${save.weekGoals || 0}</b><small>回</small></div>
     </div>
@@ -5379,6 +5481,7 @@ function applyTheme() {
 applyTheme();
 selStage = (() => { const w = worldData(); const i = w.stages.findIndex((s, k) => isUnlocked(w, k) && !(save.stars[s.id] || {}).clear); return w.stages[i >= 0 ? i : 0].id; })();
 renderWorlds(); renderMap();
-if (Object.keys(save.stars).length && !ensureDaily().greeted) setTimeout(() => { if ($('#overlay').hidden && !COACH.key) openMission(true); }, 600);
+if (Object.keys(save.stars).length && !ensureDaily().greeted) setTimeout(() => { if ($('#overlay').hidden && !COACH.key) { if (ensureWeek().target == null) openWeekPlan(() => openMission(true)); else openMission(true); } }, 600);
+if (!save.dreamAsked && clearedCount() >= 3) queuePop(done => openDream(done));
 })();
 </script>

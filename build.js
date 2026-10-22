@@ -85,6 +85,14 @@ new Function(script); // syntax check
 const suffix = LANG === 'en' ? '' : '-' + LANG;
 fs.writeFileSync(path.join(__dirname, 'gojun-world' + suffix + '.html'), out);
 fs.mkdirSync(path.join(__dirname, 'preview'), { recursive: true });
+const pwaHead = `<link rel="manifest" href="/${LANG === 'en' ? 'manifest.webmanifest' : 'manifest-' + LANG + '.webmanifest'}"><meta name="theme-color" content="#f4c430"><link rel="icon" href="/icon-192.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="${LANG === 'en' ? 'ゴジュン' : 'ゴジュンDE'}">`;
 fs.writeFileSync(path.join(__dirname, 'preview', LANG === 'en' ? 'index.html' : LANG + '.html'),
-  '<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body>' + out + '</body></html>');
+  '<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">' + pwaHead + '</head><body>' + out + '</body></html>');
+// home-screen app: one manifest per language (English at /, German at /de)
+fs.writeFileSync(path.join(__dirname, 'preview', LANG === 'en' ? 'manifest.webmanifest' : 'manifest-' + LANG + '.webmanifest'), JSON.stringify({
+  name: LANG === 'en' ? 'ゴジュンワールド' : 'ゴジュンワールド ドイツ語版', short_name: LANG === 'en' ? 'ゴジュン' : 'ゴジュンDE',
+  id: LANG === 'en' ? '/' : '/' + LANG, start_url: LANG === 'en' ? '/' : '/' + LANG, scope: LANG === 'en' ? '/' : '/' + LANG,
+  display: 'standalone', background_color: '#e9efe4', theme_color: '#f4c430', lang: 'ja',
+  icons: [{ src: '/icon-192.png', sizes: '192x192', type: 'image/png' }, { src: '/icon-512.png', sizes: '512x512', type: 'image/png' }, { src: '/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' }],
+}, null, 2));
 console.log(`ok: ${files.length} files, ${qCount} questions, ${out.length} chars`);
