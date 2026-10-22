@@ -357,7 +357,8 @@ button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px soli
 .streak{display:flex;align-items:center;justify-content:center;gap:8px;margin:2px 0 6px;font-weight:800}
 .streak b{font-family:var(--f-en);font-size:1.3rem;color:var(--V)}
 .streak .rest{font-size:.75rem;font-weight:700;border:2px dashed var(--line);border-radius:999px;padding:0 8px;color:var(--ink-soft)}
-.week-plan .row{justify-content:center}
+.week-plan .row{margin:14px 0 12px}
+.week-plan p{margin:6px 0}
 .week-plan .row .btn{min-width:72px;justify-content:center;font-size:1.1rem}
 .next-tease{display:flex;align-items:center;justify-content:center;gap:6px;flex-wrap:wrap;margin:8px auto 2px;font-weight:700}
 .next-tease .lvbadge{margin:0}
@@ -404,7 +405,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px soli
 .stamp-big.week{border-color:var(--S);color:var(--S);font-size:1.3rem}
 .big-prog{justify-content:center;margin:6px 0}
 .unlock-pop{text-align:center}
-.unlock-pop .row{justify-content:center}
+.dialog .unlock-pop .row{justify-content:center} /* beats .dialog .row (buttons on the right) */
 .unlock-ico{width:84px;height:84px;margin:0 auto 4px;display:block;overflow:visible}
 .unlock-ico .shackle{transform-origin:31.5px 22px;animation:unlockOpen .7s .2s ease-out both}
 .unlock-ico .ray{animation:unlockRay 1.4s ease-out infinite}
