@@ -737,6 +737,8 @@ button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px soli
 .dslot.cur{border-color:var(--S);background:color-mix(in srgb,var(--S) 18%,transparent);border-radius:6px 6px 0 0}
 .umlauts{display:flex;gap:6px;justify-content:center;margin:6px 0}
 .umlauts .dtile{min-width:40px}
+.play-uml{align-items:center;flex-wrap:wrap;margin:8px 0 2px}
+.play-uml small{font-size:.75rem;color:var(--ink-soft);margin-left:4px}
 .skel-note{margin:0 0 4px}
 .lvi{width:14px;height:14px;flex:none}
 .lvbadge .lvi{margin-left:-2px}
@@ -3001,6 +3003,11 @@ function resultRecs(st, hard) {
   // 1. the furthest stage (one past the furthest cleared)
   const f = frontStage();
   if (f && f.id !== st.id && !(save.stars[f.id] || {}).clear) out.push({ kind: 'front', badge: lvB(f), title: `${f.world}-${f.num}　${esc(f.title)}`, learn: learn(f), go: 'はじめる', act: () => startStage(f) });
+  // the words of that stage, before playing it
+  if (f && featOpen('vocab') && !(save.stars[f.id] || {}).clear && dojoState(f) && dojoState(f) !== 'done') {
+    const n = dojoWords(f).filter(v => vocabState(v.key) !== 'known').length;
+    out.push({ kind: 'dojo', badge: '<span class="g-tag">単語</span>', title: `単語道場：${f.world}-${f.num} の新しい単語 ${n}語`, learn: `先に単語を覚えておくと、${typingLevel(f) ? '打ちこみ' : 'ステージ'}がぐっと楽になる`, go: '単語道場へ', act: () => openDojo(f) });
+  }
   // 2. sentences due for review
   const due = featOpen('review') ? weakDue().length : 0;
   if (due >= 3) out.push({ kind: 'review', badge: '<span class="g-tag">復習</span>', title: `にがて復習 ${due}文`, learn: 'まちがえた文を、忘れかけたころにもう一度。1回で正解すると卒業に近づく', go: '復習する', act: () => startStage(makeReview()) });
@@ -3858,7 +3865,9 @@ function liveHint(s, typed) {
   const words = decap(hintAnswer(P.q.chunks[s.ci], typed)).split(' '), tw = String(typed || '').trim().split(/\s+/).filter(Boolean);
   const first = P.lvKey !== 'BOSS';
   return words.map((w, k) => {
-    const t = (tw[k] || '').length;
+    let tk = tw[k] || '';
+    if (LANG === 'de') [['ae', 'ä'], ['oe', 'ö'], ['ue', 'ü'], ['ss', 'ß']].forEach(([d, u]) => { if (w.toLowerCase().includes(u)) tk = tk.replace(new RegExp(d, 'gi'), u); });
+    const t = tk.length;
     let h = '';
     for (let j = 0; j < w.length; j++) h += j < t ? '<i>●</i>' : (first && j === 0 ? esc(w[0]) : '○');
     if (t > w.length) h += `<b class="over">+${t - w.length}</b>`;
@@ -4226,7 +4235,7 @@ function instruction() {
   if (P.expert && P.q.chunks.some(c => c.group)) return `パレットで箱を作って並べよう<span class="sub">かたまりの中の要素も1つずつ箱にしよう（例：O のかたまり → V＋O の2箱）</span>`;
   if (P.input === 'card') return P.expert ? `パレットで箱を作って並べ、カードを入れよう<span class="sub">文型も自分で考える手練モード。箱をタップするとカードがもどる</span>`
     : `カードをタップして、光っている箱に入れよう<span class="sub">箱をタップするとカードがもどるよ${P.slots.some(s => s.flex) ? '。破線の M は位置を動かせる' : ''}</span>`;
-  return P.expert ? `パレットで箱を作って並べ、英語を打ちこもう<span class="sub">Enter で次の箱へ</span>` : `箱に英語を打ちこもう<span class="sub">Enter で次の箱へ。大文字・ピリオドは気にしなくてOK</span>`;
+  return P.expert ? `パレットで箱を作って並べ、英語を打ちこもう<span class="sub">Enter で次の箱へ</span>` : `箱に英語を打ちこもう<span class="sub">Enter で次の箱へ。大文字・ピリオドは気にしなくてOK${LANG === 'de' ? '。ä・ö・ü・ß は下のボタンか ae・oe・ue・ss で' : ''}</span>`;
 }
 // wrap consecutive items of the same [ ] group in a labeled frame; sep goes between top-level items
 function wrapGroups(items, sep = '') {
@@ -4339,16 +4348,30 @@ function renderTray() {
     ? `<span class="picker"><small>どの形？</small>${c.opts.map(f => `<button type="button" class="card" data-act="pick" data-id="${c.id}" data-form="${esc(f)}">${esc(f)}</button>`).join('')}</span>`
     : `<button type="button" class="card ${c.opts ? 'be' : ''} ${c.jaLabel ? 'jalabel' : ''} ${P.bounce === c.id ? 'bounce' : ''}" data-act="card" data-id="${c.id}">${esc(c.text)}</button>`).join('')}</div>`;
 }
+// German letters many keyboards don't have: a button types it into the box in use (ae / oe / ue / ss work too)
+const umlautBar = () => LANG === 'de' ? `<div class="umlauts play-uml" aria-label="ドイツ語の文字">${['ä', 'ö', 'ü', 'ß'].map(ch => `<button type="button" class="dtile en" data-act="uml" data-ch="${ch}" aria-label="${ch} を入れる">${ch}</button>`).join('')}<small>ae・oe・ue・ss でもOK</small></div>` : '';
+let lastTyped = null;
+document.addEventListener('focusin', e => { if (e.target.matches && e.target.matches('#task input, #task textarea')) lastTyped = e.target; });
+function typeUmlaut(ch) {
+  const el = lastTyped && lastTyped.isConnected ? lastTyped : document.querySelector('#task input:not([disabled]), #task textarea'); if (!el) return;
+  const a = el.selectionStart ?? el.value.length, b = el.selectionEnd ?? a;
+  el.value = el.value.slice(0, a) + ch + el.value.slice(b);
+  el.focus({ preventScroll: true }); el.setSelectionRange(a + 1, a + 1);
+  el.dispatchEvent(new Event('input', { bubbles: true }));
+}
+// a button press must not take the focus away from the box being typed in
+document.addEventListener('pointerdown', e => { if (e.target.closest && e.target.closest('[data-act="uml"]')) e.preventDefault(); });
 function renderTask() {
   if (!P) return;
   const enPhase = P.phase === 'en' || P.phase === 'done';
   let h = `${P.q && P.q.warm && P.phase !== 'done' ? '<span class="g-tag new warm-tag">ウォームアップ・★には入らないよ</span>' : ''}<div class="inst">${instruction()}</div>${P.input === 'sort' ? renderSort() : renderJa()}`;
   if (P.input === 'sort') {}
-  else if (P.input === 'free') h += renderFree();
+  else if (P.input === 'free') h += renderFree() + (P.phase === 'en' ? umlautBar() : '');
   else if (enPhase) {
     if (P.expert && P.phase === 'en') h += `<div class="palette"><span>箱パレット</span>${Object.keys(ROLES).map(k => `<button type="button" class="palbtn r-${k}" data-act="pal" data-role="${k}">${k}<small>${ROLES[k].name}</small></button>`).join('')}</div>`;
     h += renderBoard();
     if (P.input === 'card' && P.phase === 'en') h += renderTray();
+    if (P.input === 'type' && P.phase === 'en') h += umlautBar();
     h += '<div class="actions">';
     if (P.phase === 'en') {
       h += `<button type="button" class="btn ghosty" data-act="reset">やりなおす</button>`;
@@ -4434,6 +4457,7 @@ $('#task').addEventListener('click', e => {
   const act = el.dataset.act, i = +el.dataset.i;
   if (act === 'jachip') return tapJaChip(i);
   if (act === 'sortbin') return sortTap(el.dataset.role);
+  if (act === 'uml') return typeUmlaut(el.dataset.ch);
   if (act === 'jafind') return tapJaFind(i);
   if (act === 'card') { const c = P.cards.find(x => x.id === el.dataset.id); if (c.opts) { P.picker = c.id; renderTask(); } else placeCard(c, c.text); return; }
   if (act === 'pick') { const c = P.cards.find(x => x.id === el.dataset.id); P.picker = null; placeCard(c, el.dataset.form); return; }
