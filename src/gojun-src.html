@@ -369,6 +369,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px soli
 .autoscroll .as-x{display:none;font-size:1.1rem}
 .autoscroll:hover .as-n,.autoscroll:focus-visible .as-n{display:none}
 .autoscroll:hover .as-x,.autoscroll:focus-visible .as-x{display:block}
+.r-cele{padding-top:4px}
 .recs{max-width:520px;margin:12px auto 4px;text-align:left}
 .recs h3{font-size:.9rem;margin:0 0 6px;color:var(--ink-soft)}
 .rec{display:flex;align-items:center;gap:10px;border:2px solid var(--outline);border-radius:14px;background:var(--surface);padding:9px 12px;margin-bottom:8px;box-shadow:0 3px 0 var(--outline)}
@@ -1969,22 +1970,22 @@ function openMission(greet) {
 }
 // the result page moves on by itself: a few seconds on the stars, a little longer on できるようになった, then the suggestions.
 // A ring counts down; hovering it shows ✕ and a click (or the player's own scrolling) stops it for this page.
-const TOUR_SEC = [3, 5]; // before the 1st stop (celebration), before the next ones (something to read)
+const TOUR_SEC = [5, 4]; // reading できるようになった before the first move, then a look at the celebrations
 function resultTour() {
-  const box = $('#scr-result'), stops = [box.querySelector('.goalcheck'), box.querySelector('.recs') || box.querySelector('.actions')].filter(Boolean);
+  const box = $('#scr-result'), stops = [box.querySelector('.r-cele'), box.querySelector('.recs') || box.querySelector('.actions')].filter(Boolean);
   if (!stops.length) return;
   const ring = document.createElement('button');
   ring.type = 'button'; ring.className = 'autoscroll'; ring.setAttribute('aria-label', '自動スクロールを止める'); ring.title = '止めて自分でスクロール';
   ring.innerHTML = '<svg viewBox="0 0 44 44" aria-hidden="true"><circle class="as-bg" cx="22" cy="22" r="19"/><circle class="as-fg" cx="22" cy="22" r="19" pathLength="100"/></svg><b class="as-n"></b><b class="as-x" aria-hidden="true">✕</b>';
   box.appendChild(ring);
-  let i = 0, total = 0, left = 0;
+  let i = 0, total = 0, left = 0, armed = 0;
   const end = () => { clearInterval(timer); ring.remove(); ['wheel', 'touchmove', 'keydown'].forEach(t => removeEventListener(t, end)); };
   const draw = () => { ring.querySelector('.as-n').textContent = Math.max(1, Math.ceil(left)); ring.querySelector('.as-fg').style.strokeDashoffset = (100 * (1 - left / total)).toFixed(1); };
   // the next stop that is not fully on screen yet
   const arm = () => {
     while (i < stops.length && stops[i].getBoundingClientRect().bottom <= innerHeight - 8) i++; // already fully on screen
     if (i >= stops.length) return end();
-    total = left = TOUR_SEC[Math.min(i, 1)]; draw();
+    total = left = TOUR_SEC[Math.min(armed++, 1)]; draw(); // the first wait is for reading
   };
   const timer = setInterval(() => {
     if (!ring.isConnected || box.hidden) return end();
@@ -3961,20 +3962,24 @@ function finishStage() {
   const dreamStep = save.dream && isNewCard && Math.random() < .34 ? `<div class="dream-step">「${esc(save.dream)}」に1歩近づいた！</div>` : '';
   const labels = ['クリア', 'ノーミス', bossRules ? '♥を半分以上のこす' : `${fmtTime(target())} 以内`];
   const on = [res.clear, res.nomiss, res.fast];
+  // what came with this clear: new features, island rewards, missions, stickers… (after できるようになった)
+  const celeHtml = [
+    firstBossClear && st.world === 0 ? '<div class="unlockline"><b>ワールド1へ出発！</b>はこの島をクリア！ ここからが本当の冒険だよ。</div>' : '',
+    featHtml,
+    firstBossClear && sw && hardOpen(sw) && !newFeats.some(f => f.id === 'expert') ? `<div class="unlockline"><b>ハードモードが解放された！</b>このワールドのステージを、ボスと同じルール（文字数ヒントだけ・♥つき）でも遊べるよ。</div>` : '',
+    rewardHtml,
+    res.crown ? `<div class="crownline"><svg><use href="#crown"/></svg>手練モードでクリア</div>` : '',
+    hakoSay, growHtml, missionHtml, stickerHtml,
+    P.extra ? '<p class="jasrc">♥ボーナスつきでクリア！ 次は ♥ボーナスなしでも挑戦してみよう。</p>' : '',
+    dojoTip,
+  ].join('').trim();
   $('#scr-result').innerHTML = `<div class="result">
     <h2>${esc(st.title)} ${ta ? 'タイムアタック' : hard ? 'ハードモード クリア！' : 'クリア！'}</h2>
     ${taHtml}
     ${hard ? `<div class="hardline big">${hardMark()}ハードモードでクリア！ ♥ ${heartsLeftText()}</div>` : ''}
-    ${firstBossClear && st.world === 0 ? '<div class="unlockline"><b>ワールド1へ出発！</b>はこの島をクリア！ ここからが本当の冒険だよ。</div>' : ''}
-    ${featHtml}
-    ${dojoTip}
-    ${firstBossClear && sw && hardOpen(sw) && !newFeats.some(f => f.id === 'expert') ? `<div class="unlockline"><b>ハードモードが解放された！</b>このワールドのステージを、ボスと同じルール（文字数ヒントだけ・♥つき）でも遊べるよ。</div>` : ''}
     <div class="bigstars" ${ta || hard || st.level === 'DRILL' ? "hidden" : ""}>${on.map((o, k) => `<div class="st ${o ? 'on' : ''}">${starSvg(o)}<span>${labels[k]}</span></div>`).join('')}</div>
-    ${rewardHtml}
-    ${res.crown ? `<div class="crownline"><svg><use href="#crown"/></svg>手練モードでクリア</div>` : ''}
-    ${hakoSay}${growHtml}${missionHtml}${stickerHtml}
-    ${P.extra ? '<p class="jasrc">♥ボーナスつきでクリア！ 次は ♥ボーナスなしでも挑戦してみよう。</p>' : ''}
     ${!ta && st.goal && st.goal.cando ? `<div class="goalcheck"><span class="g-tag can">できるようになった！</span><span><b>${jaWrap(st.goal.cando)}</b><br>${res.nomiss ? 'ノーミスだったので、自信をもっていいよ。' : st.level === 'SORT' ? 'まよった箱は、学校の「箱の名前と見分け方」で確かめよう。' : 'まちがえた文は、「きろく」の「にがて復習」でもう一度練習しよう。'}</span></div>` : ''}
+    ${celeHtml ? `<div class="r-cele">${celeHtml}</div>` : ''}
     ${dreamStep}${recHtml}
     <div class="actions" style="justify-content:center">
       <button type="button" class="btn ${st.level === 'DRILL' ? 'primary' : 'ghosty'}" id="r-retry">${st.level === 'DRILL' ? 'もう10問' : 'もう一度'}</button>
