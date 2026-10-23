@@ -4183,7 +4183,8 @@ function advance() {
 function setupQ(q) {
   P.q = q; P.vars = variants(q.chunks); P.wrong = false; P.qMiss = 0; P.revealed = false; P.picker = null; P.fb = null; P.focus = 0;
   P.phase = P.lvKey === 'L1' ? 'ja-order' : P.lvKey === 'L2' ? 'ja-find' : 'en';
-  P.jaOrder = []; P.findRoles = ['S', 'V'].filter(r => q.chunks.some(c => isFindTarget(c, r) && jaIn(c))); // only boxes with words in the sentence can be tapped P.findStep = 0; P.found = {};
+  // only boxes with words in the sentence can be tapped
+  P.jaOrder = []; P.findRoles = ['S', 'V'].filter(r => q.chunks.some(c => isFindTarget(c, r) && jaIn(c))); P.findStep = 0; P.found = {};
   let sh; let tries = 0;
   do { sh = shuffle(q.chunks.map((c, i) => i)); tries++; } while (tries < 20 && q.chunks.length > 1 && P.vars.some(v => v.join() === sh.join()));
   P.jaShuffle = sh;
