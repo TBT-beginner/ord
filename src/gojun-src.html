@@ -360,8 +360,16 @@ button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px soli
 .week-plan .row{margin:14px 0 12px}
 .week-plan p{margin:6px 0}
 .week-plan .row .btn{min-width:72px;justify-content:center;font-size:1.1rem}
-.next-tease{display:flex;align-items:center;justify-content:center;gap:6px;flex-wrap:wrap;margin:8px auto 2px;font-weight:700}
-.next-tease .lvbadge{margin:0}
+.recs{max-width:520px;margin:12px auto 4px;text-align:left}
+.recs h3{font-size:.9rem;margin:0 0 6px;color:var(--ink-soft)}
+.rec{display:flex;align-items:center;gap:10px;border:2px solid var(--outline);border-radius:14px;background:var(--surface);padding:9px 12px;margin-bottom:8px;box-shadow:0 3px 0 var(--outline)}
+.rec-b{display:flex;flex-direction:column;gap:3px;flex:1;min-width:0}
+.rec-h{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.rec-h .lvbadge,.rec-h .g-tag{margin:0}
+.rec-h b{font-size:.95rem}
+.rec-learn{font-size:.8rem;color:var(--ink-soft);line-height:1.5}
+.rec .btn{flex:none}
+@media (max-width:480px){.rec{flex-direction:column;align-items:stretch}.rec .btn{justify-content:center}}
 .dream-step{margin:6px auto;font-weight:800;color:var(--V)}
 .dream-line{all:unset;box-sizing:border-box;display:flex;align-items:center;gap:6px;max-width:100%;margin:0 0 8px;padding:4px 10px;border-radius:999px;font-size:.8rem;color:var(--ink-soft);cursor:pointer}
 .dream-line[hidden]{display:none}
@@ -1950,6 +1958,23 @@ function openMission(greet) {
     goStage(frontStage());
   });
 }
+function resultRecs(st, hard) {
+  const out = [], lvB = x => LEVELS[x.level] ? `<span class="lvbadge ${x.level === 'BOSS' ? 'boss' : ''}">${LEVELS[x.level].badge}</span>` : '';
+  const learn = x => x.goal ? jaWrap(x.goal.cando ? x.goal.cando.replace(/。$/, '') + 'ようになる' : x.goal.text) : '';
+  // 1. the furthest stage (one past the furthest cleared)
+  const f = frontStage();
+  if (f && f.id !== st.id && !(save.stars[f.id] || {}).clear) out.push({ kind: 'front', badge: lvB(f), title: `${f.world}-${f.num}　${esc(f.title)}`, learn: learn(f), go: 'はじめる', act: () => startStage(f) });
+  // 2. sentences due for review
+  const due = featOpen('review') ? weakDue().length : 0;
+  if (due >= 3) out.push({ kind: 'review', badge: '<span class="g-tag">復習</span>', title: `にがて復習 ${due}文`, learn: 'まちがえた文を、忘れかけたころにもう一度。1回で正解すると卒業に近づく', go: '復習する', act: () => startStage(makeReview()) });
+  // 3. a harder way to play this stage
+  const rec = save.stars[st.id] || {}, w = WORLDS.find(x => x.id === st.world), plain = !noRec(st) && st.level !== 'SORT' && st.level !== 'BOSS';
+  if (plain && featOpen('expert') && !rec.crown && !hard && save.mode !== 'expert')
+    out.push({ kind: 'expert', badge: '<span class="g-tag">手練</span>', title: `${st.world}-${st.num} を手練モードで`, learn: '箱の種類（S・V・O…）も自分で考える。文の形が見えるようになる', go: '手練でチャレンジ', act: () => startStage(st, { expert: true }) });
+  else if (plain && w && hardOpen(w) && !rec.hard && !hard)
+    out.push({ kind: 'hard', badge: `<span class="g-tag">ハード</span>`, title: `${st.world}-${st.num} をハードモードで`, learn: '文字数のヒントだけ・♥つき。ボスと同じルールで力だめし', go: 'ハードに挑戦', act: () => startStage(st, { hard: true }) });
+  return out.slice(0, 3);
+}
 // the first visit of a week: the player picks this week's days (a small promise to themself)
 // what the player wants to do with the language: chosen once (skippable), shown small above the map and in the greeting
 const LANGJ = LANG === 'de' ? 'ドイツ語' : '英語';
@@ -3048,7 +3073,7 @@ function startStage(st, opts = {}) {
   if (wq) st = { ...st, lines: [{ type: 'TALK', speaker: 'Hakomaru', ja: 'まずはウォームアップ！ 前のステージの文を思い出そう。', en: 'Warm-up!', warm: true }, { ...wq, warm: true }, ...st.lines] };
   const lvKey = opts.hard ? 'BOSS' : st.level === 'REVIEW' ? 'L1' : st.level === 'MIX' ? 'L3' : st.level === 'DRILL' ? st.drillLv : st.level;
   P = { st, lvKey, hard: !!opts.hard, def: opts.hard ? { ...LEVELS.BOSS, badge: 'ハード' } : st.level === 'DRILL' ? { ...LEVELS[st.drillLv], badge: 'とことん' } : LEVELS[st.level], line: 0, chat: [], qDone: 0, qTotal: st.lines.filter(l => l.type === 'Q').length,
-    misses: 0, missed: new Set(), t0: 0, tEnd: 0, timer: null, expert: save.mode === 'expert', ended: false,
+    misses: 0, missed: new Set(), t0: 0, tEnd: 0, timer: null, expert: opts.expert != null ? !!opts.expert : save.mode === 'expert', ended: false,
     combo: 0, maxCombo: 0, ta: !!opts.ta, penalty: 0, extra: !!opts.extra };
   $('#ptitle').innerHTML = `<span class="lvbadge ${st.level === 'BOSS' || opts.hard ? 'boss' : ''}">${P.def.badge}</span>${P.ta ? '<span class="lvbadge ta">TA</span>' : ''}${esc(st.title)}`;
   $('#pmode').textContent = P.expert ? '手練' : '初心者';
@@ -3889,8 +3914,9 @@ function finishStage() {
   const w = WORLDS.find(x => x.id === st.world); const idx = w ? w.stages.findIndex(s => s.id === st.id) : -1;
   let next = w && idx >= 0 ? w.stages[idx + 1] : null;
   if (w && idx >= 0 && !next) { const nw = WORLDS[WORLDS.indexOf(w) + 1]; if (nw && worldUnlocked(nw.id)) next = nw.stages[0]; }
-  // the next stage, half hidden: something to come back for
-  const tease = next && !(save.stars[next.id] || {}).clear && !ta ? `<div class="next-tease"><span class="g-tag">つぎは</span><b class="en">${next.world}-${next.num}</b>「${esc(next.title.slice(0, Math.max(1, Math.ceil(next.title.length / 2))))}？？？」${LEVELS[next.level] ? `<span class="lvbadge">${LEVELS[next.level].badge}</span>` : ''}</div>` : '';
+  // what to play next, fitted to the player: the furthest stage, the review that is due, 手練 or ハード for this stage (3 at most)
+  const recs = ta || st.level === 'DRILL' ? [] : resultRecs(st, hard);
+  const recHtml = recs.length ? `<div class="recs"><h3>つぎのおすすめ</h3>${recs.map((r, i) => `<div class="rec ${r.kind}"><div class="rec-b"><span class="rec-h">${r.badge}<b>${r.title}</b></span><span class="rec-learn">${r.learn}</span></div><button type="button" class="btn ${i ? '' : 'primary'}" data-rec="${i}">${r.go}</button></div>`).join('')}</div>` : '';
   const dreamStep = save.dream && isNewCard && Math.random() < .34 ? `<div class="dream-step">「${esc(save.dream)}」に1歩近づいた！</div>` : '';
   const labels = ['クリア', 'ノーミス', bossRules ? '♥を半分以上のこす' : `${fmtTime(target())} 以内`];
   const on = [res.clear, res.nomiss, res.fast];
@@ -3908,11 +3934,11 @@ function finishStage() {
     ${hakoSay}${growHtml}${missionHtml}${stickerHtml}
     ${P.extra ? '<p class="jasrc">♥ボーナスつきでクリア！ 次は ♥ボーナスなしでも挑戦してみよう。</p>' : ''}
     ${!ta && st.goal && st.goal.cando ? `<div class="goalcheck"><span class="g-tag can">できるようになった！</span><span><b>${jaWrap(st.goal.cando)}</b><br>${res.nomiss ? 'ノーミスだったので、自信をもっていいよ。' : st.level === 'SORT' ? 'まよった箱は、学校の「箱の名前と見分け方」で確かめよう。' : 'まちがえた文は、「きろく」の「にがて復習」でもう一度練習しよう。'}</span></div>` : ''}
-    ${dreamStep}${tease}
+    ${dreamStep}${recHtml}
     <div class="actions" style="justify-content:center">
       <button type="button" class="btn ${st.level === 'DRILL' ? 'primary' : 'ghosty'}" id="r-retry">${st.level === 'DRILL' ? 'もう10問' : 'もう一度'}</button>
       <button type="button" class="btn" id="r-map">マップへ</button>
-      ${next ? `<button type="button" class="btn primary" id="r-next">つぎのステージ</button>` : ''}
+      ${next ? `<button type="button" class="btn ${recs.length ? '' : 'primary'}" id="r-next">つぎのステージ</button>` : ''}
     </div>
     ${!ta && st.bonus ? '<div class="goalcheck"><span class="g-tag can">おまけ</span><span>このワールドで習った語順を、ちがう場面でも使えたね！</span></div>' : ''}
     <div class="stats"><span class="pill">タイム ${fmtTime(t)}</span><span class="pill">ミス ${P.misses}</span>${maxCombo >= 2 ? `<span class="pill">最大 ${maxCombo} れんぞく</span>` : ''}${P.reveals ? `<span class="pill">こたえを見た ${P.reveals}文</span>` : ''}${P.missed.size && st.level !== 'SORT' ? `<span class="pill">にがてリストに ${P.missed.size}文</span>` : ''}</div>
@@ -3928,6 +3954,7 @@ function finishStage() {
   $('#r-map').onclick = () => { show('map'); renderWorlds(); renderMap(); };
   if (next) { curWorld = next.world; selStage = next.id; renderWorlds(); }
   if (next) $('#r-next').onclick = () => startStage(next);
+  document.querySelectorAll('[data-rec]').forEach(b => b.onclick = () => recs[+b.dataset.rec].act());
   const rdj = $('#r-dojo'); if (rdj) rdj.onclick = () => openDojo(st, slipWords);
   const rb = $('#r-bonus'); if (rb) rb.onclick = () => startStage(sw.bonus);
   const rw = $('#r-wear'); if (rw) rw.onclick = () => { save.outfit = +rw.dataset.w; persist(); rw.textContent = '着せたよ！'; rw.disabled = true; };
